@@ -1,27 +1,7 @@
-# General Go template repository
+# Backstage catalogs by Giant Swarm
 
-This is a general template repository containing some basic files every GitHub repo owned by Giant Swarm should have.
+This repository provides public Backstage catalogs for Giant Swarm customers.
 
-Note also these more specific repositories:
+Catalog files are stored in the [`catalogs`](https://github.com/giantswarm/backstage-catalogs/tree/main/catalogs) directory.
 
-- [template-app](https://github.com/giantswarm/template-app)
-- [gitops-template](https://github.com/giantswarm/gitops-template)
-- [python-app-template](https://github.com/giantswarm/python-app-template)
-
-## Creating a new repository
-
-Please do not use the `Use this template` function in the GitHub web UI.
-
-Check out the according [handbook article](https://handbook.giantswarm.io/docs/dev-and-releng/repository/go/) for better instructions.
-
-### Some suggestions for your README
-
-After you have created your new repository, you may want to add some of these badges to the top of your README.
-
-- **CircleCI:** After enabling builds for this repo via [this link](https://circleci.com/setup-project/gh/giantswarm/backstage-catalogs), you can find badge code on [this page](https://app.circleci.com/settings/project/github/giantswarm/backstage-catalogs/status-badges).
-
-- **Go reference:** use [this helper](https://pkg.go.dev/badge/) to create the markdown code.
-
-- **Go report card:** enter the module name on the [front page](https://goreportcard.com/) and hit "Generate report". Then use this markdown code for your badge: `[![Go report card](https://goreportcard.com/badge/github.com/giantswarm/backstage-catalogs)](https://goreportcard.com/report/github.com/giantswarm/backstage-catalogs)`
-
-- **Sourcegraph "used by N projects" badge**: for public Go repos only: `[![Sourcegraph](https://sourcegraph.com/github.com/giantswarm/backstage-catalogs/-/badge.svg)](https://sourcegraph.com/github.com/giantswarm/backstage-catalogs)`
+TODO: Describe each catalog in more detail.
