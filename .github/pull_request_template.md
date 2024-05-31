@@ -1,20 +1,19 @@
+Note: `/catalogs/**.yaml` content should be generated automatically and not be modified manually.
+
+Also note that in this repository we are not creating releases. Customers are encouraged to use the `main` branch and will receive any changes immediately.
+
 ### What does this PR do?
 
 (Please set a descriptive PR title. Use this space for additional explanations.)
-
-### What is the effect of this change to users?
-
-### How does it look like?
-
-(Please add anything that represents the change visually. Screenshots, output, logs, ...)
 
 ### Any background context you can provide?
 
 (Please link public issues or summarize if not public.)
 
-### What is needed from the reviewers?
+### Do the docs (README or /docs) need to be updated?
 
-### Do the docs need to be updated?
+- [ ] README.md has been updated
+- [ ] /docs has been updated
 
 ### Should this change be mentioned in the release notes?
 
