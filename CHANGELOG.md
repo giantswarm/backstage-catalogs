@@ -8,3 +8,4 @@ change to structure the log.
 ## 2024-06-19
 
 - Added first catalogs for components, groups, and users and basic documentation.
+- Updated groups catalog to include member names, use deterministic sort order.
