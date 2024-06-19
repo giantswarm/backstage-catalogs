@@ -17,4 +17,4 @@ Also note that in this repository we are not creating releases. Customers are en
 
 ### Should this change be mentioned in the release notes?
 
-- [ ] CHANGELOG.md has been updated (if it exists)
+- [ ] CHANGELOG.md has been updated
