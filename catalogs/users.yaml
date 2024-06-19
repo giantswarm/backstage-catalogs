@@ -1,9 +1,268 @@
+#
+# This file was generated automatically. PLEASE DO NOT MODIFY IT BY HAND!
+#
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: alex-dabija
+    namespace: giantswarm
+    title: Alex Dabija
+spec:
+    profile:
+        displayName: Alex Dabija
+        picture: https://avatars.githubusercontent.com/u/1087557?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: AndiDog
+    namespace: giantswarm
+    title: Andreas Sommer
+    description: Software / Kubernetes platform engineer. Blogging and tweeting about k8s, cloud, infrastructure, observability, sometimes sports/health/nutrition.
+spec:
+    profile:
+        displayName: Andreas Sommer
+        picture: https://avatars.githubusercontent.com/u/1376043?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: annaloew
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/6334285?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: anvddriesch
+    namespace: giantswarm
+    title: Antonia
+    description: normal dev
+spec:
+    profile:
+        displayName: Antonia
+        picture: https://avatars.githubusercontent.com/u/56017655?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: architectbot
+    namespace: giantswarm
+    title: ArchitectBot
+spec:
+    profile:
+        displayName: ArchitectBot
+        picture: https://avatars.githubusercontent.com/u/61872893?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: auth0-deployer
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/39115919?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: AverageMarcus
+    namespace: giantswarm
+    title: Marcus Noble
+    description: Pod wrangler
+spec:
+    profile:
+        displayName: Marcus Noble
+        picture: https://avatars.githubusercontent.com/u/3384072?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: bdehri
+    namespace: giantswarm
+    title: Berk Dehrioglu
+    description: "Platform Engineer at Giant Swarm\r\nComputer Engineering, B.Sc Istanbul Technical University\r\nInformatics, M.Sc TUM(dropped)"
+spec:
+    profile:
+        displayName: Berk Dehrioglu
+        picture: https://avatars.githubusercontent.com/u/24752673?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: brinker211
+    namespace: giantswarm
+    title: Ben Rain
+spec:
+    profile:
+        displayName: Ben Rain
+        picture: https://avatars.githubusercontent.com/u/46683487?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: calvix
+    namespace: giantswarm
+    description: 'Currently working as `SRE` @ giantswarm '
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/7136358?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: carillan81
+    namespace: giantswarm
+    title: Carlos Arilla
+    description: Monitoring and DevOps
+spec:
+    profile:
+        displayName: Carlos Arilla
+        picture: https://avatars.githubusercontent.com/u/50299074?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: catalogbot
+    namespace: giantswarm
+    title: CatalogBot
+spec:
+    profile:
+        displayName: CatalogBot
+        picture: https://avatars.githubusercontent.com/u/50668443?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: ced0ps
+    namespace: giantswarm
+    title: Cedric Kaufmann
+    description: Solution Architect
+spec:
+    profile:
+        displayName: Cedric Kaufmann
+        picture: https://avatars.githubusercontent.com/u/60580186?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: ericgraf
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/10202691?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: erkanerol
+    namespace: giantswarm
+    title: Erkan Erol
+    description: Software Developer
+spec:
+    profile:
+        displayName: Erkan Erol
+        picture: https://avatars.githubusercontent.com/u/6574144?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: fhielpos
+    namespace: giantswarm
+    title: Franco
+spec:
+    profile:
+        displayName: Franco
+        picture: https://avatars.githubusercontent.com/u/48300215?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: fiunchinho
+    namespace: giantswarm
+    title: Jose Armesto
+spec:
+    profile:
+        displayName: Jose Armesto
+        picture: https://avatars.githubusercontent.com/u/627038?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: foschubert
+    namespace: giantswarm
+    title: Franz Schubert
+    description: Franz Schubert
+spec:
+    profile:
+        displayName: Franz Schubert
+        picture: https://avatars.githubusercontent.com/u/51315088?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Gacko
+    namespace: giantswarm
+    title: Marco Ebert
+spec:
+    profile:
+        displayName: Marco Ebert
+        picture: https://avatars.githubusercontent.com/u/935479?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: gawertm
+    namespace: giantswarm
+    title: Manuel Gawert
+spec:
+    profile:
+        displayName: Manuel Gawert
+        picture: https://avatars.githubusercontent.com/u/56695351?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: glitchcrab
+    namespace: giantswarm
+    title: Simon Weald
+    description: "SRE and VP of Emojineering @giantswarm \r\n\r\nEventually consistent."
+spec:
+    profile:
+        displayName: Simon Weald
+        picture: https://avatars.githubusercontent.com/u/7832341?v=4
+    memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
     name: gusevda
     namespace: giantswarm
+    title: Dmitry Gusev
 spec:
     profile:
         displayName: Dmitry Gusev
@@ -13,11 +272,721 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+    name: HelloHeatherC
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/57330570?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: henninglange
+    namespace: giantswarm
+    title: Henning Lange
+spec:
+    profile:
+        displayName: Henning Lange
+        picture: https://avatars.githubusercontent.com/u/4747797?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: hervenicol
+    namespace: giantswarm
+    title: Hervé Nicol
+    description: Linux, containers, and glue tooling, with limited coding skills.
+spec:
+    profile:
+        displayName: Hervé Nicol
+        picture: https://avatars.githubusercontent.com/u/12008875?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: high-vibe-onix
+    namespace: giantswarm
+    title: Georgie
+spec:
+    profile:
+        displayName: Georgie
+        picture: https://avatars.githubusercontent.com/u/50775589?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: iuriaranda
+    namespace: giantswarm
+    title: iuri
+spec:
+    profile:
+        displayName: iuri
+        picture: https://avatars.githubusercontent.com/u/510809?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: JosephSalisbury
+    namespace: giantswarm
+    title: Joe Salisbury
+    description: astral warlock
+spec:
+    profile:
+        displayName: Joe Salisbury
+        picture: https://avatars.githubusercontent.com/u/297653?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: JoshOlsonKerrigan
+    namespace: giantswarm
+    title: Josh OK
+spec:
+    profile:
+        displayName: Josh OK
+        picture: https://avatars.githubusercontent.com/u/89789637?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Jul85
+    namespace: giantswarm
+    title: Julia
+spec:
+    profile:
+        displayName: Julia
+        picture: https://avatars.githubusercontent.com/u/64772394?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: KBalani1
+    namespace: giantswarm
+    title: Karan Balani
+spec:
+    profile:
+        displayName: Karan Balani
+        picture: https://avatars.githubusercontent.com/u/116093613?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: kopiczko
+    namespace: giantswarm
+    title: Paweł Kopiczko
+    description: SRE @giantswarm
+spec:
+    profile:
+        displayName: Paweł Kopiczko
+        picture: https://avatars.githubusercontent.com/u/4608994?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: ljakimczuk
+    namespace: giantswarm
+    title: Lukasz Jakimczuk
+spec:
+    profile:
+        displayName: Lukasz Jakimczuk
+        picture: https://avatars.githubusercontent.com/u/39192420?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: LolloneS
+    namespace: giantswarm
+    title: Lorenzo
+    description: computer scientist | university tutor | (ex) research fellow | gsoc 2018 student
+spec:
+    profile:
+        displayName: Lorenzo
+        picture: https://avatars.githubusercontent.com/u/17729031?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: luca-rui
+    namespace: giantswarm
+    title: Luca
+spec:
+    profile:
+        displayName: Luca
+        picture: https://avatars.githubusercontent.com/u/101049326?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: LutzLange
+    namespace: giantswarm
+    title: Lutz Lange
+spec:
+    profile:
+        displayName: Lutz Lange
+        picture: https://avatars.githubusercontent.com/u/2788194?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: lyind
+    namespace: giantswarm
+    title: Jonas Zeiger
+spec:
+    profile:
+        displayName: Jonas Zeiger
+        picture: https://avatars.githubusercontent.com/u/18163495?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
     name: marians
     namespace: giantswarm
+    title: Marian Steinbach
     description: Designing your experience with @giantswarm
 spec:
     profile:
         displayName: Marian Steinbach
         picture: https://avatars.githubusercontent.com/u/273727?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: marieroque
+    namespace: giantswarm
+    title: Marie Roque
+    description: Devops Engineer
+spec:
+    profile:
+        displayName: Marie Roque
+        picture: https://avatars.githubusercontent.com/u/9134338?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: mcharriere
+    namespace: giantswarm
+    title: Matías Charrière
+spec:
+    profile:
+        displayName: Matías Charrière
+        picture: https://avatars.githubusercontent.com/u/11235884?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Mircohelle
+    namespace: giantswarm
+    title: Mirco Hellekes
+    description: 'HR Manager @giantswarm '
+spec:
+    profile:
+        displayName: Mirco Hellekes
+        picture: https://avatars.githubusercontent.com/u/48119832?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: mnitchev
+    namespace: giantswarm
+    title: Mario Nitchev
+    description: I write code
+spec:
+    profile:
+        displayName: Mario Nitchev
+        picture: https://avatars.githubusercontent.com/u/15073922?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: morotki
+    namespace: giantswarm
+    title: Marat Musichin
+spec:
+    profile:
+        displayName: Marat Musichin
+        picture: https://avatars.githubusercontent.com/u/50622763?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: mproffitt
+    namespace: giantswarm
+    title: Martin Proffitt
+    description: Development Pipeline architect and data logistics expert
+spec:
+    profile:
+        displayName: Martin Proffitt
+        picture: https://avatars.githubusercontent.com/u/1852919?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Muhammad-SDR
+    namespace: giantswarm
+    title: Muhammad Arslan
+    description: Introducing @giantswarm to Cloud native community across the globe
+spec:
+    profile:
+        displayName: Muhammad Arslan
+        picture: https://avatars.githubusercontent.com/u/114907112?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: nce
+    namespace: giantswarm
+    title: Ulli Goschler
+    description: 'SRE @giantswarm '
+spec:
+    profile:
+        displayName: Ulli Goschler
+        picture: https://avatars.githubusercontent.com/u/770135?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: njuettner
+    namespace: giantswarm
+    title: Nick Jüttner
+    description: "\U0001F3D7\U0001F477\U0001F3FB‍♂️ Platform Engineer"
+spec:
+    profile:
+        displayName: Nick Jüttner
+        picture: https://avatars.githubusercontent.com/u/1936982?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Noemi002
+    namespace: giantswarm
+    title: Noemi
+spec:
+    profile:
+        displayName: Noemi
+        picture: https://avatars.githubusercontent.com/u/146433122?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: nprokopic
+    namespace: giantswarm
+    title: Nikola Prokopić
+    description: Software Engineer | Dabbling with Golang, Kubernetes, Docker
+spec:
+    profile:
+        displayName: Nikola Prokopić
+        picture: https://avatars.githubusercontent.com/u/5638639?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: OnurYilmazGit
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/46044317?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: othylmann
+    namespace: giantswarm
+    title: Oliver Thylmann
+spec:
+    profile:
+        displayName: Oliver Thylmann
+        picture: https://avatars.githubusercontent.com/u/414319?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: paurosello
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/1133954?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: piontec
+    namespace: giantswarm
+    title: piontec
+spec:
+    profile:
+        displayName: piontec
+        picture: https://avatars.githubusercontent.com/u/1578786?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: pipo02mix
+    namespace: giantswarm
+    title: Fernando Ripoll
+    description: Solution Engineer @ Giant Swarm
+spec:
+    profile:
+        displayName: Fernando Ripoll
+        picture: https://avatars.githubusercontent.com/u/892157?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: puja108
+    namespace: giantswarm
+    title: Puja
+    description: VP Product @giantswarm
+spec:
+    profile:
+        displayName: Puja
+        picture: https://avatars.githubusercontent.com/u/5468872?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: QuantumEnigmaa
+    namespace: giantswarm
+    title: Zirko
+spec:
+    profile:
+        displayName: Zirko
+        picture: https://avatars.githubusercontent.com/u/64951262?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: QuentinBisson
+    namespace: giantswarm
+    title: Quentin Bisson
+spec:
+    profile:
+        displayName: Quentin Bisson
+        picture: https://avatars.githubusercontent.com/u/2787548?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Rotfuks
+    namespace: giantswarm
+    title: Dominik Kress
+spec:
+    profile:
+        displayName: Dominik Kress
+        picture: https://avatars.githubusercontent.com/u/16223546?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: simonapetrova1
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/109507396?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: snizhana-dynnyk
+    namespace: giantswarm
+    title: Snizhana
+spec:
+    profile:
+        displayName: Snizhana
+        picture: https://avatars.githubusercontent.com/u/54959552?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: ssyno
+    namespace: giantswarm
+    title: Spyros Synodinos
+    description: SRE @giantswarm
+spec:
+    profile:
+        displayName: Spyros Synodinos
+        picture: https://avatars.githubusercontent.com/u/138458697?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: StephanRenelt
+    namespace: giantswarm
+    title: Stephan Renelt
+    description: "In K8s since 2017\r\n- loodse\r\n- kubermatic\r\n- kasten\r\n- Giant Swarm"
+spec:
+    profile:
+        displayName: Stephan Renelt
+        picture: https://avatars.githubusercontent.com/u/83393848?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: stone-z
+    namespace: giantswarm
+    title: Zach Stone
+spec:
+    profile:
+        displayName: Zach Stone
+        picture: https://avatars.githubusercontent.com/u/10408416?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Strigix
+    namespace: giantswarm
+    title: Stefan
+spec:
+    profile:
+        displayName: Stefan
+        picture: https://avatars.githubusercontent.com/u/64960813?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: swarmbot
+    namespace: giantswarm
+    title: Swarmbot
+spec:
+    profile:
+        displayName: Swarmbot
+        picture: https://avatars.githubusercontent.com/u/16008436?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: T-Kukawka
+    namespace: giantswarm
+    title: Tobiasz Kukawka
+spec:
+    profile:
+        displayName: Tobiasz Kukawka
+        picture: https://avatars.githubusercontent.com/u/10978655?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: taylorbot
+    namespace: giantswarm
+    title: Taylor Bot
+    description: Doing lots of important things @giantswarm. Actually called taylor.
+spec:
+    profile:
+        displayName: Taylor Bot
+        picture: https://avatars.githubusercontent.com/u/25685558?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: teemow
+    namespace: giantswarm
+    title: Timo Derstappen
+spec:
+    profile:
+        displayName: Timo Derstappen
+        picture: https://avatars.githubusercontent.com/u/32488?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: TheaMarie
+    namespace: giantswarm
+    title: Thea Hüttenberger
+spec:
+    profile:
+        displayName: Thea Hüttenberger
+        picture: https://avatars.githubusercontent.com/u/20859609?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: TheoBrigitte
+    namespace: giantswarm
+    title: Théo Brigitte
+    description: Platform Engineer @giantswarm
+spec:
+    profile:
+        displayName: Théo Brigitte
+        picture: https://avatars.githubusercontent.com/u/6536819?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: tityosbot
+    namespace: giantswarm
+    title: Tityos Bot
+    description: I'm Tityos, Gaia's son. I live only to serve mother Gaia.
+spec:
+    profile:
+        displayName: Tityos Bot
+        picture: https://avatars.githubusercontent.com/u/65946409?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: tomcarron
+    namespace: giantswarm
+    title: Tom Carron
+    description: Some Astrophysics I guess.
+spec:
+    profile:
+        displayName: Tom Carron
+        picture: https://avatars.githubusercontent.com/u/72758299?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: tommyhobin
+    namespace: giantswarm
+    title: Tommy Hobin
+    description: 'Inbound Marketing Strategy :: Content Coordination & Distribution :: Social Media Implementation :: Email Marketing Analysis :: HubSpot Certified'
+spec:
+    profile:
+        displayName: Tommy Hobin
+        picture: https://avatars.githubusercontent.com/u/36041286?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: tuladhar
+    namespace: giantswarm
+    title: Puru
+    description: 'Solution Architect @giantswarm '
+spec:
+    profile:
+        displayName: Puru
+        picture: https://avatars.githubusercontent.com/u/5674762?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: ubergesundheit
+    namespace: giantswarm
+    title: Gerald Pape
+spec:
+    profile:
+        displayName: Gerald Pape
+        picture: https://avatars.githubusercontent.com/u/1494211?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: uvegla
+    namespace: giantswarm
+    title: Laszlo Uveges
+spec:
+    profile:
+        displayName: Laszlo Uveges
+        picture: https://avatars.githubusercontent.com/u/1612809?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: vvondruska
+    namespace: giantswarm
+spec:
+    profile:
+        picture: https://avatars.githubusercontent.com/u/2923801?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: vxav
+    namespace: giantswarm
+    title: Xavier
+    description: I write yaml and create Kubernetes clusters here and there.
+spec:
+    profile:
+        displayName: Xavier
+        picture: https://avatars.githubusercontent.com/u/19745768?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: weatherhog
+    namespace: giantswarm
+    title: Lucas Weatherhog
+spec:
+    profile:
+        displayName: Lucas Weatherhog
+        picture: https://avatars.githubusercontent.com/u/31103312?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: weseven
+    namespace: giantswarm
+    title: Daniel Simionato
+spec:
+    profile:
+        displayName: Daniel Simionato
+        picture: https://avatars.githubusercontent.com/u/16444?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: yulianedyalkova
+    namespace: giantswarm
+    title: Yulia Nedyalkova
+spec:
+    profile:
+        displayName: Yulia Nedyalkova
+        picture: https://avatars.githubusercontent.com/u/16097774?v=4
     memberOf: []
