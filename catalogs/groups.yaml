@@ -16,145 +16,14 @@ spec:
         displayName: Team Phoenix
         picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
     children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-turtles
-    namespace: giantswarm
-    title: Team Turtles
-    description: GitHub Team of the one and only Turtles
-spec:
-    type: team
-    profile:
-        displayName: Team Turtles
-        picture: https://avatars.githubusercontent.com/t/7862272?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-teddyfriends
-    namespace: giantswarm
-    title: Team Teddyfriends
-    description: Account Engineering and Customer Success
-spec:
-    type: team
-    profile:
-        displayName: Team Teddyfriends
-        picture: https://avatars.githubusercontent.com/t/5603884?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-horizon
-    namespace: giantswarm
-    title: Team Horizon
-spec:
-    type: team
-    profile:
-        displayName: Team Horizon
-        picture: https://avatars.githubusercontent.com/t/3703538?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-cabbage
-    namespace: giantswarm
-    title: Team Cabbage
-    description: Team Cabbage’s mission is to provide connectivity solutions on top of Kubernetes. ingress, nginx, gateway, kong, linkerd, mesh, loadbalancer, network, cni, external-dns
-spec:
-    type: team
-    profile:
-        displayName: Team Cabbage
-        picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-shield
-    namespace: giantswarm
-    title: Team Shield
-    description: kyverno, falco, trivy, starboard, PSA, PSP
-spec:
-    type: team
-    profile:
-        displayName: Team Shield
-        picture: https://avatars.githubusercontent.com/t/5904175?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-honeybadger
-    namespace: giantswarm
-    title: Team Honeybadger
-    description: GitOps, flux, helm, app-platform, crossplane, developer experience, ui, ux, happa
-spec:
-    type: team
-    profile:
-        displayName: Team Honeybadger
-        picture: https://avatars.githubusercontent.com/t/5176559?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-phoenix
-    namespace: giantswarm
-    title: Team Phoenix
-    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
-spec:
-    type: team
-    profile:
-        displayName: Team Phoenix
-        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-tinkerers
-    namespace: giantswarm
-    title: Team Tinkerers
-    description: 'Our mission is to reduce friction in the development process by providing unified automated RelEng tools and process definitions across KAAS teams. Keywords: Release Engineering, Testing, Pipelines, Tekton, CI/CD'
-spec:
-    type: team
-    profile:
-        displayName: Team Tinkerers
-        picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-rocket
-    namespace: giantswarm
-    title: Team Rocket
-    description: kvm, openstack, vmware, vsphere, cloud-director, capo, capv, capvcd, rook, calico, metrics-server
-spec:
-    type: team
-    profile:
-        displayName: Team Rocket
-        picture: https://avatars.githubusercontent.com/t/4133740?s=116&v=4
-    children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-bigmac
-    namespace: giantswarm
-    title: Team Bigmac
-    description: vpn, mc-bootstrap, access, authentication, authorization, sso, certificate, rbac, dex, athena
-spec:
-    type: team
-    profile:
-        displayName: Team Bigmac
-        picture: https://avatars.githubusercontent.com/t/7825079?s=116&v=4
-    children: []
+    members:
+        - AndiDog
+        - T-Kukawka
+        - bdehri
+        - calvix
+        - fiunchinho
+        - mnitchev
+        - paurosello
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -169,3 +38,214 @@ spec:
         displayName: Team Atlas
         picture: https://avatars.githubusercontent.com/t/3817103?s=116&v=4
     children: []
+    members:
+        - QuantumEnigmaa
+        - QuentinBisson
+        - Rotfuks
+        - TheoBrigitte
+        - hervenicol
+        - marieroque
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-bigmac
+    namespace: giantswarm
+    title: Team Bigmac
+    description: vpn, mc-bootstrap, access, authentication, authorization, sso, certificate, rbac, dex, athena
+spec:
+    type: team
+    profile:
+        displayName: Team Bigmac
+        picture: https://avatars.githubusercontent.com/t/7825079?s=116&v=4
+    children: []
+    members:
+        - OnurYilmazGit
+        - anvddriesch
+        - gawertm
+        - ssyno
+        - tuladhar
+        - vvondruska
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-cabbage
+    namespace: giantswarm
+    title: Team Cabbage
+    description: Team Cabbage’s mission is to provide connectivity solutions on top of Kubernetes. ingress, nginx, gateway, kong, linkerd, mesh, loadbalancer, network, cni, external-dns
+spec:
+    type: team
+    profile:
+        displayName: Team Cabbage
+        picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
+    children: []
+    members:
+        - ced0ps
+        - kopiczko
+        - mcharriere
+        - ubergesundheit
+        - weatherhog
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-honeybadger
+    namespace: giantswarm
+    title: Team Honeybadger
+    description: GitOps, flux, helm, app-platform, crossplane, developer experience, ui, ux, happa
+spec:
+    type: team
+    profile:
+        displayName: Team Honeybadger
+        picture: https://avatars.githubusercontent.com/t/5176559?s=116&v=4
+    children: []
+    members:
+        - gusevda
+        - ljakimczuk
+        - marians
+        - mproffitt
+        - nce
+        - piontec
+        - uvegla
+        - weatherhog
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-horizon
+    namespace: giantswarm
+    title: Team Horizon
+spec:
+    type: team
+    profile:
+        displayName: Team Horizon
+        picture: https://avatars.githubusercontent.com/t/3703538?s=116&v=4
+    children: []
+    members:
+        - JosephSalisbury
+        - alex-dabija
+        - carillan81
+        - pipo02mix
+        - puja108
+        - snizhana-dynnyk
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-phoenix
+    namespace: giantswarm
+    title: Team Phoenix
+    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
+spec:
+    type: team
+    profile:
+        displayName: Team Phoenix
+        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
+    children: []
+    members:
+        - AndiDog
+        - T-Kukawka
+        - bdehri
+        - calvix
+        - fiunchinho
+        - mnitchev
+        - paurosello
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-rocket
+    namespace: giantswarm
+    title: Team Rocket
+    description: kvm, openstack, vmware, vsphere, cloud-director, capo, capv, capvcd, rook, calico, metrics-server
+spec:
+    type: team
+    profile:
+        displayName: Team Rocket
+        picture: https://avatars.githubusercontent.com/t/4133740?s=116&v=4
+    children: []
+    members:
+        - erkanerol
+        - gawertm
+        - glitchcrab
+        - iuriaranda
+        - vxav
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-shield
+    namespace: giantswarm
+    title: Team Shield
+    description: kyverno, falco, trivy, starboard, PSA, PSP
+spec:
+    type: team
+    profile:
+        displayName: Team Shield
+        picture: https://avatars.githubusercontent.com/t/5904175?s=116&v=4
+    children: []
+    members:
+        - Strigix
+        - fhielpos
+        - stone-z
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-teddyfriends
+    namespace: giantswarm
+    title: Team Teddyfriends
+    description: Account Engineering and Customer Success
+spec:
+    type: team
+    profile:
+        displayName: Team Teddyfriends
+        picture: https://avatars.githubusercontent.com/t/5603884?s=116&v=4
+    children: []
+    members:
+        - LolloneS
+        - brinker211
+        - luca-rui
+        - othylmann
+        - pipo02mix
+        - tomcarron
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-tinkerers
+    namespace: giantswarm
+    title: Team Tinkerers
+    description: 'Our mission is to reduce friction in the development process by providing unified automated RelEng tools and process definitions across KAAS teams. Keywords: Release Engineering, Testing, Pipelines, Tekton, CI/CD'
+spec:
+    type: team
+    profile:
+        displayName: Team Tinkerers
+        picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
+    children: []
+    members:
+        - AverageMarcus
+        - ericgraf
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-turtles
+    namespace: giantswarm
+    title: Team Turtles
+    description: GitHub Team of the one and only Turtles
+spec:
+    type: team
+    profile:
+        displayName: Team Turtles
+        picture: https://avatars.githubusercontent.com/t/7862272?s=116&v=4
+    children: []
+    members:
+        - Gacko
+        - njuettner
+        - nprokopic
+        - weseven
+        - yulianedyalkova
