@@ -6,28 +6,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-phoenix
-    namespace: giantswarm
-    title: Team Phoenix
-    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
-spec:
-    type: team
-    profile:
-        displayName: Team Phoenix
-        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
-    children: []
-    members:
-        - AndiDog
-        - T-Kukawka
-        - bdehri
-        - calvix
-        - fiunchinho
-        - mnitchev
-        - paurosello
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
     name: team-atlas
     namespace: giantswarm
     title: Team Atlas
@@ -81,7 +59,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
     children: []
     members:
-        - ced0ps
         - kopiczko
         - mcharriere
         - ubergesundheit
@@ -148,8 +125,8 @@ spec:
         - AndiDog
         - T-Kukawka
         - bdehri
-        - calvix
         - fiunchinho
+        - iuriaranda
         - mnitchev
         - paurosello
 ---
