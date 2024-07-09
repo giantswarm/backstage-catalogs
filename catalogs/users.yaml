@@ -150,19 +150,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: ced0ps
-    namespace: giantswarm
-    title: Cedric Kaufmann
-    description: Solution Architect
-spec:
-    profile:
-        displayName: Cedric Kaufmann
-        picture: https://avatars.githubusercontent.com/u/60580186?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: ericgraf
     namespace: giantswarm
 spec:
