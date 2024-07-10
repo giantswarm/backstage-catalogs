@@ -8,7 +8,7 @@ on:
       - "catalogs/**"
       - ".github/workflows/update-catalogs.yaml"
   schedule:
-    - cron: "50 5,7,9,11,13,15,17,19 * * MON-FRI"
+    - cron: "50 5,16 * * MON-FRI"
   workflow_dispatch:
     inputs:
       force: 
