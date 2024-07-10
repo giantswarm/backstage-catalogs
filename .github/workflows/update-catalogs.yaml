@@ -152,7 +152,9 @@ jobs:
             --delete-branch
 
           # Approve as different user
-          if [ ! -z "${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}" ]; then
+          if [ -z "${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}" ]; then
+            echo "No ARCHITECT_GITHUB_REPO_SYNC_TOKEN found. Skipping PR approval."
+          else
             echo ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }} > ./token
             gh auth login --with-token < ./token
             gh pr review --approve
