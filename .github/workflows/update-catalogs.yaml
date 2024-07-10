@@ -51,6 +51,7 @@ jobs:
             # We just make up a high number here to force a workflow completion
             echo "age=99999" >> $GITHUB_ENV
           fi
+          rm -f update-catalog-state.txt
 
       - name: Check if this workflow is due to run
         shell: bash
