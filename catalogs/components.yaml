@@ -1129,8 +1129,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-app/tree/main
         giantswarm.io/deployment-names: cert-manager,cert-manager-app
-        giantswarm.io/latest-release-date: "2024-07-08T12:35:17Z"
-        giantswarm.io/latest-release-tag: 3.7.9
+        giantswarm.io/latest-release-date: "2024-07-10T11:50:51Z"
+        giantswarm.io/latest-release-tag: 3.8.0
         github.com/project-slug: giantswarm/cert-manager-app
 spec:
     type: service
@@ -1407,8 +1407,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/release-1.4
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2024-06-11T09:21:28Z"
-        giantswarm.io/latest-release-tag: 1.20.0
+        giantswarm.io/latest-release-date: "2024-07-10T04:44:21Z"
+        giantswarm.io/latest-release-tag: 1.20.1
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -1527,13 +1527,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2023-04-10T09:24:53Z"
-        giantswarm.io/latest-release-tag: 1.9.0-gs.alpha.3
+        giantswarm.io/latest-release-date: "2024-07-10T08:56:33Z"
+        giantswarm.io/latest-release-tag: 1.12.4-gs1
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-celestial
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-06-21T05:53:35Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2024-07-09T16:12:45Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -1687,8 +1687,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-07-09T11:20:29Z"
-        giantswarm.io/latest-release-tag: 0.15.0
+        giantswarm.io/latest-release-date: "2024-07-10T04:54:33Z"
+        giantswarm.io/latest-release-tag: 0.16.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-06-25T13:37:12Z"
-        giantswarm.io/latest-release-tag: 0.55.0
+        giantswarm.io/latest-release-date: "2024-07-10T06:59:52Z"
+        giantswarm.io/latest-release-tag: 0.56.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3755,8 +3755,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/outgoing-proxy-stack
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/outgoing-proxy-stack/tree/main
         giantswarm.io/deployment-names: outgoing-proxy-stack,outgoing-proxy-stack-app
-        giantswarm.io/latest-release-date: "2024-07-09T13:54:41Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2024-07-09T14:19:16Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/outgoing-proxy-stack
 spec:
     type: service
@@ -3919,8 +3919,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-09T10:19:27Z"
-        giantswarm.io/latest-release-tag: 4.6.1
+        giantswarm.io/latest-release-date: "2024-07-09T14:57:29Z"
+        giantswarm.io/latest-release-tag: 4.6.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4179,8 +4179,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2024-06-27T12:06:23Z"
-        giantswarm.io/latest-release-tag: 0.32.0
+        giantswarm.io/latest-release-date: "2024-07-10T10:50:28Z"
+        giantswarm.io/latest-release-tag: 0.33.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
