@@ -1,0 +1,175 @@
+name: Update catalogs
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "catalogs/**"
+      - ".github/workflows/update-catalogs.yaml"
+  schedule:
+    - cron: "50 5,16 * * MON-FRI"
+  workflow_dispatch:
+    inputs:
+      force: 
+        description: Even run if workflow ran recently
+        type: boolean
+        required: false
+
+# We want only one instance of this workflow to run at a time.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-22.04
+    steps:
+
+      - name: Clone github repository
+        run: |
+          git clone https://oauth2:${{ secrets.TAYLORBOT_GITHUB_ACTION }}@github.com/giantswarm/backstage-catalogs.git clonedir
+
+      # This step requires the cloned repo, so it has to come second.
+      - name: Download state if available
+        working-directory: clonedir
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo $(gh run download -n state)
+
+      - name: Calculate time since last completion
+        working-directory: clonedir
+        run: |
+          if [ -f update-catalog-state.txt ]; then
+            last_run=$(cat update-catalog-state.txt)
+            now=$(date +"%s")
+            diff=$((now - last_run))
+            echo "age=$diff" >> $GITHUB_ENV
+          else
+            # We just make up a high number here to force a workflow completion
+            echo "age=99999" >> $GITHUB_ENV
+          fi
+
+      - name: Check if this workflow is due to run
+        shell: bash
+        run: |
+          # We want to run this no more than once every two hours (7200 sec)
+          if [[ '${{ github.event_name }}' == 'workflow_dispatch' ]] && [[ '${{ inputs.force }}' == 'true' ]]; then
+            echo "Forcing workflow run."
+            echo "workflow_due=true" >> $GITHUB_ENV
+          elif [ ${{ env.age }} -gt 7000 ]; then
+            echo "Workflow is due (last execution ${{ env.age }} seconds ago)."
+            echo "workflow_due=true" >> $GITHUB_ENV
+          fi
+
+      - name: Switch branch
+        if: env.workflow_due == 'true'
+        working-directory: clonedir
+        run: |
+          git switch -c update-catalogs
+
+      - name: Install backstage-catalog-importer
+        if: env.workflow_due == 'true'
+        uses: giantswarm/install-binary-action@033b1a657eea23d9c42e77312b370e6125e4e38f # v2.0.0
+        with:
+          binary: backstage-catalog-importer
+          version: 0.14.0
+          smoke_test: ${binary} --help
+
+      - name: Execute backstage-catalog-importer
+        if: env.workflow_due == 'true'
+        working-directory: clonedir
+        env:
+          GITHUB_TOKEN: ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}
+        run: |
+          backstage-catalog-importer appcatalogs \
+            --output ./catalogs
+          
+          backstage-catalog-importer users \
+            --output ./catalogs
+          
+          ls -la ./catalogs
+
+          echo "looked_for_changes=true" >> $GITHUB_ENV
+
+          # End here if nothing changed
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changes_exist=false" >> $GITHUB_ENV
+            echo "No changes found. Next steps will be skipped."
+          else
+            echo "changes_exist=true" >> $GITHUB_ENV
+          fi
+
+      - name: Ping heartbeat
+        if: env.workflow_due == 'true'
+        env:
+          OPSGENIE_HEARTBEAT_KEY: ${{ secrets.OPSGENIE_HEARTBEAT_KEY }}
+          HEARTBEAT_NAME: customer-backstage-catalog-update-cronjob
+        run: |
+          curl -X GET https://api.opsgenie.com/v2/heartbeats/${HEARTBEAT_NAME}/ping --header "Authorization: GenieKey ${OPSGENIE_HEARTBEAT_KEY}"
+
+      - name: Create and merge pull request in github
+        if: env.changes_exist == 'true'
+        run: |
+          # Configure identity and log in
+          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions"
+          echo ${{ secrets.TAYLORBOT_GITHUB_ACTION }} > ./token
+          gh auth login --with-token < ./token
+
+          cd clonedir
+          
+          git add -A
+          git commit -a -m "Update catalogs"
+          git push -f origin update-catalogs
+
+          # Check if there is an open PR (in a subshell)
+          set +e
+          pr_exists=$(gh pr view --json state --jq .state | grep "OPEN")
+          if [ $? -eq 0 ]; then
+            echo "An open PR exists already"
+            set -e
+            gh pr view
+          else
+            echo "No open PR exists"
+            set -e
+            # Create a PR
+            gh pr create \
+              --repo giantswarm/backstage-catalogs \
+              --head update-catalogs \
+              --title "Update catalogs" \
+              --body "This PR is created automatically from the workflow .github/workflows/update-catalogs.yaml. It should also get approved and merged automatically." \
+              --assignee architectbot
+          fi
+
+          # Set the PR to merge automatically after checks and reviews are in place          
+          gh pr merge \
+            --squash \
+            --body "Update catalogs" \
+            --auto \
+            --delete-branch
+
+          # Approve as different user
+          if [ -z "${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}" ]; then
+            echo "No ARCHITECT_GITHUB_REPO_SYNC_TOKEN found. Skipping PR approval."
+          else
+            echo ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }} > ./token
+            gh auth login --with-token < ./token
+            gh pr review --approve
+          fi
+
+      - name : Create state file
+        if: env.looked_for_changes == 'true'
+        shell: bash
+        run: |
+          date +"%s" > update-catalog-state.txt
+
+      - name: Persist state file
+        if: env.looked_for_changes == 'true'
+        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+        with:
+          name: state
+          path: update-catalog-state.txt
+          retention-days: 1
