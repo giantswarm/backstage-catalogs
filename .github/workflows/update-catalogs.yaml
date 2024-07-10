@@ -116,7 +116,7 @@ jobs:
           # Configure identity and log in
           git config --global user.email "action@github.com"
           git config --global user.name "github-actions"
-          echo ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }} > ./token
+          echo ${{ secrets.TAYLORBOT_GITHUB_ACTION }} > ./token
           gh auth login --with-token < ./token
 
           cd clonedir
@@ -152,9 +152,11 @@ jobs:
             --delete-branch
 
           # Approve as different user
-          echo ${{ secrets.TAYLORBOT_GITHUB_ACTION }} > ./token
-          gh auth login --with-token < ./token
-          gh pr review --approve
+          if [ ! -z "${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}" ]; then
+            echo ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }} > ./token
+            gh auth login --with-token < ./token
+            gh pr review --approve
+          fi
 
       - name : Create state file
         if: env.looked_for_changes == 'true'
