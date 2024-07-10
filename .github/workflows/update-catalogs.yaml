@@ -82,7 +82,7 @@ jobs:
         if: env.workflow_due == 'true'
         working-directory: clonedir
         env:
-          GITHUB_TOKEN: ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TAYLORBOT_GITHUB_ACTION }}
         run: |
           backstage-catalog-importer appcatalogs \
             --output ./catalogs
