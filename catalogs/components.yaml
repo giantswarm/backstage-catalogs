@@ -969,8 +969,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2024-07-09T08:24:11Z"
-        giantswarm.io/latest-release-tag: 0.26.0
+        giantswarm.io/latest-release-date: "2024-07-11T10:27:24Z"
+        giantswarm.io/latest-release-tag: 0.27.0
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -1647,8 +1647,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-05-20T16:09:04Z"
-        giantswarm.io/latest-release-tag: 1.27.3-gs9
+        giantswarm.io/latest-release-date: "2024-07-11T08:32:33Z"
+        giantswarm.io/latest-release-tag: 1.28.5-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-07-09T16:12:45Z"
-        giantswarm.io/latest-release-tag: 1.0.1
+        giantswarm.io/latest-release-date: "2024-07-11T09:46:44Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -1727,8 +1727,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-06-25T07:32:19Z"
-        giantswarm.io/latest-release-tag: 0.54.0
+        giantswarm.io/latest-release-date: "2024-07-11T07:08:08Z"
+        giantswarm.io/latest-release-tag: 0.54.1
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2703,8 +2703,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2024-03-08T11:42:35Z"
-        giantswarm.io/latest-release-tag: 1.4.1
+        giantswarm.io/latest-release-date: "2024-07-11T10:36:22Z"
+        giantswarm.io/latest-release-tag: 1.4.2
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
@@ -2993,8 +2993,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2024-04-02T06:25:05Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2024-07-11T07:44:42Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/k8s-audit-metrics
 spec:
     type: service
@@ -3528,8 +3528,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-07-10T15:22:27Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2024-07-11T08:56:00Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -3919,8 +3919,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-09T14:57:29Z"
-        giantswarm.io/latest-release-tag: 4.6.2
+        giantswarm.io/latest-release-date: "2024-07-11T13:49:41Z"
+        giantswarm.io/latest-release-tag: 4.6.3
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
