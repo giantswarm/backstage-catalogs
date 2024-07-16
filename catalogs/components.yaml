@@ -55,8 +55,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-app/tree/main
         giantswarm.io/deployment-names: alloy,alloy-app
-        giantswarm.io/latest-release-date: "2024-07-08T16:17:03Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2024-07-15T14:00:17Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/alloy-app
 spec:
     type: service
@@ -1727,8 +1727,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-07-11T07:08:08Z"
-        giantswarm.io/latest-release-tag: 0.54.1
+        giantswarm.io/latest-release-date: "2024-07-15T13:44:22Z"
+        giantswarm.io/latest-release-tag: 0.56.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -3013,8 +3013,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-dns-node-cache-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-dns-node-cache-app/tree/main
         giantswarm.io/deployment-names: k8s-dns-node-cache,k8s-dns-node-cache-app
-        giantswarm.io/latest-release-date: "2024-07-08T12:04:30Z"
-        giantswarm.io/latest-release-tag: 2.8.0
+        giantswarm.io/latest-release-date: "2024-07-15T07:55:09Z"
+        giantswarm.io/latest-release-tag: 2.8.1
         github.com/project-slug: giantswarm/k8s-dns-node-cache-app
 spec:
     type: service
@@ -3308,8 +3308,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2024-01-09T12:00:08Z"
-        giantswarm.io/latest-release-tag: 0.5.4
+        giantswarm.io/latest-release-date: "2024-07-15T08:58:11Z"
+        giantswarm.io/latest-release-tag: 0.6.0
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
@@ -3919,8 +3919,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-11T13:49:41Z"
-        giantswarm.io/latest-release-tag: 4.6.3
+        giantswarm.io/latest-release-date: "2024-07-15T13:11:28Z"
+        giantswarm.io/latest-release-tag: 4.8.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
