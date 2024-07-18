@@ -1527,8 +1527,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2024-07-10T08:56:33Z"
-        giantswarm.io/latest-release-tag: 1.12.4-gs1
+        giantswarm.io/latest-release-date: "2024-07-17T11:03:25Z"
+        giantswarm.io/latest-release-tag: 1.12.4-gs2
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
@@ -1647,8 +1647,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-07-11T08:32:33Z"
-        giantswarm.io/latest-release-tag: 1.28.5-gs1
+        giantswarm.io/latest-release-date: "2024-07-17T15:03:54Z"
+        giantswarm.io/latest-release-tag: 1.29.3-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -3655,8 +3655,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2024-06-18T09:54:16Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2024-07-17T11:13:59Z"
+        giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
