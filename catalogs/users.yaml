@@ -812,7 +812,7 @@ kind: User
 metadata:
     name: tuladhar
     namespace: giantswarm
-    description: 'Solution Architect @giantswarm '
+    description: '⎈ Kubernetes Solution Architect @giantswarm '
 spec:
     profile:
         displayName: Puru
