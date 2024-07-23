@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-07-11T09:46:44Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2024-07-22T20:16:31Z"
+        giantswarm.io/latest-release-tag: 1.2.1
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-16T10:24:07Z"
-        giantswarm.io/latest-release-tag: 0.56.1
+        giantswarm.io/latest-release-date: "2024-07-22T20:51:34Z"
+        giantswarm.io/latest-release-tag: 0.57.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -2420,8 +2420,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2024-06-26T18:43:48Z"
-        giantswarm.io/latest-release-tag: 4.8.1
+        giantswarm.io/latest-release-date: "2024-07-22T21:32:21Z"
+        giantswarm.io/latest-release-tag: 4.8.2
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
@@ -3548,8 +3548,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-07-18T12:10:37Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2024-07-22T08:32:19Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -3715,8 +3715,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-07-16T11:11:14Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-07-22T09:00:36Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -3939,8 +3939,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-15T13:11:28Z"
-        giantswarm.io/latest-release-tag: 4.8.0
+        giantswarm.io/latest-release-date: "2024-07-22T13:09:39Z"
+        giantswarm.io/latest-release-tag: 4.8.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
