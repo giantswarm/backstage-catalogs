@@ -1687,8 +1687,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-07-16T11:00:12Z"
-        giantswarm.io/latest-release-tag: 0.16.1
+        giantswarm.io/latest-release-date: "2024-07-23T09:49:26Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -2953,8 +2953,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2024-07-04T06:58:00Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2024-07-23T12:20:47Z"
+        giantswarm.io/latest-release-tag: 0.29.2
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -3133,8 +3133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2024-04-29T13:03:05Z"
-        giantswarm.io/latest-release-tag: 4.1.0
+        giantswarm.io/latest-release-date: "2024-07-23T09:03:35Z"
+        giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
