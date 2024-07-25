@@ -55,8 +55,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-app/tree/main
         giantswarm.io/deployment-names: alloy,alloy-app
-        giantswarm.io/latest-release-date: "2024-07-15T14:00:17Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-07-24T14:23:39Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/alloy-app
 spec:
     type: service
@@ -604,8 +604,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-vpc-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-vpc-operator/tree/main
         giantswarm.io/deployment-names: aws-vpc-operator,aws-vpc-operator-app
-        giantswarm.io/latest-release-date: "2024-06-27T13:38:12Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2024-07-24T09:39:55Z"
+        giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/aws-vpc-operator
 spec:
     type: service
@@ -1387,8 +1387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-07-19T13:44:23Z"
-        giantswarm.io/latest-release-tag: 0.36.0
+        giantswarm.io/latest-release-date: "2024-07-24T11:16:17Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1467,8 +1467,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-api-cleaner-vsphere,cluster-api-cleaner-vsphere-app
-        giantswarm.io/latest-release-date: "2024-03-04T09:11:46Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2024-07-24T09:29:28Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/cluster-api-cleaner-vsphere
 spec:
     type: service
@@ -1507,8 +1507,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.3
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-07-17T07:18:51Z"
-        giantswarm.io/latest-release-tag: 2.20.0
+        giantswarm.io/latest-release-date: "2024-07-24T13:04:04Z"
+        giantswarm.io/latest-release-tag: 2.21.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-22T20:51:34Z"
-        giantswarm.io/latest-release-tag: 0.57.0
+        giantswarm.io/latest-release-date: "2024-07-24T14:45:52Z"
+        giantswarm.io/latest-release-tag: 0.57.1
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3695,8 +3695,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-07-19T08:18:53Z"
-        giantswarm.io/latest-release-tag: 1.5.1
+        giantswarm.io/latest-release-date: "2024-07-24T15:20:48Z"
+        giantswarm.io/latest-release-tag: 1.5.2
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
