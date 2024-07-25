@@ -1,0 +1,17 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: go-service
+  title: Go service
+  description: A Golang service responding to HTTP requests, optionally writing to an SQL database.
+spec:
+  type: service
+
+  parameters:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/basic-details.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/deployment.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/integrations.yaml
+
+  steps:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/steps/fetch-template.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/steps/publish.yaml

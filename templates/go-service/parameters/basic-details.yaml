@@ -1,0 +1,39 @@
+title: Basic details
+required:
+  - name
+  - description
+  - owner
+  - lifecycle
+properties:
+  name:
+    title: Name
+    type: string
+    description: Name of the GitHub repository. Allowed characters are a-z, 0-9, and -. Changing the name after creation is possible, but very cumbersome, so choose wisely.
+    pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
+    ui:autofocus: true
+  description:
+    title: Description
+    type: string
+    description: Help others understand what this service and repository is about.
+  owner:
+    title: Owner team
+    type: string
+    ui:field: EntityPicker
+    ui:options:
+      allowArbitraryValues: false
+      catalogFilter:
+        - kind: Group
+          spec.type: team
+          metadata.namespace: default
+      defaultKind: Group
+      defaultNamespace: default
+  lifecycle:
+    title: Lifecycle
+    type: string
+    default: experimental
+    enum:
+      - experimental
+      - production
+    enumNames:
+      - Experimental
+      - Production

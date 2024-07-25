@@ -1,0 +1,22 @@
+id: fetch-template
+name: Fetch Template
+action: fetch:template
+input:
+  url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/template
+  values:
+    project:
+      name: ${{ parameters.name }}
+      description: ${{ parameters.description }}
+    projectRepository:
+      owner: ${{ parameters.projectRepoOwner }}
+    prRepository: ${{ parameters.prRepoUrl | parseRepoUrl }}
+    database:
+      enabled: ${{ parameters.database.enabled }}
+      engine: ${{ parameters.database.engine }}
+      version: ${{ parameters.database[parameters.database.engine]['version'] }}
+      cluster-configuration: ${{ parameters.database[parameters.database.engine]['cluster-configuration'] }}
+      instance-size: ${{ parameters.database[parameters.database.engine]['instance-size'] }}
+    cache:
+      enabled: ${{ parameters.cache.enabled }}
+      engine: ${{ parameters.cache.engine }}
+      version: ${{ parameters.cache[parameters.cache.engine]['version'] }}
