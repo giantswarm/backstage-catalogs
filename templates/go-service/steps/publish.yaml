@@ -1,0 +1,14 @@
+id: publish
+name: Publish
+action: publish:github:pull-request
+input:
+  repoUrl: ${{ parameters.prRepoUrl }}
+  draft: true
+  title: Create new Go service - ${{ parameters.name }}
+  branchName: create-go-service-${{ parameters.name }}
+  description: |
+    ### New Go service: ${{ parameters.name }}
+
+    ${{ parameters.description if parameters.description }}
+  # targetPath: catalog
+  token: ${{ secrets.USER_OAUTH_TOKEN }}

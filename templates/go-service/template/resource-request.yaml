@@ -1,0 +1,20 @@
+---
+apiVersion: promise.platform.giantswarm.io/v1beta1
+kind: githubrepo
+metadata:
+  name: ${{ values.name }}
+spec:
+  destinationNamespace: default
+  database:
+    engine: ${{ values.database.engine }}
+    version: ${{ values.database.version }}
+  repository:
+    name: ${{ values.project.name }}
+    owner: ${{ values.projectRepository.owner }}
+    description: ${{ values.project.description }}
+    templateSource: giantswarm/devplatform-template-go-service
+    visibility: private
+  registryInfoConfigMapRef:
+    name: github-oci-registry-info
+  githubTokenSecretRef:
+    name: dev-platform-gh-access

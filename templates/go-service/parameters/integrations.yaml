@@ -1,0 +1,407 @@
+title: Integrations
+description: Select the integrations you'd like to have created for your service.
+ui:ObjectFieldTemplate: GSIntegrations
+properties:
+  database:
+    title: ''
+    properties:
+      enabled:
+        title: SQL database
+        type: boolean
+        ui:help: PostgreSQL- or MySQL-like database, provided through AWS RDS.
+        default: false
+    dependencies:
+      enabled:
+        allOf:
+          - if:
+              properties:
+                enabled:
+                  const: true
+            then:
+              required:
+                - name
+                - username
+              properties:
+                name:
+                  title: Database name
+                  type: string
+                  pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
+                  ui:autofocus: true
+                  ui:field: GSTemplateStringInput
+                  ui:options:
+                    initialValue: '${{name}}'
+                username:
+                  title: Admin user name
+                  type: string
+                  description: Some user names are reserved, depending on the selected engine. We recommend to use the auto-generated user name.
+                  pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
+                  ui:field: GSTemplateStringInput
+                  ui:options:
+                    initialValue: 'admin-${{generateUID(5)}}'
+                engine:
+                  title: Engine
+                  type: string
+                  ui:help: 'Note: Clustering is only available with Aurora engines'
+                  default: aurora-postgresql
+                  enum:
+                    - aurora-postgresql
+                    - postgresql
+                    - aurora-mysql
+                    - mariadb
+                    - mysql
+                  enumNames:
+                    - Aurora (PostgreSQL compatible)
+                    - PostgreSQL
+                    - Aurora (MySQL compatible)
+                    - MariaDB
+                    - MySQL
+              dependencies:
+                engine:
+                  allOf:
+                    - if:
+                        properties:
+                          engine:
+                            const: aurora-postgresql
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          aurora-postgresql:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: aurora-postgresql 16.2
+                                enum:
+                                  - aurora-postgresql 16.2
+                                  - aurora-postgresql 16.1
+                                  - aurora-postgresql 15.6
+                                  - aurora-postgresql 15.5
+                                  - aurora-postgresql 15.4
+                                  - aurora-postgresql 15.3
+                                  - aurora-postgresql 15.2
+                                  - aurora-postgresql 14.11
+                                  - aurora-postgresql 14.10
+                                  - aurora-postgresql 14.9
+                                  - aurora-postgresql 14.8
+                                  - aurora-postgresql 14.7
+                                  - aurora-postgresql 14.6
+                                  - aurora-postgresql 14.5
+                                  - aurora-postgresql 14.4
+                                  - aurora-postgresql 14.3
+                                  - aurora-postgresql 13.14
+                                  - aurora-postgresql 13.13
+                                  - aurora-postgresql 13.12
+                                  - aurora-postgresql 13.11
+                                  - aurora-postgresql 13.10
+                                  - aurora-postgresql 13.9
+                                  - aurora-postgresql 13.8
+                                  - aurora-postgresql 13.7
+                                  - aurora-postgresql 12.18
+                                  - aurora-postgresql 12.17
+                                  - aurora-postgresql 12.16
+                                  - aurora-postgresql 12.15
+                                  - aurora-postgresql 12.14
+                                  - aurora-postgresql 12.13
+                                  - aurora-postgresql 12.12
+                                  - aurora-postgresql 12.11
+                                  - aurora-postgresql 12.9
+                                  - aurora-postgresql 11.21
+                                  - aurora-postgresql 11.9
+                              instance-size:
+                                title: Instance size
+                                type: string
+                                default: db.t4g.large
+                                enum:
+                                  - db.t4g.large
+                                  - db.r6g.2xlarge
+                                enumNames:
+                                  - 'Dev/test: db.t4g.large, 2 vCPUs, 8 GiB RAM'
+                                  - 'Production: db.r6g.2xlarge, 8 vCPUs, 64 GiB RAM'
+                              cluster-configuration:
+                                title: Cluster configuration
+                                type: number
+                                default: 1
+                                enum:
+                                  - 1
+                                  - 3
+                                enumNames:
+                                  - Single replica - no clustering
+                                  - Three replicas
+                    - if:
+                        properties:
+                          engine:
+                            const: postgresql
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          postgresql:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: postgres 16.3
+                                enum:
+                                  - postgres 16.3
+                                  - postgres 16.2
+                                  - postgres 16.1
+                                  - postgres 15.7
+                                  - postgres 15.6
+                                  - postgres 15.5
+                                  - postgres 15.4
+                                  - postgres 14.12
+                                  - postgres 14.11
+                                  - postgres 14.10
+                                  - postgres 14.9
+                                  - postgres 13.15
+                                  - postgres 13.14
+                                  - postgres 13.13
+                                  - postgres 13.12
+                                  - postgres 13.11
+                                  - postgres 12.19
+                                  - postgres 12.18
+                                  - postgres 12.17
+                                  - postgres 12.16
+                                  - postgres 12.15
+                                  - postgres 11.22-rds.20240509
+                                  - postgres 11.22-rds.20240418
+                                  - postgres 11.22
+                              instance-size:
+                                title: Instance size
+                                type: string
+                                default: db.r6g.large
+                                enum:
+                                  - db.r6g.large
+                                  - db.r6g.xlarge
+                                enumNames:
+                                  - 'Dev/test: db.r6g.large, 2 vCPUs, 16 GiB RAM, 100 GiB'
+                                  - 'Production: db.r6g.xlarge, 4 vCPUs, 32 GiB RAM, 500 GiB'
+                              cluster-configuration:
+                                title: Cluster configuration
+                                type: number
+                                default: 1
+                                enum:
+                                  - 1
+                                enumNames:
+                                  - Single replica - no clustering
+                                ui:options:
+                                  disabled: true
+                    - if:
+                        properties:
+                          engine:
+                            const: aurora-mysql
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          aurora-mysql:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: aurora-mysql 8.0.mysql_aurora.3.07.1
+                                enum:
+                                  - aurora-mysql 8.0.mysql_aurora.3.07.1
+                                  - aurora-mysql 8.0.mysql_aurora.3.07.0
+                                  - aurora-mysql 8.0.mysql_aurora.3.06.1
+                                  - aurora-mysql 8.0.mysql_aurora.3.06.0
+                                  - aurora-mysql 8.0.mysql_aurora.3.05.2
+                                  - aurora-mysql 8.0.mysql_aurora.3.04.3
+                                  - aurora-mysql 8.0.mysql_aurora.3.04.2
+                                  - aurora-mysql 8.0.mysql_aurora.3.04.1
+                                  - aurora-mysql 8.0.mysql_aurora.3.04.0
+                                  - aurora-mysql 8.0.mysql_aurora.3.03.3
+                                  - aurora-mysql 8.0.mysql_aurora.3.03.2
+                                  - aurora-mysql 8.0.mysql_aurora.3.03.1
+                                  - aurora-mysql 8.0.mysql_aurora.3.03.0
+                                  - aurora-mysql 5.7.mysql_aurora.2.12.3
+                                  - aurora-mysql 5.7.mysql_aurora.2.12.2
+                                  - aurora-mysql 5.7.mysql_aurora.2.12.1
+                                  - aurora-mysql 5.7.mysql_aurora.2.12.0
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.6
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.5
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.4
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.3
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.2
+                                  - aurora-mysql 5.7.mysql_aurora.2.11.1
+                              instance-size:
+                                title: Instance size
+                                type: string
+                                default: db.r6g.large
+                                enum:
+                                  - db.r6g.large
+                                  - db.r6g.2xlarge
+                                enumNames:
+                                  - 'Dev/test: db.r6g.large, 2 vCPUs, 16 GiB RAM'
+                                  - 'Production: db.r6g.2xlarge, 8 vCPUs, 64 GiB RAM'
+                              cluster-configuration:
+                                title: Cluster configuration
+                                type: number
+                                default: 1
+                                enum:
+                                  - 1
+                                  - 3
+                                enumNames:
+                                  - Single replica - no clustering
+                                  - Three replicas
+                    - if:
+                        properties:
+                          engine:
+                            const: mariadb
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          mariadb:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: mariadb 10.11.8
+                                enum:
+                                  - mariadb 10.11.8
+                                  - mariadb 10.11.7
+                                  - mariadb 10.11.6
+                                  - mariadb 10.11.5
+                                  - mariadb 10.11.4
+                                  - mariadb 10.6.18
+                                  - mariadb 10.6.17
+                                  - mariadb 10.6.16
+                                  - mariadb 10.6.15
+                                  - mariadb 10.6.14
+                                  - mariadb 10.6.13
+                                  - mariadb 10.5.25
+                                  - mariadb 10.5.24
+                                  - mariadb 10.5.23
+                                  - mariadb 10.5.22
+                                  - mariadb 10.5.21
+                                  - mariadb 10.5.20
+                                  - mariadb 10.4.34
+                                  - mariadb 10.4.33
+                                  - mariadb 10.4.32
+                                  - mariadb 10.4.31
+                                  - mariadb 10.4.30
+                                  - mariadb 10.4.29
+                              instance-size:
+                                title: Instance size
+                                type: string
+                                default: db.r6g.large
+                                enum:
+                                  - db.r6g.large
+                                  - db.r6g.xlarge
+                                enumNames:
+                                  - 'Dev/test: db.r6g.large, 2 vCPUs, 16 GiB RAM, 100 GiB'
+                                  - 'Production: db.r6g.xlarge, 4 vCPUs, 32 GiB RAM, 500 GiB'
+                              cluster-configuration:
+                                title: Cluster configuration
+                                type: number
+                                default: 1
+                                enum:
+                                  - 1
+                                enumNames:
+                                  - Single replica - no clustering
+                                ui:options:
+                                  disabled: true
+                    - if:
+                        properties:
+                          engine:
+                            const: mysql
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          mysql:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: mysql 8.0.37
+                                enum:
+                                  - mysql 8.0.37
+                                  - mysql 8.0.36
+                                  - mysql 8.0.35
+                                  - mysql 8.0.34
+                                  - mysql 8.0.33
+                                  - mysql 8.0.32
+                                  - mysql 5.7.44-rds.20240529
+                                  - mysql 5.7.44-rds.20240408
+                                  - mysql 5.7.44
+                              instance-size:
+                                title: Instance size
+                                type: string
+                                default: db.r6g.large
+                                enum:
+                                  - db.r6g.large
+                                  - db.r6g.xlarge
+                                enumNames:
+                                  - 'Dev/test: db.r6g.large, 2 vCPUs, 16 GiB RAM, 100 GiB'
+                                  - 'Production: db.r6g.xlarge, 4 vCPUs, 32 GiB RAM, 500 GiB'
+                              cluster-configuration:
+                                title: Cluster configuration
+                                type: number
+                                default: 1
+                                enum:
+                                  - 1
+                                enumNames:
+                                  - Single replica - no clustering
+                                ui:options:
+                                  disabled: true
+  cache:
+    title: ''
+    properties:
+      enabled:
+        title: Cache
+        type: boolean
+        ui:help: Redis- or Memcached-compatilble, provided through AWS ElastiCache.
+    dependencies:
+      enabled:
+        allOf:
+          - if:
+              properties:
+                enabled:
+                  const: true
+            then:
+              properties:
+                engine:
+                  title: Engine
+                  type: string
+                  default: redis
+                  enum:
+                    - redis
+                  enumNames:
+                    - Redis
+              dependencies:
+                engine:
+                  allOf:
+                    - if:
+                        properties:
+                          engine:
+                            const: redis
+                        required:
+                          - engine
+                      then:
+                        properties:
+                          redis:
+                            title: ''
+                            properties:
+                              version:
+                                title: Version
+                                type: string
+                                default: redis 7.1
+                                enum:
+                                  - redis 7.1
+                                  - redis 7.0
+                                  - redis 6.2
+                                  - redis 6.0
+                                  - redis 5.0.6
+                                  - redis 5.0.5
+                                  - redis 5.0.4
+                                  - redis 5.0.3
+                                  - redis 5.0.0
+                                  - redis 4.0.10
