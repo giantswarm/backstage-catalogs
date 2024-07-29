@@ -218,8 +218,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/auth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/auth-bundle/tree/main
         giantswarm.io/deployment-names: auth-bundle,auth-bundle-app
-        giantswarm.io/latest-release-date: "2024-07-09T06:14:07Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2024-07-25T11:58:43Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/auth-bundle
 spec:
     type: service
@@ -664,8 +664,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-01-23T14:05:43Z"
-        giantswarm.io/latest-release-tag: 1.24.18-gs6
+        giantswarm.io/latest-release-date: "2024-07-25T10:32:04Z"
+        giantswarm.io/latest-release-tag: 1.26.22-gs1
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -684,8 +684,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2024-01-23T14:06:38Z"
-        giantswarm.io/latest-release-tag: 1.24.18-gs6
+        giantswarm.io/latest-release-date: "2024-07-25T12:10:10Z"
+        giantswarm.io/latest-release-tag: 1.26.22-gs2
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-07-09T13:29:07Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2024-07-25T09:19:40Z"
+        giantswarm.io/latest-release-tag: 0.30.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1427,8 +1427,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-cleaner-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-cleaner-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-api-cleaner-cloud-director,cluster-api-cleaner-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-03-12T09:08:08Z"
-        giantswarm.io/latest-release-tag: 0.4.2
+        giantswarm.io/latest-release-date: "2024-07-25T14:00:37Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/cluster-api-cleaner-cloud-director
 spec:
     type: service
@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-07-22T20:16:31Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2024-07-26T10:36:25Z"
+        giantswarm.io/latest-release-tag: 1.3.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -1687,8 +1687,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-07-23T09:49:26Z"
-        giantswarm.io/latest-release-tag: 0.17.0
+        giantswarm.io/latest-release-date: "2024-07-25T15:00:15Z"
+        giantswarm.io/latest-release-tag: 0.18.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1727,8 +1727,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-07-18T09:50:54Z"
-        giantswarm.io/latest-release-tag: 0.56.1
+        giantswarm.io/latest-release-date: "2024-07-25T11:57:51Z"
+        giantswarm.io/latest-release-tag: 0.56.2
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2137,8 +2137,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/deletion-blocker-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/deletion-blocker-operator/tree/main
         giantswarm.io/deployment-names: deletion-blocker-operator,deletion-blocker-operator-app
-        giantswarm.io/latest-release-date: "2024-01-17T14:23:11Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2024-07-25T13:45:30Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/deletion-blocker-operator
 spec:
     type: service
@@ -2177,8 +2177,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2024-07-18T14:14:39Z"
-        giantswarm.io/latest-release-tag: 1.42.11
+        giantswarm.io/latest-release-date: "2024-07-25T11:43:27Z"
+        giantswarm.io/latest-release-tag: 1.42.12
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -2200,8 +2200,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-operator/tree/main
         giantswarm.io/deployment-names: dex-operator,dex-operator-app
-        giantswarm.io/latest-release-date: "2023-12-06T15:38:26Z"
-        giantswarm.io/latest-release-tag: 0.12.1
+        giantswarm.io/latest-release-date: "2024-07-25T12:04:52Z"
+        giantswarm.io/latest-release-tag: 0.12.2
         github.com/project-slug: giantswarm/dex-operator
 spec:
     type: service
@@ -2320,8 +2320,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dns-operator-route53
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dns-operator-route53/tree/main
         giantswarm.io/deployment-names: dns-operator-route53,dns-operator-route53-app
-        giantswarm.io/latest-release-date: "2024-04-01T13:36:41Z"
-        giantswarm.io/latest-release-tag: 0.8.3
+        giantswarm.io/latest-release-date: "2024-07-25T14:31:56Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/dns-operator-route53
 spec:
     type: service
@@ -3548,8 +3548,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-07-22T08:32:19Z"
-        giantswarm.io/latest-release-tag: 0.10.1
+        giantswarm.io/latest-release-date: "2024-07-25T13:41:26Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
