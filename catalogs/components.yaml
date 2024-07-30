@@ -624,8 +624,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-ad-pod-identity-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-ad-pod-identity-app/tree/main
         giantswarm.io/deployment-names: azure-ad-pod-identity,azure-ad-pod-identity-app
-        giantswarm.io/latest-release-date: "2024-04-02T07:50:56Z"
-        giantswarm.io/latest-release-tag: 0.15.3
+        giantswarm.io/latest-release-date: "2024-07-29T13:03:41Z"
+        giantswarm.io/latest-release-tag: 0.15.4
         github.com/project-slug: giantswarm/azure-ad-pod-identity-app
 spec:
     type: service
