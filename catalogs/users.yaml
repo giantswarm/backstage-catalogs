@@ -197,18 +197,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: StephanRenelt
-    namespace: giantswarm
-    description: "In K8s since 2017\r\n- loodse\r\n- kubermatic\r\n- kasten\r\n- Giant Swarm"
-spec:
-    profile:
-        displayName: Stephan Renelt
-        picture: https://avatars.githubusercontent.com/u/83393848?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: Strigix
     namespace: giantswarm
 spec:

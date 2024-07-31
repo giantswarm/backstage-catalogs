@@ -198,8 +198,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/athena
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/athena/tree/main
         giantswarm.io/deployment-names: athena,athena-app
-        giantswarm.io/latest-release-date: "2024-06-12T08:04:50Z"
-        giantswarm.io/latest-release-tag: 1.12.2
+        giantswarm.io/latest-release-date: "2024-07-30T09:16:02Z"
+        giantswarm.io/latest-release-tag: 1.12.3
         github.com/project-slug: giantswarm/athena
 spec:
     type: service
@@ -824,13 +824,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azuredisk-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azuredisk-csi-driver-app/tree/main
         giantswarm.io/deployment-names: azuredisk-csi-driver,azuredisk-csi-driver-app
-        giantswarm.io/latest-release-date: "2023-07-14T14:14:08Z"
-        giantswarm.io/latest-release-tag: 1.27.0
+        giantswarm.io/latest-release-date: "2024-07-30T20:19:12Z"
+        giantswarm.io/latest-release-tag: 1.30.2-gs2
         github.com/project-slug: giantswarm/azuredisk-csi-driver-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/unspecified
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-07-25T09:19:40Z"
-        giantswarm.io/latest-release-tag: 0.30.0
+        giantswarm.io/latest-release-date: "2024-07-30T13:50:25Z"
+        giantswarm.io/latest-release-tag: 0.31.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1129,8 +1129,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-app/tree/main
         giantswarm.io/deployment-names: cert-manager,cert-manager-app
-        giantswarm.io/latest-release-date: "2024-07-10T11:50:51Z"
-        giantswarm.io/latest-release-tag: 3.8.0
+        giantswarm.io/latest-release-date: "2024-07-30T09:42:20Z"
+        giantswarm.io/latest-release-tag: 3.8.1
         github.com/project-slug: giantswarm/cert-manager-app
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-24T14:45:52Z"
-        giantswarm.io/latest-release-tag: 0.57.1
+        giantswarm.io/latest-release-date: "2024-07-30T12:44:31Z"
+        giantswarm.io/latest-release-tag: 0.58.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3133,8 +3133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2024-07-23T09:03:35Z"
-        giantswarm.io/latest-release-tag: 4.2.0
+        giantswarm.io/latest-release-date: "2024-07-30T11:43:40Z"
+        giantswarm.io/latest-release-tag: 4.3.0
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
@@ -3755,8 +3755,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/organization-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/organization-operator/tree/main
         giantswarm.io/deployment-names: organization-operator,organization-operator-app
-        giantswarm.io/latest-release-date: "2024-03-12T12:43:55Z"
-        giantswarm.io/latest-release-tag: 1.6.3
+        giantswarm.io/latest-release-date: "2024-07-30T09:17:24Z"
+        giantswarm.io/latest-release-tag: 1.6.4
         github.com/project-slug: giantswarm/organization-operator
 spec:
     type: service
