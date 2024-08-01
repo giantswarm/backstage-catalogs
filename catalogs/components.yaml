@@ -664,8 +664,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-07-25T10:32:04Z"
-        giantswarm.io/latest-release-tag: 1.26.22-gs1
+        giantswarm.io/latest-release-date: "2024-07-31T07:31:49Z"
+        giantswarm.io/latest-release-tag: 1.26.22-gs2
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-30T12:44:31Z"
-        giantswarm.io/latest-release-tag: 0.58.0
+        giantswarm.io/latest-release-date: "2024-07-31T11:46:21Z"
+        giantswarm.io/latest-release-tag: 0.58.1
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3939,8 +3939,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-22T13:09:39Z"
-        giantswarm.io/latest-release-tag: 4.8.1
+        giantswarm.io/latest-release-date: "2024-07-31T10:11:58Z"
+        giantswarm.io/latest-release-tag: 4.8.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
