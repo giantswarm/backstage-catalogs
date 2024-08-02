@@ -187,7 +187,6 @@ spec:
         - luca-rui
         - othylmann
         - pipo02mix
-        - tomcarron
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group

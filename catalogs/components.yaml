@@ -1467,8 +1467,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-api-cleaner-vsphere,cluster-api-cleaner-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-24T09:29:28Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-08-01T09:14:39Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/cluster-api-cleaner-vsphere
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-31T11:46:21Z"
-        giantswarm.io/latest-release-tag: 0.58.1
+        giantswarm.io/latest-release-date: "2024-08-01T09:28:34Z"
+        giantswarm.io/latest-release-tag: 0.58.2
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -1977,8 +1977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2024-07-03T14:24:55Z"
-        giantswarm.io/latest-release-tag: 3.21.0
+        giantswarm.io/latest-release-date: "2024-08-01T09:16:50Z"
+        giantswarm.io/latest-release-tag: 3.22.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -3939,8 +3939,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-07-31T10:11:58Z"
-        giantswarm.io/latest-release-tag: 4.8.2
+        giantswarm.io/latest-release-date: "2024-08-01T12:49:49Z"
+        giantswarm.io/latest-release-tag: 4.9.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4463,8 +4463,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/upgrade-schedule-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/upgrade-schedule-operator/tree/master
         giantswarm.io/deployment-names: upgrade-schedule-operator,upgrade-schedule-operator-app
-        giantswarm.io/latest-release-date: "2024-03-27T10:17:34Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2024-08-01T14:36:39Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/upgrade-schedule-operator
 spec:
     type: service
