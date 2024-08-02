@@ -774,18 +774,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: tomcarron
-    namespace: giantswarm
-    description: "Recovering Astrophysicist.\r\n"
-spec:
-    profile:
-        displayName: Tom Carron
-        picture: https://avatars.githubusercontent.com/u/72758299?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: tommyhobin
     namespace: giantswarm
     description: 'Inbound Marketing Strategy :: Content Coordination & Distribution :: Social Media Implementation :: Email Marketing Analysis :: HubSpot Certified'
