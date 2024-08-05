@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-08-01T09:28:34Z"
-        giantswarm.io/latest-release-tag: 0.58.2
+        giantswarm.io/latest-release-date: "2024-08-04T19:29:51Z"
+        giantswarm.io/latest-release-tag: 0.58.3
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
