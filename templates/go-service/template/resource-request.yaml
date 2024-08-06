@@ -2,7 +2,7 @@
 apiVersion: promise.platform.giantswarm.io/v1beta1
 kind: githubrepo
 metadata:
-  name: ${{ values.name }}
+  name: ${{ values.project.name }}
 spec:
   destinationNamespace: default
   database:

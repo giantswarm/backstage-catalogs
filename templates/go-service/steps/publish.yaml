@@ -10,5 +10,5 @@ input:
     ### New Go service: ${{ parameters.name }}
 
     ${{ parameters.description if parameters.description }}
-  # targetPath: catalog
+  targetPath: management-clusters/golem/organizations/demotech/workload-clusters/demo/kratix
   token: ${{ secrets.USER_OAUTH_TOKEN }}
