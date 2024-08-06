@@ -19,4 +19,4 @@ input:
     cache:
       enabled: ${{ parameters.cache.enabled }}
       engine: ${{ parameters.cache.engine }}
-      version: ${{ parameters.cache[parameters.cache.engine]['version'] }}
+      version: ${{ parameters.cache[parameters.cache.engine]['engineVersion'] }}
