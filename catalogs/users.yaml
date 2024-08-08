@@ -352,18 +352,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: erkanerol
-    namespace: giantswarm
-    description: Software Developer
-spec:
-    profile:
-        displayName: Erkan Erol
-        picture: https://avatars.githubusercontent.com/u/6574144?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: fhielpos
     namespace: giantswarm
 spec:
@@ -482,7 +470,7 @@ metadata:
     description: SRE @giantswarm
 spec:
     profile:
-        displayName: Paweł Kopiczko
+        displayName: Pawel Kopiczko
         picture: https://avatars.githubusercontent.com/u/4608994?v=4
     memberOf: []
 ---
