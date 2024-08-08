@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-07-30T13:50:25Z"
-        giantswarm.io/latest-release-tag: 0.31.0
+        giantswarm.io/latest-release-date: "2024-08-06T13:42:12Z"
+        giantswarm.io/latest-release-tag: 0.32.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1387,8 +1387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-07-24T11:16:17Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2024-08-07T08:56:38Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-07-26T10:36:25Z"
-        giantswarm.io/latest-release-tag: 1.3.0
+        giantswarm.io/latest-release-date: "2024-08-07T12:02:38Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2953,8 +2953,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2024-07-23T12:20:47Z"
-        giantswarm.io/latest-release-tag: 0.29.2
+        giantswarm.io/latest-release-date: "2024-08-06T13:10:24Z"
+        giantswarm.io/latest-release-tag: 0.29.3
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -3548,8 +3548,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-07-25T13:41:26Z"
-        giantswarm.io/latest-release-tag: 0.11.0
+        giantswarm.io/latest-release-date: "2024-08-07T13:51:14Z"
+        giantswarm.io/latest-release-tag: 0.11.1
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -3857,7 +3857,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: prometheus-meta-operator
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
         giantswarm.io/latest-release-date: "2024-07-04T08:58:20Z"
         giantswarm.io/latest-release-tag: 4.78.1
@@ -3939,8 +3939,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-08-01T12:49:49Z"
-        giantswarm.io/latest-release-tag: 4.9.0
+        giantswarm.io/latest-release-date: "2024-08-06T12:03:52Z"
+        giantswarm.io/latest-release-tag: 4.9.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4019,8 +4019,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/rbac-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/rbac-operator/tree/main
         giantswarm.io/deployment-names: rbac-operator,rbac-operator-app
-        giantswarm.io/latest-release-date: "2024-01-25T12:57:03Z"
-        giantswarm.io/latest-release-tag: 0.41.0
+        giantswarm.io/latest-release-date: "2024-08-07T09:05:00Z"
+        giantswarm.io/latest-release-tag: 0.41.1
         github.com/project-slug: giantswarm/rbac-operator
 spec:
     type: service
