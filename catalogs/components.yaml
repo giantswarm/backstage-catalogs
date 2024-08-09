@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-08-06T13:42:12Z"
-        giantswarm.io/latest-release-tag: 0.32.0
+        giantswarm.io/latest-release-date: "2024-08-09T15:35:15Z"
+        giantswarm.io/latest-release-tag: 0.32.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
