@@ -658,14 +658,14 @@ metadata:
     name: azure-cloud-controller-manager-app
     namespace: giantswarm
     title: azure-cloud-controller-manager-app
-    description: A Helm chart to run Azure Cloud Controller Manager
+    description: A Helm chart for the Azure Cloud Controller Manager.
     annotations:
         backstage.io/kubernetes-id: azure-cloud-controller-manager-app
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-07-31T07:31:49Z"
-        giantswarm.io/latest-release-tag: 1.26.22-gs2
+        giantswarm.io/latest-release-date: "2024-08-12T16:00:08Z"
+        giantswarm.io/latest-release-tag: 1.28.10-gs1
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -678,14 +678,14 @@ metadata:
     name: azure-cloud-node-manager-app
     namespace: giantswarm
     title: azure-cloud-node-manager-app
-    description: A Helm chart to run Azure Cloud Node Manager
+    description: A Helm chart for the Azure Cloud Node Manager.
     annotations:
         backstage.io/kubernetes-id: azure-cloud-node-manager-app
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2024-07-25T12:10:10Z"
-        giantswarm.io/latest-release-tag: 1.26.22-gs2
+        giantswarm.io/latest-release-date: "2024-08-12T16:05:02Z"
+        giantswarm.io/latest-release-tag: 1.28.10-gs1
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -1281,8 +1281,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-healthcheck
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-healthcheck/tree/main
         giantswarm.io/deployment-names: cilium-healthcheck,cilium-healthcheck-app
-        giantswarm.io/latest-release-date: "2024-05-31T09:31:45Z"
-        giantswarm.io/latest-release-tag: 0.0.2
+        giantswarm.io/latest-release-date: "2024-08-12T09:39:07Z"
+        giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/cilium-healthcheck
 spec:
     type: service
@@ -1341,8 +1341,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloud-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloud-provider-vsphere-app/tree/master
         giantswarm.io/deployment-names: cloud-provider-vsphere,cloud-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2024-07-08T11:33:22Z"
-        giantswarm.io/latest-release-tag: 1.10.0
+        giantswarm.io/latest-release-date: "2024-08-12T11:32:32Z"
+        giantswarm.io/latest-release-tag: 1.11.0
         github.com/project-slug: giantswarm/cloud-provider-vsphere-app
 spec:
     type: service
@@ -1687,8 +1687,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-07-25T15:00:15Z"
-        giantswarm.io/latest-release-tag: 0.18.0
+        giantswarm.io/latest-release-date: "2024-08-12T14:35:42Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1853,8 +1853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-08-04T19:29:51Z"
-        giantswarm.io/latest-release-tag: 0.58.3
+        giantswarm.io/latest-release-date: "2024-08-12T11:37:05Z"
+        giantswarm.io/latest-release-tag: 0.59.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3448,8 +3448,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-08-08T10:39:05Z"
-        giantswarm.io/latest-release-tag: 0.7.1
+        giantswarm.io/latest-release-date: "2024-08-12T10:42:28Z"
+        giantswarm.io/latest-release-tag: 0.7.2
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
