@@ -198,8 +198,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/athena
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/athena/tree/main
         giantswarm.io/deployment-names: athena,athena-app
-        giantswarm.io/latest-release-date: "2024-07-30T09:16:02Z"
-        giantswarm.io/latest-release-tag: 1.12.3
+        giantswarm.io/latest-release-date: "2024-08-13T13:00:41Z"
+        giantswarm.io/latest-release-tag: 1.12.4
         github.com/project-slug: giantswarm/athena
 spec:
     type: service
@@ -318,8 +318,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-crossplane-cluster-config-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-crossplane-cluster-config-operator/tree/main
         giantswarm.io/deployment-names: aws-crossplane-cluster-config-operator,aws-crossplane-cluster-config-operator-app
-        giantswarm.io/latest-release-date: "2024-04-25T08:47:53Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2024-08-14T11:38:03Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/aws-crossplane-cluster-config-operator
 spec:
     type: service
@@ -604,8 +604,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-vpc-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-vpc-operator/tree/main
         giantswarm.io/deployment-names: aws-vpc-operator,aws-vpc-operator-app
-        giantswarm.io/latest-release-date: "2024-07-24T09:39:55Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2024-08-14T12:25:06Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/aws-vpc-operator
 spec:
     type: service
@@ -664,8 +664,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-08-12T16:00:08Z"
-        giantswarm.io/latest-release-tag: 1.28.10-gs1
+        giantswarm.io/latest-release-date: "2024-08-13T11:34:45Z"
+        giantswarm.io/latest-release-tag: 1.29.8-gs1
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -684,8 +684,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2024-08-12T16:05:02Z"
-        giantswarm.io/latest-release-tag: 1.28.10-gs1
+        giantswarm.io/latest-release-date: "2024-08-13T11:34:39Z"
+        giantswarm.io/latest-release-tag: 1.29.8-gs1
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -1109,8 +1109,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2024-07-05T13:16:09Z"
-        giantswarm.io/latest-release-tag: 2.9.1
+        giantswarm.io/latest-release-date: "2024-08-13T15:15:13Z"
+        giantswarm.io/latest-release-tag: 2.9.2
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -1474,6 +1474,26 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-rocket
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: cluster-api-events
+    namespace: giantswarm
+    title: cluster-api-events
+    description: Operator for sending cluster events.
+    annotations:
+        backstage.io/kubernetes-id: cluster-api-events
+        backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-events
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-events/tree/main
+        giantswarm.io/deployment-names: cluster-api-events,cluster-api-events-app
+        giantswarm.io/latest-release-date: "2024-08-14T18:07:36Z"
+        giantswarm.io/latest-release-tag: 0.1.6
+        github.com/project-slug: giantswarm/cluster-api-events
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -2400,8 +2420,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/encryption-provider-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/encryption-provider-operator/tree/master
         giantswarm.io/deployment-names: encryption-provider-operator,encryption-provider-operator-app
-        giantswarm.io/latest-release-date: "2024-01-17T15:32:52Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2024-08-13T15:26:06Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/encryption-provider-operator
 spec:
     type: service
@@ -3448,8 +3468,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-08-12T10:42:28Z"
-        giantswarm.io/latest-release-tag: 0.7.2
+        giantswarm.io/latest-release-date: "2024-08-13T10:05:24Z"
+        giantswarm.io/latest-release-tag: 0.7.3
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3755,8 +3775,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/organization-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/organization-operator/tree/main
         giantswarm.io/deployment-names: organization-operator,organization-operator-app
-        giantswarm.io/latest-release-date: "2024-08-08T08:41:48Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2024-08-13T11:09:34Z"
+        giantswarm.io/latest-release-tag: 2.0.1
         github.com/project-slug: giantswarm/organization-operator
 spec:
     type: service
