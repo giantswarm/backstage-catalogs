@@ -218,8 +218,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/auth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/auth-bundle/tree/main
         giantswarm.io/deployment-names: auth-bundle,auth-bundle-app
-        giantswarm.io/latest-release-date: "2024-07-25T11:58:43Z"
-        giantswarm.io/latest-release-tag: 0.2.1
+        giantswarm.io/latest-release-date: "2024-08-15T13:37:09Z"
+        giantswarm.io/latest-release-tag: 0.2.2
         github.com/project-slug: giantswarm/auth-bundle
 spec:
     type: service
@@ -1387,8 +1387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-08-07T08:56:38Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2024-08-15T08:55:50Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
