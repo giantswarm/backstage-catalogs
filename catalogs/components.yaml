@@ -1387,8 +1387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-08-15T08:55:50Z"
-        giantswarm.io/latest-release-tag: 1.2.0
+        giantswarm.io/latest-release-date: "2024-08-19T07:57:57Z"
+        giantswarm.io/latest-release-tag: 1.2.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1487,8 +1487,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-events
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-events/tree/main
         giantswarm.io/deployment-names: cluster-api-events,cluster-api-events-app
-        giantswarm.io/latest-release-date: "2024-08-14T18:07:36Z"
-        giantswarm.io/latest-release-tag: 0.1.6
+        giantswarm.io/latest-release-date: "2024-08-16T15:07:14Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/cluster-api-events
 spec:
     type: service
@@ -1647,8 +1647,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2024-07-18T09:33:22Z"
-        giantswarm.io/latest-release-tag: 2.23.0
+        giantswarm.io/latest-release-date: "2024-08-19T07:43:52Z"
+        giantswarm.io/latest-release-tag: 2.23.1
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -2340,8 +2340,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dns-operator-route53
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dns-operator-route53/tree/main
         giantswarm.io/deployment-names: dns-operator-route53,dns-operator-route53-app
-        giantswarm.io/latest-release-date: "2024-07-25T14:31:56Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2024-08-19T12:00:32Z"
+        giantswarm.io/latest-release-tag: 0.9.1
         github.com/project-slug: giantswarm/dns-operator-route53
 spec:
     type: service
@@ -3153,8 +3153,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2024-07-30T11:43:40Z"
-        giantswarm.io/latest-release-tag: 4.3.0
+        giantswarm.io/latest-release-date: "2024-08-19T09:55:52Z"
+        giantswarm.io/latest-release-tag: 4.4.0
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
@@ -3568,8 +3568,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-08-07T13:51:14Z"
-        giantswarm.io/latest-release-tag: 0.11.1
+        giantswarm.io/latest-release-date: "2024-08-19T09:20:45Z"
+        giantswarm.io/latest-release-tag: 0.12.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -4339,8 +4339,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-operator/tree/main
         giantswarm.io/deployment-names: teleport-operator,teleport-operator-app
-        giantswarm.io/latest-release-date: "2024-05-08T11:38:47Z"
-        giantswarm.io/latest-release-tag: 0.9.3
+        giantswarm.io/latest-release-date: "2024-08-19T11:29:16Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/teleport-operator
     tags:
         - Teleport
