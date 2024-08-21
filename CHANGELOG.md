@@ -11,6 +11,7 @@ change to structure the log.
 
 - `go-service` template improvements:
   - use GSStepLayout for form steps;
+  - update ESO step wordings.
 
 ## 2024-07-25
 
