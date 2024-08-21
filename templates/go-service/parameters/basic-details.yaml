@@ -1,4 +1,7 @@
 title: Basic details
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  formWidth: 1200
 required:
   - name
   - description

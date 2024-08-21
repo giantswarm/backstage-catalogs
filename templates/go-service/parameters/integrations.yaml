@@ -1,6 +1,9 @@
 title: Integrations
 description: Select the integrations you'd like to have created for your service.
-ui:ObjectFieldTemplate: GSIntegrations
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  note: '**Note:** To help reduce costs with your infrastructure deployment, this will be deployed to an adjacent VPC in the same region, using the same availability zones as `${{deployment.installationName}}/${{deployment.clusterName}}`.'
+  formWidth: 1200
 properties:
   vpc:
     type: object
@@ -472,11 +475,10 @@ properties:
                                     minimum: 0
   eso:
     type: object
-    title: ESO
-    description: External Secrets
+    title: Secrets management
     properties:
       enabled:
-        title: Enabled
+        title: Use External Secrets Operator
         type: boolean
         default: true
     dependencies:
@@ -501,9 +503,15 @@ properties:
                         title: Enabled
                         type: boolean
                       isClusterSecterStore:
-                        title: Is cluster secret store?
+                        title: Secret store scope
                         type: boolean
                         default: false
+                        ui:widget: radio
+                        oneOf:
+                          - const: true
+                            title: Cluster
+                          - const: false
+                            title: Namespace
                     dependencies:
                       isClusterSecterStore:
                         allOf:
