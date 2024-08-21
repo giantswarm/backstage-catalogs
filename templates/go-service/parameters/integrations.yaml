@@ -1,6 +1,9 @@
 title: Integrations
 description: Select the integrations you'd like to have created for your service.
-ui:ObjectFieldTemplate: GSIntegrations
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  note: '**Note:** To help reduce costs with your infrastructure deployment, this will be deployed to an adjacent VPC in the same region, using the same availability zones as `${{deployment.installationName}}/${{deployment.clusterName}}`.'
+  formWidth: 1200
 properties:
   vpc:
     type: object
