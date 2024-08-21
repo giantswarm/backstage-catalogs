@@ -55,8 +55,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-app/tree/main
         giantswarm.io/deployment-names: alloy,alloy-app
-        giantswarm.io/latest-release-date: "2024-07-24T14:23:39Z"
-        giantswarm.io/latest-release-tag: 0.3.1
+        giantswarm.io/latest-release-date: "2024-08-20T12:56:35Z"
+        giantswarm.io/latest-release-tag: 0.4.1
         github.com/project-slug: giantswarm/alloy-app
 spec:
     type: service
@@ -1233,8 +1233,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2024-08-08T12:18:09Z"
-        giantswarm.io/latest-release-tag: 0.26.0
+        giantswarm.io/latest-release-date: "2024-08-20T14:43:34Z"
+        giantswarm.io/latest-release-tag: 0.27.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - BPF
@@ -3715,8 +3715,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-08-08T10:29:13Z"
-        giantswarm.io/latest-release-tag: 1.5.3
+        giantswarm.io/latest-release-date: "2024-08-20T13:03:23Z"
+        giantswarm.io/latest-release-tag: 1.6.1
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
@@ -3959,8 +3959,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-08-06T12:03:52Z"
-        giantswarm.io/latest-release-tag: 4.9.1
+        giantswarm.io/latest-release-date: "2024-08-20T13:17:59Z"
+        giantswarm.io/latest-release-tag: 4.10.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4361,8 +4361,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-tbot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-tbot/tree/main
         giantswarm.io/deployment-names: teleport-tbot,teleport-tbot-app
-        giantswarm.io/latest-release-date: "2024-03-21T08:47:06Z"
-        giantswarm.io/latest-release-tag: 0.0.5
+        giantswarm.io/latest-release-date: "2024-08-20T18:09:21Z"
+        giantswarm.io/latest-release-tag: 0.0.9
         github.com/project-slug: giantswarm/teleport-tbot
     tags:
         - Teleport
