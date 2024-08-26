@@ -96,18 +96,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: LolloneS
-    namespace: giantswarm
-    description: computer scientist | university tutor | (ex) research fellow | gsoc 2018 student
-spec:
-    profile:
-        displayName: Lorenzo
-        picture: https://avatars.githubusercontent.com/u/17729031?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: LutzLange
     namespace: giantswarm
 spec:
