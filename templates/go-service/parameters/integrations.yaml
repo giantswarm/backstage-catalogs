@@ -35,7 +35,7 @@ properties:
         title: Admin user name
         type: string
         description: Some user names are reserved, depending on the selected engine. We recommend to use the auto-generated user name.
-        pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
+        pattern: ^[a-z][a-z0-9]*$
         ui:field: GSTemplateStringInput
         ui:options:
           initialValue: 'admin${{generateUID(5)}}'
