@@ -56,8 +56,6 @@ spec:
       transitEncryptionEnabled: true
 
     database:
-      allocatedStorage: 100
-
       {% if (values.database.engine == 'aurora-postgresql' or values.database.engine == 'aurora-mysql') and values.database.autoscalingEnabled %}
       autoscaling:
         enabled: true
@@ -90,6 +88,7 @@ spec:
       createCluster: true
       storageType: aurora
       {% else %}
+      allocatedStorage: 100
       createCluster: false
       storageType: io1
       iops: 1000
