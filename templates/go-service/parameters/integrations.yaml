@@ -38,7 +38,7 @@ properties:
         pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
         ui:field: GSTemplateStringInput
         ui:options:
-          initialValue: 'admin-${{generateUID(5)}}'
+          initialValue: 'admin${{generateUID(5)}}'
       engine:
         type: object
         title: ''
