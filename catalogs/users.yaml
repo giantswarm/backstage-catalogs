@@ -85,47 +85,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: KBalani1
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Karan Balani
-        picture: https://avatars.githubusercontent.com/u/116093613?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: LutzLange
     namespace: giantswarm
 spec:
     profile:
         displayName: Lutz Lange
         picture: https://avatars.githubusercontent.com/u/2788194?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: Mircohelle
-    namespace: giantswarm
-    description: 'HR Manager @giantswarm '
-spec:
-    profile:
-        displayName: Mirco Hellekes
-        picture: https://avatars.githubusercontent.com/u/48119832?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: Muhammad-SDR
-    namespace: giantswarm
-    description: Introducing @giantswarm to Cloud native community across the globe
-spec:
-    profile:
-        displayName: Muhammad Arslan
-        picture: https://avatars.githubusercontent.com/u/114907112?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -180,17 +145,6 @@ spec:
     profile:
         displayName: Dominik Kress
         picture: https://avatars.githubusercontent.com/u/16223546?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: Strigix
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Stefan
-        picture: https://avatars.githubusercontent.com/u/64960813?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -284,18 +238,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: bdehri
-    namespace: giantswarm
-    description: "Platform Engineer at Giant Swarm\r\nComputer Engineering, B.Sc Istanbul Technical University\r\nInformatics, M.Sc TUM(dropped)"
-spec:
-    profile:
-        displayName: Berk Dehrioglu
-        picture: https://avatars.githubusercontent.com/u/24752673?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: brinker211
     namespace: giantswarm
 spec:
@@ -307,34 +249,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: carillan81
-    namespace: giantswarm
-    description: Monitoring and DevOps
-spec:
-    profile:
-        displayName: Carlos Arilla
-        picture: https://avatars.githubusercontent.com/u/50299074?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: catalogbot
     namespace: giantswarm
 spec:
     profile:
         displayName: CatalogBot
         picture: https://avatars.githubusercontent.com/u/50668443?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: ericgraf
-    namespace: giantswarm
-spec:
-    profile:
-        picture: https://avatars.githubusercontent.com/u/10202691?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -431,17 +351,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: high-vibe-onix
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Georgie
-        picture: https://avatars.githubusercontent.com/u/50775589?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: iuriaranda
     namespace: giantswarm
 spec:
@@ -510,18 +419,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: marieroque
-    namespace: giantswarm
-    description: Devops Engineer
-spec:
-    profile:
-        displayName: Marie Roque
-        picture: https://avatars.githubusercontent.com/u/9134338?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: mcharriere
     namespace: giantswarm
 spec:
@@ -568,18 +465,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: nce
-    namespace: giantswarm
-    description: 'SRE @giantswarm '
-spec:
-    profile:
-        displayName: Ulli Goschler
-        picture: https://avatars.githubusercontent.com/u/770135?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: njuettner
     namespace: giantswarm
     description: "\U0001F3D7\U0001F477\U0001F3FB‍♂️ Platform Engineer"
@@ -587,18 +472,6 @@ spec:
     profile:
         displayName: Nick Jüttner
         picture: https://avatars.githubusercontent.com/u/1936982?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: nprokopic
-    namespace: giantswarm
-    description: Software Engineer | Dabbling with Golang, Kubernetes, Docker
-spec:
-    profile:
-        displayName: Nikola Prokopić
-        picture: https://avatars.githubusercontent.com/u/5638639?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -762,18 +635,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: tuladhar
-    namespace: giantswarm
-    description: '⎈ Kubernetes Solution Architect @giantswarm '
-spec:
-    profile:
-        displayName: Puru
-        picture: https://avatars.githubusercontent.com/u/5674762?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: ubergesundheit
     namespace: giantswarm
 spec:
@@ -791,16 +652,6 @@ spec:
     profile:
         displayName: Laszlo Uveges
         picture: https://avatars.githubusercontent.com/u/1612809?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: vvondruska
-    namespace: giantswarm
-spec:
-    profile:
-        picture: https://avatars.githubusercontent.com/u/2923801?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -824,17 +675,6 @@ spec:
     profile:
         displayName: Lucas Weatherhog
         picture: https://avatars.githubusercontent.com/u/31103312?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: weseven
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Daniel Simionato
-        picture: https://avatars.githubusercontent.com/u/16444?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1

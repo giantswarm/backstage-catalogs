@@ -22,7 +22,6 @@ spec:
         - Rotfuks
         - TheoBrigitte
         - hervenicol
-        - marieroque
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -41,8 +40,6 @@ spec:
         - OnurYilmazGit
         - gawertm
         - ssyno
-        - tuladhar
-        - vvondruska
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -81,7 +78,6 @@ spec:
         - ljakimczuk
         - marians
         - mproffitt
-        - nce
         - piontec
         - uvegla
         - weatherhog
@@ -101,7 +97,6 @@ spec:
     members:
         - JosephSalisbury
         - alex-dabija
-        - carillan81
         - pipo02mix
         - puja108
         - snizhana-dynnyk
@@ -123,7 +118,6 @@ spec:
     members:
         - AndiDog
         - T-Kukawka
-        - bdehri
         - fiunchinho
         - iuriaranda
         - mnitchev
@@ -162,7 +156,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/5904175?s=116&v=4
     children: []
     members:
-        - Strigix
         - fhielpos
         - stone-z
 ---
@@ -200,7 +193,6 @@ spec:
     children: []
     members:
         - AverageMarcus
-        - ericgraf
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
@@ -219,6 +211,4 @@ spec:
     members:
         - Gacko
         - njuettner
-        - nprokopic
-        - weseven
         - yulianedyalkova
