@@ -7,7 +7,7 @@ spec:
   destinationNamespace: default
   database:
     engine: ${{ values.database.engine }}
-    version: ${{ values.database.version }}
+    version: ${{ values.database.engineVersion }}
   repository:
     name: ${{ values.project.name }}
     owner: ${{ values.projectRepository.owner }}
