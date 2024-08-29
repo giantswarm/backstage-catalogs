@@ -1,5 +1,5 @@
 id: fetch-template
-name: Fetch Template
+name: Template resources
 action: fetch:template
 input:
   url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/template
@@ -7,16 +7,33 @@ input:
     project:
       name: ${{ parameters.name }}
       description: ${{ parameters.description }}
+      owner: ${{ parameters.owner | parseEntityRef | pick('name') }}
     projectRepository:
       owner: ${{ parameters.projectRepoOwner }}
     prRepository: ${{ parameters.prRepoUrl | parseRepoUrl }}
+    deployment:
+      installationName: ${{ parameters.deployment.installationName }}
+      clusterName: ${{ parameters.deployment.clusterName }}
+      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
+      mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
+      wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}
     database:
-      enabled: ${{ parameters.database.enabled }}
-      engine: ${{ parameters.database.engine }}
-      version: ${{ parameters.database[parameters.database.engine]['version'] }}
-      cluster-configuration: ${{ parameters.database[parameters.database.engine]['cluster-configuration'] }}
-      instance-size: ${{ parameters.database[parameters.database.engine]['instance-size'] }}
+      adminUsername: ${{ parameters.database.adminUsername }}
+      engine: ${{ parameters.database.engine.engine }}
+      engineVersion: ${{ parameters.database.engine[parameters.database.engine.engine]['engineVersion'] | dump }}
+      autoscalingEnabled: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['enabled'] }}
+      minCapacity: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['minCapacity'] }}
+      maxCapacity: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['maxCapacity'] }}
+      instanceCount: ${{ parameters.database.engine[parameters.database.engine.engine]['instanceCount'] }}
+      instanceSize: ${{ parameters.database.engine[parameters.database.engine.engine]['instanceSize'] }}
     cache:
-      enabled: ${{ parameters.cache.enabled }}
       engine: ${{ parameters.cache.engine }}
-      version: ${{ parameters.cache[parameters.cache.engine]['engineVersion'] }}
+      engineVersion: ${{ parameters.cache[parameters.cache.engine]['engineVersion'] | dump }}
+      nodeType: ${{ parameters.cache[parameters.cache.engine]['nodeType'] }}
+      numCacheClusters: ${{ parameters.cache[parameters.cache.engine]['numCacheClusters'] }}
+      replicationEnabled: ${{ parameters.cache[parameters.cache.engine]['replication']['enabled'] }}
+      numCacheNodes: ${{ parameters.cache[parameters.cache.engine]['replication']['numCacheNodes'] }}
+    eso:
+      enabled: ${{ parameters.eso.enabled }}
+    vpc:
+      cidr: ${{ parameters.vpc.cidr }}

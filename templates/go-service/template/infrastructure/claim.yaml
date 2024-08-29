@@ -1,0 +1,118 @@
+---
+apiVersion: xcomposite.crossplane.giantswarm.io/v1alpha1
+kind: RCCWithRegionLookupClaim
+metadata:
+  name: ${{ values.project.name }}
+  namespace: ${{ values.deployment.clusterNamespace }}
+  labels:
+    owner: ${{ values.project.owner }}
+    provider: aws
+    app.kubernetes.io/name: ${{ values.project.name }}
+    app.kubernetes.io/instance: ${{ values.project.name }}
+    app.kubernetes.io/part-of: ${{ values.project.name }}
+    app.kubernetes.io/managed-by: crossplane
+spec:
+  deletionPolicy: Delete
+  providerConfigRef:
+    name: ${{ values.deployment.wcProviderConfig }}
+  kubernetesProviderConfig:
+    name: default
+  clusterDiscovery:
+    name: ${{ values.deployment.clusterName }}
+    namespace: ${{ values.deployment.clusterNamespace }}
+  managementClusterDiscovery:
+    name: ${{ values.deployment.installationName }}
+    namespace: "org-giantswarm"
+  rdsCacheClusterParameters:
+    eso:
+      enabled: true
+      kubernetesSecretStore: default
+      fluxSSASecretName: fluxssatest
+    cache:
+      {% if values.cache.engine == 'redis' -%}
+      createReplicationGroup: true
+      {% else -%}
+      createReplicationGroup: false
+      {% endif -%}
+      engine: ${{ values.cache.engine }}
+      engineVersion: ${{ values.cache.engineVersion }}
+      nodeType: ${{ values.cache.nodeType }}
+      {% if values.cache.engine == 'memcached' -%}
+      azMode: cross-az
+      {% endif -%}
+      {% if values.cache.engine == 'redis' -%}
+      numCacheClusters: 3
+      {% else -%}
+      numCacheClusters: 1
+      {% endif -%}
+      {% if values.cache.engine == 'memcached' -%}
+      numCacheNodes: 3
+      {% endif -%}
+      transitEncryptionEnabled: true
+    database:
+      {% if (values.database.engine == 'aurora-postgresql' or values.database.engine == 'aurora-mysql') and values.database.autoscalingEnabled -%}
+      autoscaling:
+        enabled: true
+        minCapacity: ${{ values.database.minCapacity }}
+        maxCapacity: ${{ values.database.maxCapacity }}
+      {% endif -%}
+
+      {% if values.database.engine == 'postgresql' or values.database.engine == 'aurora-postgresql' -%}
+      enabledCloudwatchLogsExports:
+        - postgresql
+      {% else -%}
+      enabledCloudwatchLogsExports:
+        - audit
+        - error
+        - general
+        - slowquery
+      {% endif -%}
+      cloudwatchLogGroupParameters:
+        retentionInDays: 7
+        class: standard
+        create: false
+      engine: ${{ values.database.engine }}
+      engineVersion: ${{ values.database.engineVersion }}
+      instanceCount: ${{ values.database.instanceCount }}
+      masterUsername: ${{ values.database.adminUsername }}
+      {% if values.database.engine == 'aurora-mysql' or values.database.engine == 'aurora-postgresql' -%}
+      createCluster: true
+      storageType: aurora
+      {% else -%}
+      allocatedStorage: 100
+      createCluster: false
+      storageType: io1
+      iops: 1000
+      {% endif -%}
+      multiAz: true
+      dbClusterInstanceClass: ${{ values.database.instanceSize }}
+    subnetGroupIndexes:
+      cache: 0
+      database: 1
+    vpc:
+      peering:
+        enabled: true
+        remoteVpcs:
+        - name: ${{ values.deployment.clusterName }}-vpc
+          allowPublic: true
+      transitGateway:
+        enabled: true
+        remoteVpcs:
+        - name: golem-vpc
+          allowPublic: true
+          providerConfigRef:
+            name: ${{ values.deployment.mcProviderConfig }}
+      subnetsets:
+        cidrs:
+        - prefix: ${{ values.vpc.cidr }}
+          public:
+            mask: ""
+            count: 0
+          private:
+            mask: /28
+            count: 2
+      tags:
+        common:
+          giantswarm.io/owner: ${{ values.project.owner }}
+          giantswarm.io/managed-by: crossplane
+          giantswarm.io/part-of: ${{ values.project.name }}
