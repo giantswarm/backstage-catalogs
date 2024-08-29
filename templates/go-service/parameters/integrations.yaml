@@ -466,17 +466,17 @@ properties:
                       title: Node type
                       description: The instance class to use for the cache nodes.
                       type: string
-                      default: t4g.micro
+                      default: cache.t4g.micro
                       enum:
-                        - t4g.micro
-                        - t4g.small
-                        - t4g.medium
-                        - t3.micro
-                        - t3.small
-                        - t3.medium
-                        - t2.micro
-                        - t2.small
-                        - t2.medium
+                        - cache.t4g.micro
+                        - cache.t4g.small
+                        - cache.t4g.medium
+                        - cache.t3.micro
+                        - cache.t3.small
+                        - cache.t3.medium
+                        - cache.t2.micro
+                        - cache.t2.small
+                        - cache.t2.medium
           - if:
               properties:
                 engine:
