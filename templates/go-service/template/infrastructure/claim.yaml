@@ -29,86 +29,72 @@ spec:
       kubernetesSecretStore: default
       fluxSSASecretName: fluxssatest
     cache:
-      {% if values.cache.engine == 'redis' %}
+      {% if values.cache.engine == 'redis' -%}
       createReplicationGroup: true
-      {% else %}
+      {% else -%}
       createReplicationGroup: false
-      {% endif %}
-      
+      {% endif -%}
       engine: ${{ values.cache.engine }}
       engineVersion: ${{ values.cache.engineVersion }}
       nodeType: ${{ values.cache.nodeType }}
-      
-      {% if values.cache.engine == 'memcached' %}
+      {% if values.cache.engine == 'memcached' -%}
       azMode: cross-az
-      {% endif %}
-      
-      {% if values.cache.engine == 'redis' %}
+      {% endif -%}
+      {% if values.cache.engine == 'redis' -%}
       numCacheClusters: 3
-      {% else %}
+      {% else -%}
       numCacheClusters: 1
-      {% endif %}
-      
-      {% if values.cache.engine == 'memcached' %}
+      {% endif -%}
+      {% if values.cache.engine == 'memcached' -%}
       numCacheNodes: 3
-      {% endif %}
-
+      {% endif -%}
       transitEncryptionEnabled: true
-
     database:
-      {% if (values.database.engine == 'aurora-postgresql' or values.database.engine == 'aurora-mysql') and values.database.autoscalingEnabled %}
+      {% if (values.database.engine == 'aurora-postgresql' or values.database.engine == 'aurora-mysql') and values.database.autoscalingEnabled -%}
       autoscaling:
         enabled: true
         minCapacity: ${{ values.database.minCapacity }}
         maxCapacity: ${{ values.database.maxCapacity }}
-      {% endif %}
+      {% endif -%}
 
-      {% if values.database.engine == 'postgresql' or values.database.engine == 'aurora-postgresql' %}
+      {% if values.database.engine == 'postgresql' or values.database.engine == 'aurora-postgresql' -%}
       enabledCloudwatchLogsExports:
         - postgresql
-      {% else %}
+      {% else -%}
       enabledCloudwatchLogsExports:
         - audit
         - error
         - general
         - slowquery
-      {% endif %}
-
+      {% endif -%}
       cloudwatchLogGroupParameters:
         retentionInDays: 7
         class: standard
         create: false
-
       engine: ${{ values.database.engine }}
       engineVersion: ${{ values.database.engineVersion }}
       instanceCount: ${{ values.database.instanceCount }}
       masterUsername: ${{ values.database.adminUsername }}
-      
-      {% if values.database.engine == 'aurora-mysql' or values.database.engine == 'aurora-postgresql' %}
+      {% if values.database.engine == 'aurora-mysql' or values.database.engine == 'aurora-postgresql' -%}
       createCluster: true
       storageType: aurora
-      {% else %}
+      {% else -%}
       allocatedStorage: 100
       createCluster: false
       storageType: io1
       iops: 1000
-      {% endif %}
-
+      {% endif -%}
       multiAz: true
       dbClusterInstanceClass: ${{ values.database.instanceSize }}
-      
-
     subnetGroupIndexes:
       cache: 0
       database: 1
-
     vpc:
       peering:
         enabled: true
         remoteVpcs:
         - name: ${{ values.deployment.clusterName }}-vpc
           allowPublic: true
-
       transitGateway:
         enabled: true
         remoteVpcs:
