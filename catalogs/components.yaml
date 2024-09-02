@@ -55,8 +55,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-app/tree/main
         giantswarm.io/deployment-names: alloy,alloy-app
-        giantswarm.io/latest-release-date: "2024-08-20T12:56:35Z"
-        giantswarm.io/latest-release-tag: 0.4.1
+        giantswarm.io/latest-release-date: "2024-09-02T12:18:35Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/alloy-app
 spec:
     type: service
@@ -1873,8 +1873,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-08-26T17:55:06Z"
-        giantswarm.io/latest-release-tag: 0.61.0
+        giantswarm.io/latest-release-date: "2024-09-02T09:59:25Z"
+        giantswarm.io/latest-release-tag: 0.62.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -2280,8 +2280,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dns-operator-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dns-operator-azure/tree/main
         giantswarm.io/deployment-names: dns-operator-azure,dns-operator-azure-app
-        giantswarm.io/latest-release-date: "2024-08-21T09:15:04Z"
-        giantswarm.io/latest-release-tag: 2.1.1
+        giantswarm.io/latest-release-date: "2024-09-02T13:10:25Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/dns-operator-azure
 spec:
     type: service
@@ -2703,8 +2703,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
-        giantswarm.io/latest-release-date: "2024-08-29T13:40:50Z"
-        giantswarm.io/latest-release-tag: 5.2.0
+        giantswarm.io/latest-release-date: "2024-09-02T11:34:26Z"
+        giantswarm.io/latest-release-tag: 5.2.1
         github.com/project-slug: giantswarm/fluent-logshipping-app
 spec:
     type: service
@@ -2973,8 +2973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2024-08-21T09:49:07Z"
-        giantswarm.io/latest-release-tag: 0.29.4
+        giantswarm.io/latest-release-date: "2024-09-02T11:42:16Z"
+        giantswarm.io/latest-release-tag: 0.30.0
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -3939,8 +3939,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite-app/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2024-06-27T14:47:33Z"
-        giantswarm.io/latest-release-tag: 0.2.3
+        giantswarm.io/latest-release-date: "2024-09-02T13:52:22Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/prometheus-remotewrite-app
 spec:
     type: service
