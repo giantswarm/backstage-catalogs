@@ -5,8 +5,8 @@ input:
   url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/template
   values:
     project:
-      name: ${{ parameters.name }}
-      description: ${{ parameters.description }}
+      name: ${{ parameters.name | dump }}
+      description: ${{ parameters.description | dump }}
       owner: ${{ parameters.owner | parseEntityRef | pick('name') }}
     projectRepository:
       owner: ${{ parameters.projectRepoOwner }}
