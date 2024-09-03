@@ -55,8 +55,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-app/tree/main
         giantswarm.io/deployment-names: alloy,alloy-app
-        giantswarm.io/latest-release-date: "2024-09-02T12:18:35Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2024-09-03T07:35:47Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/alloy-app
 spec:
     type: service
@@ -1873,8 +1873,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-09-02T09:59:25Z"
-        giantswarm.io/latest-release-tag: 0.62.0
+        giantswarm.io/latest-release-date: "2024-09-03T08:00:56Z"
+        giantswarm.io/latest-release-tag: 0.63.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -2017,7 +2017,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/debug-toolbox
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/debug-toolbox/tree/main
         giantswarm.io/deployment-names: debug-toolbox,debug-toolbox-app
-        giantswarm.io/latest-release-date: "2024-09-02T19:10:02Z"
+        giantswarm.io/latest-release-date: "2024-09-03T09:30:48Z"
         giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/debug-toolbox
 spec:
@@ -2920,6 +2920,26 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-sa
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: grafana-multi-tenant-proxy
+    namespace: giantswarm
+    title: grafana-multi-tenant-proxy
+    description: Helm chart for Grafana Multi Tenant Proxy
+    annotations:
+        backstage.io/kubernetes-id: grafana-multi-tenant-proxy
+        backstage.io/source-location: url:https://github.com/giantswarm/grafana-multi-tenant-proxy
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-multi-tenant-proxy/tree/main
+        giantswarm.io/deployment-names: grafana-multi-tenant-proxy,grafana-multi-tenant-proxy-app
+        giantswarm.io/latest-release-date: "2024-09-03T09:53:54Z"
+        giantswarm.io/latest-release-tag: 0.6.0
+        github.com/project-slug: giantswarm/grafana-multi-tenant-proxy
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3979,8 +3999,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-08-26T15:09:07Z"
-        giantswarm.io/latest-release-tag: 4.12.0
+        giantswarm.io/latest-release-date: "2024-09-03T07:39:37Z"
+        giantswarm.io/latest-release-tag: 4.13.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
