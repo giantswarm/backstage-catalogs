@@ -664,8 +664,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-08-13T11:34:45Z"
-        giantswarm.io/latest-release-tag: 1.29.8-gs1
+        giantswarm.io/latest-release-date: "2024-09-03T19:15:22Z"
+        giantswarm.io/latest-release-tag: 1.30.6-gs1
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -684,8 +684,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2024-08-13T11:34:39Z"
-        giantswarm.io/latest-release-tag: 1.29.8-gs1
+        giantswarm.io/latest-release-date: "2024-09-03T19:15:03Z"
+        giantswarm.io/latest-release-tag: 1.30.6-gs1
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-08-30T13:58:37Z"
-        giantswarm.io/latest-release-tag: 0.34.0
+        giantswarm.io/latest-release-date: "2024-09-03T15:57:03Z"
+        giantswarm.io/latest-release-tag: 0.35.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1527,8 +1527,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.3
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-07-24T13:04:04Z"
-        giantswarm.io/latest-release-tag: 2.21.0
+        giantswarm.io/latest-release-date: "2024-09-03T14:16:58Z"
+        giantswarm.io/latest-release-tag: 2.22.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -1667,8 +1667,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-07-17T15:03:54Z"
-        giantswarm.io/latest-release-tag: 1.29.3-gs1
+        giantswarm.io/latest-release-date: "2024-09-03T15:53:36Z"
+        giantswarm.io/latest-release-tag: 1.30.2-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -3508,8 +3508,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-08-27T09:58:50Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2024-09-03T11:25:47Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3999,8 +3999,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-09-03T07:39:37Z"
-        giantswarm.io/latest-release-tag: 4.13.0
+        giantswarm.io/latest-release-date: "2024-09-03T15:53:21Z"
+        giantswarm.io/latest-release-tag: 4.13.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4583,8 +4583,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-app/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler,vertical-pod-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-07-09T06:40:19Z"
-        giantswarm.io/latest-release-tag: 5.2.4
+        giantswarm.io/latest-release-date: "2024-09-03T14:21:48Z"
+        giantswarm.io/latest-release-tag: 5.3.0
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
 spec:
     type: service
@@ -4597,14 +4597,14 @@ metadata:
     name: vertical-pod-autoscaler-crd
     namespace: giantswarm
     title: vertical-pod-autoscaler-crd
-    description: Vertical Pod Autoscaler CustomResourceDefinitions.
+    description: A Helm chart for the Vertical Pod Autoscaler CRDs.
     annotations:
         backstage.io/kubernetes-id: vertical-pod-autoscaler-crd
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler-crd,vertical-pod-autoscaler-crd-app
-        giantswarm.io/latest-release-date: "2024-04-11T06:48:13Z"
-        giantswarm.io/latest-release-tag: 3.1.0
+        giantswarm.io/latest-release-date: "2024-09-03T14:04:46Z"
+        giantswarm.io/latest-release-tag: 3.1.1
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
 spec:
     type: service
