@@ -7,6 +7,9 @@ spec:
   githubRepo:
     name: ${{ values.project.name }}
     spec:
+      backstageCatalogEntity:
+        owner: ${{ values.project.ownerRef }}
+        lifecycle: ${{ values.project.lifecycle }}
       repository:
         name: ${{ values.project.name }}
         owner: DemoTechInc
@@ -35,6 +38,8 @@ spec:
       kubeConfig:
         secretRef:
           name: demotech-rds-kubeconfig
+      storageNamespace: default
+      targetNamespace: default
       suspend: false
       timeout: 3m
       values:
