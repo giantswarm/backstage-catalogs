@@ -8,7 +8,7 @@ spec:
     name: ${{ values.project.name }}
     spec:
       backstageCatalogEntity:
-        owner: ${{ values.project.ownerRef }}
+        owner: ${{ values.project.owner }}
         lifecycle: ${{ values.project.lifecycle }}
       repository:
         name: ${{ values.project.name }}
