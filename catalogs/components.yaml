@@ -418,8 +418,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-load-balancer-controller-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-load-balancer-controller-app/tree/main
         giantswarm.io/deployment-names: aws-load-balancer-controller,aws-load-balancer-controller-app
-        giantswarm.io/latest-release-date: "2024-03-12T07:20:05Z"
-        giantswarm.io/latest-release-tag: 1.6.1
+        giantswarm.io/latest-release-date: "2024-09-11T11:00:27Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/aws-load-balancer-controller-app
     tags:
         - alb
@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-09-03T15:57:03Z"
-        giantswarm.io/latest-release-tag: 0.35.0
+        giantswarm.io/latest-release-date: "2024-09-05T10:37:15Z"
+        giantswarm.io/latest-release-tag: 0.35.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1233,8 +1233,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2024-08-20T14:43:34Z"
-        giantswarm.io/latest-release-tag: 0.27.0
+        giantswarm.io/latest-release-date: "2024-09-09T10:39:36Z"
+        giantswarm.io/latest-release-tag: 0.28.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - BPF
@@ -1387,8 +1387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-08-19T07:57:57Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2024-09-06T11:38:26Z"
+        giantswarm.io/latest-release-tag: 1.3.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1525,10 +1525,10 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: cluster-api-provider-aws
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.3
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.5
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-09-03T14:16:58Z"
-        giantswarm.io/latest-release-tag: 2.22.0
+        giantswarm.io/latest-release-date: "2024-09-16T13:20:02Z"
+        giantswarm.io/latest-release-tag: 2.23.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -1707,8 +1707,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-08-29T21:17:05Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2024-09-05T19:23:48Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1747,8 +1747,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-07-25T11:57:51Z"
-        giantswarm.io/latest-release-tag: 0.56.2
+        giantswarm.io/latest-release-date: "2024-09-07T12:49:40Z"
+        giantswarm.io/latest-release-tag: 0.57.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -1773,8 +1773,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-eks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-eks/tree/main
         giantswarm.io/deployment-names: cluster-eks,cluster-eks-app
-        giantswarm.io/latest-release-date: "2024-06-04T14:25:46Z"
-        giantswarm.io/latest-release-tag: 0.17.1
+        giantswarm.io/latest-release-date: "2024-09-09T13:17:15Z"
+        giantswarm.io/latest-release-tag: 0.18.0
         github.com/project-slug: giantswarm/cluster-eks
 spec:
     type: service
@@ -1937,8 +1937,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2024-01-09T10:38:38Z"
-        giantswarm.io/latest-release-tag: 1.21.0
+        giantswarm.io/latest-release-date: "2024-09-10T07:13:28Z"
+        giantswarm.io/latest-release-tag: 1.22.0
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
@@ -3093,8 +3093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-initiator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-initiator-app/tree/main
         giantswarm.io/deployment-names: k8s-initiator,k8s-initiator-app
-        giantswarm.io/latest-release-date: "2024-04-18T13:46:57Z"
-        giantswarm.io/latest-release-tag: 0.9.8
+        giantswarm.io/latest-release-date: "2024-09-11T08:57:20Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/k8s-initiator-app
 spec:
     type: service
@@ -3133,8 +3133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-crossplane-resources/tree/main
         giantswarm.io/deployment-names: karpenter-crossplane-resources,karpenter-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2024-05-09T09:44:42Z"
-        giantswarm.io/latest-release-tag: 0.1.1
+        giantswarm.io/latest-release-date: "2024-09-05T09:11:56Z"
+        giantswarm.io/latest-release-tag: 0.1.2
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
 spec:
     type: service
@@ -3508,8 +3508,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-09-03T11:25:47Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2024-09-10T07:12:16Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3608,8 +3608,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-08-19T09:20:45Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2024-09-04T12:57:52Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -3919,8 +3919,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-07-04T08:58:20Z"
-        giantswarm.io/latest-release-tag: 4.78.1
+        giantswarm.io/latest-release-date: "2024-09-16T11:40:15Z"
+        giantswarm.io/latest-release-tag: 4.78.2
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
@@ -3979,8 +3979,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite-app/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2024-09-02T13:52:22Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-09-16T08:09:06Z"
+        giantswarm.io/latest-release-tag: 0.3.2
         github.com/project-slug: giantswarm/prometheus-remotewrite-app
 spec:
     type: service
@@ -3999,8 +3999,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-09-03T15:53:21Z"
-        giantswarm.io/latest-release-tag: 4.13.2
+        giantswarm.io/latest-release-date: "2024-09-16T08:41:49Z"
+        giantswarm.io/latest-release-tag: 4.15.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4359,8 +4359,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tekton-dashboard-loki-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tekton-dashboard-loki-proxy/tree/main
         giantswarm.io/deployment-names: tekton-dashboard-loki-proxy,tekton-dashboard-loki-proxy-app
-        giantswarm.io/latest-release-date: "2024-02-01T13:41:13Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-09-16T16:11:34Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/tekton-dashboard-loki-proxy
 spec:
     type: service
