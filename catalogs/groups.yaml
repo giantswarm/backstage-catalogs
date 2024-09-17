@@ -37,7 +37,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/7825079?s=116&v=4
     children: []
     members:
-        - OnurYilmazGit
         - gawertm
         - ssyno
 ---
@@ -81,26 +80,6 @@ spec:
         - piontec
         - uvegla
         - weatherhog
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-horizon
-    namespace: giantswarm
-    title: Team Horizon
-spec:
-    type: team
-    profile:
-        displayName: Team Horizon
-        picture: https://avatars.githubusercontent.com/t/3703538?s=116&v=4
-    children: []
-    members:
-        - JosephSalisbury
-        - alex-dabija
-        - pipo02mix
-        - puja108
-        - snizhana-dynnyk
-        - teemow
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -162,25 +141,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-teddyfriends
-    namespace: giantswarm
-    title: Team Teddyfriends
-    description: Account Engineering and Customer Success
-spec:
-    type: team
-    profile:
-        displayName: Team Teddyfriends
-        picture: https://avatars.githubusercontent.com/t/5603884?s=116&v=4
-    children: []
-    members:
-        - brinker211
-        - luca-rui
-        - othylmann
-        - pipo02mix
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
     name: team-tinkerers
     namespace: giantswarm
     title: Team Tinkerers
@@ -209,6 +169,5 @@ spec:
         picture: https://avatars.githubusercontent.com/t/7862272?s=116&v=4
     children: []
     members:
-        - Gacko
         - njuettner
         - yulianedyalkova

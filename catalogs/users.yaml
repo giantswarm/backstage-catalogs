@@ -107,16 +107,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: OnurYilmazGit
-    namespace: giantswarm
-spec:
-    profile:
-        picture: https://avatars.githubusercontent.com/u/46044317?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: QuantumEnigmaa
     namespace: giantswarm
 spec:
