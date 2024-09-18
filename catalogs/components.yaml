@@ -864,8 +864,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-09-05T10:37:15Z"
-        giantswarm.io/latest-release-tag: 0.35.2
+        giantswarm.io/latest-release-date: "2024-09-17T15:19:54Z"
+        giantswarm.io/latest-release-tag: 0.35.3
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2933,8 +2933,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-multi-tenant-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-multi-tenant-proxy/tree/main
         giantswarm.io/deployment-names: grafana-multi-tenant-proxy,grafana-multi-tenant-proxy-app
-        giantswarm.io/latest-release-date: "2024-09-03T09:53:54Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2024-09-17T13:28:17Z"
+        giantswarm.io/latest-release-tag: 0.7.0
         github.com/project-slug: giantswarm/grafana-multi-tenant-proxy
 spec:
     type: service
@@ -3755,8 +3755,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-08-20T13:03:23Z"
-        giantswarm.io/latest-release-tag: 1.6.1
+        giantswarm.io/latest-release-date: "2024-09-17T14:16:38Z"
+        giantswarm.io/latest-release-tag: 1.6.2
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
@@ -3775,8 +3775,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-07-22T09:00:36Z"
-        giantswarm.io/latest-release-tag: 0.3.1
+        giantswarm.io/latest-release-date: "2024-09-17T15:06:33Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -3919,8 +3919,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-09-16T11:40:15Z"
-        giantswarm.io/latest-release-tag: 4.78.2
+        giantswarm.io/latest-release-date: "2024-09-17T17:39:30Z"
+        giantswarm.io/latest-release-tag: 4.79.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
