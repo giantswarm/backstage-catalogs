@@ -10,6 +10,7 @@ spec:
       backstageCatalogEntity:
         owner: ${{ values.project.owner }}
         lifecycle: ${{ values.project.lifecycle }}
+        grafanaDashboard: ${{ values.deployment.grafanaDashboard }}
       repository:
         name: ${{ values.project.name }}
         owner: DemoTechInc
