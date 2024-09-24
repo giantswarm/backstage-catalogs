@@ -19,3 +19,4 @@ input:
       clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
       mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
       wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}
+      grafanaDashboard: ${{ parameters.grafanaDashboard }}
