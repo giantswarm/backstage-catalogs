@@ -136,6 +136,7 @@ spec:
     children: []
     members:
         - fhielpos
+        - ssyno
         - stone-z
 ---
 apiVersion: backstage.io/v1alpha1

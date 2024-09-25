@@ -19,23 +19,3 @@ input:
       clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
       mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
       wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}
-    database:
-      adminUsername: ${{ parameters.database.adminUsername }}
-      engine: ${{ parameters.database.engine.engine }}
-      engineVersion: ${{ parameters.database.engine[parameters.database.engine.engine]['engineVersion'] | dump }}
-      autoscalingEnabled: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['enabled'] }}
-      minCapacity: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['minCapacity'] }}
-      maxCapacity: ${{ parameters.database.engine[parameters.database.engine.engine]['autoscaling']['maxCapacity'] }}
-      instanceCount: ${{ parameters.database.engine[parameters.database.engine.engine]['instanceCount'] }}
-      instanceSize: ${{ parameters.database.engine[parameters.database.engine.engine]['instanceSize'] }}
-    cache:
-      engine: ${{ parameters.cache.engine }}
-      engineVersion: ${{ parameters.cache[parameters.cache.engine]['engineVersion'] | dump }}
-      nodeType: ${{ parameters.cache[parameters.cache.engine]['nodeType'] }}
-      numCacheClusters: ${{ parameters.cache[parameters.cache.engine]['numCacheClusters'] }}
-      replicationEnabled: ${{ parameters.cache[parameters.cache.engine]['replication']['enabled'] }}
-      numCacheNodes: ${{ parameters.cache[parameters.cache.engine]['replication']['numCacheNodes'] }}
-    eso:
-      enabled: ${{ parameters.eso.enabled }}
-    vpc:
-      cidr: ${{ parameters.vpc.cidr }}

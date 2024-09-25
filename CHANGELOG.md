@@ -9,7 +9,13 @@ change to structure the log.
 
 ### Added
 
-- Added `rds-and-elasticache-service` template.
+- Add `rds-and-elasticache-service` template.
+
+## 2024-09-17
+
+### Changes
+
+- Remove integrations from `go-service` template.
 
 ## 2024-09-03
 

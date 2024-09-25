@@ -10,7 +10,6 @@ spec:
   parameters:
     - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/basic-details.yaml
     - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/deployment.yaml
-    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/parameters/integrations.yaml
 
   steps:
     - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/go-service/steps/fetch-template.yaml
