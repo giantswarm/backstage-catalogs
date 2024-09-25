@@ -1,0 +1,26 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: rds-and-elasticache-service
+  title: Amazon RDS and Elasticache
+  description: Define a new RDS and Elasticache service which will be build in a new private VPC connected to both management and workload cluster.
+spec:
+  type: infrastructure
+
+  parameters:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/basic-details.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/cluster-connection.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/vpc.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/database.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/cache.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/parameters/secrets-management.yaml
+
+  steps:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/steps/fetch-template.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/steps/publish.yaml
+
+  output:
+    links:
+      - title: Open pull request
+        icon: github
+        url: ${{ steps.publish.output.remoteUrl }}

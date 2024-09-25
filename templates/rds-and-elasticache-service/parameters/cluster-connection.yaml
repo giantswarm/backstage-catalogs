@@ -1,0 +1,13 @@
+title: Cluster connection
+description: Select the Kubernetes cluster to connect with.
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  formWidth: 1200
+required:
+  - deployment
+properties:
+  deployment:
+    type: object
+    ui:field: GSDeploymentDetailsPicker
+    ui:options:
+      displayProviderConfigsSelectors: true

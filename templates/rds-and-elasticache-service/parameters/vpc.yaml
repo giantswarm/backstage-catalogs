@@ -1,0 +1,17 @@
+title: VPC
+description: This VPC will be split into 6 subnets with each subnet being given /24. Please make sure your VPC CIDR is large enough to accommodate this.
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  formWidth: 1200
+properties:
+  vpc:
+    title: ''
+    type: 'object'
+    required:
+      - cidr
+    properties:
+      cidr:
+        type: string
+        title: VPC CIDR
+        description: IPv4 address range in CIDR notation.
+        ui:autofocus: true
