@@ -1,0 +1,24 @@
+title: Basic details
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  formWidth: 1200
+required:
+  - name
+  - owner
+properties:
+  name:
+    title: Name
+    type: string
+    description: Name of the RDS and Elasticache service.
+    pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
+    ui:autofocus: true
+  owner:
+    title: Owner team
+    type: string
+    ui:field: OwnerPicker
+    ui:options:
+      allowArbitraryValues: false
+      catalogFilter:
+        - kind: Group
+          spec.type: team
+          metadata.namespace: default

@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Since we don't do releases in this repository, we use the date of the
 change to structure the log.
 
+## 2024-09-25
+
+### Added
+
+- Added `rds-and-elasticache-service` template.
+
 ## 2024-09-03
 
 ### Changes

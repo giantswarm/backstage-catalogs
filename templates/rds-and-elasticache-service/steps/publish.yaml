@@ -1,0 +1,11 @@
+id: publish
+name: Publish PR
+action: publish:github:pull-request
+input:
+  repoUrl: ${{ parameters.prRepoUrl }}
+  title: Create new Amazon RDS and Elasticache service - ${{ parameters.name }}
+  branchName: create-rds-${{ parameters.name }}
+  description: |
+    ### New Amazon RDS and Elasticache service: ${{ parameters.name }}
+  targetPath: management-clusters/${{ parameters.deployment.installationName }}/organizations/${{ parameters.deployment.clusterOrganization }}/workload-clusters/${{ parameters.deployment.clusterName }}/infrastructure/${{ parameters.name }}
+  token: ${{ secrets.USER_OAUTH_TOKEN }}

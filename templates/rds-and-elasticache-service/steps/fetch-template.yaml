@@ -1,0 +1,35 @@
+id: fetch-template
+name: Template
+action: fetch:template
+input:
+  url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/rds-and-elasticache-service/template
+  values:
+    service:
+      name: ${{ parameters.name | dump }}
+      owner: ${{ parameters.owner | parseEntityRef | pick('name') }}
+    deployment:
+      installationName: ${{ parameters.deployment.installationName }}
+      clusterName: ${{ parameters.deployment.clusterName }}
+      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
+      mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
+      wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}
+    database:
+      adminUsername: ${{ parameters.database.adminUsername }}
+      engine: ${{ parameters.database.engine }}
+      engineVersion: ${{ parameters.database[parameters.database.engine]['engineVersion'] | dump }}
+      autoscalingEnabled: ${{ parameters.database[parameters.database.engine]['autoscaling']['enabled'] }}
+      minCapacity: ${{ parameters.database[parameters.database.engine]['autoscaling']['minCapacity'] }}
+      maxCapacity: ${{ parameters.database[parameters.database.engine]['autoscaling']['maxCapacity'] }}
+      instanceCount: ${{ parameters.database[parameters.database.engine]['instanceCount'] }}
+      instanceSize: ${{ parameters.database[parameters.database.engine]['instanceSize'] }}
+    cache:
+      engine: ${{ parameters.cache.engine }}
+      engineVersion: ${{ parameters.cache[parameters.cache.engine]['engineVersion'] | dump }}
+      nodeType: ${{ parameters.cache[parameters.cache.engine]['nodeType'] }}
+      numCacheClusters: ${{ parameters.cache[parameters.cache.engine]['numCacheClusters'] }}
+      replicationEnabled: ${{ parameters.cache[parameters.cache.engine]['replication']['enabled'] }}
+      numCacheNodes: ${{ parameters.cache[parameters.cache.engine]['replication']['numCacheNodes'] }}
+    eso:
+      enabled: ${{ parameters.eso.enabled }}
+    vpc:
+      cidr: ${{ parameters.vpc.cidr }}
