@@ -1541,8 +1541,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-cloud-director-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-cloud-director-app/tree/giantswarm-main
         giantswarm.io/deployment-names: cluster-api-provider-cloud-director,cluster-api-provider-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-09-19T14:14:16Z"
-        giantswarm.io/latest-release-tag: 0.8.1
+        giantswarm.io/latest-release-date: "2024-09-25T07:08:03Z"
+        giantswarm.io/latest-release-tag: 0.8.2
         github.com/project-slug: giantswarm/cluster-api-provider-cloud-director-app
 spec:
     type: service
