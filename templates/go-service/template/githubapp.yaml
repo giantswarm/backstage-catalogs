@@ -1,19 +1,19 @@
 apiVersion: promise.platform.giantswarm.io/v1beta1
 kind: githubapp
 metadata:
-  name: ${{ values.project.name }}
+  name: ${{ values.project.name | dump }}
   namespace: org-demotech
 spec:
   githubRepo:
-    name: ${{ values.project.name }}
+    name: ${{ values.project.name | dump }}
     spec:
       backstageCatalogEntity:
         owner: ${{ values.project.owner }}
         lifecycle: ${{ values.project.lifecycle }}
       repository:
-        name: ${{ values.project.name }}
+        name: ${{ values.project.name | dump }}
         owner: DemoTechInc
-        description: ${{ values.project.description }}
+        description: ${{ values.project.description | dump }}
         templateSource: giantswarm/devplatform-template-go-service
         visibility: private
       registryInfoConfigMapRef:
@@ -21,7 +21,7 @@ spec:
       githubTokenSecretRef:
         name: dev-platform-gh-access
   appDeployment:
-    name: ${{ values.project.name }}
+    name: ${{ values.project.name | dump }}
     spec:
       interval: 1m
       version: '>=0.1.0'
@@ -43,13 +43,3 @@ spec:
       targetNamespace: default
       suspend: false
       timeout: 3m
-      values:
-        ingress:
-          enabled: false
-        autoscaling:
-          enabled: false
-        pdb:
-          enabled: false
-        monitoring:
-          serviceMonitor:
-            enabled: false
