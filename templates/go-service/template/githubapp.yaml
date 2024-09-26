@@ -35,6 +35,7 @@ spec:
             apiServerEndpoint: demotech-rds-apiserver-852993111.eu-central-1.elb.amazonaws.com
             clusterName: demotech-rds
             enabled: true
+      ingressHost: ${{ values.project.name }}.demotech-rds.awsprod.gigantic.io
       kubeConfig:
         secretRef:
           name: demotech-rds-kubeconfig
