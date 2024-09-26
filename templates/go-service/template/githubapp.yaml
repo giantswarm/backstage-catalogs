@@ -24,7 +24,7 @@ spec:
     name: ${{ values.project.name | dump }}
     spec:
       interval: 1m
-      version: '>=0.1.0'
+      version: '>=0.1.0-0'
       database:
         engine: aurora-postgresql
         providerConfigRef:
