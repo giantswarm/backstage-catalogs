@@ -498,8 +498,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2024-08-21T09:26:06Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2024-09-30T13:28:10Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
@@ -838,8 +838,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-09-26T09:16:59Z"
-        giantswarm.io/latest-release-tag: 0.37.2
+        giantswarm.io/latest-release-date: "2024-09-30T15:54:43Z"
+        giantswarm.io/latest-release-tag: 0.38.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2927,8 +2927,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2024-07-18T09:49:41Z"
-        giantswarm.io/latest-release-tag: 1.66.0
+        giantswarm.io/latest-release-date: "2024-09-30T16:20:27Z"
+        giantswarm.io/latest-release-tag: 1.67.0
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
