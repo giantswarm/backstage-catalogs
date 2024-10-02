@@ -838,8 +838,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-09-30T15:54:43Z"
-        giantswarm.io/latest-release-tag: 0.38.0
+        giantswarm.io/latest-release-date: "2024-10-01T08:47:42Z"
+        giantswarm.io/latest-release-tag: 0.39.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/default-apps-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/default-apps-cloud-director/tree/main
         giantswarm.io/deployment-names: default-apps-cloud-director,default-apps-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-07-18T09:16:06Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2024-10-01T12:53:28Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/default-apps-cloud-director
 spec:
     type: service
@@ -3292,8 +3292,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-app/tree/main
         giantswarm.io/deployment-names: kyverno,kyverno-app
-        giantswarm.io/latest-release-date: "2024-09-25T12:18:45Z"
-        giantswarm.io/latest-release-tag: 0.18.0
+        giantswarm.io/latest-release-date: "2024-10-01T12:02:12Z"
+        giantswarm.io/latest-release-tag: 0.18.1
         github.com/project-slug: giantswarm/kyverno-app
     tags:
         - admission-controller
