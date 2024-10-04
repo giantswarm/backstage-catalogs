@@ -1361,8 +1361,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-09-23T16:49:32Z"
-        giantswarm.io/latest-release-tag: 1.4.1
+        giantswarm.io/latest-release-date: "2024-10-03T15:00:56Z"
+        giantswarm.io/latest-release-tag: 1.5.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -3709,8 +3709,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2024-07-17T11:13:59Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2024-10-03T10:43:41Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -3809,8 +3809,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/outgoing-proxy-stack
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/outgoing-proxy-stack/tree/main
         giantswarm.io/deployment-names: outgoing-proxy-stack,outgoing-proxy-stack-app
-        giantswarm.io/latest-release-date: "2024-07-09T14:19:16Z"
-        giantswarm.io/latest-release-tag: 0.17.0
+        giantswarm.io/latest-release-date: "2024-10-03T10:51:01Z"
+        giantswarm.io/latest-release-tag: 0.17.1
         github.com/project-slug: giantswarm/outgoing-proxy-stack
 spec:
     type: service
@@ -3973,8 +3973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-09-26T14:54:34Z"
-        giantswarm.io/latest-release-tag: 4.16.1
+        giantswarm.io/latest-release-date: "2024-10-03T12:55:22Z"
+        giantswarm.io/latest-release-tag: 4.17.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4233,8 +4233,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2024-07-10T10:50:28Z"
-        giantswarm.io/latest-release-tag: 0.33.0
+        giantswarm.io/latest-release-date: "2024-10-03T12:46:34Z"
+        giantswarm.io/latest-release-tag: 0.35.1
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
