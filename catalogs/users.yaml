@@ -354,7 +354,6 @@ kind: User
 metadata:
     name: kopiczko
     namespace: giantswarm
-    description: SRE @giantswarm
 spec:
     profile:
         displayName: Pawel Kopiczko
