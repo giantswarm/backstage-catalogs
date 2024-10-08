@@ -3749,8 +3749,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-09-24T13:05:15Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2024-10-08T07:58:44Z"
+        giantswarm.io/latest-release-tag: 0.6.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -3973,8 +3973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-10-03T12:55:22Z"
-        giantswarm.io/latest-release-tag: 4.17.0
+        giantswarm.io/latest-release-date: "2024-10-08T07:43:06Z"
+        giantswarm.io/latest-release-tag: 4.18.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
