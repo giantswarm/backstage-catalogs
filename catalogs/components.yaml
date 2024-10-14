@@ -1721,8 +1721,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-10-07T13:38:32Z"
-        giantswarm.io/latest-release-tag: 0.60.0
+        giantswarm.io/latest-release-date: "2024-10-11T08:27:30Z"
+        giantswarm.io/latest-release-tag: 0.61.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2927,8 +2927,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2024-10-07T08:58:52Z"
-        giantswarm.io/latest-release-tag: 1.68.0
+        giantswarm.io/latest-release-date: "2024-10-11T11:18:23Z"
+        giantswarm.io/latest-release-tag: 1.68.1
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
@@ -4353,15 +4353,15 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-operator/tree/main
         giantswarm.io/deployment-names: teleport-operator,teleport-operator-app
-        giantswarm.io/latest-release-date: "2024-08-19T11:29:16Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2024-10-11T21:06:29Z"
+        giantswarm.io/latest-release-tag: 0.11.2
         github.com/project-slug: giantswarm/teleport-operator
     tags:
         - Teleport
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-bigmac
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
