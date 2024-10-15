@@ -532,17 +532,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: snizhana-dynnyk
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Snizhana
-        picture: https://avatars.githubusercontent.com/u/54959552?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: ssyno
     namespace: giantswarm
     description: SRE @giantswarm
