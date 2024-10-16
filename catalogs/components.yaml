@@ -1847,8 +1847,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-09-24T15:40:35Z"
-        giantswarm.io/latest-release-tag: 0.64.0
+        giantswarm.io/latest-release-date: "2024-10-15T10:16:59Z"
+        giantswarm.io/latest-release-tag: 0.65.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -2927,8 +2927,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2024-10-11T11:18:23Z"
-        giantswarm.io/latest-release-tag: 1.68.1
+        giantswarm.io/latest-release-date: "2024-10-15T11:09:47Z"
+        giantswarm.io/latest-release-tag: 1.69.0
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
