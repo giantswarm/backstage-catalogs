@@ -95,8 +95,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-admission-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-admission-controller/tree/main
         giantswarm.io/deployment-names: app-admission-controller,app-admission-controller-app
-        giantswarm.io/latest-release-date: "2024-07-02T11:33:47Z"
-        giantswarm.io/latest-release-tag: 0.26.0
+        giantswarm.io/latest-release-date: "2024-10-17T10:59:19Z"
+        giantswarm.io/latest-release-tag: 0.26.1
         github.com/project-slug: giantswarm/app-admission-controller
 spec:
     type: service
@@ -1661,8 +1661,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2024-09-24T12:30:06Z"
-        giantswarm.io/latest-release-tag: 2.2.0
+        giantswarm.io/latest-release-date: "2024-10-17T12:22:24Z"
+        giantswarm.io/latest-release-tag: 2.3.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -1721,8 +1721,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-10-14T12:04:15Z"
-        giantswarm.io/latest-release-tag: 0.61.1
+        giantswarm.io/latest-release-date: "2024-10-17T14:31:41Z"
+        giantswarm.io/latest-release-tag: 0.61.2
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2697,8 +2697,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
-        giantswarm.io/latest-release-date: "2024-09-25T11:20:38Z"
-        giantswarm.io/latest-release-tag: 5.2.2
+        giantswarm.io/latest-release-date: "2024-10-17T13:22:24Z"
+        giantswarm.io/latest-release-tag: 5.3.0
         github.com/project-slug: giantswarm/fluent-logshipping-app
 spec:
     type: service
@@ -3689,8 +3689,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/master
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2024-10-17T07:36:38Z"
-        giantswarm.io/latest-release-tag: 2.14.0
+        giantswarm.io/latest-release-date: "2024-10-17T14:33:03Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
@@ -3749,8 +3749,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-10-10T11:23:15Z"
-        giantswarm.io/latest-release-tag: 0.7.1
+        giantswarm.io/latest-release-date: "2024-10-17T15:55:46Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -3789,13 +3789,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/organization-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/organization-operator/tree/main
         giantswarm.io/deployment-names: organization-operator,organization-operator-app
-        giantswarm.io/latest-release-date: "2024-08-13T11:09:34Z"
-        giantswarm.io/latest-release-tag: 2.0.1
+        giantswarm.io/latest-release-date: "2024-10-17T15:08:15Z"
+        giantswarm.io/latest-release-tag: 2.0.2
         github.com/project-slug: giantswarm/organization-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-bigmac
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
