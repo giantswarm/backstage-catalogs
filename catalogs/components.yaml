@@ -1501,8 +1501,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.5
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-09-16T13:20:02Z"
-        giantswarm.io/latest-release-tag: 2.23.0
+        giantswarm.io/latest-release-date: "2024-10-17T07:37:38Z"
+        giantswarm.io/latest-release-tag: 2.24.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -3689,13 +3689,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/master
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2023-12-12T15:14:16Z"
-        giantswarm.io/latest-release-tag: 2.13.0
+        giantswarm.io/latest-release-date: "2024-10-17T07:36:38Z"
+        giantswarm.io/latest-release-tag: 2.14.0
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
