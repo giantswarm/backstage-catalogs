@@ -1721,8 +1721,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-10-17T14:31:41Z"
-        giantswarm.io/latest-release-tag: 0.61.2
+        giantswarm.io/latest-release-date: "2024-10-21T13:53:50Z"
+        giantswarm.io/latest-release-tag: 0.62.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/default-apps-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/default-apps-cloud-director/tree/main
         giantswarm.io/deployment-names: default-apps-cloud-director,default-apps-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-10-01T12:53:28Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2024-10-21T13:53:33Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/default-apps-cloud-director
 spec:
     type: service
@@ -3689,8 +3689,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/master
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2024-10-17T14:33:03Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2024-10-21T08:26:24Z"
+        giantswarm.io/latest-release-tag: 3.0.1
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
@@ -3893,8 +3893,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-09-17T17:39:30Z"
-        giantswarm.io/latest-release-tag: 4.79.0
+        giantswarm.io/latest-release-date: "2024-10-21T13:07:39Z"
+        giantswarm.io/latest-release-tag: 4.80.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
