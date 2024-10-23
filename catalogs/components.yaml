@@ -95,8 +95,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-admission-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-admission-controller/tree/main
         giantswarm.io/deployment-names: app-admission-controller,app-admission-controller-app
-        giantswarm.io/latest-release-date: "2024-10-17T10:59:19Z"
-        giantswarm.io/latest-release-tag: 0.26.1
+        giantswarm.io/latest-release-date: "2024-10-22T08:07:38Z"
+        giantswarm.io/latest-release-tag: 0.26.2
         github.com/project-slug: giantswarm/app-admission-controller
 spec:
     type: service
@@ -158,8 +158,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2024-10-08T11:15:41Z"
-        giantswarm.io/latest-release-tag: 6.11.1
+        giantswarm.io/latest-release-date: "2024-10-22T11:40:23Z"
+        giantswarm.io/latest-release-tag: 6.11.2
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -3973,8 +3973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-10-15T08:00:05Z"
-        giantswarm.io/latest-release-tag: 4.19.0
+        giantswarm.io/latest-release-date: "2024-10-22T08:01:01Z"
+        giantswarm.io/latest-release-tag: 4.20.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
