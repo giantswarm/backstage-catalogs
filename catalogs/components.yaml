@@ -1847,8 +1847,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-10-15T10:16:59Z"
-        giantswarm.io/latest-release-tag: 0.65.0
+        giantswarm.io/latest-release-date: "2024-10-23T13:56:28Z"
+        giantswarm.io/latest-release-tag: 0.65.1
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -4293,8 +4293,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
         giantswarm.io/deployment-names: starboard-exporter,starboard-exporter-app
-        giantswarm.io/latest-release-date: "2024-06-12T19:20:14Z"
-        giantswarm.io/latest-release-tag: 0.7.11
+        giantswarm.io/latest-release-date: "2024-10-23T11:18:53Z"
+        giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/starboard-exporter
 spec:
     type: service
@@ -4353,8 +4353,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-operator/tree/main
         giantswarm.io/deployment-names: teleport-operator,teleport-operator-app
-        giantswarm.io/latest-release-date: "2024-10-16T14:53:11Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2024-10-23T14:26:49Z"
+        giantswarm.io/latest-release-tag: 0.12.1
         github.com/project-slug: giantswarm/teleport-operator
     tags:
         - teleport
@@ -4457,8 +4457,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
         giantswarm.io/deployment-names: trivy,trivy-app
-        giantswarm.io/latest-release-date: "2024-06-06T15:25:38Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2024-10-23T13:46:49Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/trivy-app
 spec:
     type: service
