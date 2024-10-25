@@ -3402,8 +3402,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-observability
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-observability/tree/main
         giantswarm.io/deployment-names: kyverno-policies-observability,kyverno-policies-observability-app
-        giantswarm.io/latest-release-date: "2024-09-23T08:58:27Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2024-10-24T12:48:36Z"
+        giantswarm.io/latest-release-tag: 0.6.0
         github.com/project-slug: giantswarm/kyverno-policies-observability
 spec:
     type: service
@@ -3482,8 +3482,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-09-23T13:26:57Z"
-        giantswarm.io/latest-release-tag: 0.12.1
+        giantswarm.io/latest-release-date: "2024-10-24T10:16:51Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4353,8 +4353,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-operator/tree/main
         giantswarm.io/deployment-names: teleport-operator,teleport-operator-app
-        giantswarm.io/latest-release-date: "2024-10-23T14:26:49Z"
-        giantswarm.io/latest-release-tag: 0.12.1
+        giantswarm.io/latest-release-date: "2024-10-24T11:29:42Z"
+        giantswarm.io/latest-release-tag: 0.12.2
         github.com/project-slug: giantswarm/teleport-operator
     tags:
         - teleport
