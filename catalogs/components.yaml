@@ -1481,8 +1481,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-monitoring
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-monitoring/tree/main
         giantswarm.io/deployment-names: cluster-api-monitoring,cluster-api-monitoring-app
-        giantswarm.io/latest-release-date: "2024-05-29T14:39:55Z"
-        giantswarm.io/latest-release-tag: 1.14.0
+        giantswarm.io/latest-release-date: "2024-10-25T09:40:11Z"
+        giantswarm.io/latest-release-tag: 1.15.0
         github.com/project-slug: giantswarm/cluster-api-monitoring
 spec:
     type: service
@@ -3689,8 +3689,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/master
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2024-10-21T08:26:24Z"
-        giantswarm.io/latest-release-tag: 3.0.1
+        giantswarm.io/latest-release-date: "2024-10-25T12:48:28Z"
+        giantswarm.io/latest-release-tag: 3.0.2
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
@@ -3973,8 +3973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-10-22T08:01:01Z"
-        giantswarm.io/latest-release-tag: 4.20.0
+        giantswarm.io/latest-release-date: "2024-10-25T13:12:06Z"
+        giantswarm.io/latest-release-tag: 4.21.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
