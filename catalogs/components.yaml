@@ -15,8 +15,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ailefroide-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ailefroide-app/tree/main
         giantswarm.io/deployment-names: ailefroide,ailefroide-app
-        giantswarm.io/latest-release-date: "2024-04-18T15:27:37Z"
-        giantswarm.io/latest-release-tag: 0.3.8
+        giantswarm.io/latest-release-date: "2024-10-28T15:21:34Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/ailefroide-app
 spec:
     type: service
@@ -1847,8 +1847,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-10-23T13:56:28Z"
-        giantswarm.io/latest-release-tag: 0.65.1
+        giantswarm.io/latest-release-date: "2024-10-28T20:18:07Z"
+        giantswarm.io/latest-release-tag: 0.65.2
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
