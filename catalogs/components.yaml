@@ -35,13 +35,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alfred-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alfred-app/tree/main
         giantswarm.io/deployment-names: alfred,alfred-app
-        giantswarm.io/latest-release-date: "2024-03-27T07:45:40Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2024-10-31T16:29:52Z"
+        giantswarm.io/latest-release-tag: 0.13.1
         github.com/project-slug: giantswarm/alfred-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-teddyfriends
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -429,6 +429,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: aws-node-termination-handler
+    namespace: giantswarm
+    title: aws-node-termination-handler
+    description: Deploy components for the aws-node-termination-handler app
+    annotations:
+        backstage.io/kubernetes-id: aws-node-termination-handler
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-node-termination-handler-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-node-termination-handler-app/tree/main
+        giantswarm.io/deployment-names: aws-node-termination-handler,aws-node-termination-handler-app
+        giantswarm.io/latest-release-date: "2024-10-30T11:31:04Z"
+        giantswarm.io/latest-release-tag: 1.20.0
+        github.com/project-slug: giantswarm/aws-node-termination-handler-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: aws-node-termination-handler-app
     namespace: giantswarm
     title: aws-node-termination-handler-app
@@ -441,6 +461,46 @@ metadata:
         giantswarm.io/latest-release-date: "2022-04-20T12:49:06Z"
         giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/aws-node-termination-handler-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-nth-bundle
+    namespace: giantswarm
+    title: aws-nth-bundle
+    description: AWS Node Termination Handler Crossplane Resources
+    annotations:
+        backstage.io/kubernetes-id: aws-nth-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-bundle
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-bundle/tree/main
+        giantswarm.io/deployment-names: aws-nth-bundle,aws-nth-bundle-app
+        giantswarm.io/latest-release-date: "2024-10-30T15:06:34Z"
+        giantswarm.io/latest-release-tag: 1.0.0
+        github.com/project-slug: giantswarm/aws-nth-bundle
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-nth-crossplane-resources
+    namespace: giantswarm
+    title: aws-nth-crossplane-resources
+    description: Please add description
+    annotations:
+        backstage.io/kubernetes-id: aws-nth-crossplane-resources
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-crossplane-resources
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-crossplane-resources/tree/main
+        giantswarm.io/deployment-names: aws-nth-crossplane-resources,aws-nth-crossplane-resources-app
+        giantswarm.io/latest-release-date: "2024-10-30T11:43:22Z"
+        giantswarm.io/latest-release-tag: 1.0.0
+        github.com/project-slug: giantswarm/aws-nth-crossplane-resources
 spec:
     type: service
     lifecycle: production
@@ -838,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-10-09T14:25:46Z"
-        giantswarm.io/latest-release-tag: 0.40.0
+        giantswarm.io/latest-release-date: "2024-10-31T07:55:16Z"
+        giantswarm.io/latest-release-tag: 0.41.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1971,8 +2031,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2024-10-14T08:12:21Z"
-        giantswarm.io/latest-release-tag: 3.25.0
+        giantswarm.io/latest-release-date: "2024-10-30T11:05:00Z"
+        giantswarm.io/latest-release-tag: 3.26.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -1991,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/debug-toolbox
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/debug-toolbox/tree/main
         giantswarm.io/deployment-names: debug-toolbox,debug-toolbox-app
-        giantswarm.io/latest-release-date: "2024-09-03T09:30:48Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2024-10-31T14:56:09Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/debug-toolbox
 spec:
     type: service
@@ -2594,8 +2654,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
-        giantswarm.io/latest-release-date: "2024-04-23T13:30:37Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2024-10-31T14:37:47Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - kubernetes-external-secrets
@@ -3362,8 +3422,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2024-07-15T08:58:11Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2024-10-31T14:24:38Z"
+        giantswarm.io/latest-release-tag: 0.6.2
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
@@ -3482,8 +3542,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-10-24T10:16:51Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2024-10-31T15:30:18Z"
+        giantswarm.io/latest-release-tag: 0.15.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3729,8 +3789,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-10-09T15:05:01Z"
-        giantswarm.io/latest-release-tag: 1.7.0
+        giantswarm.io/latest-release-date: "2024-10-30T14:49:58Z"
+        giantswarm.io/latest-release-tag: 1.8.0
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
@@ -3893,8 +3953,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-10-21T13:07:39Z"
-        giantswarm.io/latest-release-tag: 4.80.0
+        giantswarm.io/latest-release-date: "2024-10-30T10:16:25Z"
+        giantswarm.io/latest-release-tag: 4.81.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
@@ -3973,8 +4033,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-10-25T13:12:06Z"
-        giantswarm.io/latest-release-tag: 4.21.1
+        giantswarm.io/latest-release-date: "2024-10-30T10:59:07Z"
+        giantswarm.io/latest-release-tag: 4.23.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4233,8 +4293,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2024-10-10T07:42:47Z"
-        giantswarm.io/latest-release-tag: 0.36.0
+        giantswarm.io/latest-release-date: "2024-10-30T11:02:14Z"
+        giantswarm.io/latest-release-tag: 0.37.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service

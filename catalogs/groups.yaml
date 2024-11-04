@@ -105,6 +105,29 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-planeteers
+    namespace: giantswarm
+    title: Team Planeteers
+    description: Customer Success and Product Management
+spec:
+    type: team
+    profile:
+        displayName: Team Planeteers
+        picture: https://avatars.githubusercontent.com/t/10893128?s=116&v=4
+    children: []
+    members:
+        - JosephSalisbury
+        - alex-dabija
+        - brinker211
+        - luca-rui
+        - othylmann
+        - pipo02mix
+        - puja108
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-rocket
     namespace: giantswarm
     title: Team Rocket
