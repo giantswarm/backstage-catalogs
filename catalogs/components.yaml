@@ -2757,8 +2757,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
-        giantswarm.io/latest-release-date: "2024-10-17T13:22:24Z"
-        giantswarm.io/latest-release-tag: 5.3.0
+        giantswarm.io/latest-release-date: "2024-11-04T08:56:26Z"
+        giantswarm.io/latest-release-tag: 5.3.1
         github.com/project-slug: giantswarm/fluent-logshipping-app
 spec:
     type: service
