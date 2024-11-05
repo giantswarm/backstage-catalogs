@@ -2002,6 +2002,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: csi-driver-nfs
+    namespace: giantswarm
+    title: csi-driver-nfs
+    description: CSI NFS Driver for Kubernetes
+    annotations:
+        backstage.io/kubernetes-id: csi-driver-nfs
+        backstage.io/source-location: url:https://github.com/giantswarm/csi-driver-nfs-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/csi-driver-nfs-app/tree/main
+        giantswarm.io/deployment-names: csi-driver-nfs,csi-driver-nfs-app
+        giantswarm.io/latest-release-date: "2024-11-05T08:53:56Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/csi-driver-nfs-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-rocket
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: csi-external-snapshotter-app
     namespace: giantswarm
     title: csi-external-snapshotter-app
