@@ -1143,8 +1143,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2024-08-13T15:15:13Z"
-        giantswarm.io/latest-release-tag: 2.9.2
+        giantswarm.io/latest-release-date: "2024-11-05T21:52:07Z"
+        giantswarm.io/latest-release-tag: 2.9.3
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -2011,8 +2011,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/csi-driver-nfs-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/csi-driver-nfs-app/tree/main
         giantswarm.io/deployment-names: csi-driver-nfs,csi-driver-nfs-app
-        giantswarm.io/latest-release-date: "2024-11-05T08:53:56Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2024-11-05T12:02:38Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/csi-driver-nfs-app
 spec:
     type: service
@@ -2674,8 +2674,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
-        giantswarm.io/latest-release-date: "2024-10-31T14:37:47Z"
-        giantswarm.io/latest-release-tag: 0.11.0
+        giantswarm.io/latest-release-date: "2024-11-06T15:00:26Z"
+        giantswarm.io/latest-release-tag: 0.11.1
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - kubernetes-external-secrets
@@ -4253,8 +4253,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/master
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2023-12-06T15:17:53Z"
-        giantswarm.io/latest-release-tag: 0.11.2
+        giantswarm.io/latest-release-date: "2024-11-05T12:27:55Z"
+        giantswarm.io/latest-release-tag: 0.12.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
@@ -4475,15 +4475,15 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: test-app
         backstage.io/source-location: url:https://github.com/giantswarm/test-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/test-app/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/test-app/tree/main
         giantswarm.io/deployment-names: test,test-app
-        giantswarm.io/latest-release-date: "2020-07-30T18:14:16Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2024-11-06T16:51:02Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/test-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/unspecified
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4537,8 +4537,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
         giantswarm.io/deployment-names: trivy,trivy-app
-        giantswarm.io/latest-release-date: "2024-10-23T13:46:49Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2024-11-05T15:50:40Z"
+        giantswarm.io/latest-release-tag: 0.13.1
         github.com/project-slug: giantswarm/trivy-app
 spec:
     type: service
