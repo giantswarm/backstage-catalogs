@@ -2231,8 +2231,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/deletion-blocker-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/deletion-blocker-operator/tree/main
         giantswarm.io/deployment-names: deletion-blocker-operator,deletion-blocker-operator-app
-        giantswarm.io/latest-release-date: "2024-07-25T13:45:30Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2024-11-07T06:35:19Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/deletion-blocker-operator
 spec:
     type: service
