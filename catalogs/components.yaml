@@ -1907,8 +1907,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-10-28T20:18:07Z"
-        giantswarm.io/latest-release-tag: 0.65.2
+        giantswarm.io/latest-release-date: "2024-11-14T13:25:21Z"
+        giantswarm.io/latest-release-tag: 0.66.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -1971,8 +1971,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2024-09-10T07:13:28Z"
-        giantswarm.io/latest-release-tag: 1.22.0
+        giantswarm.io/latest-release-date: "2024-11-14T13:59:04Z"
+        giantswarm.io/latest-release-tag: 1.23.0
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
@@ -3502,13 +3502,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2023-11-15T12:28:10Z"
-        giantswarm.io/latest-release-tag: 0.7.1
+        giantswarm.io/latest-release-date: "2024-11-14T13:04:43Z"
+        giantswarm.io/latest-release-tag: 0.7.4
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rainbow
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
