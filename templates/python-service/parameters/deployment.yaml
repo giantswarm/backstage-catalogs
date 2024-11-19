@@ -1,0 +1,10 @@
+title: Deployment
+ui:ObjectFieldTemplate: GSStepLayout
+ui:options:
+  formWidth: 1200
+required:
+  - deployment
+properties:
+  deployment:
+    type: object
+    ui:field: GSDeploymentDetailsPicker

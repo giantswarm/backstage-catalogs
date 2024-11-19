@@ -1,0 +1,13 @@
+id: publish
+name: Publish
+action: publish:github:pull-request
+input:
+  repoUrl: ${{ parameters.prRepoUrl }}
+  title: Create new Python service - ${{ parameters.name }}
+  branchName: create-python-service-${{ parameters.name }}
+  description: |
+    ### New Python service: ${{ parameters.name }}
+
+    ${{ parameters.description if parameters.description }}
+  targetPath: management-clusters/${{ parameters.deployment.installationName }}/dev-platform/projects/${{ parameters.name }}
+  token: ${{ secrets.USER_OAUTH_TOKEN }}

@@ -1,0 +1,16 @@
+id: template-catalog-entity
+name: Template catalog entity
+action: fetch:template
+input:
+  url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/catalog
+  targetPath: ./${{ parameters.name }}
+  values:
+    project:
+      name: ${{ parameters.name }}
+      ownerRef: ${{ parameters.owner }}
+      lifecycle: ${{ parameters.lifecycle }}
+    deployment:
+      installationName: ${{ parameters.deployment.installationName }}
+      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
+    pullRequest:
+      url: ${{ steps.publish.output.remoteUrl }}

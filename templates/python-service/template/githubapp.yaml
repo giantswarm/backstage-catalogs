@@ -1,0 +1,45 @@
+apiVersion: promise.platform.giantswarm.io/v1beta1
+kind: githubapp
+metadata:
+  name: ${{ values.project.name | dump }}
+  namespace: org-demotech
+spec:
+  githubRepo:
+    name: ${{ values.project.name | dump }}
+    spec:
+      backstageCatalogEntity:
+        owner: ${{ values.project.owner }}
+        lifecycle: ${{ values.project.lifecycle }}
+      repository:
+        name: ${{ values.project.name | dump }}
+        owner: DemoTechInc
+        description: ${{ values.project.description | dump }}
+        templateSource: giantswarm/devplatform-template-python-service
+        visibility: private
+      registryInfoConfigMapRef:
+        name: github-oci-registry-info
+      githubTokenSecretRef:
+        name: dev-platform-gh-access
+  appDeployment:
+    name: ${{ values.project.name | dump }}
+    spec:
+      interval: 1m
+      version: '>=0.1.0-0'
+      database:
+        engine: aurora-postgresql
+        providerConfigRef:
+          name: demotech-rcc-postgresql-provider-config
+        eso:
+          clusterSsaField: demotech_rcc
+          tenantCluster:
+            apiServerEndpoint: demotech-rds-apiserver-852993111.eu-central-1.elb.amazonaws.com
+            clusterName: demotech-rds
+            enabled: true
+      ingressHost: ${{ values.project.name }}.demotech-rds.awsprod.gigantic.io
+      kubeConfig:
+        secretRef:
+          name: demotech-rds-kubeconfig
+      storageNamespace: default
+      targetNamespace: default
+      suspend: false
+      timeout: 3m

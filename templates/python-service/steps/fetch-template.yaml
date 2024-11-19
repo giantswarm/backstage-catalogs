@@ -1,0 +1,21 @@
+id: fetch-template
+name: Template resources
+action: fetch:template
+input:
+  url: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/template
+  values:
+    project:
+      name: ${{ parameters.name }}
+      description: ${{ parameters.description }}
+      owner: ${{ parameters.owner | parseEntityRef | pick('name') }}
+      ownerRef: ${{ parameters.owner }}
+      lifecycle: ${{ parameters.lifecycle }}
+    projectRepository:
+      owner: ${{ parameters.projectRepoOwner }}
+    prRepository: ${{ parameters.prRepoUrl | parseRepoUrl }}
+    deployment:
+      installationName: ${{ parameters.deployment.installationName }}
+      clusterName: ${{ parameters.deployment.clusterName }}
+      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
+      mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
+      wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}

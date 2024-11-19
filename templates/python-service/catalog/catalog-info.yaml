@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ${{ values.project.name | dump }}
+  description: Kratix resource request to create ${{ values.project.name | dump }} service.
+  annotations:
+    backstage.io/source-location: url:${{ values.pullRequest.url }}
+  kratixResources:
+    - kind: githubapp
+      name: ${{ values.project.name | dump }}
+      namespace: ${{ values.deployment.clusterNamespace }}
+      installationName: ${{ values.deployment.installationName }}
+    - kind: githubrepo
+      name: ${{ values.project.name | dump }}
+      namespace: ${{ values.deployment.clusterNamespace }}
+      installationName: ${{ values.deployment.installationName }}
+    - kind: appdeployment
+      name: ${{ values.project.name | dump }}
+      namespace: ${{ values.deployment.clusterNamespace }}
+      installationName: ${{ values.deployment.installationName }}
+spec:
+  type: kratix
+  owner: ${{ values.project.ownerRef }}
+  lifecycle: ${{ values.project.lifecycle }}
