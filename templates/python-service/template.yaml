@@ -1,0 +1,19 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: python-service
+  title: Python service
+  description: A Python service responding to HTTP requests, optionally writing to an SQL database.
+spec:
+  type: service
+
+  parameters:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/parameters/basic-details.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/parameters/deployment.yaml
+
+  steps:
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/steps/fetch-template.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/steps/publish.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/steps/template-catalog-entity.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/steps/publish-catalog-entity.yaml
+    - $yaml: https://github.com/giantswarm/backstage-catalogs/blob/main/templates/python-service/steps/register-catalog-entity.yaml

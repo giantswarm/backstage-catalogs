@@ -1,0 +1,7 @@
+id: publish-catalog-entity
+name: Publish catalog entity
+action: aws:s3:cp
+input:
+  bucketName: ${{ parameters.s3BucketName}}
+  region: ${{ parameters.s3Region }}
+  path: ./${{ parameters.name }}/catalog-info.yaml

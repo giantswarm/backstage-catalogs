@@ -1,0 +1,5 @@
+id: register-catalog-entity
+name: Register catalog entity
+action: catalog:register
+input:
+  catalogInfoUrl: https://${{ parameters.s3BucketName }}.s3.${{ parameters.s3Region }}.amazonaws.com/${{ parameters.name }}/catalog-info.yaml
