@@ -95,8 +95,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-admission-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-admission-controller/tree/main
         giantswarm.io/deployment-names: app-admission-controller,app-admission-controller-app
-        giantswarm.io/latest-release-date: "2024-10-22T08:07:38Z"
-        giantswarm.io/latest-release-tag: 0.26.2
+        giantswarm.io/latest-release-date: "2024-11-19T11:03:37Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/app-admission-controller
 spec:
     type: service
@@ -158,8 +158,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2024-10-22T11:40:23Z"
-        giantswarm.io/latest-release-tag: 6.11.2
+        giantswarm.io/latest-release-date: "2024-11-19T11:14:25Z"
+        giantswarm.io/latest-release-tag: 7.0.0
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-11-11T11:49:22Z"
-        giantswarm.io/latest-release-tag: 0.41.3
+        giantswarm.io/latest-release-date: "2024-11-19T15:34:30Z"
+        giantswarm.io/latest-release-tag: 0.42.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1203,8 +1203,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/chart-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/chart-operator/tree/main
         giantswarm.io/deployment-names: chart-operator,chart-operator-app
-        giantswarm.io/latest-release-date: "2024-07-18T07:57:05Z"
-        giantswarm.io/latest-release-tag: 3.3.0
+        giantswarm.io/latest-release-date: "2024-11-19T11:30:07Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/chart-operator
 spec:
     type: service
@@ -1681,8 +1681,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2024-09-25T16:44:46Z"
-        giantswarm.io/latest-release-tag: 2.23.2
+        giantswarm.io/latest-release-date: "2024-11-19T15:37:10Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -3769,8 +3769,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/master
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2024-10-25T12:48:28Z"
-        giantswarm.io/latest-release-tag: 3.0.2
+        giantswarm.io/latest-release-date: "2024-11-18T14:21:07Z"
+        giantswarm.io/latest-release-tag: 3.0.3
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
@@ -3809,8 +3809,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-10-30T14:49:58Z"
-        giantswarm.io/latest-release-tag: 1.8.0
+        giantswarm.io/latest-release-date: "2024-11-18T12:36:42Z"
+        giantswarm.io/latest-release-tag: 1.9.0
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
@@ -3829,8 +3829,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-10-17T15:55:46Z"
-        giantswarm.io/latest-release-tag: 0.8.1
+        giantswarm.io/latest-release-date: "2024-11-20T15:12:23Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4053,8 +4053,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-11-12T09:47:21Z"
-        giantswarm.io/latest-release-tag: 4.24.1
+        giantswarm.io/latest-release-date: "2024-11-19T13:00:08Z"
+        giantswarm.io/latest-release-tag: 4.26.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
