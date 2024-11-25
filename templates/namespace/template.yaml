@@ -1,0 +1,43 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: create-namespace-stub
+  title: Cluster namespace
+  description: Here you request a Kubernetes namespace to work with.
+spec:
+  type: infrastructure
+
+  # Form input steps
+  parameters:
+    - title: Namespace details
+      required:
+        - name
+        - owner
+      properties:
+        name:
+          title: Name
+          type: string
+          description: Unique name of the component. Note that while it's possible to use up to 253 characters, we recommend to use betwen 10 and 50 characters. Only alphanumeric characters and hyphens are allowed.
+          ui:autofocus: true
+          pattern: "^[a-z0-9][a-z0-9-]*[a-z0-9]*$"
+          minLength: 3
+          maxLength: 253
+        owner:
+          title: Owner team
+          type: string
+          ui:field: EntityPicker
+          ui:options:
+            allowArbitraryValues: false
+            catalogFilter:
+              - kind: Group
+            defaultKind: Group
+            defaultNamespace: default
+        description:
+          title: Description
+          type: string
+          description: Please describe the purpose of this namespace for people who have no context.
+          ui:options:
+            rows: 5
+
+  # Creation steps
+  steps: []
