@@ -1,0 +1,51 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: create-github-repo-stub
+  title: GitHub repository
+  description: Create a GitHub repository that fulfills our platform requirements
+spec:
+  type: infrastructure
+
+  # Form input steps
+  parameters:
+    - title: Repository details
+      required:
+        - name
+        - owner
+        - visibility
+      properties:
+        name:
+          title: Name
+          type: string
+          ui:autofocus: true
+          pattern: "^[a-zA-Z0-9][a-zA-Z0-9_-]*[a-zA-Z0-9]*$"
+          minLength: 2
+          maxLength: 100
+        owner:
+          title: Owner team
+          type: string
+          ui:field: EntityPicker
+          ui:options:
+            allowArbitraryValues: false
+            catalogFilter:
+              - kind: Group
+            defaultKind: Group
+            defaultNamespace: default
+        visibility:
+          title: Visibility
+          type: string
+          enum:
+            - public
+            - private
+          default: private
+          description: Whether the repository should be public or private.
+        description:
+          title: Description
+          type: string
+          description: Please describe the purpose of this repository for people who have no context.
+          ui:options:
+            rows: 5
+
+  # Creation steps
+  steps: []

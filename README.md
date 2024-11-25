@@ -26,6 +26,12 @@ File: [users.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/ca
 
 This catalog includes the team members of the Giant Swarm teams included in the groups catalog, as well as other Giant Swarm employees.
 
+### Templates
+
+Folder: [templates](https://github.com/giantswarm/backstage-catalogs/tree/main/templates)
+
+Scaffolder templates. Note: not all are functional.
+
 ## Usage
 
 To have these catalogs read from your Backstage instance, configure your app config like this:
