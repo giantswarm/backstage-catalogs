@@ -115,8 +115,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-exporter/tree/main
         giantswarm.io/deployment-names: app-exporter,app-exporter-app
-        giantswarm.io/latest-release-date: "2024-04-30T10:46:33Z"
-        giantswarm.io/latest-release-tag: 0.20.0
+        giantswarm.io/latest-release-date: "2024-11-26T13:55:35Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/app-exporter
 spec:
     type: service
@@ -2565,6 +2565,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: event-exporter-app
+    namespace: giantswarm
+    title: event-exporter-app
+    description: The Event Exporter runs on management clusters to watch and act upon Kubernetes events.
+    annotations:
+        backstage.io/kubernetes-id: event-exporter-app
+        backstage.io/source-location: url:https://github.com/giantswarm/event-exporter-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/event-exporter-app/tree/main
+        giantswarm.io/deployment-names: event-exporter,event-exporter-app
+        giantswarm.io/latest-release-date: "2024-11-26T11:33:39Z"
+        giantswarm.io/latest-release-tag: 1.0.0
+        github.com/project-slug: giantswarm/event-exporter-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-tenet
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: eventrouter-app
     namespace: giantswarm
     title: eventrouter-app
@@ -3562,8 +3582,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-11-13T09:20:43Z"
-        giantswarm.io/latest-release-tag: 0.15.2
+        giantswarm.io/latest-release-date: "2024-11-26T10:02:05Z"
+        giantswarm.io/latest-release-tag: 0.16.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service

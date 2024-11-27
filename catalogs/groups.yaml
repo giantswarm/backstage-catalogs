@@ -164,6 +164,24 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-tenet
+    namespace: giantswarm
+    title: Team Tenet
+spec:
+    type: team
+    profile:
+        displayName: Team Tenet
+        picture: https://avatars.githubusercontent.com/t/10885917?s=116&v=4
+    children: []
+    members:
+        - AverageMarcus
+        - Gacko
+        - njuettner
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-tinkerers
     namespace: giantswarm
     title: Team Tinkerers
