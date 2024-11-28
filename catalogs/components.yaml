@@ -1681,8 +1681,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2024-11-19T15:37:10Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2024-11-27T11:51:20Z"
+        giantswarm.io/latest-release-tag: 3.1.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-11-19T13:00:08Z"
-        giantswarm.io/latest-release-tag: 4.26.1
+        giantswarm.io/latest-release-date: "2024-11-27T15:48:02Z"
+        giantswarm.io/latest-release-tag: 4.27.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
