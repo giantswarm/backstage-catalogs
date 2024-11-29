@@ -1541,8 +1541,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-monitoring
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-monitoring/tree/main
         giantswarm.io/deployment-names: cluster-api-monitoring,cluster-api-monitoring-app
-        giantswarm.io/latest-release-date: "2024-10-25T09:40:11Z"
-        giantswarm.io/latest-release-tag: 1.15.0
+        giantswarm.io/latest-release-date: "2024-11-28T14:58:18Z"
+        giantswarm.io/latest-release-tag: 1.16.0
         github.com/project-slug: giantswarm/cluster-api-monitoring
 spec:
     type: service
@@ -3187,8 +3187,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-bundle/tree/main
         giantswarm.io/deployment-names: karpenter-bundle,karpenter-bundle-app
-        giantswarm.io/latest-release-date: "2024-10-10T10:46:08Z"
-        giantswarm.io/latest-release-tag: 1.3.0
+        giantswarm.io/latest-release-date: "2024-11-28T15:30:07Z"
+        giantswarm.io/latest-release-tag: 1.4.0
         github.com/project-slug: giantswarm/karpenter-bundle
 spec:
     type: service
