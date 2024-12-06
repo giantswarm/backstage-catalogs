@@ -1561,8 +1561,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.7
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-11-15T09:08:47Z"
-        giantswarm.io/latest-release-tag: 2.25.0
+        giantswarm.io/latest-release-date: "2024-12-05T15:16:34Z"
+        giantswarm.io/latest-release-tag: 2.26.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
