@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2024-12-02T08:31:56Z"
-        giantswarm.io/latest-release-tag: 4.28.0
+        giantswarm.io/latest-release-date: "2024-12-09T13:27:19Z"
+        giantswarm.io/latest-release-tag: 4.29.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
