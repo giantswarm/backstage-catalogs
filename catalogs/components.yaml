@@ -478,8 +478,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-bundle/tree/main
         giantswarm.io/deployment-names: aws-nth-bundle,aws-nth-bundle-app
-        giantswarm.io/latest-release-date: "2024-12-04T19:45:59Z"
-        giantswarm.io/latest-release-tag: 1.1.1
+        giantswarm.io/latest-release-date: "2024-12-11T13:18:36Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/aws-nth-bundle
 spec:
     type: service
@@ -498,8 +498,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-crossplane-resources/tree/main
         giantswarm.io/deployment-names: aws-nth-crossplane-resources,aws-nth-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2024-10-30T11:43:22Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2024-12-11T13:04:43Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/aws-nth-crossplane-resources
 spec:
     type: service
@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-12-10T11:08:53Z"
-        giantswarm.io/latest-release-tag: 0.44.0
+        giantswarm.io/latest-release-date: "2024-12-11T14:25:48Z"
+        giantswarm.io/latest-release-tag: 0.45.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1741,8 +1741,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-11-13T23:10:21Z"
-        giantswarm.io/latest-release-tag: 1.4.0
+        giantswarm.io/latest-release-date: "2024-12-11T13:38:34Z"
+        giantswarm.io/latest-release-tag: 1.5.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1907,8 +1907,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2024-12-02T06:30:46Z"
-        giantswarm.io/latest-release-tag: 0.67.0
+        giantswarm.io/latest-release-date: "2024-12-11T16:44:28Z"
+        giantswarm.io/latest-release-tag: 0.68.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3437,14 +3437,14 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies/tree/main
         giantswarm.io/deployment-names: kyverno-policies,kyverno-policies-app
-        giantswarm.io/latest-release-date: "2024-09-25T14:30:33Z"
-        giantswarm.io/latest-release-tag: 0.21.0
+        giantswarm.io/latest-release-date: "2024-12-11T12:57:42Z"
+        giantswarm.io/latest-release-tag: 0.21.1
         github.com/project-slug: giantswarm/kyverno-policies
     tags:
-        - admissions controller
+        - admission-controller
         - kubernetes
-        - policy agent
-        - validating webhook
+        - policy-agent
+        - validating-webhook
 spec:
     type: service
     lifecycle: production
