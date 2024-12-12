@@ -85,6 +85,8 @@ jobs:
         working-directory: clonedir
         env:
           GITHUB_TOKEN: ${{ secrets.TAYLORBOT_GITHUB_ACTION }}
+          PERSONIO_CLIENT_ID: ${{ secrets.PERSONIO_CLIENT_ID }}
+          PERSONIO_CLIENT_SECRET: ${{ secrets.PERSONIO_CLIENT_SECRET }}
         run: |
           backstage-catalog-importer appcatalogs \
             --output ./catalogs
