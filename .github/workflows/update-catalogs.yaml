@@ -76,6 +76,7 @@ jobs:
         uses: giantswarm/install-binary-action@c37eb401e5092993fc76d545030b1d1769e61237 # v3.0.0
         with:
           binary: backstage-catalog-importer
+          # renovate: datasource=github-releases depName=github.com/giantswarm/backstage-catalog-importer versioning=loose
           version: 0.14.0
           smoke_test: ${binary} --help
 
