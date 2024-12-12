@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-12-11T14:25:48Z"
-        giantswarm.io/latest-release-tag: 0.45.0
+        giantswarm.io/latest-release-date: "2024-12-12T11:13:01Z"
+        giantswarm.io/latest-release-tag: 0.45.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3849,8 +3849,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-12-10T15:10:07Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2024-12-12T13:25:12Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
