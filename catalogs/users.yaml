@@ -9,9 +9,13 @@ metadata:
     name: AndiDog
     namespace: giantswarm
     description: Software / Kubernetes platform engineer. Blogging and tweeting about k8s, cloud, infrastructure, observability, sometimes sports/health/nutrition.
+    annotations:
+        github.com/user-id: "1376043"
+        github.com/user-login: AndiDog
 spec:
     profile:
         displayName: Andreas Sommer
+        email: andreas@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1376043?v=4
     memberOf: []
 ---
@@ -21,9 +25,13 @@ metadata:
     name: AverageMarcus
     namespace: giantswarm
     description: Pod wrangler
+    annotations:
+        github.com/user-id: "3384072"
+        github.com/user-login: AverageMarcus
 spec:
     profile:
         displayName: Marcus Noble
+        email: marcus@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/3384072?v=4
     memberOf: []
 ---
@@ -32,9 +40,13 @@ kind: User
 metadata:
     name: Gacko
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "935479"
+        github.com/user-login: Gacko
 spec:
     profile:
         displayName: Marco Ebert
+        email: marco@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/935479?v=4
     memberOf: []
 ---
@@ -43,8 +55,12 @@ kind: User
 metadata:
     name: HelloHeatherC
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "57330570"
+        github.com/user-login: HelloHeatherC
 spec:
     profile:
+        email: heather@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/57330570?v=4
     memberOf: []
 ---
@@ -54,9 +70,13 @@ metadata:
     name: JosephSalisbury
     namespace: giantswarm
     description: astral warlock
+    annotations:
+        github.com/user-id: "297653"
+        github.com/user-login: JosephSalisbury
 spec:
     profile:
         displayName: Joe Salisbury
+        email: joseph@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/297653?v=4
     memberOf: []
 ---
@@ -65,9 +85,13 @@ kind: User
 metadata:
     name: JoshOlsonKerrigan
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "89789637"
+        github.com/user-login: JoshOlsonKerrigan
 spec:
     profile:
         displayName: Josh OK
+        email: joshua@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/89789637?v=4
     memberOf: []
 ---
@@ -76,9 +100,13 @@ kind: User
 metadata:
     name: Jul85
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "64772394"
+        github.com/user-login: Jul85
 spec:
     profile:
         displayName: Julia
+        email: julia@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/64772394?v=4
     memberOf: []
 ---
@@ -87,9 +115,13 @@ kind: User
 metadata:
     name: LutzLange
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "2788194"
+        github.com/user-login: LutzLange
 spec:
     profile:
         displayName: Lutz Lange
+        email: lutz@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/2788194?v=4
     memberOf: []
 ---
@@ -98,9 +130,13 @@ kind: User
 metadata:
     name: Noemi002
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "146433122"
+        github.com/user-login: Noemi002
 spec:
     profile:
         displayName: Noemi
+        email: noemi@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/146433122?v=4
     memberOf: []
 ---
@@ -109,9 +145,13 @@ kind: User
 metadata:
     name: QuantumEnigmaa
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "64951262"
+        github.com/user-login: QuantumEnigmaa
 spec:
     profile:
         displayName: Zirko
+        email: thibaud@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/64951262?v=4
     memberOf: []
 ---
@@ -120,9 +160,13 @@ kind: User
 metadata:
     name: QuentinBisson
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "2787548"
+        github.com/user-login: QuentinBisson
 spec:
     profile:
         displayName: Quentin Bisson
+        email: quentin@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/2787548?v=4
     memberOf: []
 ---
@@ -131,9 +175,13 @@ kind: User
 metadata:
     name: Rotfuks
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "16223546"
+        github.com/user-login: Rotfuks
 spec:
     profile:
         displayName: Dominik Kress
+        email: dominik@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/16223546?v=4
     memberOf: []
 ---
@@ -142,9 +190,13 @@ kind: User
 metadata:
     name: T-Kukawka
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "10978655"
+        github.com/user-login: T-Kukawka
 spec:
     profile:
         displayName: Tobiasz Kukawka
+        email: tobiasz@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/10978655?v=4
     memberOf: []
 ---
@@ -153,9 +205,13 @@ kind: User
 metadata:
     name: TheaMarie
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "20859609"
+        github.com/user-login: TheaMarie
 spec:
     profile:
         displayName: Thea Hüttenberger
+        email: thea@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/20859609?v=4
     memberOf: []
 ---
@@ -165,10 +221,29 @@ metadata:
     name: TheoBrigitte
     namespace: giantswarm
     description: Platform Engineer @giantswarm
+    annotations:
+        github.com/user-id: "6536819"
+        github.com/user-login: TheoBrigitte
 spec:
     profile:
         displayName: Théo Brigitte
+        email: theo@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/6536819?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Weatherhog
+    namespace: giantswarm
+    annotations:
+        github.com/user-id: "31103312"
+        github.com/user-login: Weatherhog
+spec:
+    profile:
+        displayName: Lucas Weatherhog
+        email: lucas@giantswarm.io
+        picture: https://avatars.githubusercontent.com/u/31103312?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -176,9 +251,13 @@ kind: User
 metadata:
     name: alex-dabija
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "1087557"
+        github.com/user-login: alex-dabija
 spec:
     profile:
         displayName: Alex Dabija
+        email: alex@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1087557?v=4
     memberOf: []
 ---
@@ -187,8 +266,12 @@ kind: User
 metadata:
     name: annaloew
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "6334285"
+        github.com/user-login: annaloew
 spec:
     profile:
+        email: anna@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/6334285?v=4
     memberOf: []
 ---
@@ -198,31 +281,14 @@ metadata:
     name: anvddriesch
     namespace: giantswarm
     description: normal dev
+    annotations:
+        github.com/user-id: "56017655"
+        github.com/user-login: anvddriesch
 spec:
     profile:
         displayName: Antonia
+        email: antonia@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/56017655?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: architectbot
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: ArchitectBot
-        picture: https://avatars.githubusercontent.com/u/61872893?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: auth0-deployer
-    namespace: giantswarm
-spec:
-    profile:
-        picture: https://avatars.githubusercontent.com/u/39115919?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -230,21 +296,14 @@ kind: User
 metadata:
     name: brinker211
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "46683487"
+        github.com/user-login: brinker211
 spec:
     profile:
         displayName: Ben Rain
+        email: ben@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/46683487?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: catalogbot
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: CatalogBot
-        picture: https://avatars.githubusercontent.com/u/50668443?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -252,9 +311,13 @@ kind: User
 metadata:
     name: fhielpos
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "48300215"
+        github.com/user-login: fhielpos
 spec:
     profile:
         displayName: Franco
+        email: franco@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/48300215?v=4
     memberOf: []
 ---
@@ -263,9 +326,13 @@ kind: User
 metadata:
     name: fiunchinho
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "627038"
+        github.com/user-login: fiunchinho
 spec:
     profile:
         displayName: Jose Armesto
+        email: jose@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/627038?v=4
     memberOf: []
 ---
@@ -275,9 +342,13 @@ metadata:
     name: foschubert
     namespace: giantswarm
     description: Franz Schubert
+    annotations:
+        github.com/user-id: "51315088"
+        github.com/user-login: foschubert
 spec:
     profile:
         displayName: Franz Schubert
+        email: franz@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/51315088?v=4
     memberOf: []
 ---
@@ -286,9 +357,13 @@ kind: User
 metadata:
     name: gawertm
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "56695351"
+        github.com/user-login: gawertm
 spec:
     profile:
         displayName: Manuel Gawert
+        email: manuel@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/56695351?v=4
     memberOf: []
 ---
@@ -298,9 +373,13 @@ metadata:
     name: glitchcrab
     namespace: giantswarm
     description: "SRE and VP of Emojineering @giantswarm \r\n\r\nEventually consistent."
+    annotations:
+        github.com/user-id: "7832341"
+        github.com/user-login: glitchcrab
 spec:
     profile:
         displayName: Simon Weald
+        email: simonweald@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/7832341?v=4
     memberOf: []
 ---
@@ -309,9 +388,13 @@ kind: User
 metadata:
     name: gusevda
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "445309"
+        github.com/user-login: gusevda
 spec:
     profile:
         displayName: Dmitry Gusev
+        email: dmitry@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/445309?v=4
     memberOf: []
 ---
@@ -320,9 +403,13 @@ kind: User
 metadata:
     name: henninglange
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "4747797"
+        github.com/user-login: henninglange
 spec:
     profile:
         displayName: Henning Lange
+        email: henning@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/4747797?v=4
     memberOf: []
 ---
@@ -332,9 +419,13 @@ metadata:
     name: hervenicol
     namespace: giantswarm
     description: Linux, containers, and glue tooling, with limited coding skills.
+    annotations:
+        github.com/user-id: "12008875"
+        github.com/user-login: hervenicol
 spec:
     profile:
         displayName: Hervé Nicol
+        email: herve@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/12008875?v=4
     memberOf: []
 ---
@@ -343,9 +434,13 @@ kind: User
 metadata:
     name: iuriaranda
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "510809"
+        github.com/user-login: iuriaranda
 spec:
     profile:
         displayName: iuri
+        email: iuri@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/510809?v=4
     memberOf: []
 ---
@@ -354,9 +449,13 @@ kind: User
 metadata:
     name: ljakimczuk
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "39192420"
+        github.com/user-login: ljakimczuk
 spec:
     profile:
         displayName: Lukasz Jakimczuk
+        email: lukasz.j@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/39192420?v=4
     memberOf: []
 ---
@@ -365,9 +464,13 @@ kind: User
 metadata:
     name: luca-rui
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "101049326"
+        github.com/user-login: luca-rui
 spec:
     profile:
         displayName: Luca
+        email: luca@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/101049326?v=4
     memberOf: []
 ---
@@ -376,9 +479,13 @@ kind: User
 metadata:
     name: lyind
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "18163495"
+        github.com/user-login: lyind
 spec:
     profile:
         displayName: Jonas Zeiger
+        email: jonas@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/18163495?v=4
     memberOf: []
 ---
@@ -388,9 +495,13 @@ metadata:
     name: marians
     namespace: giantswarm
     description: Designing your experience with @giantswarm
+    annotations:
+        github.com/user-id: "273727"
+        github.com/user-login: marians
 spec:
     profile:
         displayName: Marian Steinbach
+        email: marian@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/273727?v=4
     memberOf: []
 ---
@@ -399,9 +510,13 @@ kind: User
 metadata:
     name: mcharriere
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "11235884"
+        github.com/user-login: mcharriere
 spec:
     profile:
         displayName: Matías Charrière
+        email: matias@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/11235884?v=4
     memberOf: []
 ---
@@ -411,9 +526,13 @@ metadata:
     name: mnitchev
     namespace: giantswarm
     description: I write code
+    annotations:
+        github.com/user-id: "15073922"
+        github.com/user-login: mnitchev
 spec:
     profile:
         displayName: Mario Nitchev
+        email: mario@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/15073922?v=4
     memberOf: []
 ---
@@ -422,9 +541,13 @@ kind: User
 metadata:
     name: morotki
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "50622763"
+        github.com/user-login: morotki
 spec:
     profile:
         displayName: Marat Musichin
+        email: marat@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/50622763?v=4
     memberOf: []
 ---
@@ -434,9 +557,13 @@ metadata:
     name: mproffitt
     namespace: giantswarm
     description: Development Pipeline architect and data logistics expert
+    annotations:
+        github.com/user-id: "1852919"
+        github.com/user-login: mproffitt
 spec:
     profile:
         displayName: Martin Proffitt
+        email: martin@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1852919?v=4
     memberOf: []
 ---
@@ -446,9 +573,13 @@ metadata:
     name: njuettner
     namespace: giantswarm
     description: "\U0001F3D7\U0001F477\U0001F3FB‍♂️ Platform Engineer"
+    annotations:
+        github.com/user-id: "1936982"
+        github.com/user-login: njuettner
 spec:
     profile:
         displayName: Nick Jüttner
+        email: nick@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1936982?v=4
     memberOf: []
 ---
@@ -457,9 +588,13 @@ kind: User
 metadata:
     name: othylmann
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "414319"
+        github.com/user-login: othylmann
 spec:
     profile:
         displayName: Oliver Thylmann
+        email: oliver@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/414319?v=4
     memberOf: []
 ---
@@ -468,8 +603,12 @@ kind: User
 metadata:
     name: paurosello
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "1133954"
+        github.com/user-login: paurosello
 spec:
     profile:
+        email: pau@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1133954?v=4
     memberOf: []
 ---
@@ -478,9 +617,13 @@ kind: User
 metadata:
     name: piontec
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "1578786"
+        github.com/user-login: piontec
 spec:
     profile:
         displayName: piontec
+        email: lukasz@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1578786?v=4
     memberOf: []
 ---
@@ -490,9 +633,13 @@ metadata:
     name: pipo02mix
     namespace: giantswarm
     description: Solution Engineer @ Giant Swarm
+    annotations:
+        github.com/user-id: "892157"
+        github.com/user-login: pipo02mix
 spec:
     profile:
         displayName: Fernando Ripoll
+        email: fernando@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/892157?v=4
     memberOf: []
 ---
@@ -502,9 +649,13 @@ metadata:
     name: puja108
     namespace: giantswarm
     description: VP Product @giantswarm
+    annotations:
+        github.com/user-id: "5468872"
+        github.com/user-login: puja108
 spec:
     profile:
         displayName: Puja
+        email: puja@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/5468872?v=4
     memberOf: []
 ---
@@ -513,8 +664,12 @@ kind: User
 metadata:
     name: simonapetrova1
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "109507396"
+        github.com/user-login: simonapetrova1
 spec:
     profile:
+        email: simona@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/109507396?v=4
     memberOf: []
 ---
@@ -524,9 +679,13 @@ metadata:
     name: ssyno
     namespace: giantswarm
     description: SRE @giantswarm
+    annotations:
+        github.com/user-id: "138458697"
+        github.com/user-login: ssyno
 spec:
     profile:
         displayName: Spyros Synodinos
+        email: spyros@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/138458697?v=4
     memberOf: []
 ---
@@ -535,33 +694,14 @@ kind: User
 metadata:
     name: stone-z
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "10408416"
+        github.com/user-login: stone-z
 spec:
     profile:
         displayName: Zach Stone
+        email: zach@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/10408416?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: swarmbot
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Swarmbot
-        picture: https://avatars.githubusercontent.com/u/16008436?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: taylorbot
-    namespace: giantswarm
-    description: Doing lots of important things @giantswarm. Actually called taylor.
-spec:
-    profile:
-        displayName: Taylor Bot
-        picture: https://avatars.githubusercontent.com/u/25685558?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -569,22 +709,14 @@ kind: User
 metadata:
     name: teemow
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "32488"
+        github.com/user-login: teemow
 spec:
     profile:
         displayName: Timo Derstappen
+        email: timo@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/32488?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: tityosbot
-    namespace: giantswarm
-    description: I'm Tityos, Gaia's son. I live only to serve mother Gaia.
-spec:
-    profile:
-        displayName: Tityos Bot
-        picture: https://avatars.githubusercontent.com/u/65946409?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -593,9 +725,13 @@ metadata:
     name: tommyhobin
     namespace: giantswarm
     description: 'Inbound Marketing Strategy :: Content Coordination & Distribution :: Social Media Implementation :: Email Marketing Analysis :: HubSpot Certified'
+    annotations:
+        github.com/user-id: "36041286"
+        github.com/user-login: tommyhobin
 spec:
     profile:
         displayName: Tommy Hobin
+        email: tommy@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/36041286?v=4
     memberOf: []
 ---
@@ -604,9 +740,13 @@ kind: User
 metadata:
     name: ubergesundheit
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "1494211"
+        github.com/user-login: ubergesundheit
 spec:
     profile:
         displayName: Gerald Pape
+        email: gerald@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1494211?v=4
     memberOf: []
 ---
@@ -615,9 +755,13 @@ kind: User
 metadata:
     name: uvegla
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "1612809"
+        github.com/user-login: uvegla
 spec:
     profile:
         displayName: Laszlo Uveges
+        email: laszlo@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/1612809?v=4
     memberOf: []
 ---
@@ -627,21 +771,14 @@ metadata:
     name: vxav
     namespace: giantswarm
     description: I write yaml and create Kubernetes clusters here and there.
+    annotations:
+        github.com/user-id: "19745768"
+        github.com/user-login: vxav
 spec:
     profile:
         displayName: Xavier
+        email: xavier@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/19745768?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-    name: weatherhog
-    namespace: giantswarm
-spec:
-    profile:
-        displayName: Lucas Weatherhog
-        picture: https://avatars.githubusercontent.com/u/31103312?v=4
     memberOf: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -649,8 +786,12 @@ kind: User
 metadata:
     name: yulianedyalkova
     namespace: giantswarm
+    annotations:
+        github.com/user-id: "16097774"
+        github.com/user-login: yulianedyalkova
 spec:
     profile:
         displayName: Yulia Nedyalkova
+        email: yulia@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/16097774?v=4
     memberOf: []
