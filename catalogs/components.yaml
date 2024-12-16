@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-12-12T11:13:01Z"
-        giantswarm.io/latest-release-tag: 0.45.2
+        giantswarm.io/latest-release-date: "2024-12-16T09:44:59Z"
+        giantswarm.io/latest-release-tag: 0.45.3
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1271,13 +1271,13 @@ metadata:
         giantswarm.io/latest-release-tag: 0.29.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
-        - BPF
-        - Kubernetes
-        - Networking
-        - Observability
-        - Security
-        - Troubleshooting
-        - eBPF
+        - bpf
+        - kubernetes
+        - networking
+        - observability
+        - security
+        - troubleshooting
+        - ebpf
 spec:
     type: service
     lifecycle: production
@@ -4479,7 +4479,7 @@ metadata:
         giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/teleport-tbot
     tags:
-        - Teleport
+        - teleport
 spec:
     type: service
     lifecycle: production
