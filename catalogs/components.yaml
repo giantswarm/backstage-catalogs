@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-12-16T09:44:59Z"
-        giantswarm.io/latest-release-tag: 0.45.3
+        giantswarm.io/latest-release-date: "2024-12-18T07:33:29Z"
+        giantswarm.io/latest-release-tag: 0.45.5
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3849,8 +3849,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2024-12-12T13:25:12Z"
-        giantswarm.io/latest-release-tag: 0.10.1
+        giantswarm.io/latest-release-date: "2024-12-17T14:05:12Z"
+        giantswarm.io/latest-release-tag: 0.10.2
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -3993,8 +3993,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-10-30T10:16:25Z"
-        giantswarm.io/latest-release-tag: 4.81.0
+        giantswarm.io/latest-release-date: "2024-12-17T15:30:43Z"
+        giantswarm.io/latest-release-tag: 4.83.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
@@ -4333,8 +4333,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2024-10-30T11:02:14Z"
-        giantswarm.io/latest-release-tag: 0.37.0
+        giantswarm.io/latest-release-date: "2024-12-17T12:58:17Z"
+        giantswarm.io/latest-release-tag: 0.38.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
