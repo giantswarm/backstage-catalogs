@@ -3993,8 +3993,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2024-12-17T15:30:43Z"
-        giantswarm.io/latest-release-tag: 4.83.0
+        giantswarm.io/latest-release-date: "2025-01-06T09:52:44Z"
+        giantswarm.io/latest-release-tag: 4.84.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
