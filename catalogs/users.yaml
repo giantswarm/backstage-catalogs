@@ -523,22 +523,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: mnitchev
-    namespace: giantswarm
-    description: I write code
-    annotations:
-        github.com/user-id: "15073922"
-        github.com/user-login: mnitchev
-spec:
-    profile:
-        displayName: Mario Nitchev
-        email: mario@giantswarm.io
-        picture: https://avatars.githubusercontent.com/u/15073922?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: morotki
     namespace: giantswarm
     annotations:
