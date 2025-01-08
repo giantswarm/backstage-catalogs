@@ -1541,13 +1541,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-monitoring
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-monitoring/tree/main
         giantswarm.io/deployment-names: cluster-api-monitoring,cluster-api-monitoring-app
-        giantswarm.io/latest-release-date: "2024-11-28T14:58:18Z"
-        giantswarm.io/latest-release-tag: 1.16.0
+        giantswarm.io/latest-release-date: "2025-01-07T13:10:50Z"
+        giantswarm.io/latest-release-tag: 1.16.1
         github.com/project-slug: giantswarm/cluster-api-monitoring
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rocket
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3582,8 +3582,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2024-11-26T10:02:05Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2025-01-07T15:03:08Z"
+        giantswarm.io/latest-release-tag: 0.19.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3809,8 +3809,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2024-10-03T10:43:41Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2025-01-07T14:32:50Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
