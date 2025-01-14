@@ -98,7 +98,6 @@ spec:
         - T-Kukawka
         - fiunchinho
         - iuriaranda
-        - mnitchev
         - paurosello
 ---
 apiVersion: backstage.io/v1alpha1
