@@ -3682,8 +3682,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2024-12-10T12:29:47Z"
-        giantswarm.io/latest-release-tag: 0.15.0
+        giantswarm.io/latest-release-date: "2025-01-14T10:29:43Z"
+        giantswarm.io/latest-release-tag: 0.15.1
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
