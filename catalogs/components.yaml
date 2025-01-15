@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2024-12-18T07:33:29Z"
-        giantswarm.io/latest-release-tag: 0.45.5
+        giantswarm.io/latest-release-date: "2025-01-14T14:15:38Z"
+        giantswarm.io/latest-release-tag: 0.46.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1267,8 +1267,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2024-11-12T09:35:34Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2025-01-14T12:13:26Z"
+        giantswarm.io/latest-release-tag: 0.30.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -3582,8 +3582,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-01-07T15:03:08Z"
-        giantswarm.io/latest-release-tag: 0.19.0
+        giantswarm.io/latest-release-date: "2025-01-14T13:25:36Z"
+        giantswarm.io/latest-release-tag: 0.20.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
