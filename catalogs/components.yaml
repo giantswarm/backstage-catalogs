@@ -198,13 +198,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/athena
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/athena/tree/main
         giantswarm.io/deployment-names: athena,athena-app
-        giantswarm.io/latest-release-date: "2024-08-13T13:00:41Z"
-        giantswarm.io/latest-release-tag: 1.12.4
+        giantswarm.io/latest-release-date: "2025-01-16T15:11:59Z"
+        giantswarm.io/latest-release-tag: 1.13.0
         github.com/project-slug: giantswarm/athena
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-bigmac
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-01-14T14:15:38Z"
-        giantswarm.io/latest-release-tag: 0.46.0
+        giantswarm.io/latest-release-date: "2025-01-16T15:20:54Z"
+        giantswarm.io/latest-release-tag: 0.47.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-01-13T16:16:56Z"
-        giantswarm.io/latest-release-tag: 4.31.0
+        giantswarm.io/latest-release-date: "2025-01-16T15:25:19Z"
+        giantswarm.io/latest-release-tag: 4.32.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
