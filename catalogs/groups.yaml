@@ -26,23 +26,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-bigmac
-    namespace: giantswarm
-    title: Team Bigmac
-    description: vpn, mc-bootstrap, access, authentication, authorization, sso, certificate, rbac, dex, athena
-spec:
-    type: team
-    profile:
-        displayName: Team Bigmac
-        picture: https://avatars.githubusercontent.com/t/7825079?s=116&v=4
-    children: []
-    members:
-        - gawertm
-        - ssyno
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
     name: team-cabbage
     namespace: giantswarm
     title: Team Cabbage
