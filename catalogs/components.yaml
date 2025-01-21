@@ -1003,8 +1003,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2024-09-20T08:13:15Z"
-        giantswarm.io/latest-release-tag: 0.28.0
+        giantswarm.io/latest-release-date: "2025-01-20T17:13:28Z"
+        giantswarm.io/latest-release-tag: 0.29.0
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -4657,8 +4657,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-app/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler,vertical-pod-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-09-03T14:21:48Z"
-        giantswarm.io/latest-release-tag: 5.3.0
+        giantswarm.io/latest-release-date: "2025-01-20T16:20:32Z"
+        giantswarm.io/latest-release-tag: 5.3.1
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
 spec:
     type: service
@@ -4677,8 +4677,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler-crd,vertical-pod-autoscaler-crd-app
-        giantswarm.io/latest-release-date: "2024-09-03T14:04:46Z"
-        giantswarm.io/latest-release-tag: 3.1.1
+        giantswarm.io/latest-release-date: "2025-01-20T16:26:40Z"
+        giantswarm.io/latest-release-tag: 3.1.2
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
 spec:
     type: service
