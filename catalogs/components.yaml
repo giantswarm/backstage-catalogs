@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-01-13T09:33:28Z"
-        giantswarm.io/latest-release-tag: 3.28.0
+        giantswarm.io/latest-release-date: "2025-01-22T10:34:13Z"
+        giantswarm.io/latest-release-tag: 3.29.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
