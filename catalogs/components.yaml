@@ -1561,8 +1561,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/release-2.7
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2024-12-05T15:16:34Z"
-        giantswarm.io/latest-release-tag: 2.26.0
+        giantswarm.io/latest-release-date: "2025-01-21T13:59:10Z"
+        giantswarm.io/latest-release-tag: 2.27.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -3849,8 +3849,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-01-15T10:11:58Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2025-01-21T11:43:46Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-01-20T13:58:44Z"
-        giantswarm.io/latest-release-tag: 4.33.0
+        giantswarm.io/latest-release-date: "2025-01-21T11:02:59Z"
+        giantswarm.io/latest-release-tag: 4.34.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
