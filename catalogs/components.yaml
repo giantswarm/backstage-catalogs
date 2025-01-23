@@ -1003,8 +1003,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-01-20T17:13:28Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2025-01-22T17:15:11Z"
+        giantswarm.io/latest-release-tag: 0.29.1
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
