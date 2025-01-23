@@ -1781,8 +1781,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2024-12-11T16:57:36Z"
-        giantswarm.io/latest-release-tag: 0.64.0
+        giantswarm.io/latest-release-date: "2025-01-23T06:19:02Z"
+        giantswarm.io/latest-release-tag: 0.64.1
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
