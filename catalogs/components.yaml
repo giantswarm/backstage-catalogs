@@ -336,7 +336,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: aws-ebs-csi-driver-app
         backstage.io/source-location: url:https://github.com/giantswarm/aws-ebs-csi-driver-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/main
         giantswarm.io/deployment-names: aws-ebs-csi-driver,aws-ebs-csi-driver-app
         giantswarm.io/latest-release-date: "2024-04-11T10:37:29Z"
         giantswarm.io/latest-release-tag: 2.30.1
@@ -3332,8 +3332,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubectl-apply-job
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubectl-apply-job/tree/main
         giantswarm.io/deployment-names: kubectl-apply-job,kubectl-apply-job-app
-        giantswarm.io/latest-release-date: "2024-07-08T13:04:15Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-01-24T16:24:59Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/kubectl-apply-job
 spec:
     type: service
