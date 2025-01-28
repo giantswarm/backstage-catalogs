@@ -538,8 +538,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-pod-identity-webhook
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-pod-identity-webhook/tree/main
         giantswarm.io/deployment-names: aws-pod-identity-webhook,aws-pod-identity-webhook-app
-        giantswarm.io/latest-release-date: "2024-09-18T08:26:10Z"
-        giantswarm.io/latest-release-tag: 1.17.0
+        giantswarm.io/latest-release-date: "2025-01-27T12:54:46Z"
+        giantswarm.io/latest-release-tag: 1.18.0
         github.com/project-slug: giantswarm/aws-pod-identity-webhook
 spec:
     type: service
@@ -1741,8 +1741,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2024-12-11T13:38:34Z"
-        giantswarm.io/latest-release-tag: 1.5.0
+        giantswarm.io/latest-release-date: "2025-01-27T20:31:03Z"
+        giantswarm.io/latest-release-tag: 1.6.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -3989,8 +3989,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-blackbox-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-blackbox-exporter-app/tree/main
         giantswarm.io/deployment-names: prometheus-blackbox-exporter,prometheus-blackbox-exporter-app
-        giantswarm.io/latest-release-date: "2024-06-26T08:46:15Z"
-        giantswarm.io/latest-release-tag: 0.4.2
+        giantswarm.io/latest-release-date: "2025-01-27T14:06:56Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/prometheus-blackbox-exporter-app
     tags:
         - blackbox
