@@ -198,8 +198,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/athena
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/athena/tree/main
         giantswarm.io/deployment-names: athena,athena-app
-        giantswarm.io/latest-release-date: "2025-01-16T15:11:59Z"
-        giantswarm.io/latest-release-tag: 1.13.0
+        giantswarm.io/latest-release-date: "2025-02-03T15:33:03Z"
+        giantswarm.io/latest-release-tag: 1.13.1
         github.com/project-slug: giantswarm/athena
 spec:
     type: service
@@ -3582,8 +3582,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-01-30T08:54:34Z"
-        giantswarm.io/latest-release-tag: 0.20.1
+        giantswarm.io/latest-release-date: "2025-02-03T10:31:32Z"
+        giantswarm.io/latest-release-tag: 0.21.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3969,8 +3969,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/policy-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-meta-operator/tree/main
         giantswarm.io/deployment-names: policy-meta-operator,policy-meta-operator-app
-        giantswarm.io/latest-release-date: "2025-01-23T17:31:32Z"
-        giantswarm.io/latest-release-tag: 0.0.1
+        giantswarm.io/latest-release-date: "2025-02-03T23:25:25Z"
+        giantswarm.io/latest-release-tag: 0.0.2
         github.com/project-slug: giantswarm/policy-meta-operator
 spec:
     type: service
