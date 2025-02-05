@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-01-29T12:14:10Z"
-        giantswarm.io/latest-release-tag: 0.50.0
+        giantswarm.io/latest-release-date: "2025-02-04T08:37:19Z"
+        giantswarm.io/latest-release-tag: 0.51.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1439,7 +1439,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: cluster-api
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/release-1.4
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
         giantswarm.io/latest-release-date: "2024-07-10T04:44:21Z"
         giantswarm.io/latest-release-tag: 1.20.1
@@ -1681,8 +1681,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2024-11-27T11:51:20Z"
-        giantswarm.io/latest-release-tag: 3.1.0
+        giantswarm.io/latest-release-date: "2025-02-04T12:04:18Z"
+        giantswarm.io/latest-release-tag: 3.1.1
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -3969,8 +3969,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/policy-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-meta-operator/tree/main
         giantswarm.io/deployment-names: policy-meta-operator,policy-meta-operator-app
-        giantswarm.io/latest-release-date: "2025-02-03T23:25:25Z"
-        giantswarm.io/latest-release-tag: 0.0.2
+        giantswarm.io/latest-release-date: "2025-02-04T11:38:49Z"
+        giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/policy-meta-operator
 spec:
     type: service
@@ -4093,8 +4093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite-app/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2024-10-14T08:12:10Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2025-02-04T15:34:47Z"
+        giantswarm.io/latest-release-tag: 0.7.0
         github.com/project-slug: giantswarm/prometheus-remotewrite-app
 spec:
     type: service
@@ -4113,8 +4113,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-01-31T12:44:08Z"
-        giantswarm.io/latest-release-tag: 4.37.0
+        giantswarm.io/latest-release-date: "2025-02-04T08:37:02Z"
+        giantswarm.io/latest-release-tag: 4.38.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
