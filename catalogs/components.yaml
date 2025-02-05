@@ -115,8 +115,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-exporter/tree/main
         giantswarm.io/deployment-names: app-exporter,app-exporter-app
-        giantswarm.io/latest-release-date: "2024-11-26T13:55:35Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-02-05T14:55:43Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/app-exporter
 spec:
     type: service
@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-02-04T08:37:19Z"
-        giantswarm.io/latest-release-tag: 0.51.0
+        giantswarm.io/latest-release-date: "2025-02-05T16:17:57Z"
+        giantswarm.io/latest-release-tag: 0.51.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-01-22T13:22:10Z"
-        giantswarm.io/latest-release-tag: 3.29.1
+        giantswarm.io/latest-release-date: "2025-02-05T13:15:20Z"
+        giantswarm.io/latest-release-tag: 3.30.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
