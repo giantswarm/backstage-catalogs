@@ -3829,8 +3829,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-02-06T09:56:54Z"
-        giantswarm.io/latest-release-tag: 0.10.1
+        giantswarm.io/latest-release-date: "2025-02-06T10:52:32Z"
+        giantswarm.io/latest-release-tag: 0.10.2
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -3869,8 +3869,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-01-30T12:13:42Z"
-        giantswarm.io/latest-release-tag: 0.13.1
+        giantswarm.io/latest-release-date: "2025-02-06T11:35:06Z"
+        giantswarm.io/latest-release-tag: 0.13.2
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
