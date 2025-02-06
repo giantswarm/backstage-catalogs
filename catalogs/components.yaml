@@ -3829,8 +3829,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-01-07T14:32:50Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2025-02-06T09:56:54Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-02-04T08:37:02Z"
-        giantswarm.io/latest-release-tag: 4.38.0
+        giantswarm.io/latest-release-date: "2025-02-06T09:43:37Z"
+        giantswarm.io/latest-release-tag: 4.38.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
