@@ -2891,6 +2891,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: gateway-api-bundle
+    namespace: giantswarm
+    title: gateway-api-bundle
+    description: Gateway API bundle
+    annotations:
+        backstage.io/kubernetes-id: gateway-api-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
+        giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
+        giantswarm.io/latest-release-date: "2025-02-05T20:57:24Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/gateway-api-bundle
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: gcp-compute-persistent-disk-csi-driver
     namespace: giantswarm
     title: gcp-compute-persistent-disk-csi-driver
