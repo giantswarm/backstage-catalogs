@@ -1435,19 +1435,19 @@ metadata:
     name: cluster-api
     namespace: giantswarm
     title: cluster-api
-    description: Helm chart for cluster API.
+    description: A Helm chart for Cluster API components.
     annotations:
         backstage.io/kubernetes-id: cluster-api
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2024-07-10T04:44:21Z"
-        giantswarm.io/latest-release-tag: 1.20.1
+        giantswarm.io/latest-release-date: "2025-02-13T10:22:29Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-turtles
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-02-12T12:07:04Z"
-        giantswarm.io/latest-release-tag: 4.39.1
+        giantswarm.io/latest-release-date: "2025-02-13T12:03:59Z"
+        giantswarm.io/latest-release-tag: 4.40.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4393,8 +4393,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2025-01-28T08:31:48Z"
-        giantswarm.io/latest-release-tag: 0.42.0
+        giantswarm.io/latest-release-date: "2025-02-13T12:36:25Z"
+        giantswarm.io/latest-release-tag: 0.43.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
