@@ -3287,8 +3287,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2025-01-28T09:59:53Z"
-        giantswarm.io/latest-release-tag: 4.5.0
+        giantswarm.io/latest-release-date: "2025-02-18T11:39:08Z"
+        giantswarm.io/latest-release-tag: 4.5.1
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
