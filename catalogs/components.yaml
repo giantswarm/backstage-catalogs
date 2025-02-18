@@ -1123,8 +1123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2024-01-29T11:36:28Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-02-17T12:05:52Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/capi-node-labeler-app
 spec:
     type: service
@@ -1143,8 +1143,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2024-11-05T21:52:07Z"
-        giantswarm.io/latest-release-tag: 2.9.3
+        giantswarm.io/latest-release-date: "2025-02-17T12:25:51Z"
+        giantswarm.io/latest-release-tag: 2.9.4
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -1421,8 +1421,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2024-12-06T10:14:51Z"
-        giantswarm.io/latest-release-tag: 1.7.0
+        giantswarm.io/latest-release-date: "2025-02-17T10:57:57Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2554,8 +2554,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2024-04-02T08:15:52Z"
-        giantswarm.io/latest-release-tag: 1.10.0
+        giantswarm.io/latest-release-date: "2025-02-17T14:22:59Z"
+        giantswarm.io/latest-release-tag: 1.10.1
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -2717,8 +2717,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/faiq
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/faiq/tree/main
         giantswarm.io/deployment-names: faiq,faiq-app
-        giantswarm.io/latest-release-date: "2024-02-27T10:37:17Z"
-        giantswarm.io/latest-release-tag: 0.0.15
+        giantswarm.io/latest-release-date: "2025-02-17T14:31:42Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/faiq
 spec:
     type: service
@@ -3147,8 +3147,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2024-07-11T07:44:42Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2025-02-17T14:48:08Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/k8s-audit-metrics
 spec:
     type: service
@@ -3682,8 +3682,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/metrics-server-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/metrics-server-app/tree/master
         giantswarm.io/deployment-names: metrics-server,metrics-server-app
-        giantswarm.io/latest-release-date: "2023-12-20T16:09:15Z"
-        giantswarm.io/latest-release-tag: 2.4.2
+        giantswarm.io/latest-release-date: "2025-02-17T14:31:11Z"
+        giantswarm.io/latest-release-tag: 2.5.0
         github.com/project-slug: giantswarm/metrics-server-app
 spec:
     type: service
@@ -3765,8 +3765,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/node-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/node-exporter-app/tree/main
         giantswarm.io/deployment-names: node-exporter,node-exporter-app
-        giantswarm.io/latest-release-date: "2024-08-22T18:21:10Z"
-        giantswarm.io/latest-release-tag: 1.20.0
+        giantswarm.io/latest-release-date: "2025-02-17T15:02:46Z"
+        giantswarm.io/latest-release-tag: 1.20.1
         github.com/project-slug: giantswarm/node-exporter-app
     tags:
         - exporter
@@ -4009,8 +4009,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pr-generator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pr-generator/tree/main
         giantswarm.io/deployment-names: pr-generator,pr-generator-app
-        giantswarm.io/latest-release-date: "2024-04-05T07:20:20Z"
-        giantswarm.io/latest-release-tag: 0.0.2
+        giantswarm.io/latest-release-date: "2025-02-17T15:47:59Z"
+        giantswarm.io/latest-release-tag: 0.1.2
         github.com/project-slug: giantswarm/pr-generator
 spec:
     type: service
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-02-14T08:53:07Z"
-        giantswarm.io/latest-release-tag: 4.42.0
+        giantswarm.io/latest-release-date: "2025-02-17T14:15:18Z"
+        giantswarm.io/latest-release-tag: 4.42.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
