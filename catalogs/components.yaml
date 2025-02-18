@@ -1421,8 +1421,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-02-17T10:57:57Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-02-18T07:49:03Z"
+        giantswarm.io/latest-release-tag: 2.0.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -3352,8 +3352,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubectl-apply-job
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubectl-apply-job/tree/main
         giantswarm.io/deployment-names: kubectl-apply-job,kubectl-apply-job-app
-        giantswarm.io/latest-release-date: "2025-01-24T16:24:59Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2025-02-18T09:46:22Z"
+        giantswarm.io/latest-release-tag: 0.9.1
         github.com/project-slug: giantswarm/kubectl-apply-job
 spec:
     type: service
