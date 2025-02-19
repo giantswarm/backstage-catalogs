@@ -3682,8 +3682,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/metrics-server-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/metrics-server-app/tree/master
         giantswarm.io/deployment-names: metrics-server,metrics-server-app
-        giantswarm.io/latest-release-date: "2025-02-17T14:31:11Z"
-        giantswarm.io/latest-release-tag: 2.5.0
+        giantswarm.io/latest-release-date: "2025-02-18T12:44:27Z"
+        giantswarm.io/latest-release-tag: 2.6.0
         github.com/project-slug: giantswarm/metrics-server-app
 spec:
     type: service
