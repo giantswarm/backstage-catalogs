@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-02-07T07:37:37Z"
-        giantswarm.io/latest-release-tag: 0.52.0
+        giantswarm.io/latest-release-date: "2025-02-24T13:33:43Z"
+        giantswarm.io/latest-release-tag: 0.53.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2717,8 +2717,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/faiq
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/faiq/tree/main
         giantswarm.io/deployment-names: faiq,faiq-app
-        giantswarm.io/latest-release-date: "2025-02-17T14:31:42Z"
-        giantswarm.io/latest-release-tag: 0.1.1
+        giantswarm.io/latest-release-date: "2025-02-24T16:14:24Z"
+        giantswarm.io/latest-release-tag: 0.1.4
         github.com/project-slug: giantswarm/faiq
 spec:
     type: service
@@ -4009,8 +4009,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pr-generator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pr-generator/tree/main
         giantswarm.io/deployment-names: pr-generator,pr-generator-app
-        giantswarm.io/latest-release-date: "2025-02-17T15:47:59Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-02-24T16:37:11Z"
+        giantswarm.io/latest-release-tag: 0.1.4
         github.com/project-slug: giantswarm/pr-generator
 spec:
     type: service
