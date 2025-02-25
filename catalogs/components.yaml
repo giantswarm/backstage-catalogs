@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-02-24T13:33:43Z"
-        giantswarm.io/latest-release-tag: 0.53.0
+        giantswarm.io/latest-release-date: "2025-02-25T14:12:41Z"
+        giantswarm.io/latest-release-tag: 0.54.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-02-13T13:50:22Z"
-        giantswarm.io/latest-release-tag: 4.0.0
+        giantswarm.io/latest-release-date: "2025-02-25T10:00:45Z"
+        giantswarm.io/latest-release-tag: 4.1.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -2717,8 +2717,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/faiq
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/faiq/tree/main
         giantswarm.io/deployment-names: faiq,faiq-app
-        giantswarm.io/latest-release-date: "2025-02-24T16:14:24Z"
-        giantswarm.io/latest-release-tag: 0.1.4
+        giantswarm.io/latest-release-date: "2025-02-25T15:05:30Z"
+        giantswarm.io/latest-release-tag: 0.1.7
         github.com/project-slug: giantswarm/faiq
 spec:
     type: service
@@ -3047,8 +3047,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-02-11T12:37:05Z"
-        giantswarm.io/latest-release-tag: 1.71.0
+        giantswarm.io/latest-release-date: "2025-02-25T16:21:20Z"
+        giantswarm.io/latest-release-tag: 1.71.1
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
@@ -3602,8 +3602,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-02-12T15:49:55Z"
-        giantswarm.io/latest-release-tag: 0.22.0
+        giantswarm.io/latest-release-date: "2025-02-25T10:34:36Z"
+        giantswarm.io/latest-release-tag: 0.23.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3869,8 +3869,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-02-20T14:59:03Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2025-02-25T09:25:56Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4053,8 +4053,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2025-02-20T14:34:21Z"
-        giantswarm.io/latest-release-tag: 4.86.0
+        giantswarm.io/latest-release-date: "2025-02-25T08:54:12Z"
+        giantswarm.io/latest-release-tag: 4.87.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-02-20T14:27:13Z"
-        giantswarm.io/latest-release-tag: 4.44.0
+        giantswarm.io/latest-release-date: "2025-02-25T08:52:58Z"
+        giantswarm.io/latest-release-tag: 4.45.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4393,8 +4393,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2025-02-24T11:47:48Z"
-        giantswarm.io/latest-release-tag: 0.44.1
+        giantswarm.io/latest-release-date: "2025-02-25T08:53:15Z"
+        giantswarm.io/latest-release-tag: 0.45.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
@@ -4617,8 +4617,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
         giantswarm.io/deployment-names: trivy,trivy-app
-        giantswarm.io/latest-release-date: "2024-11-05T15:50:40Z"
-        giantswarm.io/latest-release-tag: 0.13.1
+        giantswarm.io/latest-release-date: "2025-02-25T12:48:48Z"
+        giantswarm.io/latest-release-tag: 0.13.2
         github.com/project-slug: giantswarm/trivy-app
 spec:
     type: service
