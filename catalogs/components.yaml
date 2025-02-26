@@ -3047,8 +3047,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-02-25T16:21:20Z"
-        giantswarm.io/latest-release-tag: 1.71.1
+        giantswarm.io/latest-release-date: "2025-02-25T16:55:07Z"
+        giantswarm.io/latest-release-tag: 1.71.2
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
@@ -3457,8 +3457,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies/tree/main
         giantswarm.io/deployment-names: kyverno-policies,kyverno-policies-app
-        giantswarm.io/latest-release-date: "2025-02-20T18:38:27Z"
-        giantswarm.io/latest-release-tag: 0.22.0
+        giantswarm.io/latest-release-date: "2025-02-25T22:46:34Z"
+        giantswarm.io/latest-release-tag: 0.23.0
         github.com/project-slug: giantswarm/kyverno-policies
     tags:
         - admission-controller
