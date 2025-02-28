@@ -158,8 +158,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-01-30T13:14:43Z"
-        giantswarm.io/latest-release-tag: 7.0.1
+        giantswarm.io/latest-release-date: "2025-02-27T13:56:37Z"
+        giantswarm.io/latest-release-tag: 7.1.0
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -1421,8 +1421,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-02-18T07:49:03Z"
-        giantswarm.io/latest-release-tag: 2.0.1
+        giantswarm.io/latest-release-date: "2025-02-27T13:27:14Z"
+        giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2508,19 +2508,19 @@ metadata:
     name: etcd-backup-operator
     namespace: giantswarm
     title: etcd-backup-operator
-    description: Helm chart for etcd-backup-operator.
+    description: A Helm chart for the etcd-backup-operator.
     annotations:
         backstage.io/kubernetes-id: etcd-backup-operator
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2025-01-30T15:44:39Z"
-        giantswarm.io/latest-release-tag: 4.9.0
+        giantswarm.io/latest-release-date: "2025-02-28T11:02:29Z"
+        giantswarm.io/latest-release-tag: 4.10.0
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-turtles
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -2900,8 +2900,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-02-05T20:57:24Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-02-26T10:18:29Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -3722,8 +3722,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/net-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/net-exporter/tree/main
         giantswarm.io/deployment-names: net-exporter,net-exporter-app
-        giantswarm.io/latest-release-date: "2024-07-08T11:59:19Z"
-        giantswarm.io/latest-release-tag: 1.21.0
+        giantswarm.io/latest-release-date: "2025-02-26T15:08:21Z"
+        giantswarm.io/latest-release-tag: 1.22.0
         github.com/project-slug: giantswarm/net-exporter
 spec:
     type: service
@@ -3849,8 +3849,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2024-11-18T12:36:42Z"
-        giantswarm.io/latest-release-tag: 1.9.0
+        giantswarm.io/latest-release-date: "2025-02-27T10:42:12Z"
+        giantswarm.io/latest-release-tag: 1.11.0
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
@@ -4009,8 +4009,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pr-generator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pr-generator/tree/main
         giantswarm.io/deployment-names: pr-generator,pr-generator-app
-        giantswarm.io/latest-release-date: "2025-02-24T16:37:11Z"
-        giantswarm.io/latest-release-tag: 0.1.4
+        giantswarm.io/latest-release-date: "2025-02-26T12:29:39Z"
+        giantswarm.io/latest-release-tag: 0.1.6
         github.com/project-slug: giantswarm/pr-generator
 spec:
     type: service
@@ -4113,8 +4113,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite-app/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2025-02-04T15:34:47Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2025-02-26T14:07:47Z"
+        giantswarm.io/latest-release-tag: 0.7.1
         github.com/project-slug: giantswarm/prometheus-remotewrite-app
 spec:
     type: service
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-02-25T08:52:58Z"
-        giantswarm.io/latest-release-tag: 4.45.0
+        giantswarm.io/latest-release-date: "2025-02-27T13:49:13Z"
+        giantswarm.io/latest-release-tag: 4.46.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4253,8 +4253,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/route53-manager
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/route53-manager/tree/master
         giantswarm.io/deployment-names: route53-manager,route53-manager-app
-        giantswarm.io/latest-release-date: "2024-06-20T11:32:34Z"
-        giantswarm.io/latest-release-tag: 1.5.0
+        giantswarm.io/latest-release-date: "2025-02-26T09:04:38Z"
+        giantswarm.io/latest-release-tag: 1.5.1
         github.com/project-slug: giantswarm/route53-manager
 spec:
     type: service
