@@ -3602,8 +3602,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-02-25T10:34:36Z"
-        giantswarm.io/latest-release-tag: 0.23.0
+        giantswarm.io/latest-release-date: "2025-03-06T13:15:44Z"
+        giantswarm.io/latest-release-tag: 0.24.1
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
