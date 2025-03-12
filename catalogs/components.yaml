@@ -1681,8 +1681,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-02-04T12:04:18Z"
-        giantswarm.io/latest-release-tag: 3.1.1
+        giantswarm.io/latest-release-date: "2025-03-12T10:38:20Z"
+        giantswarm.io/latest-release-tag: 3.1.2
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -2051,8 +2051,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-03-05T10:06:46Z"
-        giantswarm.io/latest-release-tag: 4.2.0
+        giantswarm.io/latest-release-date: "2025-03-12T16:08:42Z"
+        giantswarm.io/latest-release-tag: 4.3.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -3047,8 +3047,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-02-25T16:55:07Z"
-        giantswarm.io/latest-release-tag: 1.71.2
+        giantswarm.io/latest-release-date: "2025-03-12T09:02:57Z"
+        giantswarm.io/latest-release-tag: 1.71.3
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
@@ -4133,8 +4133,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-04T08:30:01Z"
-        giantswarm.io/latest-release-tag: 4.47.0
+        giantswarm.io/latest-release-date: "2025-03-12T13:52:58Z"
+        giantswarm.io/latest-release-tag: 4.49.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
