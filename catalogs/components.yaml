@@ -158,8 +158,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-02-27T13:56:37Z"
-        giantswarm.io/latest-release-tag: 7.1.0
+        giantswarm.io/latest-release-date: "2025-03-11T09:02:24Z"
+        giantswarm.io/latest-release-tag: 7.1.1
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -4053,8 +4053,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-meta-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-meta-operator/tree/main
         giantswarm.io/deployment-names: prometheus-meta-operator,prometheus-meta-operator-app
-        giantswarm.io/latest-release-date: "2025-02-25T08:54:12Z"
-        giantswarm.io/latest-release-tag: 4.87.0
+        giantswarm.io/latest-release-date: "2025-03-11T16:02:17Z"
+        giantswarm.io/latest-release-tag: 4.88.0
         github.com/project-slug: giantswarm/prometheus-meta-operator
 spec:
     type: service
