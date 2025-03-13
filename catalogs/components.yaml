@@ -3278,6 +3278,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: konfigure-operator
+    namespace: giantswarm
+    title: konfigure-operator
+    description: A Helm chart for the konfigure-operator
+    annotations:
+        backstage.io/kubernetes-id: konfigure-operator
+        backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
+        giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
+        giantswarm.io/latest-release-date: "2025-03-12T16:26:33Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/konfigure-operator
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kong-app
     namespace: giantswarm
     title: kong-app
@@ -4133,8 +4153,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-12T13:52:58Z"
-        giantswarm.io/latest-release-tag: 4.49.0
+        giantswarm.io/latest-release-date: "2025-03-12T17:16:45Z"
+        giantswarm.io/latest-release-tag: 4.49.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
