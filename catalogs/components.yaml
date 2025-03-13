@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-02-25T14:12:41Z"
-        giantswarm.io/latest-release-tag: 0.54.0
+        giantswarm.io/latest-release-date: "2025-03-13T09:43:32Z"
+        giantswarm.io/latest-release-tag: 0.54.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3622,8 +3622,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-03-06T13:15:44Z"
-        giantswarm.io/latest-release-tag: 0.24.1
+        giantswarm.io/latest-release-date: "2025-03-13T11:25:43Z"
+        giantswarm.io/latest-release-tag: 0.25.1
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3849,8 +3849,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-02-06T10:52:32Z"
-        giantswarm.io/latest-release-tag: 0.10.2
+        giantswarm.io/latest-release-date: "2025-03-13T13:08:50Z"
+        giantswarm.io/latest-release-tag: 0.10.3
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -3889,8 +3889,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-03-10T13:40:46Z"
-        giantswarm.io/latest-release-tag: 0.19.2
+        giantswarm.io/latest-release-date: "2025-03-13T13:51:13Z"
+        giantswarm.io/latest-release-tag: 0.19.3
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4353,8 +4353,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/master
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2024-11-05T12:27:55Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2025-03-13T14:01:14Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
