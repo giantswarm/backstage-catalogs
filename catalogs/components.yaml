@@ -1369,15 +1369,21 @@ metadata:
     name: cloud-provider-vsphere
     namespace: giantswarm
     title: cloud-provider-vsphere
-    description: A Helm chart for cloud-provider-vsphere with CPI and CSI
+    description: A Helm chart for vSphere Cloud Provider Interface Manager (CPI)
     annotations:
         backstage.io/kubernetes-id: cloud-provider-vsphere
         backstage.io/source-location: url:https://github.com/giantswarm/cloud-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloud-provider-vsphere-app/tree/master
         giantswarm.io/deployment-names: cloud-provider-vsphere,cloud-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2025-01-31T11:03:02Z"
-        giantswarm.io/latest-release-tag: 1.12.0
+        giantswarm.io/latest-release-date: "2025-03-14T16:53:04Z"
+        giantswarm.io/latest-release-tag: 2.0.1
         github.com/project-slug: giantswarm/cloud-provider-vsphere-app
+    tags:
+        - cloud
+        - cpi
+        - provider
+        - vmware
+        - vsphere
 spec:
     type: service
     lifecycle: production
@@ -3889,8 +3895,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-03-13T13:51:13Z"
-        giantswarm.io/latest-release-tag: 0.19.3
+        giantswarm.io/latest-release-date: "2025-03-14T15:54:48Z"
+        giantswarm.io/latest-release-tag: 0.19.4
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4153,8 +4159,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-12T17:16:45Z"
-        giantswarm.io/latest-release-tag: 4.49.1
+        giantswarm.io/latest-release-date: "2025-03-14T07:37:35Z"
+        giantswarm.io/latest-release-tag: 4.49.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
