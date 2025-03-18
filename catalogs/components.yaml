@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-03-13T09:43:32Z"
-        giantswarm.io/latest-release-tag: 0.54.1
+        giantswarm.io/latest-release-date: "2025-03-18T10:43:54Z"
+        giantswarm.io/latest-release-tag: 0.55.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1427,8 +1427,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-03-03T18:04:27Z"
-        giantswarm.io/latest-release-tag: 2.1.1
+        giantswarm.io/latest-release-date: "2025-03-18T10:10:31Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1727,8 +1727,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-03-07T07:51:57Z"
-        giantswarm.io/latest-release-tag: 3.1.1
+        giantswarm.io/latest-release-date: "2025-03-18T15:28:24Z"
+        giantswarm.io/latest-release-tag: 3.2.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2520,8 +2520,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2025-02-28T11:02:29Z"
-        giantswarm.io/latest-release-tag: 4.10.0
+        giantswarm.io/latest-release-date: "2025-03-18T10:27:27Z"
+        giantswarm.io/latest-release-tag: 4.10.1
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
@@ -3895,8 +3895,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-03-14T15:54:48Z"
-        giantswarm.io/latest-release-tag: 0.19.4
+        giantswarm.io/latest-release-date: "2025-03-18T16:06:25Z"
+        giantswarm.io/latest-release-tag: 0.20.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4159,8 +4159,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-17T14:26:43Z"
-        giantswarm.io/latest-release-tag: 4.49.3
+        giantswarm.io/latest-release-date: "2025-03-18T14:22:34Z"
+        giantswarm.io/latest-release-tag: 4.50.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
