@@ -309,6 +309,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+    name: easamoah7
+    namespace: giantswarm
+    annotations:
+        github.com/user-id: "77969078"
+        github.com/user-login: easamoah7
+spec:
+    profile:
+        displayName: easamoah7
+        email: ebenezer@giantswarm.io
+        picture: https://avatars.githubusercontent.com/u/77969078?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
     name: fhielpos
     namespace: giantswarm
     annotations:
