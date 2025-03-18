@@ -1123,8 +1123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2025-02-20T09:45:31Z"
-        giantswarm.io/latest-release-tag: 1.0.1
+        giantswarm.io/latest-release-date: "2025-03-17T17:57:35Z"
+        giantswarm.io/latest-release-tag: 1.0.2
         github.com/project-slug: giantswarm/capi-node-labeler-app
 spec:
     type: service
@@ -1143,8 +1143,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-02-17T12:25:51Z"
-        giantswarm.io/latest-release-tag: 2.9.4
+        giantswarm.io/latest-release-date: "2025-03-17T18:08:17Z"
+        giantswarm.io/latest-release-tag: 2.9.5
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -1707,8 +1707,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2024-11-04T23:22:44Z"
-        giantswarm.io/latest-release-tag: 1.30.3
+        giantswarm.io/latest-release-date: "2025-03-17T18:03:21Z"
+        giantswarm.io/latest-release-tag: 1.30.4-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -1787,8 +1787,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-01-31T15:19:58Z"
-        giantswarm.io/latest-release-tag: 0.64.2
+        giantswarm.io/latest-release-date: "2025-03-15T23:40:39Z"
+        giantswarm.io/latest-release-tag: 0.65.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -1913,8 +1913,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-03-05T08:22:39Z"
-        giantswarm.io/latest-release-tag: 0.69.0
+        giantswarm.io/latest-release-date: "2025-03-14T17:07:38Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -2560,8 +2560,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2025-02-17T14:22:59Z"
-        giantswarm.io/latest-release-tag: 1.10.1
+        giantswarm.io/latest-release-date: "2025-03-17T18:40:53Z"
+        giantswarm.io/latest-release-tag: 1.10.2
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -4159,8 +4159,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-14T07:37:35Z"
-        giantswarm.io/latest-release-tag: 4.49.2
+        giantswarm.io/latest-release-date: "2025-03-17T14:26:43Z"
+        giantswarm.io/latest-release-tag: 4.49.3
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4239,13 +4239,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/rbac-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/rbac-operator/tree/main
         giantswarm.io/deployment-names: rbac-operator,rbac-operator-app
-        giantswarm.io/latest-release-date: "2024-08-07T09:05:00Z"
-        giantswarm.io/latest-release-tag: 0.41.1
+        giantswarm.io/latest-release-date: "2025-03-17T13:53:48Z"
+        giantswarm.io/latest-release-tag: 0.42.0
         github.com/project-slug: giantswarm/rbac-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-bigmac
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4643,8 +4643,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
         giantswarm.io/deployment-names: trivy,trivy-app
-        giantswarm.io/latest-release-date: "2025-02-25T12:48:48Z"
-        giantswarm.io/latest-release-tag: 0.13.2
+        giantswarm.io/latest-release-date: "2025-03-17T14:50:00Z"
+        giantswarm.io/latest-release-tag: 0.13.4
         github.com/project-slug: giantswarm/trivy-app
 spec:
     type: service
