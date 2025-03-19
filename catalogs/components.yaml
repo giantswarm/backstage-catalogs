@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-03-18T10:43:54Z"
-        giantswarm.io/latest-release-tag: 0.55.0
+        giantswarm.io/latest-release-date: "2025-03-19T10:15:41Z"
+        giantswarm.io/latest-release-tag: 0.56.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1747,8 +1747,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-01-27T20:31:03Z"
-        giantswarm.io/latest-release-tag: 1.6.0
+        giantswarm.io/latest-release-date: "2025-03-19T07:49:06Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -1913,8 +1913,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-03-14T17:07:38Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-03-19T06:36:01Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -4803,8 +4803,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2024-11-04T14:10:49Z"
-        giantswarm.io/latest-release-tag: 2.0.1
+        giantswarm.io/latest-release-date: "2025-03-19T10:40:15Z"
+        giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
