@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-03-19T10:15:41Z"
-        giantswarm.io/latest-release-tag: 0.56.0
+        giantswarm.io/latest-release-date: "2025-03-20T13:12:32Z"
+        giantswarm.io/latest-release-tag: 0.56.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2097,8 +2097,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-03-12T16:08:42Z"
-        giantswarm.io/latest-release-tag: 4.3.0
+        giantswarm.io/latest-release-date: "2025-03-20T14:01:07Z"
+        giantswarm.io/latest-release-tag: 4.3.1
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -2560,8 +2560,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2025-03-18T10:27:27Z"
-        giantswarm.io/latest-release-tag: 4.10.1
+        giantswarm.io/latest-release-date: "2025-03-20T10:51:38Z"
+        giantswarm.io/latest-release-tag: 4.11.0
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
@@ -3153,8 +3153,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2024-09-02T11:42:16Z"
-        giantswarm.io/latest-release-tag: 0.30.0
+        giantswarm.io/latest-release-date: "2025-03-20T16:03:38Z"
+        giantswarm.io/latest-release-tag: 0.31.0
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -4015,8 +4015,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/outgoing-proxy-stack
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/outgoing-proxy-stack/tree/main
         giantswarm.io/deployment-names: outgoing-proxy-stack,outgoing-proxy-stack-app
-        giantswarm.io/latest-release-date: "2024-10-03T10:51:01Z"
-        giantswarm.io/latest-release-tag: 0.17.1
+        giantswarm.io/latest-release-date: "2025-03-20T14:09:02Z"
+        giantswarm.io/latest-release-tag: 0.18.1
         github.com/project-slug: giantswarm/outgoing-proxy-stack
 spec:
     type: service
