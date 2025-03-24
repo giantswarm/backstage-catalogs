@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-03-20T17:36:28Z"
-        giantswarm.io/latest-release-tag: 0.56.2
+        giantswarm.io/latest-release-date: "2025-03-21T07:38:37Z"
+        giantswarm.io/latest-release-tag: 0.56.3
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1203,8 +1203,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-03-19T15:01:31Z"
-        giantswarm.io/latest-release-tag: 0.0.1
+        giantswarm.io/latest-release-date: "2025-03-21T11:53:04Z"
+        giantswarm.io/latest-release-tag: 0.0.2
         github.com/project-slug: giantswarm/cert-manager-crossplane-resources
 spec:
     type: service
@@ -1968,6 +1968,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: cm-crossplane-resources
+    namespace: giantswarm
+    title: cm-crossplane-resources
+    description: Crossplane Resources for cert-manager
+    annotations:
+        backstage.io/kubernetes-id: cm-crossplane-resources
+        backstage.io/source-location: url:https://github.com/giantswarm/cm-crossplane-resources
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cm-crossplane-resources/tree/main
+        giantswarm.io/deployment-names: cm-crossplane-resources,cm-crossplane-resources-app
+        giantswarm.io/latest-release-date: "2025-03-21T20:56:07Z"
+        giantswarm.io/latest-release-tag: 0.0.4
+        github.com/project-slug: giantswarm/cm-crossplane-resources
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: companyd
     namespace: giantswarm
     title: companyd
@@ -2560,8 +2580,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2025-03-20T10:51:38Z"
-        giantswarm.io/latest-release-tag: 4.11.0
+        giantswarm.io/latest-release-date: "2025-03-21T10:04:20Z"
+        giantswarm.io/latest-release-tag: 4.12.0
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
@@ -3915,8 +3935,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2025-02-27T10:42:12Z"
-        giantswarm.io/latest-release-tag: 1.11.0
+        giantswarm.io/latest-release-date: "2025-03-21T09:10:41Z"
+        giantswarm.io/latest-release-tag: 1.12.0
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
