@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-03-21T07:38:37Z"
-        giantswarm.io/latest-release-tag: 0.56.3
+        giantswarm.io/latest-release-date: "2025-03-26T08:50:44Z"
+        giantswarm.io/latest-release-tag: 0.57.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3688,8 +3688,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-03-13T11:25:43Z"
-        giantswarm.io/latest-release-tag: 0.25.1
+        giantswarm.io/latest-release-date: "2025-03-24T10:47:24Z"
+        giantswarm.io/latest-release-tag: 0.26.1
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -3955,8 +3955,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-03-18T16:06:25Z"
-        giantswarm.io/latest-release-tag: 0.20.0
+        giantswarm.io/latest-release-date: "2025-03-25T09:15:22Z"
+        giantswarm.io/latest-release-tag: 0.22.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4219,8 +4219,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-18T14:22:34Z"
-        giantswarm.io/latest-release-tag: 4.50.0
+        giantswarm.io/latest-release-date: "2025-03-26T14:19:31Z"
+        giantswarm.io/latest-release-tag: 4.52.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
