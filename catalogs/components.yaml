@@ -1977,8 +1977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cm-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cm-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cm-crossplane-resources,cm-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-03-21T20:56:07Z"
-        giantswarm.io/latest-release-tag: 0.0.4
+        giantswarm.io/latest-release-date: "2025-03-27T11:17:23Z"
+        giantswarm.io/latest-release-tag: 0.0.5
         github.com/project-slug: giantswarm/cm-crossplane-resources
 spec:
     type: service
