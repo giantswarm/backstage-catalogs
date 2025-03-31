@@ -4419,8 +4419,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/master
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2025-03-13T14:01:14Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2025-03-31T12:28:02Z"
+        giantswarm.io/latest-release-tag: 0.14.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
@@ -4479,8 +4479,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-rules/tree/main
         giantswarm.io/deployment-names: sloth-rules,sloth-rules-app
-        giantswarm.io/latest-release-date: "2025-02-25T08:53:15Z"
-        giantswarm.io/latest-release-tag: 0.45.0
+        giantswarm.io/latest-release-date: "2025-03-31T09:01:23Z"
+        giantswarm.io/latest-release-tag: 0.46.0
         github.com/project-slug: giantswarm/sloth-rules
 spec:
     type: service
