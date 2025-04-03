@@ -95,8 +95,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-admission-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-admission-controller/tree/main
         giantswarm.io/deployment-names: app-admission-controller,app-admission-controller-app
-        giantswarm.io/latest-release-date: "2025-01-31T11:22:44Z"
-        giantswarm.io/latest-release-tag: 1.0.1
+        giantswarm.io/latest-release-date: "2025-04-02T10:36:37Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/app-admission-controller
 spec:
     type: service
@@ -158,8 +158,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-03-11T09:02:24Z"
-        giantswarm.io/latest-release-tag: 7.1.1
+        giantswarm.io/latest-release-date: "2025-04-01T12:53:40Z"
+        giantswarm.io/latest-release-tag: 7.2.0
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -1727,8 +1727,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-03-12T10:38:20Z"
-        giantswarm.io/latest-release-tag: 3.1.2
+        giantswarm.io/latest-release-date: "2025-04-01T14:39:07Z"
+        giantswarm.io/latest-release-tag: 3.2.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -2037,8 +2037,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2025-01-28T17:31:10Z"
-        giantswarm.io/latest-release-tag: 1.24.0
+        giantswarm.io/latest-release-date: "2025-04-02T10:10:36Z"
+        giantswarm.io/latest-release-tag: 1.25.0
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
@@ -4219,8 +4219,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-03-26T14:19:31Z"
-        giantswarm.io/latest-release-tag: 4.52.0
+        giantswarm.io/latest-release-date: "2025-04-02T13:20:40Z"
+        giantswarm.io/latest-release-tag: 4.53.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -4539,8 +4539,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
         giantswarm.io/deployment-names: starboard-exporter,starboard-exporter-app
-        giantswarm.io/latest-release-date: "2024-10-23T11:18:53Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-04-01T15:58:22Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/starboard-exporter
 spec:
     type: service
