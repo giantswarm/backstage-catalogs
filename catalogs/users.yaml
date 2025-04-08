@@ -661,6 +661,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+    name: robinkb
+    namespace: giantswarm
+    annotations:
+        github.com/user-id: "16467140"
+        github.com/user-login: robinkb
+spec:
+    profile:
+        displayName: Robin Ketelbuters
+        email: robin.k@giantswarm.io
+        picture: https://avatars.githubusercontent.com/u/16467140?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
     name: simonapetrova1
     namespace: giantswarm
     annotations:
