@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-04-03T08:34:15Z"
-        giantswarm.io/latest-release-tag: 0.59.0
+        giantswarm.io/latest-release-date: "2025-04-08T15:44:50Z"
+        giantswarm.io/latest-release-tag: 0.60.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1003,8 +1003,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-02-19T16:26:06Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-04-08T16:06:22Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -4219,8 +4219,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-04-07T08:25:34Z"
-        giantswarm.io/latest-release-tag: 4.54.0
+        giantswarm.io/latest-release-date: "2025-04-08T14:17:17Z"
+        giantswarm.io/latest-release-tag: 4.54.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
