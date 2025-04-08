@@ -1203,8 +1203,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-03-21T11:53:04Z"
-        giantswarm.io/latest-release-tag: 0.0.2
+        giantswarm.io/latest-release-date: "2025-04-07T22:14:55Z"
+        giantswarm.io/latest-release-tag: 0.0.6
         github.com/project-slug: giantswarm/cert-manager-crossplane-resources
 spec:
     type: service
@@ -3373,8 +3373,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2025-02-18T11:39:08Z"
-        giantswarm.io/latest-release-tag: 4.5.1
+        giantswarm.io/latest-release-date: "2025-04-07T12:30:14Z"
+        giantswarm.io/latest-release-tag: 5.0.0
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
@@ -3955,8 +3955,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-03-25T09:15:22Z"
-        giantswarm.io/latest-release-tag: 0.22.1
+        giantswarm.io/latest-release-date: "2025-04-07T14:29:37Z"
+        giantswarm.io/latest-release-tag: 0.23.2
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -4219,8 +4219,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-04-02T13:20:40Z"
-        giantswarm.io/latest-release-tag: 4.53.0
+        giantswarm.io/latest-release-date: "2025-04-07T08:25:34Z"
+        giantswarm.io/latest-release-tag: 4.54.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service

@@ -82,6 +82,7 @@ spec:
         - fiunchinho
         - iuriaranda
         - paurosello
+        - robinkb
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
