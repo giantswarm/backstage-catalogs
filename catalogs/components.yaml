@@ -3353,8 +3353,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
         giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
-        giantswarm.io/latest-release-date: "2025-03-28T16:32:50Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-04-11T14:16:41Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/konfigure-operator
 spec:
     type: service
@@ -3628,8 +3628,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-02-19T11:49:18Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-04-11T12:51:53Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
