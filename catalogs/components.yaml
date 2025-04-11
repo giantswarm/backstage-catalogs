@@ -498,8 +498,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-crossplane-resources/tree/main
         giantswarm.io/deployment-names: aws-nth-crossplane-resources,aws-nth-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2024-12-11T13:04:43Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-04-10T13:24:36Z"
+        giantswarm.io/latest-release-tag: 1.1.1
         github.com/project-slug: giantswarm/aws-nth-crossplane-resources
 spec:
     type: service
@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-04-09T16:00:22Z"
-        giantswarm.io/latest-release-tag: 0.62.0
+        giantswarm.io/latest-release-date: "2025-04-10T15:28:34Z"
+        giantswarm.io/latest-release-tag: 0.63.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1203,8 +1203,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-04-07T22:14:55Z"
-        giantswarm.io/latest-release-tag: 0.0.6
+        giantswarm.io/latest-release-date: "2025-04-10T13:24:41Z"
+        giantswarm.io/latest-release-tag: 0.0.7
         github.com/project-slug: giantswarm/cert-manager-crossplane-resources
 spec:
     type: service
@@ -1335,8 +1335,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cilium-crossplane-resources,cilium-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-01-29T12:24:45Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2025-04-10T13:24:47Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/cilium-crossplane-resources
 spec:
     type: service
@@ -2740,8 +2740,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-dns-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-crossplane-resources/tree/main
         giantswarm.io/deployment-names: external-dns-crossplane-resources,external-dns-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2023-12-15T12:25:00Z"
-        giantswarm.io/latest-release-tag: 0.1.5
+        giantswarm.io/latest-release-date: "2025-04-10T13:24:46Z"
+        giantswarm.io/latest-release-tag: 0.1.6
         github.com/project-slug: giantswarm/external-dns-crossplane-resources
 spec:
     type: service
@@ -3293,8 +3293,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-crossplane-resources/tree/main
         giantswarm.io/deployment-names: karpenter-crossplane-resources,karpenter-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2024-10-04T10:01:29Z"
-        giantswarm.io/latest-release-tag: 0.1.3
+        giantswarm.io/latest-release-date: "2025-04-10T13:25:49Z"
+        giantswarm.io/latest-release-tag: 0.1.4
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
 spec:
     type: service
@@ -3935,8 +3935,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
         giantswarm.io/deployment-names: observability-bundle,observability-bundle-app
-        giantswarm.io/latest-release-date: "2025-03-21T09:10:41Z"
-        giantswarm.io/latest-release-tag: 1.12.0
+        giantswarm.io/latest-release-date: "2025-04-10T14:27:39Z"
+        giantswarm.io/latest-release-tag: 1.13.0
         github.com/project-slug: giantswarm/observability-bundle
 spec:
     type: service
