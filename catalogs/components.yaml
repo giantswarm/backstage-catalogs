@@ -898,8 +898,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-04-10T15:28:34Z"
-        giantswarm.io/latest-release-tag: 0.63.1
+        giantswarm.io/latest-release-date: "2025-04-16T14:33:57Z"
+        giantswarm.io/latest-release-tag: 0.64.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1163,8 +1163,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-app/tree/main
         giantswarm.io/deployment-names: cert-manager,cert-manager-app
-        giantswarm.io/latest-release-date: "2025-01-28T14:42:03Z"
-        giantswarm.io/latest-release-tag: 3.9.0
+        giantswarm.io/latest-release-date: "2025-04-16T11:08:12Z"
+        giantswarm.io/latest-release-tag: 3.9.1
         github.com/project-slug: giantswarm/cert-manager-app
 spec:
     type: service
@@ -2883,8 +2883,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2025-02-13T14:55:54Z"
-        giantswarm.io/latest-release-tag: 1.4.3
+        giantswarm.io/latest-release-date: "2025-04-15T09:01:37Z"
+        giantswarm.io/latest-release-tag: 1.5.0
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
@@ -3353,8 +3353,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
         giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
-        giantswarm.io/latest-release-date: "2025-03-28T16:32:50Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-04-11T14:16:41Z"
+        giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/konfigure-operator
 spec:
     type: service
@@ -3628,8 +3628,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-02-19T11:49:18Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-04-15T12:33:18Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
@@ -3788,8 +3788,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2025-01-16T10:23:30Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2025-04-14T07:26:58Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -3955,8 +3955,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-04-07T14:29:37Z"
-        giantswarm.io/latest-release-tag: 0.23.2
+        giantswarm.io/latest-release-date: "2025-04-15T10:55:18Z"
+        giantswarm.io/latest-release-tag: 0.24.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service

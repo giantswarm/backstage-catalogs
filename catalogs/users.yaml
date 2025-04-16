@@ -180,7 +180,7 @@ metadata:
         github.com/user-login: Rotfuks
 spec:
     profile:
-        displayName: Dominik Kress
+        displayName: Dominik Schmidle
         email: dominik@giantswarm.io
         picture: https://avatars.githubusercontent.com/u/16223546?v=4
     memberOf: []
