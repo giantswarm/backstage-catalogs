@@ -87,6 +87,27 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-phoenix
+    namespace: giantswarm
+    title: Team Phoenix
+    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
+spec:
+    type: team
+    profile:
+        displayName: Team Phoenix
+        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
+    children: []
+    members:
+        - AndiDog
+        - T-Kukawka
+        - fiunchinho
+        - iuriaranda
+        - paurosello
+        - robinkb
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-planeteers
     namespace: giantswarm
     title: Team Planeteers
