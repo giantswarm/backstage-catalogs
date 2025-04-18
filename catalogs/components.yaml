@@ -4737,8 +4737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/nos-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/nos-app/tree/main
         giantswarm.io/deployment-names: nos,nos-app
-        giantswarm.io/latest-release-date: "2025-04-07T14:09:22Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-04-18T08:25:57Z"
+        giantswarm.io/latest-release-tag: 0.1.2
         github.com/project-slug: giantswarm/nos-app
 spec:
     type: service
