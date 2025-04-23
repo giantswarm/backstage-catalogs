@@ -471,6 +471,32 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: aws-load-balancer-controller
+    namespace: giantswarm
+    title: aws-load-balancer-controller
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    annotations:
+        backstage.io/kubernetes-id: aws-load-balancer-controller
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-load-balancer-controller-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-load-balancer-controller-app/tree/main
+        giantswarm.io/deployment-names: aws-load-balancer-controller,aws-load-balancer-controller-app
+        giantswarm.io/latest-release-date: "2025-04-22T11:54:44Z"
+        giantswarm.io/latest-release-tag: 2.2.0
+        github.com/project-slug: giantswarm/aws-load-balancer-controller-app
+    tags:
+        - alb
+        - eks
+        - ingress
+        - load-balancer
+        - nlb
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: aws-network-topology-operator
     namespace: giantswarm
     title: aws-network-topology-operator
@@ -4381,8 +4407,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-04-15T12:33:18Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2025-04-22T14:44:11Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
@@ -4441,8 +4467,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-03-24T10:47:24Z"
-        giantswarm.io/latest-release-tag: 0.26.1
+        giantswarm.io/latest-release-date: "2025-04-22T12:56:31Z"
+        giantswarm.io/latest-release-tag: 0.27.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4817,8 +4843,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-04-15T10:55:18Z"
-        giantswarm.io/latest-release-tag: 0.24.0
+        giantswarm.io/latest-release-date: "2025-04-22T13:18:32Z"
+        giantswarm.io/latest-release-tag: 0.25.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5163,8 +5189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-04-08T14:17:17Z"
-        giantswarm.io/latest-release-tag: 4.54.1
+        giantswarm.io/latest-release-date: "2025-04-22T12:28:32Z"
+        giantswarm.io/latest-release-tag: 4.55.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5638,6 +5664,28 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-tinkerers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: teleport-kube-agent
+    namespace: giantswarm
+    title: teleport-kube-agent
+    description: Teleport provides a secure SSH, Kubernetes, database and application remote access solution that doesn't get in the way.
+    annotations:
+        backstage.io/kubernetes-id: teleport-kube-agent
+        backstage.io/source-location: url:https://github.com/giantswarm/teleport-kube-agent-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-kube-agent-app/tree/main
+        giantswarm.io/deployment-names: teleport-kube-agent,teleport-kube-agent-app
+        giantswarm.io/latest-release-date: "2025-04-22T12:21:16Z"
+        giantswarm.io/latest-release-tag: 0.10.5
+        github.com/project-slug: giantswarm/teleport-kube-agent-app
+    tags:
+        - teleport
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
