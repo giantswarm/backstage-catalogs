@@ -4803,8 +4803,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-03-13T13:08:50Z"
-        giantswarm.io/latest-release-tag: 0.10.3
+        giantswarm.io/latest-release-date: "2025-04-23T09:16:56Z"
+        giantswarm.io/latest-release-tag: 0.10.4
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -5457,8 +5457,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/master
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2025-03-31T12:28:02Z"
-        giantswarm.io/latest-release-tag: 0.14.0
+        giantswarm.io/latest-release-date: "2025-04-23T12:35:47Z"
+        giantswarm.io/latest-release-tag: 0.14.1
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
