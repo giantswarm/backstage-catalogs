@@ -1371,8 +1371,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-crossplane-resources/tree/main
         giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-04-10T13:24:41Z"
-        giantswarm.io/latest-release-tag: 0.0.7
+        giantswarm.io/latest-release-date: "2025-04-25T13:43:50Z"
+        giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/cert-manager-crossplane-resources
 spec:
     type: service
@@ -4763,8 +4763,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/nos-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/nos-app/tree/main
         giantswarm.io/deployment-names: nos,nos-app
-        giantswarm.io/latest-release-date: "2025-04-18T08:25:57Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-04-25T09:00:28Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/nos-app
 spec:
     type: service
