@@ -2737,8 +2737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2025-05-06T08:10:48Z"
-        giantswarm.io/latest-release-tag: 1.42.14
+        giantswarm.io/latest-release-date: "2025-05-08T10:20:53Z"
+        giantswarm.io/latest-release-tag: 1.42.15
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -3348,8 +3348,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2025-05-06T12:29:36Z"
-        giantswarm.io/latest-release-tag: 1.6.0
+        giantswarm.io/latest-release-date: "2025-05-08T10:21:12Z"
+        giantswarm.io/latest-release-tag: 1.7.0
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
