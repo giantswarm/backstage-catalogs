@@ -4347,8 +4347,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-01-02T11:49:29Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2025-05-08T16:27:10Z"
+        giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
@@ -5189,8 +5189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-05-07T13:18:33Z"
-        giantswarm.io/latest-release-tag: 4.58.0
+        giantswarm.io/latest-release-date: "2025-05-08T12:46:41Z"
+        giantswarm.io/latest-release-tag: 4.59.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5721,15 +5721,15 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-tbot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-tbot/tree/main
         giantswarm.io/deployment-names: teleport-tbot,teleport-tbot-app
-        giantswarm.io/latest-release-date: "2024-08-22T13:03:12Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2025-05-08T12:59:05Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/teleport-tbot
     tags:
         - teleport
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-bigmac
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
