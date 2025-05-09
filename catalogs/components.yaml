@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-05-09T09:17:58Z"
-        giantswarm.io/latest-release-tag: 2.21.1
+        giantswarm.io/latest-release-date: "2025-05-09T10:46:05Z"
+        giantswarm.io/latest-release-tag: 2.22.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -5189,8 +5189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-05-08T12:46:41Z"
-        giantswarm.io/latest-release-tag: 4.59.0
+        giantswarm.io/latest-release-date: "2025-05-09T10:32:37Z"
+        giantswarm.io/latest-release-tag: 4.59.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
