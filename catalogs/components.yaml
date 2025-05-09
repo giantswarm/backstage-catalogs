@@ -3045,8 +3045,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-04-08T16:04:45Z"
-        giantswarm.io/latest-release-tag: 1.0.3
+        giantswarm.io/latest-release-date: "2025-05-09T13:36:38Z"
+        giantswarm.io/latest-release-tag: 1.0.4
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
@@ -5189,8 +5189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-05-09T10:32:37Z"
-        giantswarm.io/latest-release-tag: 4.59.1
+        giantswarm.io/latest-release-date: "2025-05-09T13:53:42Z"
+        giantswarm.io/latest-release-tag: 4.59.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
