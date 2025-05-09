@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-04-30T08:07:23Z"
-        giantswarm.io/latest-release-tag: 2.21.0
+        giantswarm.io/latest-release-date: "2025-05-09T09:17:58Z"
+        giantswarm.io/latest-release-tag: 2.21.1
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4487,8 +4487,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-02-24T10:28:58Z"
-        giantswarm.io/latest-release-tag: 0.28.0
+        giantswarm.io/latest-release-date: "2025-05-09T08:45:30Z"
+        giantswarm.io/latest-release-tag: 0.28.1
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
