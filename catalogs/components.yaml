@@ -4803,8 +4803,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-04-23T09:16:56Z"
-        giantswarm.io/latest-release-tag: 0.10.4
+        giantswarm.io/latest-release-date: "2025-05-12T06:53:38Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -5169,8 +5169,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2025-04-17T12:44:36Z"
-        giantswarm.io/latest-release-tag: 0.8.1
+        giantswarm.io/latest-release-date: "2025-05-12T07:49:22Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/prometheus-remotewrite
 spec:
     type: service
@@ -5455,7 +5455,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: silence-operator
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/main
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
         giantswarm.io/latest-release-date: "2025-04-23T12:35:47Z"
         giantswarm.io/latest-release-tag: 0.14.1
