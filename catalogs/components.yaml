@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-04-30T15:17:58Z"
-        giantswarm.io/latest-release-tag: 0.71.0
+        giantswarm.io/latest-release-date: "2025-05-14T14:56:18Z"
+        giantswarm.io/latest-release-tag: 0.72.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1723,8 +1723,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-03-18T10:10:31Z"
-        giantswarm.io/latest-release-tag: 2.2.0
+        giantswarm.io/latest-release-date: "2025-05-14T07:58:34Z"
+        giantswarm.io/latest-release-tag: 2.2.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -4047,8 +4047,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
         giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
-        giantswarm.io/latest-release-date: "2025-04-30T12:44:10Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-05-14T12:36:42Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/konfigure-operator
 spec:
     type: service
@@ -4843,8 +4843,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-05-05T08:57:09Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2025-05-14T08:31:15Z"
+        giantswarm.io/latest-release-tag: 0.30.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5189,8 +5189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-05-09T13:53:42Z"
-        giantswarm.io/latest-release-tag: 4.59.2
+        giantswarm.io/latest-release-date: "2025-05-14T07:59:00Z"
+        giantswarm.io/latest-release-tag: 4.61.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5451,14 +5451,14 @@ metadata:
     name: silence-operator
     namespace: giantswarm
     title: silence-operator
-    description: Chart holding silence-operator.
+    description: The silence-operator manages alertmanager silences.
     annotations:
         backstage.io/kubernetes-id: silence-operator
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/main
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2025-04-23T12:35:47Z"
-        giantswarm.io/latest-release-tag: 0.14.1
+        giantswarm.io/latest-release-date: "2025-05-14T07:58:14Z"
+        giantswarm.io/latest-release-tag: 0.15.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
