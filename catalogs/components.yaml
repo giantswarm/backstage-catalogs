@@ -358,8 +358,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-crossplane-cluster-config-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-crossplane-cluster-config-operator/tree/main
         giantswarm.io/deployment-names: aws-crossplane-cluster-config-operator,aws-crossplane-cluster-config-operator-app
-        giantswarm.io/latest-release-date: "2025-01-29T12:09:29Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-05-19T14:43:06Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/aws-crossplane-cluster-config-operator
 spec:
     type: service
