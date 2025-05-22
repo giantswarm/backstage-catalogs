@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-05-20T07:45:38Z"
-        giantswarm.io/latest-release-tag: 0.72.3
+        giantswarm.io/latest-release-date: "2025-05-21T11:51:41Z"
+        giantswarm.io/latest-release-tag: 0.72.7
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-03-19T13:18:16Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2025-05-21T18:19:30Z"
+        giantswarm.io/latest-release-tag: 2.1.1
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -2143,8 +2143,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-03-18T23:24:48Z"
-        giantswarm.io/latest-release-tag: 0.66.0
+        giantswarm.io/latest-release-date: "2025-05-21T19:13:53Z"
+        giantswarm.io/latest-release-tag: 0.66.1
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -4387,8 +4387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-observability
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-observability/tree/main
         giantswarm.io/deployment-names: kyverno-policies-observability,kyverno-policies-observability-app
-        giantswarm.io/latest-release-date: "2024-10-24T12:48:36Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2025-05-21T15:27:38Z"
+        giantswarm.io/latest-release-tag: 0.7.0
         github.com/project-slug: giantswarm/kyverno-policies-observability
 spec:
     type: service
