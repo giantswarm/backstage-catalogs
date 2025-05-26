@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-05-21T11:51:41Z"
-        giantswarm.io/latest-release-tag: 0.72.7
+        giantswarm.io/latest-release-date: "2025-05-22T09:58:41Z"
+        giantswarm.io/latest-release-tag: 0.73.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-05-16T12:13:47Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2025-05-25T09:09:36Z"
+        giantswarm.io/latest-release-tag: 3.0.1
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -1903,8 +1903,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-monitoring
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-monitoring/tree/main
         giantswarm.io/deployment-names: cluster-api-monitoring,cluster-api-monitoring-app
-        giantswarm.io/latest-release-date: "2025-04-04T13:05:07Z"
-        giantswarm.io/latest-release-tag: 1.17.0
+        giantswarm.io/latest-release-date: "2025-05-22T10:45:25Z"
+        giantswarm.io/latest-release-tag: 1.17.1
         github.com/project-slug: giantswarm/cluster-api-monitoring
 spec:
     type: service
@@ -5012,6 +5012,26 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: policy-api-crds
+    namespace: giantswarm
+    title: policy-api-crds
+    description: This app contains the Policy API CRDs.
+    annotations:
+        backstage.io/kubernetes-id: policy-api-crds
+        backstage.io/source-location: url:https://github.com/giantswarm/policy-api
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
+        giantswarm.io/deployment-names: policy-api-crds,policy-api-crds-app
+        giantswarm.io/latest-release-date: "2025-05-22T11:21:15Z"
+        giantswarm.io/latest-release-tag: 0.0.6
+        github.com/project-slug: giantswarm/policy-api
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
