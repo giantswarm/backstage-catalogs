@@ -2697,8 +2697,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/descheduler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/descheduler-app/tree/main
         giantswarm.io/deployment-names: descheduler,descheduler-app
-        giantswarm.io/latest-release-date: "2024-12-03T08:52:28Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-05-27T11:06:09Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/descheduler-app
 spec:
     type: service
