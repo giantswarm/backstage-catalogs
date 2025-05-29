@@ -7,5 +7,5 @@ input:
   branchName: create-rds-${{ parameters.name }}
   description: |
     ### New Amazon RDS and Elasticache service: ${{ parameters.name }}
-  targetPath: management-clusters/${{ parameters.deployment.installationName }}/organizations/${{ parameters.deployment.clusterOrganization }}/workload-clusters/${{ parameters.deployment.clusterName }}/mapi/infrastructure/${{ parameters.name }}
+  targetPath: management-clusters/${{ parameters.installation.installationName }}/organizations/${{ parameters.cluster.clusterOrganization }}/workload-clusters/${{ parameters.cluster.clusterName }}/mapi/infrastructure/${{ parameters.name }}
   token: ${{ secrets.USER_OAUTH_TOKEN }}

@@ -14,8 +14,6 @@ input:
       owner: ${{ parameters.projectRepoOwner }}
     prRepository: ${{ parameters.prRepoUrl | parseRepoUrl }}
     deployment:
-      installationName: ${{ parameters.deployment.installationName }}
-      clusterName: ${{ parameters.deployment.clusterName }}
-      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
-      mcProviderConfig: ${{ parameters.deployment.mcProviderConfig }}
-      wcProviderConfig: ${{ parameters.deployment.wcProviderConfig }}
+      installationName: ${{ parameters.installation.installationName }}
+      clusterName: ${{ parameters.cluster.clusterName }}
+      clusterNamespace: ${{ parameters.cluster.clusterNamespace }}

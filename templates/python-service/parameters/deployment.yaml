@@ -3,8 +3,20 @@ ui:ObjectFieldTemplate: GSStepLayout
 ui:options:
   formWidth: 1200
 required:
-  - deployment
+  - installation
+  - cluster
 properties:
-  deployment:
+  installation:
+    title: Installation
     type: object
-    ui:field: GSDeploymentDetailsPicker
+    ui:field: GSInstallationPicker
+    ui:options:
+      autoSelectFirstValue: false
+      widget: select
+  cluster:
+    title: Cluster
+    type: object
+    description: Workload cluster name
+    ui:field: GSClusterPicker
+    ui:options:
+      installationNameField: installation.installationName
