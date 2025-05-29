@@ -10,7 +10,7 @@ input:
       ownerRef: ${{ parameters.owner }}
       lifecycle: ${{ parameters.lifecycle }}
     deployment:
-      installationName: ${{ parameters.deployment.installationName }}
-      clusterNamespace: ${{ parameters.deployment.clusterNamespace }}
+      installationName: ${{ parameters.installation.installationName }}
+      clusterNamespace: ${{ parameters.cluster.clusterNamespace }}
     pullRequest:
       url: ${{ steps.publish.output.remoteUrl }}

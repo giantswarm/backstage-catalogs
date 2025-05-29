@@ -9,5 +9,5 @@ input:
     ### New Go service: ${{ parameters.name }}
 
     ${{ parameters.description if parameters.description }}
-  targetPath: management-clusters/${{ parameters.deployment.installationName }}/dev-platform/projects/${{ parameters.name }}
+  targetPath: management-clusters/${{ parameters.installation.installationName }}/dev-platform/projects/${{ parameters.name }}
   token: ${{ secrets.USER_OAUTH_TOKEN }}
