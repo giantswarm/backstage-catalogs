@@ -2063,8 +2063,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-03-28T13:17:51Z"
-        giantswarm.io/latest-release-tag: 1.30.4-gs2
+        giantswarm.io/latest-release-date: "2025-05-30T07:16:29Z"
+        giantswarm.io/latest-release-tag: 1.31.2-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
