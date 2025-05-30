@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-05-26T07:36:28Z"
-        giantswarm.io/latest-release-tag: 0.73.1
+        giantswarm.io/latest-release-date: "2025-05-29T14:04:51Z"
+        giantswarm.io/latest-release-tag: 0.74.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1703,8 +1703,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloudnative-pg-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudnative-pg-app/tree/main
         giantswarm.io/deployment-names: cloudnative-pg,cloudnative-pg-app
-        giantswarm.io/latest-release-date: "2025-05-06T06:53:30Z"
-        giantswarm.io/latest-release-tag: 0.0.8
+        giantswarm.io/latest-release-date: "2025-05-28T09:17:49Z"
+        giantswarm.io/latest-release-tag: 0.0.9
         github.com/project-slug: giantswarm/cloudnative-pg-app
 spec:
     type: service
@@ -1923,8 +1923,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-05-26T14:10:11Z"
-        giantswarm.io/latest-release-tag: 2.30.1
+        giantswarm.io/latest-release-date: "2025-05-29T07:43:23Z"
+        giantswarm.io/latest-release-tag: 2.30.2
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -1937,14 +1937,14 @@ metadata:
     name: cluster-api-provider-azure
     namespace: giantswarm
     title: cluster-api-provider-azure
-    description: Helm chart for Cluster API Azure
+    description: A Helm chart for Cluster API Provider Azure components.
     annotations:
         backstage.io/kubernetes-id: cluster-api-provider-azure
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2024-07-17T11:03:25Z"
-        giantswarm.io/latest-release-tag: 1.12.4-gs2
+        giantswarm.io/latest-release-date: "2025-05-28T14:11:25Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-05-09T10:46:05Z"
-        giantswarm.io/latest-release-tag: 2.22.0
+        giantswarm.io/latest-release-date: "2025-05-28T06:53:25Z"
+        giantswarm.io/latest-release-tag: 2.22.1
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4467,8 +4467,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-04-23T08:07:19Z"
-        giantswarm.io/latest-release-tag: 0.28.0
+        giantswarm.io/latest-release-date: "2025-05-28T08:47:36Z"
+        giantswarm.io/latest-release-tag: 0.29.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
