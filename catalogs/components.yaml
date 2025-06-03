@@ -1291,8 +1291,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2025-03-17T17:57:35Z"
-        giantswarm.io/latest-release-tag: 1.0.2
+        giantswarm.io/latest-release-date: "2025-06-03T07:40:52Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/capi-node-labeler-app
 spec:
     type: service
@@ -1311,8 +1311,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-03-17T18:08:17Z"
-        giantswarm.io/latest-release-tag: 2.9.5
+        giantswarm.io/latest-release-date: "2025-06-03T07:48:40Z"
+        giantswarm.io/latest-release-tag: 2.9.6
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -2063,8 +2063,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-05-30T07:16:29Z"
-        giantswarm.io/latest-release-tag: 1.31.2-gs1
+        giantswarm.io/latest-release-date: "2025-06-03T07:55:50Z"
+        giantswarm.io/latest-release-tag: 1.31.2-gs2
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -4656,8 +4656,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/net-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/net-exporter/tree/main
         giantswarm.io/deployment-names: net-exporter,net-exporter-app
-        giantswarm.io/latest-release-date: "2025-02-26T15:08:21Z"
-        giantswarm.io/latest-release-tag: 1.22.0
+        giantswarm.io/latest-release-date: "2025-06-03T07:11:36Z"
+        giantswarm.io/latest-release-tag: 1.23.0
         github.com/project-slug: giantswarm/net-exporter
 spec:
     type: service
