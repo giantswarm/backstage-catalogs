@@ -1475,8 +1475,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2025-05-20T09:45:58Z"
-        giantswarm.io/latest-release-tag: 1.1.1
+        giantswarm.io/latest-release-date: "2025-06-02T14:09:04Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -3978,6 +3978,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: karpenter-nodepools
+    namespace: giantswarm
+    title: karpenter-nodepools
+    description: Karpernter nodepools Helm chart for Giant Swarm Platform
+    annotations:
+        backstage.io/kubernetes-id: karpenter-nodepools
+        backstage.io/source-location: url:https://github.com/giantswarm/karpenter-nodepools
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-nodepools/tree/main
+        giantswarm.io/deployment-names: karpenter-nodepools,karpenter-nodepools-app
+        giantswarm.io/latest-release-date: "2025-06-02T14:14:33Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/karpenter-nodepools
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: keda
     namespace: giantswarm
     title: keda
@@ -4843,8 +4863,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-05-15T12:51:14Z"
-        giantswarm.io/latest-release-tag: 0.31.0
+        giantswarm.io/latest-release-date: "2025-06-02T13:07:20Z"
+        giantswarm.io/latest-release-tag: 0.32.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5209,8 +5229,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-05-15T08:30:53Z"
-        giantswarm.io/latest-release-tag: 4.62.0
+        giantswarm.io/latest-release-date: "2025-06-02T08:42:04Z"
+        giantswarm.io/latest-release-tag: 4.63.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
