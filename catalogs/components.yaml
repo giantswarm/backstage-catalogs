@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-05-28T06:53:25Z"
-        giantswarm.io/latest-release-tag: 2.22.1
+        giantswarm.io/latest-release-date: "2025-06-05T16:10:45Z"
+        giantswarm.io/latest-release-tag: 2.23.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -3762,8 +3762,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-05-05T08:44:18Z"
-        giantswarm.io/latest-release-tag: 4.0.1
+        giantswarm.io/latest-release-date: "2025-06-05T10:55:12Z"
+        giantswarm.io/latest-release-tag: 4.0.2
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
@@ -4387,8 +4387,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-dx
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-dx/tree/main
         giantswarm.io/deployment-names: kyverno-policies-dx,kyverno-policies-dx-app
-        giantswarm.io/latest-release-date: "2025-02-19T11:44:09Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2025-06-06T04:42:05Z"
+        giantswarm.io/latest-release-tag: 0.7.0
         github.com/project-slug: giantswarm/kyverno-policies-dx
 spec:
     type: service
@@ -4427,8 +4427,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-04-22T14:44:11Z"
-        giantswarm.io/latest-release-tag: 0.11.0
+        giantswarm.io/latest-release-date: "2025-06-06T04:46:59Z"
+        giantswarm.io/latest-release-tag: 0.12.0
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
@@ -5249,8 +5249,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-06-02T08:42:04Z"
-        giantswarm.io/latest-release-tag: 4.63.0
+        giantswarm.io/latest-release-date: "2025-06-05T10:35:29Z"
+        giantswarm.io/latest-release-tag: 4.64.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
