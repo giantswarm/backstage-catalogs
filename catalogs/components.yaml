@@ -1291,8 +1291,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2025-06-03T07:40:52Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-06-07T07:31:35Z"
+        giantswarm.io/latest-release-tag: 1.1.1
         github.com/project-slug: giantswarm/capi-node-labeler-app
 spec:
     type: service
@@ -1311,8 +1311,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-06-03T07:48:40Z"
-        giantswarm.io/latest-release-tag: 2.9.6
+        giantswarm.io/latest-release-date: "2025-06-07T07:24:00Z"
+        giantswarm.io/latest-release-tag: 2.9.7
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -3045,8 +3045,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-05-09T13:36:38Z"
-        giantswarm.io/latest-release-tag: 1.0.4
+        giantswarm.io/latest-release-date: "2025-06-07T06:31:35Z"
+        giantswarm.io/latest-release-tag: 1.0.5
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
@@ -3065,8 +3065,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2025-06-03T08:03:38Z"
-        giantswarm.io/latest-release-tag: 1.10.4
+        giantswarm.io/latest-release-date: "2025-06-07T07:23:55Z"
+        giantswarm.io/latest-release-tag: 1.10.5
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -3805,8 +3805,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2025-04-03T07:59:17Z"
-        giantswarm.io/latest-release-tag: 0.31.1
+        giantswarm.io/latest-release-date: "2025-06-06T13:03:52Z"
+        giantswarm.io/latest-release-tag: 0.32.0
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -3887,8 +3887,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2025-06-03T08:07:12Z"
-        giantswarm.io/latest-release-tag: 0.10.3
+        giantswarm.io/latest-release-date: "2025-06-07T07:12:02Z"
+        giantswarm.io/latest-release-tag: 0.10.4
         github.com/project-slug: giantswarm/k8s-audit-metrics
 spec:
     type: service
@@ -3938,6 +3938,32 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: karpenter
+    namespace: giantswarm
+    title: karpenter
+    description: A Helm chart for Karpenter, an open-source node provisioning project built for Kubernetes.
+    annotations:
+        backstage.io/kubernetes-id: karpenter
+        backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
+        giantswarm.io/deployment-names: karpenter,karpenter-app
+        giantswarm.io/latest-release-date: "2025-06-09T13:02:58Z"
+        giantswarm.io/latest-release-tag: 1.0.0
+        github.com/project-slug: giantswarm/karpenter-app
+    tags:
+        - autoscaling
+        - cluster
+        - lifecycle
+        - node
+        - scheduler
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: karpenter-bundle
     namespace: giantswarm
     title: karpenter-bundle
@@ -3947,8 +3973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-bundle/tree/main
         giantswarm.io/deployment-names: karpenter-bundle,karpenter-bundle-app
-        giantswarm.io/latest-release-date: "2024-11-28T15:30:07Z"
-        giantswarm.io/latest-release-tag: 1.4.0
+        giantswarm.io/latest-release-date: "2025-06-09T13:48:05Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/karpenter-bundle
 spec:
     type: service
