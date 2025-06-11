@@ -3805,8 +3805,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2025-06-06T13:03:52Z"
-        giantswarm.io/latest-release-tag: 0.32.0
+        giantswarm.io/latest-release-date: "2025-06-10T13:22:26Z"
+        giantswarm.io/latest-release-tag: 0.33.0
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
