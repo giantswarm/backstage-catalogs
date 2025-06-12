@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-06-11T10:14:11Z"
-        giantswarm.io/latest-release-tag: 0.76.1
+        giantswarm.io/latest-release-date: "2025-06-11T14:35:33Z"
+        giantswarm.io/latest-release-tag: 0.77.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -4348,8 +4348,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-crds
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-crds/tree/main
         giantswarm.io/deployment-names: kyverno-crds,kyverno-crds-app
-        giantswarm.io/latest-release-date: "2025-04-29T15:37:08Z"
-        giantswarm.io/latest-release-tag: 1.13.1
+        giantswarm.io/latest-release-date: "2025-06-11T14:35:48Z"
+        giantswarm.io/latest-release-tag: 1.14.0
         github.com/project-slug: giantswarm/kyverno-crds
 spec:
     type: service
