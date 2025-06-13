@@ -2083,8 +2083,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-06-04T04:33:35Z"
-        giantswarm.io/latest-release-tag: 3.3.0
+        giantswarm.io/latest-release-date: "2025-06-12T18:55:34Z"
+        giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -4024,26 +4024,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: keda
-    namespace: giantswarm
-    title: keda
-    description: Event-based autoscaler for workloads on Kubernetes
-    annotations:
-        backstage.io/kubernetes-id: keda
-        backstage.io/source-location: url:https://github.com/giantswarm/keda-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/keda-app/tree/main
-        giantswarm.io/deployment-names: keda,keda-app
-        giantswarm.io/latest-release-date: "2024-07-08T20:03:38Z"
-        giantswarm.io/latest-release-tag: 1.0.0
-        github.com/project-slug: giantswarm/keda-app
-spec:
-    type: service
-    lifecycle: production
-    owner: group:giantswarm/team-turtles
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: kiam-watchdog
     namespace: giantswarm
     title: kiam-watchdog
@@ -4323,8 +4303,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-app/tree/main
         giantswarm.io/deployment-names: kyverno,kyverno-app
-        giantswarm.io/latest-release-date: "2025-02-20T20:50:23Z"
-        giantswarm.io/latest-release-tag: 0.19.0
+        giantswarm.io/latest-release-date: "2025-06-12T17:12:48Z"
+        giantswarm.io/latest-release-tag: 0.20.0
         github.com/project-slug: giantswarm/kyverno-app
     tags:
         - admission-controller
@@ -6049,8 +6029,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-app/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler,vertical-pod-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-05-26T11:09:29Z"
-        giantswarm.io/latest-release-tag: 5.5.0
+        giantswarm.io/latest-release-date: "2025-06-12T07:21:13Z"
+        giantswarm.io/latest-release-tag: 5.5.1
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
 spec:
     type: service
@@ -6069,8 +6049,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler-crd,vertical-pod-autoscaler-crd-app
-        giantswarm.io/latest-release-date: "2025-05-26T11:06:16Z"
-        giantswarm.io/latest-release-tag: 3.3.0
+        giantswarm.io/latest-release-date: "2025-06-12T12:58:13Z"
+        giantswarm.io/latest-release-tag: 3.3.1
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
 spec:
     type: service
