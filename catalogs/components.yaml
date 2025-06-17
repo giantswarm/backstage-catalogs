@@ -806,8 +806,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2024-09-03T19:15:22Z"
-        giantswarm.io/latest-release-tag: 1.30.6-gs1
+        giantswarm.io/latest-release-date: "2025-06-17T05:51:05Z"
+        giantswarm.io/latest-release-tag: 1.31.0
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -826,8 +826,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2024-09-03T19:15:03Z"
-        giantswarm.io/latest-release-tag: 1.30.6-gs1
+        giantswarm.io/latest-release-date: "2025-06-17T05:48:29Z"
+        giantswarm.io/latest-release-tag: 1.31.0
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -4869,8 +4869,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-06-03T12:59:57Z"
-        giantswarm.io/latest-release-tag: 0.32.1
+        giantswarm.io/latest-release-date: "2025-06-16T12:27:09Z"
+        giantswarm.io/latest-release-tag: 0.33.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
