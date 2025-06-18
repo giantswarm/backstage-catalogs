@@ -646,8 +646,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2024-09-30T13:28:10Z"
-        giantswarm.io/latest-release-tag: 0.17.0
+        giantswarm.io/latest-release-date: "2025-06-17T14:16:44Z"
+        giantswarm.io/latest-release-tag: 0.19.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-06-11T14:35:33Z"
-        giantswarm.io/latest-release-tag: 0.77.0
+        giantswarm.io/latest-release-date: "2025-06-17T10:37:03Z"
+        giantswarm.io/latest-release-tag: 0.78.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3907,8 +3907,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-dns-node-cache-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-dns-node-cache-app/tree/main
         giantswarm.io/deployment-names: k8s-dns-node-cache,k8s-dns-node-cache-app
-        giantswarm.io/latest-release-date: "2024-07-15T07:55:09Z"
-        giantswarm.io/latest-release-tag: 2.8.1
+        giantswarm.io/latest-release-date: "2025-06-17T08:56:24Z"
+        giantswarm.io/latest-release-tag: 2.9.0
         github.com/project-slug: giantswarm/k8s-dns-node-cache-app
 spec:
     type: service
