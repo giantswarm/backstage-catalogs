@@ -526,8 +526,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-node-termination-handler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-node-termination-handler-app/tree/main
         giantswarm.io/deployment-names: aws-node-termination-handler,aws-node-termination-handler-app
-        giantswarm.io/latest-release-date: "2024-10-30T11:31:04Z"
-        giantswarm.io/latest-release-tag: 1.20.0
+        giantswarm.io/latest-release-date: "2025-06-24T10:11:50Z"
+        giantswarm.io/latest-release-tag: 1.21.0
         github.com/project-slug: giantswarm/aws-node-termination-handler-app
 spec:
     type: service
@@ -1703,8 +1703,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloudnative-pg-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudnative-pg-app/tree/main
         giantswarm.io/deployment-names: cloudnative-pg,cloudnative-pg-app
-        giantswarm.io/latest-release-date: "2025-05-28T09:17:49Z"
-        giantswarm.io/latest-release-tag: 0.0.9
+        giantswarm.io/latest-release-date: "2025-06-24T15:05:32Z"
+        giantswarm.io/latest-release-tag: 0.0.10
         github.com/project-slug: giantswarm/cloudnative-pg-app
 spec:
     type: service
@@ -1863,8 +1863,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-events
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-events/tree/main
         giantswarm.io/deployment-names: cluster-api-events,cluster-api-events-app
-        giantswarm.io/latest-release-date: "2024-08-21T13:34:13Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2025-06-24T13:16:19Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/cluster-api-events
 spec:
     type: service
@@ -2373,8 +2373,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2025-04-02T10:10:36Z"
-        giantswarm.io/latest-release-tag: 1.25.0
+        giantswarm.io/latest-release-date: "2025-06-24T11:14:47Z"
+        giantswarm.io/latest-release-tag: 1.26.0
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
@@ -2737,8 +2737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2025-06-18T13:26:44Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-06-25T15:07:57Z"
+        giantswarm.io/latest-release-tag: 2.0.2
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -3451,8 +3451,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-06-13T08:26:32Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-06-25T08:08:28Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -3471,8 +3471,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/latest-release-date: "2025-06-13T08:13:51Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-06-24T09:06:31Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/gateway-api-config-app
 spec:
     type: service
@@ -3805,8 +3805,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2025-06-11T10:00:19Z"
-        giantswarm.io/latest-release-tag: 0.33.1
+        giantswarm.io/latest-release-date: "2025-06-25T15:34:48Z"
+        giantswarm.io/latest-release-tag: 0.33.2
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -4093,8 +4093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2025-06-16T07:34:54Z"
-        giantswarm.io/latest-release-tag: 5.1.0
+        giantswarm.io/latest-release-date: "2025-06-25T10:23:49Z"
+        giantswarm.io/latest-release-tag: 5.1.1
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
@@ -4223,8 +4223,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubectl-apply-job
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubectl-apply-job/tree/main
         giantswarm.io/deployment-names: kubectl-apply-job,kubectl-apply-job-app
-        giantswarm.io/latest-release-date: "2025-04-03T12:48:08Z"
-        giantswarm.io/latest-release-tag: 0.9.2
+        giantswarm.io/latest-release-date: "2025-06-25T09:43:18Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/kubectl-apply-job
 spec:
     type: service
@@ -5255,8 +5255,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-06-16T08:01:26Z"
-        giantswarm.io/latest-release-tag: 4.65.1
+        giantswarm.io/latest-release-date: "2025-06-24T07:13:04Z"
+        giantswarm.io/latest-release-tag: 4.66.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5379,8 +5379,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/release-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/release-operator/tree/master
         giantswarm.io/deployment-names: release-operator,release-operator-app
-        giantswarm.io/latest-release-date: "2024-03-27T08:59:31Z"
-        giantswarm.io/latest-release-tag: 4.2.0
+        giantswarm.io/latest-release-date: "2025-06-24T14:10:18Z"
+        giantswarm.io/latest-release-tag: 4.2.1
         github.com/project-slug: giantswarm/release-operator
 spec:
     type: service
