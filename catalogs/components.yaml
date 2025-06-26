@@ -3348,8 +3348,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2025-05-08T10:21:12Z"
-        giantswarm.io/latest-release-tag: 1.7.0
+        giantswarm.io/latest-release-date: "2025-06-26T08:29:28Z"
+        giantswarm.io/latest-release-tag: 1.7.1
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
