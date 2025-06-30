@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-06-26T15:38:16Z"
-        giantswarm.io/latest-release-tag: 0.80.0
+        giantswarm.io/latest-release-date: "2025-06-27T10:19:33Z"
+        giantswarm.io/latest-release-tag: 0.80.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3205,8 +3205,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
-        giantswarm.io/latest-release-date: "2024-11-06T15:00:26Z"
-        giantswarm.io/latest-release-tag: 0.11.1
+        giantswarm.io/latest-release-date: "2025-06-27T12:15:34Z"
+        giantswarm.io/latest-release-tag: 0.18.0
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - kubernetes-external-secrets
@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
         giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
-        giantswarm.io/latest-release-date: "2025-05-14T12:36:42Z"
-        giantswarm.io/latest-release-tag: 0.5.1
+        giantswarm.io/latest-release-date: "2025-06-27T10:07:27Z"
+        giantswarm.io/latest-release-tag: 0.6.0
         github.com/project-slug: giantswarm/konfigure-operator
 spec:
     type: service
