@@ -19,7 +19,7 @@ spec:
       registryInfoConfigMapRef:
         name: github-oci-registry-info
       githubTokenSecretRef:
-        name: dev-platform-gh-access
+        name: github-app-secret
   appDeployment:
     name: ${{ values.project.name | dump }}
     spec:
