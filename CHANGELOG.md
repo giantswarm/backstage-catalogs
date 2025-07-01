@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Since we don't do releases in this repository, we use the date of the
 change to structure the log.
 
+## 2025-07-01
+
+### Changes
+
+- Change `githubTokenSecretRef` in `go-service` and `python-service` templates.
+
 ## 2025-05-29
 
 ### Changes
