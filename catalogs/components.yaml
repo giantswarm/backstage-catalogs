@@ -566,8 +566,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-bundle/tree/main
         giantswarm.io/deployment-names: aws-nth-bundle,aws-nth-bundle-app
-        giantswarm.io/latest-release-date: "2025-01-23T12:37:13Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2025-07-03T08:18:01Z"
+        giantswarm.io/latest-release-tag: 1.2.2
         github.com/project-slug: giantswarm/aws-nth-bundle
 spec:
     type: service
@@ -5523,8 +5523,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/main
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2025-05-20T15:34:14Z"
-        giantswarm.io/latest-release-tag: 0.16.1
+        giantswarm.io/latest-release-date: "2025-07-03T07:46:24Z"
+        giantswarm.io/latest-release-tag: 0.17.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
