@@ -4869,8 +4869,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-06-19T11:32:18Z"
-        giantswarm.io/latest-release-tag: 0.33.1
+        giantswarm.io/latest-release-date: "2025-07-02T11:57:59Z"
+        giantswarm.io/latest-release-tag: 0.34.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
