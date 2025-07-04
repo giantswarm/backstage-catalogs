@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-06-27T10:19:33Z"
-        giantswarm.io/latest-release-tag: 0.80.1
+        giantswarm.io/latest-release-date: "2025-07-03T14:42:39Z"
+        giantswarm.io/latest-release-tag: 0.80.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1863,8 +1863,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-events
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-events/tree/main
         giantswarm.io/deployment-names: cluster-api-events,cluster-api-events-app
-        giantswarm.io/latest-release-date: "2025-06-24T13:16:19Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-07-03T14:16:45Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/cluster-api-events
 spec:
     type: service
@@ -2737,8 +2737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2025-06-25T15:07:57Z"
-        giantswarm.io/latest-release-tag: 2.0.2
+        giantswarm.io/latest-release-date: "2025-07-03T18:47:08Z"
+        giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-06-30T14:57:15Z"
-        giantswarm.io/latest-release-tag: 2.24.0
+        giantswarm.io/latest-release-date: "2025-07-03T11:17:09Z"
+        giantswarm.io/latest-release-tag: 2.24.1
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -5031,8 +5031,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pg-cluster-recovery-test
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pg-cluster-recovery-test/tree/main
         giantswarm.io/deployment-names: pg-cluster-recovery-test,pg-cluster-recovery-test-app
-        giantswarm.io/latest-release-date: "2025-06-30T14:18:27Z"
-        giantswarm.io/latest-release-tag: 0.1.5
+        giantswarm.io/latest-release-date: "2025-07-03T10:39:34Z"
+        giantswarm.io/latest-release-tag: 0.1.6
         github.com/project-slug: giantswarm/pg-cluster-recovery-test
 spec:
     type: service
@@ -5255,8 +5255,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-07-02T10:02:21Z"
-        giantswarm.io/latest-release-tag: 4.68.0
+        giantswarm.io/latest-release-date: "2025-07-03T14:53:31Z"
+        giantswarm.io/latest-release-tag: 4.69.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5683,8 +5683,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
         giantswarm.io/deployment-names: starboard-exporter,starboard-exporter-app
-        giantswarm.io/latest-release-date: "2025-04-01T15:58:22Z"
-        giantswarm.io/latest-release-tag: 0.8.1
+        giantswarm.io/latest-release-date: "2025-07-03T15:07:10Z"
+        giantswarm.io/latest-release-tag: 0.8.2
         github.com/project-slug: giantswarm/starboard-exporter
 spec:
     type: service
