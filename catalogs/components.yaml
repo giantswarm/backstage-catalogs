@@ -1863,8 +1863,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-events
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-events/tree/main
         giantswarm.io/deployment-names: cluster-api-events,cluster-api-events-app
-        giantswarm.io/latest-release-date: "2025-07-03T14:16:45Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-07-08T07:24:58Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/cluster-api-events
 spec:
     type: service
@@ -4093,8 +4093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
-        giantswarm.io/latest-release-date: "2025-06-25T10:23:49Z"
-        giantswarm.io/latest-release-tag: 5.1.1
+        giantswarm.io/latest-release-date: "2025-07-07T15:38:02Z"
+        giantswarm.io/latest-release-tag: 5.2.0
         github.com/project-slug: giantswarm/kong-app
 spec:
     type: service
