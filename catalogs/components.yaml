@@ -2737,8 +2737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2025-07-03T18:47:08Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2025-07-09T07:41:03Z"
+        giantswarm.io/latest-release-tag: 2.1.1
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -4513,8 +4513,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-05-09T08:45:30Z"
-        giantswarm.io/latest-release-tag: 0.28.1
+        giantswarm.io/latest-release-date: "2025-07-09T09:31:40Z"
+        giantswarm.io/latest-release-tag: 0.29.0
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
