@@ -4013,8 +4013,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-nodepools
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-nodepools/tree/main
         giantswarm.io/deployment-names: karpenter-nodepools,karpenter-nodepools-app
-        giantswarm.io/latest-release-date: "2025-06-02T14:14:33Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-07-09T14:39:39Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/karpenter-nodepools
 spec:
     type: service
@@ -4513,8 +4513,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-07-09T09:31:40Z"
-        giantswarm.io/latest-release-tag: 0.29.0
+        giantswarm.io/latest-release-date: "2025-07-09T10:58:16Z"
+        giantswarm.io/latest-release-tag: 0.29.1
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
@@ -5743,8 +5743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-kube-agent-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-kube-agent-app/tree/main
         giantswarm.io/deployment-names: teleport-kube-agent,teleport-kube-agent-app
-        giantswarm.io/latest-release-date: "2025-04-22T12:21:16Z"
-        giantswarm.io/latest-release-tag: 0.10.5
+        giantswarm.io/latest-release-date: "2025-07-09T16:08:35Z"
+        giantswarm.io/latest-release-tag: 0.10.6
         github.com/project-slug: giantswarm/teleport-kube-agent-app
     tags:
         - teleport
