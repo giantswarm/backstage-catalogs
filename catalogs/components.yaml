@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-06-20T10:21:39Z"
-        giantswarm.io/latest-release-tag: 3.1.1
+        giantswarm.io/latest-release-date: "2025-07-10T08:08:16Z"
+        giantswarm.io/latest-release-tag: 3.1.2
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-07-03T11:17:09Z"
-        giantswarm.io/latest-release-tag: 2.24.1
+        giantswarm.io/latest-release-date: "2025-07-10T12:41:27Z"
+        giantswarm.io/latest-release-tag: 2.24.2
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4513,8 +4513,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-07-09T10:58:16Z"
-        giantswarm.io/latest-release-tag: 0.29.1
+        giantswarm.io/latest-release-date: "2025-07-10T15:32:11Z"
+        giantswarm.io/latest-release-tag: 0.29.2
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
@@ -4869,8 +4869,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-07-02T11:57:59Z"
-        giantswarm.io/latest-release-tag: 0.34.0
+        giantswarm.io/latest-release-date: "2025-07-10T09:12:28Z"
+        giantswarm.io/latest-release-tag: 0.35.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
