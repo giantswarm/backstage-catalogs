@@ -9,6 +9,12 @@ properties:
   installation:
     title: Installation
     type: object
+    required:
+      - installationName
+    properties:
+      installationName:
+        type: string
+        description: Management cluster name
     ui:field: GSInstallationPicker
     ui:options:
       autoSelectFirstValue: false
@@ -16,7 +22,17 @@ properties:
   cluster:
     title: Cluster
     type: object
-    description: Workload cluster name
+    required:
+      - clusterName
+      - clusterNamespace
+    properties:
+      clusterName:
+        type: string
+        description: Workload cluster name
+      clusterNamespace:
+        type: string
+        description: Workload cluster namespace
+    description: Workload cluster
     ui:field: GSClusterPicker
     ui:options:
       installationNameField: installation.installationName
