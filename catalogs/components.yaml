@@ -6137,8 +6137,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-07-15T10:00:51Z"
-        giantswarm.io/latest-release-tag: 2.3.0
+        giantswarm.io/latest-release-date: "2025-08-05T14:20:36Z"
+        giantswarm.io/latest-release-tag: 2.3.1
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
