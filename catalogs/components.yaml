@@ -438,7 +438,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: aws-efs-csi-driver
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
         giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
         giantswarm.io/latest-release-date: "2024-02-08T14:12:43Z"
         giantswarm.io/latest-release-tag: 1.3.0
@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-07-03T14:42:39Z"
-        giantswarm.io/latest-release-tag: 0.80.2
+        giantswarm.io/latest-release-date: "2025-08-06T14:09:42Z"
+        giantswarm.io/latest-release-tag: 0.81.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -4373,8 +4373,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-05-08T16:27:10Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-08-06T09:17:24Z"
+        giantswarm.io/latest-release-tag: 0.9.0
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
