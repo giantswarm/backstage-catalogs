@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-08-06T14:09:42Z"
-        giantswarm.io/latest-release-tag: 0.81.0
+        giantswarm.io/latest-release-date: "2025-08-08T14:52:04Z"
+        giantswarm.io/latest-release-tag: 0.81.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1923,8 +1923,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-07-31T07:09:11Z"
-        giantswarm.io/latest-release-tag: 2.33.0
+        giantswarm.io/latest-release-date: "2025-08-07T16:26:09Z"
+        giantswarm.io/latest-release-tag: 2.33.1
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -3638,8 +3638,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-07-29T12:37:43Z"
-        giantswarm.io/latest-release-tag: 2.24.3
+        giantswarm.io/latest-release-date: "2025-08-07T11:35:27Z"
+        giantswarm.io/latest-release-tag: 2.25.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4637,8 +4637,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2025-07-16T12:03:10Z"
-        giantswarm.io/latest-release-tag: 0.17.1
+        giantswarm.io/latest-release-date: "2025-08-07T15:32:03Z"
+        giantswarm.io/latest-release-tag: 0.18.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
@@ -5279,8 +5279,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-07-31T09:33:01Z"
-        giantswarm.io/latest-release-tag: 4.72.5
+        giantswarm.io/latest-release-date: "2025-08-07T12:28:42Z"
+        giantswarm.io/latest-release-tag: 4.72.6
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -6053,8 +6053,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-app/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler,vertical-pod-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-06-12T07:21:13Z"
-        giantswarm.io/latest-release-tag: 5.5.1
+        giantswarm.io/latest-release-date: "2025-08-07T08:29:54Z"
+        giantswarm.io/latest-release-tag: 6.0.0
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
 spec:
     type: service
@@ -6073,8 +6073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler-crd,vertical-pod-autoscaler-crd-app
-        giantswarm.io/latest-release-date: "2025-06-12T12:58:13Z"
-        giantswarm.io/latest-release-tag: 3.3.1
+        giantswarm.io/latest-release-date: "2025-08-07T09:06:56Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
 spec:
     type: service
