@@ -1411,8 +1411,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/chart-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/chart-operator/tree/main
         giantswarm.io/deployment-names: chart-operator,chart-operator-app
-        giantswarm.io/latest-release-date: "2024-11-19T11:30:07Z"
-        giantswarm.io/latest-release-tag: 4.0.0
+        giantswarm.io/latest-release-date: "2025-08-13T09:47:06Z"
+        giantswarm.io/latest-release-tag: 4.0.1
         github.com/project-slug: giantswarm/chart-operator
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-07-10T08:08:16Z"
-        giantswarm.io/latest-release-tag: 3.1.2
+        giantswarm.io/latest-release-date: "2025-08-13T06:57:02Z"
+        giantswarm.io/latest-release-tag: 3.2.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
