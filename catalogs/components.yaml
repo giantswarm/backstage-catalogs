@@ -1411,8 +1411,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/chart-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/chart-operator/tree/main
         giantswarm.io/deployment-names: chart-operator,chart-operator-app
-        giantswarm.io/latest-release-date: "2025-08-13T09:47:06Z"
-        giantswarm.io/latest-release-tag: 4.0.1
+        giantswarm.io/latest-release-date: "2025-08-14T10:55:59Z"
+        giantswarm.io/latest-release-tag: 4.0.2
         github.com/project-slug: giantswarm/chart-operator
 spec:
     type: service
@@ -1723,8 +1723,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-07-31T13:41:20Z"
-        giantswarm.io/latest-release-tag: 2.5.0
+        giantswarm.io/latest-release-date: "2025-08-13T14:01:05Z"
+        giantswarm.io/latest-release-tag: 2.6.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-08-13T06:57:02Z"
-        giantswarm.io/latest-release-tag: 3.2.0
+        giantswarm.io/latest-release-date: "2025-08-13T14:09:59Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -1943,8 +1943,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2025-05-28T14:11:25Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-08-13T15:10:44Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
@@ -2023,8 +2023,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-vsphere-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-vsphere,cluster-api-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2025-03-03T10:33:19Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2025-08-13T14:26:44Z"
+        giantswarm.io/latest-release-tag: 0.14.0
         github.com/project-slug: giantswarm/cluster-api-provider-vsphere-app
 spec:
     type: service
@@ -2043,8 +2043,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-04-01T14:39:07Z"
-        giantswarm.io/latest-release-tag: 3.2.0
+        giantswarm.io/latest-release-date: "2025-08-14T11:10:24Z"
+        giantswarm.io/latest-release-tag: 3.3.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -3045,8 +3045,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-07-15T19:46:33Z"
-        giantswarm.io/latest-release-tag: 1.0.6
+        giantswarm.io/latest-release-date: "2025-08-14T06:06:21Z"
+        giantswarm.io/latest-release-tag: 1.0.7
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
@@ -3718,8 +3718,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-03-12T09:02:57Z"
-        giantswarm.io/latest-release-tag: 1.71.3
+        giantswarm.io/latest-release-date: "2025-08-14T14:40:42Z"
+        giantswarm.io/latest-release-tag: 1.71.5
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
@@ -4913,8 +4913,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-08-12T15:47:12Z"
-        giantswarm.io/latest-release-tag: 0.36.0
+        giantswarm.io/latest-release-date: "2025-08-13T15:28:43Z"
+        giantswarm.io/latest-release-tag: 0.37.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
