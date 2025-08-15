@@ -2023,8 +2023,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-vsphere-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-vsphere,cluster-api-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2025-08-13T14:26:44Z"
-        giantswarm.io/latest-release-tag: 0.14.0
+        giantswarm.io/latest-release-date: "2025-08-14T20:06:37Z"
+        giantswarm.io/latest-release-tag: 0.14.1
         github.com/project-slug: giantswarm/cluster-api-provider-vsphere-app
 spec:
     type: service
