@@ -2373,8 +2373,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2025-06-24T11:14:47Z"
-        giantswarm.io/latest-release-tag: 1.26.0
+        giantswarm.io/latest-release-date: "2025-08-15T13:45:48Z"
+        giantswarm.io/latest-release-tag: 1.27.0
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
@@ -3782,8 +3782,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-07-18T17:37:40Z"
-        giantswarm.io/latest-release-tag: 4.1.0
+        giantswarm.io/latest-release-date: "2025-08-16T13:02:47Z"
+        giantswarm.io/latest-release-tag: 4.1.1
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
