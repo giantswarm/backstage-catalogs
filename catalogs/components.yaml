@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-08-13T14:09:59Z"
-        giantswarm.io/latest-release-tag: 4.0.0
+        giantswarm.io/latest-release-date: "2025-08-18T09:58:03Z"
+        giantswarm.io/latest-release-tag: 4.0.1
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -4393,8 +4393,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-08-06T09:17:24Z"
-        giantswarm.io/latest-release-tag: 0.9.0
+        giantswarm.io/latest-release-date: "2025-08-18T19:00:09Z"
+        giantswarm.io/latest-release-tag: 0.9.1
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
