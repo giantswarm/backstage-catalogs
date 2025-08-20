@@ -89,14 +89,14 @@ metadata:
     name: alloy-gateway
     namespace: giantswarm
     title: alloy-gateway
-    description: App used to deploy the Alloy in Gateway mode.
+    description: App used to deploy Alloy in gateway mode.
     annotations:
         backstage.io/kubernetes-id: alloy-gateway
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-gateway-app/tree/main
         giantswarm.io/deployment-names: alloy-gateway,alloy-gateway-app
-        giantswarm.io/latest-release-date: "2025-02-26T08:34:42Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2025-08-20T08:03:07Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/alloy-gateway-app
 spec:
     type: service
@@ -4413,8 +4413,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-dx
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-dx/tree/main
         giantswarm.io/deployment-names: kyverno-policies-dx,kyverno-policies-dx-app
-        giantswarm.io/latest-release-date: "2025-06-06T04:42:05Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2025-08-20T08:06:53Z"
+        giantswarm.io/latest-release-tag: 0.7.1
         github.com/project-slug: giantswarm/kyverno-policies-dx
 spec:
     type: service
@@ -5279,8 +5279,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2025-07-22T14:31:09Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-08-20T08:07:03Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/prometheus-remotewrite
 spec:
     type: service
