@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-08-12T12:08:49Z"
-        giantswarm.io/latest-release-tag: 0.81.4
+        giantswarm.io/latest-release-date: "2025-08-19T15:09:59Z"
+        giantswarm.io/latest-release-tag: 0.82.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -4173,8 +4173,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-prometheus-stack-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-prometheus-stack-app/tree/main
         giantswarm.io/deployment-names: kube-prometheus-stack,kube-prometheus-stack-app
-        giantswarm.io/latest-release-date: "2025-06-03T09:49:33Z"
-        giantswarm.io/latest-release-tag: 16.1.0
+        giantswarm.io/latest-release-date: "2025-08-19T15:05:20Z"
+        giantswarm.io/latest-release-tag: 17.0.0
         github.com/project-slug: giantswarm/kube-prometheus-stack-app
 spec:
     type: service
@@ -4473,8 +4473,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policy-operator/tree/main
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
-        giantswarm.io/latest-release-date: "2025-01-31T17:04:38Z"
-        giantswarm.io/latest-release-tag: 0.1.4
+        giantswarm.io/latest-release-date: "2025-08-19T13:36:55Z"
+        giantswarm.io/latest-release-tag: 0.1.5
         github.com/project-slug: giantswarm/kyverno-policy-operator
 spec:
     type: service
