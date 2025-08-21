@@ -95,8 +95,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alloy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alloy-gateway-app/tree/main
         giantswarm.io/deployment-names: alloy-gateway,alloy-gateway-app
-        giantswarm.io/latest-release-date: "2025-08-20T08:03:07Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-08-20T10:32:15Z"
+        giantswarm.io/latest-release-tag: 0.4.1
         github.com/project-slug: giantswarm/alloy-gateway-app
 spec:
     type: service
@@ -1943,8 +1943,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2025-08-13T15:10:44Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2025-08-20T13:47:12Z"
+        giantswarm.io/latest-release-tag: 3.0.2
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
@@ -4413,8 +4413,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-dx
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-dx/tree/main
         giantswarm.io/deployment-names: kyverno-policies-dx,kyverno-policies-dx-app
-        giantswarm.io/latest-release-date: "2025-08-20T08:06:53Z"
-        giantswarm.io/latest-release-tag: 0.7.1
+        giantswarm.io/latest-release-date: "2025-08-20T09:04:59Z"
+        giantswarm.io/latest-release-tag: 0.7.2
         github.com/project-slug: giantswarm/kyverno-policies-dx
 spec:
     type: service
