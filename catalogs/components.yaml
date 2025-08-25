@@ -1723,8 +1723,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-08-13T14:01:05Z"
-        giantswarm.io/latest-release-tag: 2.6.0
+        giantswarm.io/latest-release-date: "2025-08-24T13:13:03Z"
+        giantswarm.io/latest-release-tag: 2.6.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -5403,8 +5403,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/rbac-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/rbac-operator/tree/main
         giantswarm.io/deployment-names: rbac-operator,rbac-operator-app
-        giantswarm.io/latest-release-date: "2025-03-17T13:53:48Z"
-        giantswarm.io/latest-release-tag: 0.42.0
+        giantswarm.io/latest-release-date: "2025-08-22T10:41:43Z"
+        giantswarm.io/latest-release-tag: 0.42.1
         github.com/project-slug: giantswarm/rbac-operator
 spec:
     type: service
