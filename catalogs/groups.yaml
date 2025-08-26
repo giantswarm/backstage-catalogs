@@ -178,7 +178,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/10885917?s=116&v=4
     children: []
     members:
-        - AverageMarcus
         - Gacko
         - njuettner
         - yulianedyalkova
@@ -197,7 +196,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
     children: []
     members:
-        - AverageMarcus
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
