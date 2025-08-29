@@ -440,8 +440,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
         giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
-        giantswarm.io/latest-release-date: "2024-02-08T14:12:43Z"
-        giantswarm.io/latest-release-tag: 1.3.0
+        giantswarm.io/latest-release-date: "2025-08-28T13:10:02Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/aws-efs-csi-driver
 spec:
     type: service
@@ -1006,8 +1006,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-08-26T11:50:44Z"
-        giantswarm.io/latest-release-tag: 0.82.4
+        giantswarm.io/latest-release-date: "2025-08-28T07:56:21Z"
+        giantswarm.io/latest-release-tag: 0.83.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -2063,8 +2063,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-07-31T11:44:13Z"
-        giantswarm.io/latest-release-tag: 1.31.3-gs1
+        giantswarm.io/latest-release-date: "2025-08-27T06:54:03Z"
+        giantswarm.io/latest-release-tag: 1.32.2-gs1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -2473,8 +2473,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-08-26T07:56:14Z"
-        giantswarm.io/latest-release-tag: 4.7.0
+        giantswarm.io/latest-release-date: "2025-08-28T13:01:31Z"
+        giantswarm.io/latest-release-tag: 4.7.1
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -2697,8 +2697,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/descheduler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/descheduler-app/tree/main
         giantswarm.io/deployment-names: descheduler,descheduler-app
-        giantswarm.io/latest-release-date: "2025-05-27T11:06:09Z"
-        giantswarm.io/latest-release-tag: 1.0.1
+        giantswarm.io/latest-release-date: "2025-08-28T07:36:44Z"
+        giantswarm.io/latest-release-tag: 1.0.2
         github.com/project-slug: giantswarm/descheduler-app
 spec:
     type: service
@@ -3658,8 +3658,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-08-07T11:35:27Z"
-        giantswarm.io/latest-release-tag: 2.25.0
+        giantswarm.io/latest-release-date: "2025-08-27T13:41:28Z"
+        giantswarm.io/latest-release-tag: 2.25.2
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4813,8 +4813,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/node-problem-detector-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/node-problem-detector-app/tree/main
         giantswarm.io/deployment-names: node-problem-detector,node-problem-detector-app
-        giantswarm.io/latest-release-date: "2025-07-17T09:27:22Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-08-28T11:27:09Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/node-problem-detector-app
 spec:
     type: service
@@ -4913,8 +4913,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-08-25T13:42:18Z"
-        giantswarm.io/latest-release-tag: 0.38.0
+        giantswarm.io/latest-release-date: "2025-08-27T14:40:45Z"
+        giantswarm.io/latest-release-tag: 0.40.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5075,8 +5075,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pg-cluster-recovery-test
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pg-cluster-recovery-test/tree/main
         giantswarm.io/deployment-names: pg-cluster-recovery-test,pg-cluster-recovery-test-app
-        giantswarm.io/latest-release-date: "2025-07-28T14:47:21Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2025-08-27T13:20:34Z"
+        giantswarm.io/latest-release-tag: 0.2.3
         github.com/project-slug: giantswarm/pg-cluster-recovery-test
 spec:
     type: service
@@ -5299,8 +5299,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-08-25T13:20:56Z"
-        giantswarm.io/latest-release-tag: 4.73.0
+        giantswarm.io/latest-release-date: "2025-08-27T08:40:34Z"
+        giantswarm.io/latest-release-tag: 4.73.1
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5587,8 +5587,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/slack-replier
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/slack-replier/tree/main
         giantswarm.io/deployment-names: slack-replier,slack-replier-app
-        giantswarm.io/latest-release-date: "2024-12-20T09:57:42Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-08-27T13:31:23Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/slack-replier
 spec:
     type: service
@@ -5973,8 +5973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-operator-app/tree/main
         giantswarm.io/deployment-names: trivy-operator,trivy-operator-app
-        giantswarm.io/latest-release-date: "2025-07-30T13:16:01Z"
-        giantswarm.io/latest-release-tag: 0.11.1
+        giantswarm.io/latest-release-date: "2025-08-27T18:27:59Z"
+        giantswarm.io/latest-release-tag: 0.12.0
         github.com/project-slug: giantswarm/trivy-operator-app
 spec:
     type: service
