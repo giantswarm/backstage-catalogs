@@ -180,6 +180,7 @@ spec:
     members:
         - Gacko
         - njuettner
+        - salaxander
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
