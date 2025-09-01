@@ -46,6 +46,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: alertmanager-to-github
+    namespace: giantswarm
+    title: alertmanager-to-github
+    description: Github integration for Alertmanager
+    annotations:
+        backstage.io/kubernetes-id: alertmanager-to-github
+        backstage.io/source-location: url:https://github.com/giantswarm/alertmanager-to-github-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/alertmanager-to-github-app/tree/main
+        giantswarm.io/deployment-names: alertmanager-to-github,alertmanager-to-github-app
+        giantswarm.io/latest-release-date: "2025-08-29T14:40:26Z"
+        giantswarm.io/latest-release-tag: 0.0.1-test3
+        github.com/project-slug: giantswarm/alertmanager-to-github-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-atlas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: alfred-app
     namespace: giantswarm
     title: alfred-app
@@ -746,8 +766,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-ad-pod-identity-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-ad-pod-identity-app/tree/main
         giantswarm.io/deployment-names: azure-ad-pod-identity,azure-ad-pod-identity-app
-        giantswarm.io/latest-release-date: "2025-04-29T09:54:56Z"
-        giantswarm.io/latest-release-tag: 0.16.0
+        giantswarm.io/latest-release-date: "2025-08-29T09:12:49Z"
+        giantswarm.io/latest-release-tag: 0.16.1
         github.com/project-slug: giantswarm/azure-ad-pod-identity-app
 spec:
     type: service
@@ -906,8 +926,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-private-endpoint-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-private-endpoint-operator/tree/main
         giantswarm.io/deployment-names: azure-private-endpoint-operator,azure-private-endpoint-operator-app
-        giantswarm.io/latest-release-date: "2025-06-26T12:49:52Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2025-08-29T09:32:44Z"
+        giantswarm.io/latest-release-tag: 0.3.1
         github.com/project-slug: giantswarm/azure-private-endpoint-operator
 spec:
     type: service
@@ -2820,8 +2840,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dns-operator-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dns-operator-azure/tree/main
         giantswarm.io/deployment-names: dns-operator-azure,dns-operator-azure-app
-        giantswarm.io/latest-release-date: "2025-06-26T12:47:17Z"
-        giantswarm.io/latest-release-tag: 2.3.0
+        giantswarm.io/latest-release-date: "2025-08-29T09:38:36Z"
+        giantswarm.io/latest-release-tag: 2.3.1
         github.com/project-slug: giantswarm/dns-operator-azure
 spec:
     type: service
@@ -3782,8 +3802,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-08-16T13:02:47Z"
-        giantswarm.io/latest-release-tag: 4.1.1
+        giantswarm.io/latest-release-date: "2025-08-29T23:10:43Z"
+        giantswarm.io/latest-release-tag: 4.1.2
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
@@ -3947,8 +3967,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-initiator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-initiator-app/tree/main
         giantswarm.io/deployment-names: k8s-initiator,k8s-initiator-app
-        giantswarm.io/latest-release-date: "2025-01-17T13:49:48Z"
-        giantswarm.io/latest-release-tag: 0.11.1
+        giantswarm.io/latest-release-date: "2025-08-29T11:33:41Z"
+        giantswarm.io/latest-release-tag: 0.11.2
         github.com/project-slug: giantswarm/k8s-initiator-app
 spec:
     type: service
@@ -5299,8 +5319,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-08-27T08:40:34Z"
-        giantswarm.io/latest-release-tag: 4.73.1
+        giantswarm.io/latest-release-date: "2025-08-29T11:26:46Z"
+        giantswarm.io/latest-release-tag: 4.73.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
