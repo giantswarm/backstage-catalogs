@@ -97,21 +97,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: LutzLange
-    namespace: giantswarm
-    annotations:
-        github.com/user-id: "2788194"
-        github.com/user-login: LutzLange
-spec:
-    profile:
-        displayName: Lutz Lange
-        email: lutz@giantswarm.io
-        picture: https://avatars.githubusercontent.com/u/2788194?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: Noemi002
     namespace: giantswarm
     annotations:
