@@ -75,8 +75,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alfred-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alfred-app/tree/main
         giantswarm.io/deployment-names: alfred,alfred-app
-        giantswarm.io/latest-release-date: "2025-01-20T10:54:02Z"
-        giantswarm.io/latest-release-tag: 0.14.0
+        giantswarm.io/latest-release-date: "2025-09-01T08:17:57Z"
+        giantswarm.io/latest-release-tag: 0.14.1
         github.com/project-slug: giantswarm/alfred-app
 spec:
     type: service
@@ -1495,8 +1495,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2025-08-26T12:33:04Z"
-        giantswarm.io/latest-release-tag: 1.2.3
+        giantswarm.io/latest-release-date: "2025-09-01T08:52:33Z"
+        giantswarm.io/latest-release-tag: 1.3.0
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -3348,8 +3348,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
-        giantswarm.io/latest-release-date: "2025-03-03T08:54:40Z"
-        giantswarm.io/latest-release-tag: 5.4.0
+        giantswarm.io/latest-release-date: "2025-09-01T12:45:28Z"
+        giantswarm.io/latest-release-tag: 5.5.0
         github.com/project-slug: giantswarm/fluent-logshipping-app
 spec:
     type: service
@@ -3678,8 +3678,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-08-27T13:41:28Z"
-        giantswarm.io/latest-release-tag: 2.25.2
+        giantswarm.io/latest-release-date: "2025-09-02T05:45:06Z"
+        giantswarm.io/latest-release-tag: 2.26.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4655,7 +4655,7 @@ metadata:
     annotations:
         backstage.io/kubernetes-id: metrics-server-app
         backstage.io/source-location: url:https://github.com/giantswarm/metrics-server-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/metrics-server-app/tree/master
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/metrics-server-app/tree/main
         giantswarm.io/deployment-names: metrics-server,metrics-server-app
         giantswarm.io/latest-release-date: "2025-02-18T12:44:27Z"
         giantswarm.io/latest-release-tag: 2.6.0
@@ -4933,8 +4933,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-08-27T14:40:45Z"
-        giantswarm.io/latest-release-tag: 0.40.0
+        giantswarm.io/latest-release-date: "2025-09-01T10:18:44Z"
+        giantswarm.io/latest-release-tag: 0.41.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
