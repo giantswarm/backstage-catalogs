@@ -1191,8 +1191,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-07-22T15:13:24Z"
-        giantswarm.io/latest-release-tag: 1.4.0
+        giantswarm.io/latest-release-date: "2025-09-05T14:42:02Z"
+        giantswarm.io/latest-release-tag: 1.4.1
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -3987,8 +3987,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
         giantswarm.io/deployment-names: karpenter,karpenter-app
-        giantswarm.io/latest-release-date: "2025-06-09T13:02:58Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-09-05T09:43:33Z"
+        giantswarm.io/latest-release-tag: 1.1.1
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - autoscaling
@@ -4013,8 +4013,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-bundle/tree/main
         giantswarm.io/deployment-names: karpenter-bundle,karpenter-bundle-app
-        giantswarm.io/latest-release-date: "2025-07-29T09:12:56Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2025-09-05T10:20:54Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/karpenter-bundle
 spec:
     type: service
@@ -4113,8 +4113,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/konfigure-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/konfigure-operator/tree/main
         giantswarm.io/deployment-names: konfigure-operator,konfigure-operator-app
-        giantswarm.io/latest-release-date: "2025-09-02T14:55:43Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-09-05T13:57:05Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/konfigure-operator
 spec:
     type: service
