@@ -4193,8 +4193,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-prometheus-stack-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-prometheus-stack-app/tree/main
         giantswarm.io/deployment-names: kube-prometheus-stack,kube-prometheus-stack-app
-        giantswarm.io/latest-release-date: "2025-08-26T08:45:05Z"
-        giantswarm.io/latest-release-tag: 18.0.0
+        giantswarm.io/latest-release-date: "2025-09-08T08:37:39Z"
+        giantswarm.io/latest-release-tag: 18.1.0
         github.com/project-slug: giantswarm/kube-prometheus-stack-app
 spec:
     type: service
