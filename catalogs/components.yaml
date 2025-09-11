@@ -460,8 +460,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
         giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-08-28T13:10:02Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-09-10T09:30:14Z"
+        giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/aws-efs-csi-driver
 spec:
     type: service
@@ -666,8 +666,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2025-09-02T15:44:21Z"
-        giantswarm.io/latest-release-tag: 0.21.0
+        giantswarm.io/latest-release-date: "2025-09-10T15:38:54Z"
+        giantswarm.io/latest-release-tag: 0.22.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-09-04T12:19:23Z"
-        giantswarm.io/latest-release-tag: 0.84.2
+        giantswarm.io/latest-release-date: "2025-09-10T08:47:06Z"
+        giantswarm.io/latest-release-tag: 0.85.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1943,8 +1943,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-08-07T16:26:09Z"
-        giantswarm.io/latest-release-tag: 2.33.1
+        giantswarm.io/latest-release-date: "2025-09-10T14:01:11Z"
+        giantswarm.io/latest-release-tag: 2.33.2
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
