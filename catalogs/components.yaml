@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-09-11T09:39:53Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2025-09-12T07:26:06Z"
+        giantswarm.io/latest-release-tag: 3.0.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-09-09T09:02:32Z"
-        giantswarm.io/latest-release-tag: 4.0.2
+        giantswarm.io/latest-release-date: "2025-09-12T09:39:19Z"
+        giantswarm.io/latest-release-tag: 5.0.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-09-02T17:13:09Z"
-        giantswarm.io/latest-release-tag: 2.4.1
+        giantswarm.io/latest-release-date: "2025-09-12T09:38:52Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
