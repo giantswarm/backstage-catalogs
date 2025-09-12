@@ -460,8 +460,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
         giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-09-10T09:30:14Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2025-09-11T14:34:29Z"
+        giantswarm.io/latest-release-tag: 2.1.2
         github.com/project-slug: giantswarm/aws-efs-csi-driver
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-09-02T15:03:15Z"
-        giantswarm.io/latest-release-tag: 2.6.2
+        giantswarm.io/latest-release-date: "2025-09-11T09:39:53Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2493,8 +2493,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-08-28T13:01:31Z"
-        giantswarm.io/latest-release-tag: 4.7.1
+        giantswarm.io/latest-release-date: "2025-09-11T12:34:31Z"
+        giantswarm.io/latest-release-tag: 4.8.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
@@ -3987,8 +3987,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
         giantswarm.io/deployment-names: karpenter,karpenter-app
-        giantswarm.io/latest-release-date: "2025-09-05T09:43:33Z"
-        giantswarm.io/latest-release-tag: 1.1.1
+        giantswarm.io/latest-release-date: "2025-09-11T10:42:13Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - autoscaling
@@ -4033,8 +4033,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-crossplane-resources/tree/main
         giantswarm.io/deployment-names: karpenter-crossplane-resources,karpenter-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-04-10T13:25:49Z"
-        giantswarm.io/latest-release-tag: 0.1.4
+        giantswarm.io/latest-release-date: "2025-09-11T11:23:40Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
 spec:
     type: service
