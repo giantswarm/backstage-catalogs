@@ -644,6 +644,22 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+    name: salaxander
+    namespace: giantswarm
+    description: "\U0001F3FA porcelain punk | platform engineer @giantswarm | @kubernetes docs tech lead & v1.27 release lead"
+    annotations:
+        github.com/user-id: "1063495"
+        github.com/user-login: salaxander
+spec:
+    profile:
+        displayName: Xander Grzywinski
+        email: xander@giantswarm.io
+        picture: https://avatars.githubusercontent.com/u/1063495?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
     name: simonapetrova1
     namespace: giantswarm
     annotations:
