@@ -5647,8 +5647,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/sloth-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/sloth-app/tree/main
         giantswarm.io/deployment-names: sloth,sloth-app
-        giantswarm.io/latest-release-date: "2025-04-17T12:47:17Z"
-        giantswarm.io/latest-release-tag: 1.7.1
+        giantswarm.io/latest-release-date: "2025-09-15T07:39:33Z"
+        giantswarm.io/latest-release-tag: 1.8.0
         github.com/project-slug: giantswarm/sloth-app
 spec:
     type: service
@@ -5873,8 +5873,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tempo-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tempo-app/tree/main
         giantswarm.io/deployment-names: tempo,tempo-app
-        giantswarm.io/latest-release-date: "2023-12-19T13:14:43Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-09-15T14:26:35Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/tempo-app
 spec:
     type: service
