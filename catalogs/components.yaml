@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-09-12T07:26:06Z"
-        giantswarm.io/latest-release-tag: 3.0.1
+        giantswarm.io/latest-release-date: "2025-09-18T13:45:21Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2537,8 +2537,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/debug-toolbox
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/debug-toolbox/tree/main
         giantswarm.io/deployment-names: debug-toolbox,debug-toolbox-app
-        giantswarm.io/latest-release-date: "2025-01-17T13:49:19Z"
-        giantswarm.io/latest-release-tag: 1.1.1
+        giantswarm.io/latest-release-date: "2025-09-18T09:50:53Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/debug-toolbox
 spec:
     type: service
@@ -4533,8 +4533,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-09-17T10:12:19Z"
-        giantswarm.io/latest-release-tag: 0.31.0
+        giantswarm.io/latest-release-date: "2025-09-18T13:56:30Z"
+        giantswarm.io/latest-release-tag: 0.31.1
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
