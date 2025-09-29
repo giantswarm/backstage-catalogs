@@ -5873,8 +5873,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tempo-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tempo-app/tree/main
         giantswarm.io/deployment-names: tempo,tempo-app
-        giantswarm.io/latest-release-date: "2025-09-17T09:40:54Z"
-        giantswarm.io/latest-release-tag: 0.3.0
+        giantswarm.io/latest-release-date: "2025-09-29T11:47:13Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/tempo-app
 spec:
     type: service
