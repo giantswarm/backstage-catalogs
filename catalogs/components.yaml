@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-09-18T13:45:21Z"
-        giantswarm.io/latest-release-tag: 4.0.0
+        giantswarm.io/latest-release-date: "2025-09-24T13:59:49Z"
+        giantswarm.io/latest-release-tag: 4.0.1
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-09-12T09:38:52Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2025-09-24T17:55:47Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -2163,8 +2163,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-09-12T11:02:13Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-09-24T17:58:03Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2309,8 +2309,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-09-12T11:02:17Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-09-24T17:50:31Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -5423,8 +5423,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/rbac-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/rbac-operator/tree/main
         giantswarm.io/deployment-names: rbac-operator,rbac-operator-app
-        giantswarm.io/latest-release-date: "2025-09-17T09:45:12Z"
-        giantswarm.io/latest-release-tag: 0.42.2
+        giantswarm.io/latest-release-date: "2025-09-24T18:14:11Z"
+        giantswarm.io/latest-release-tag: 0.42.3
         github.com/project-slug: giantswarm/rbac-operator
 spec:
     type: service
