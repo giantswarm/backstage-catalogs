@@ -322,22 +322,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: foschubert
-    namespace: giantswarm
-    description: Franz Schubert
-    annotations:
-        github.com/user-id: "51315088"
-        github.com/user-login: foschubert
-spec:
-    profile:
-        displayName: Franz Schubert
-        email: franz@giantswarm.io
-        picture: https://avatars.githubusercontent.com/u/51315088?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: gawertm
     namespace: giantswarm
     annotations:

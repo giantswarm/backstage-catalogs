@@ -218,8 +218,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-08-12T10:09:07Z"
-        giantswarm.io/latest-release-tag: 7.3.0
+        giantswarm.io/latest-release-date: "2025-10-01T14:15:56Z"
+        giantswarm.io/latest-release-tag: 7.4.0
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -586,8 +586,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-nth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-nth-bundle/tree/main
         giantswarm.io/deployment-names: aws-nth-bundle,aws-nth-bundle-app
-        giantswarm.io/latest-release-date: "2025-07-03T08:18:01Z"
-        giantswarm.io/latest-release-tag: 1.2.2
+        giantswarm.io/latest-release-date: "2025-10-01T16:18:34Z"
+        giantswarm.io/latest-release-tag: 1.2.3
         github.com/project-slug: giantswarm/aws-nth-bundle
 spec:
     type: service
@@ -666,8 +666,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2025-09-10T15:38:54Z"
-        giantswarm.io/latest-release-tag: 0.22.0
+        giantswarm.io/latest-release-date: "2025-10-01T10:01:40Z"
+        giantswarm.io/latest-release-tag: 0.23.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
@@ -1191,8 +1191,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-09-05T14:42:02Z"
-        giantswarm.io/latest-release-tag: 1.4.1
+        giantswarm.io/latest-release-date: "2025-10-01T10:11:46Z"
+        giantswarm.io/latest-release-tag: 1.5.0
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -1763,8 +1763,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-08-18T09:58:03Z"
-        giantswarm.io/latest-release-tag: 4.0.1
+        giantswarm.io/latest-release-date: "2025-09-30T06:20:26Z"
+        giantswarm.io/latest-release-tag: 5.0.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -2083,8 +2083,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-08-27T06:54:03Z"
-        giantswarm.io/latest-release-tag: 1.32.2-gs1
+        giantswarm.io/latest-release-date: "2025-09-30T13:34:53Z"
+        giantswarm.io/latest-release-tag: 1.33.1-1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -2697,8 +2697,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/deletion-blocker-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/deletion-blocker-operator/tree/main
         giantswarm.io/deployment-names: deletion-blocker-operator,deletion-blocker-operator-app
-        giantswarm.io/latest-release-date: "2024-11-07T06:35:19Z"
-        giantswarm.io/latest-release-tag: 0.3.1
+        giantswarm.io/latest-release-date: "2025-10-01T16:14:35Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/deletion-blocker-operator
 spec:
     type: service
@@ -3845,8 +3845,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/irsa-operator/tree/master
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/latest-release-date: "2025-06-25T15:34:48Z"
-        giantswarm.io/latest-release-tag: 0.33.2
+        giantswarm.io/latest-release-date: "2025-10-01T09:56:47Z"
+        giantswarm.io/latest-release-tag: 0.34.0
         github.com/project-slug: giantswarm/irsa-operator
 spec:
     type: service
@@ -4533,8 +4533,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-09-18T13:56:30Z"
-        giantswarm.io/latest-release-tag: 0.31.1
+        giantswarm.io/latest-release-date: "2025-09-29T16:03:54Z"
+        giantswarm.io/latest-release-tag: 0.32.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4553,8 +4553,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-09-02T07:57:37Z"
-        giantswarm.io/latest-release-tag: 0.31.1
+        giantswarm.io/latest-release-date: "2025-09-30T13:17:48Z"
+        giantswarm.io/latest-release-tag: 0.31.2
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
@@ -4633,8 +4633,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-07-30T09:20:40Z"
-        giantswarm.io/latest-release-tag: 0.0.20
+        giantswarm.io/latest-release-date: "2025-09-29T15:29:34Z"
+        giantswarm.io/latest-release-tag: 0.0.35
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
@@ -4893,8 +4893,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-06-26T12:10:09Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2025-09-29T15:41:24Z"
+        giantswarm.io/latest-release-tag: 0.13.0
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
@@ -5299,8 +5299,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-remotewrite
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-remotewrite/tree/main
         giantswarm.io/deployment-names: prometheus-remotewrite,prometheus-remotewrite-app
-        giantswarm.io/latest-release-date: "2025-08-20T08:07:03Z"
-        giantswarm.io/latest-release-tag: 1.2.0
+        giantswarm.io/latest-release-date: "2025-09-30T13:33:03Z"
+        giantswarm.io/latest-release-tag: 1.3.0
         github.com/project-slug: giantswarm/prometheus-remotewrite
 spec:
     type: service
@@ -5319,8 +5319,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-09-03T14:49:30Z"
-        giantswarm.io/latest-release-tag: 4.74.1
+        giantswarm.io/latest-release-date: "2025-10-01T07:25:36Z"
+        giantswarm.io/latest-release-tag: 4.75.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -6093,8 +6093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-app/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler,vertical-pod-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-09-08T20:52:24Z"
-        giantswarm.io/latest-release-tag: 6.0.1
+        giantswarm.io/latest-release-date: "2025-10-01T11:16:58Z"
+        giantswarm.io/latest-release-tag: 6.1.0
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
 spec:
     type: service
@@ -6113,8 +6113,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vertical-pod-autoscaler-crd/tree/main
         giantswarm.io/deployment-names: vertical-pod-autoscaler-crd,vertical-pod-autoscaler-crd-app
-        giantswarm.io/latest-release-date: "2025-09-08T20:46:12Z"
-        giantswarm.io/latest-release-tag: 4.0.1
+        giantswarm.io/latest-release-date: "2025-10-01T11:17:11Z"
+        giantswarm.io/latest-release-tag: 4.1.0
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
 spec:
     type: service
