@@ -3225,8 +3225,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
-        giantswarm.io/latest-release-date: "2025-07-17T08:08:14Z"
-        giantswarm.io/latest-release-tag: 0.18.2
+        giantswarm.io/latest-release-date: "2025-10-03T10:12:40Z"
+        giantswarm.io/latest-release-tag: 0.18.3
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - kubernetes-external-secrets
@@ -3368,8 +3368,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2025-06-26T08:29:28Z"
-        giantswarm.io/latest-release-tag: 1.7.1
+        giantswarm.io/latest-release-date: "2025-10-03T10:01:41Z"
+        giantswarm.io/latest-release-tag: 1.7.2
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
@@ -4270,6 +4270,30 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/unspecified
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: kubeedge-cloudcore
+    namespace: giantswarm
+    title: kubeedge-cloudcore
+    description: The KubeEdge cloudcore component.
+    annotations:
+        backstage.io/kubernetes-id: kubeedge-cloudcore
+        backstage.io/source-location: url:https://github.com/giantswarm/kubeedge-cloudcore-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubeedge-cloudcore-app/tree/main
+        giantswarm.io/deployment-names: kubeedge-cloudcore,kubeedge-cloudcore-app
+        giantswarm.io/latest-release-date: "2025-10-03T09:00:24Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/kubeedge-cloudcore-app
+    tags:
+        - edge
+        - iot
+        - kubernetes
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -5707,8 +5731,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/squid-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/squid-proxy-app/tree/main
         giantswarm.io/deployment-names: squid-proxy,squid-proxy-app
-        giantswarm.io/latest-release-date: "2024-10-03T10:48:37Z"
-        giantswarm.io/latest-release-tag: 0.6.1
+        giantswarm.io/latest-release-date: "2025-10-03T10:08:16Z"
+        giantswarm.io/latest-release-tag: 0.6.2
         github.com/project-slug: giantswarm/squid-proxy-app
 spec:
     type: service
