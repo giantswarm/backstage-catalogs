@@ -3065,8 +3065,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-10-08T04:34:52Z"
-        giantswarm.io/latest-release-tag: 1.2.0
+        giantswarm.io/latest-release-date: "2025-10-08T17:21:06Z"
+        giantswarm.io/latest-release-tag: 1.2.1
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
