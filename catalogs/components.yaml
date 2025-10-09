@@ -2960,8 +2960,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/encryption-config-hasher
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/encryption-config-hasher/tree/master
         giantswarm.io/deployment-names: encryption-config-hasher,encryption-config-hasher-app
-        giantswarm.io/latest-release-date: "2022-06-21T15:05:12Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2025-10-08T19:28:44Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/encryption-config-hasher
 spec:
     type: service
