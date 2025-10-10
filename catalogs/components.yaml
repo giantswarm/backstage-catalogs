@@ -2393,8 +2393,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/latest-release-date: "2025-10-07T11:17:15Z"
-        giantswarm.io/latest-release-tag: 1.28.1
+        giantswarm.io/latest-release-date: "2025-10-10T08:04:10Z"
+        giantswarm.io/latest-release-tag: 1.28.2
         github.com/project-slug: giantswarm/coredns-app
 spec:
     type: service
