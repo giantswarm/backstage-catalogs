@@ -278,8 +278,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/auth-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/auth-bundle/tree/main
         giantswarm.io/deployment-names: auth-bundle,auth-bundle-app
-        giantswarm.io/latest-release-date: "2025-04-30T12:19:19Z"
-        giantswarm.io/latest-release-tag: 0.2.3
+        giantswarm.io/latest-release-date: "2025-10-10T23:04:54Z"
+        giantswarm.io/latest-release-tag: 0.2.5
         github.com/project-slug: giantswarm/auth-bundle
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-10-06T15:23:30Z"
-        giantswarm.io/latest-release-tag: 4.0.2
+        giantswarm.io/latest-release-date: "2025-10-10T13:49:18Z"
+        giantswarm.io/latest-release-tag: 4.0.3
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-08T07:32:37Z"
-        giantswarm.io/latest-release-tag: 5.1.0
+        giantswarm.io/latest-release-date: "2025-10-10T16:36:09Z"
+        giantswarm.io/latest-release-tag: 5.2.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-10-08T06:01:29Z"
-        giantswarm.io/latest-release-tag: 4.0.1
+        giantswarm.io/latest-release-date: "2025-10-10T14:53:10Z"
+        giantswarm.io/latest-release-tag: 4.0.2
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -2163,8 +2163,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-10-08T06:12:22Z"
-        giantswarm.io/latest-release-tag: 2.0.1
+        giantswarm.io/latest-release-date: "2025-10-10T14:57:11Z"
+        giantswarm.io/latest-release-tag: 2.0.2
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2189,8 +2189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-eks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-eks/tree/main
         giantswarm.io/deployment-names: cluster-eks,cluster-eks-app
-        giantswarm.io/latest-release-date: "2024-09-19T13:55:21Z"
-        giantswarm.io/latest-release-tag: 0.19.0
+        giantswarm.io/latest-release-date: "2025-10-10T13:06:29Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/cluster-eks
 spec:
     type: service
@@ -2309,8 +2309,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-10-08T05:59:33Z"
-        giantswarm.io/latest-release-tag: 3.0.1
+        giantswarm.io/latest-release-date: "2025-10-10T14:49:44Z"
+        giantswarm.io/latest-release-tag: 3.0.2
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
