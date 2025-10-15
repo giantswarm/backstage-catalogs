@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-09-10T08:47:06Z"
-        giantswarm.io/latest-release-tag: 0.85.0
+        giantswarm.io/latest-release-date: "2025-10-15T13:46:53Z"
+        giantswarm.io/latest-release-tag: 0.87.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1743,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-10-10T13:49:18Z"
-        giantswarm.io/latest-release-tag: 4.0.3
+        giantswarm.io/latest-release-date: "2025-10-14T15:45:31Z"
+        giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-10T16:36:09Z"
-        giantswarm.io/latest-release-tag: 5.2.0
+        giantswarm.io/latest-release-date: "2025-10-15T14:48:27Z"
+        giantswarm.io/latest-release-tag: 6.0.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-10-10T14:53:10Z"
-        giantswarm.io/latest-release-tag: 4.0.2
+        giantswarm.io/latest-release-date: "2025-10-15T07:27:03Z"
+        giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
@@ -2163,8 +2163,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-10-10T14:57:11Z"
-        giantswarm.io/latest-release-tag: 2.0.2
+        giantswarm.io/latest-release-date: "2025-10-15T04:14:52Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -2309,8 +2309,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-10-10T14:49:44Z"
-        giantswarm.io/latest-release-tag: 3.0.2
+        giantswarm.io/latest-release-date: "2025-10-15T04:00:01Z"
+        giantswarm.io/latest-release-tag: 3.2.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -3531,8 +3531,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-crds-app/tree/main
         giantswarm.io/deployment-names: gateway-api-crds,gateway-api-crds-app
-        giantswarm.io/latest-release-date: "2025-06-10T09:56:54Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2025-10-14T12:11:33Z"
+        giantswarm.io/latest-release-tag: 1.5.0
         github.com/project-slug: giantswarm/gateway-api-crds-app
 spec:
     type: service
@@ -3678,8 +3678,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-09-02T05:45:06Z"
-        giantswarm.io/latest-release-tag: 2.26.0
+        giantswarm.io/latest-release-date: "2025-10-14T12:39:46Z"
+        giantswarm.io/latest-release-tag: 2.27.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -4557,8 +4557,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-10-06T13:06:04Z"
-        giantswarm.io/latest-release-tag: 0.33.0
+        giantswarm.io/latest-release-date: "2025-10-15T15:47:36Z"
+        giantswarm.io/latest-release-tag: 0.34.2
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4577,8 +4577,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-10-02T13:17:37Z"
-        giantswarm.io/latest-release-tag: 0.33.0
+        giantswarm.io/latest-release-date: "2025-10-14T12:50:32Z"
+        giantswarm.io/latest-release-tag: 0.33.1
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
@@ -4957,8 +4957,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-10-07T08:49:57Z"
-        giantswarm.io/latest-release-tag: 0.43.1
+        giantswarm.io/latest-release-date: "2025-10-15T13:37:44Z"
+        giantswarm.io/latest-release-tag: 0.45.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5122,6 +5122,26 @@ metadata:
         giantswarm.io/latest-release-date: "2025-08-27T13:20:34Z"
         giantswarm.io/latest-release-tag: 0.2.3
         github.com/project-slug: giantswarm/pg-cluster-recovery-test
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-atlas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: plugin-barman-cloud
+    namespace: giantswarm
+    title: plugin-barman-cloud
+    description: A Helm chart for plugin-barman-cloud
+    annotations:
+        backstage.io/kubernetes-id: plugin-barman-cloud
+        backstage.io/source-location: url:https://github.com/giantswarm/plugin-barman-cloud
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/plugin-barman-cloud/tree/main
+        giantswarm.io/deployment-names: plugin-barman-cloud,plugin-barman-cloud-app
+        giantswarm.io/latest-release-date: "2025-10-14T14:56:18Z"
+        giantswarm.io/latest-release-tag: 0.0.3
+        github.com/project-slug: giantswarm/plugin-barman-cloud
 spec:
     type: service
     lifecycle: production
@@ -5897,8 +5917,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tempo-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tempo-app/tree/main
         giantswarm.io/deployment-names: tempo,tempo-app
-        giantswarm.io/latest-release-date: "2025-10-09T14:02:53Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2025-10-15T11:40:44Z"
+        giantswarm.io/latest-release-tag: 0.6.1
         github.com/project-slug: giantswarm/tempo-app
 spec:
     type: service
