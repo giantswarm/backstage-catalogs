@@ -490,6 +490,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+    name: mirza-src
+    namespace: giantswarm
+    annotations:
+        github.com/user-id: "25949625"
+        github.com/user-login: mirza-src
+spec:
+    profile:
+        displayName: Mirza Esaaf Shuja
+        email: mirza@giantswarm.io
+        picture: https://avatars.githubusercontent.com/u/25949625?v=4
+    memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
     name: morotki
     namespace: giantswarm
     annotations:
