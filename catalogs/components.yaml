@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-10-15T13:46:53Z"
-        giantswarm.io/latest-release-tag: 0.87.1
+        giantswarm.io/latest-release-date: "2025-10-16T12:28:15Z"
+        giantswarm.io/latest-release-tag: 0.88.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1231,8 +1231,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-karpenter-taint-remover
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-karpenter-taint-remover/tree/main
         giantswarm.io/deployment-names: capa-karpenter-taint-remover,capa-karpenter-taint-remover-app
-        giantswarm.io/latest-release-date: "2025-05-26T13:52:50Z"
-        giantswarm.io/latest-release-tag: 0.6.0
+        giantswarm.io/latest-release-date: "2025-10-16T14:29:44Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/capa-karpenter-taint-remover
 spec:
     type: service
@@ -3491,8 +3491,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-06-25T08:08:28Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-10-16T15:47:29Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -4338,6 +4338,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kueue
+    namespace: giantswarm
+    title: kueue
+    description: Kueue is a set of APIs and controllers for job queueing.
+    annotations:
+        backstage.io/kubernetes-id: kueue
+        backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
+        giantswarm.io/deployment-names: kueue,kueue-app
+        giantswarm.io/latest-release-date: "2025-10-16T21:24:05Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/kueue-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kvm-operator
     namespace: giantswarm
     title: kvm-operator
@@ -4557,8 +4577,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-10-15T15:47:36Z"
-        giantswarm.io/latest-release-tag: 0.34.2
+        giantswarm.io/latest-release-date: "2025-10-16T15:32:36Z"
+        giantswarm.io/latest-release-tag: 0.34.4
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
