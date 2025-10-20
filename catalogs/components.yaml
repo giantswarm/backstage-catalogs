@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-15T14:48:27Z"
-        giantswarm.io/latest-release-tag: 6.0.0
+        giantswarm.io/latest-release-date: "2025-10-17T14:14:01Z"
+        giantswarm.io/latest-release-tag: 6.1.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -3065,8 +3065,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-10-08T17:21:06Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2025-10-18T15:13:26Z"
+        giantswarm.io/latest-release-tag: 1.2.2
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
@@ -3987,8 +3987,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
         giantswarm.io/deployment-names: karpenter,karpenter-app
-        giantswarm.io/latest-release-date: "2025-10-02T10:47:54Z"
-        giantswarm.io/latest-release-tag: 1.3.0
+        giantswarm.io/latest-release-date: "2025-10-17T07:05:30Z"
+        giantswarm.io/latest-release-tag: 1.4.0
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - autoscaling
