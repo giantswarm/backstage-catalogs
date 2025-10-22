@@ -646,8 +646,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-pod-identity-webhook
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-pod-identity-webhook/tree/main
         giantswarm.io/deployment-names: aws-pod-identity-webhook,aws-pod-identity-webhook-app
-        giantswarm.io/latest-release-date: "2025-03-18T08:19:26Z"
-        giantswarm.io/latest-release-tag: 1.19.1
+        giantswarm.io/latest-release-date: "2025-10-21T14:14:17Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/aws-pod-identity-webhook
 spec:
     type: service
@@ -1943,8 +1943,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-09-17T15:09:26Z"
-        giantswarm.io/latest-release-tag: 2.33.3
+        giantswarm.io/latest-release-date: "2025-10-21T16:22:12Z"
+        giantswarm.io/latest-release-tag: 2.33.4
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -4537,8 +4537,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policy-operator/tree/main
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
-        giantswarm.io/latest-release-date: "2025-08-19T13:36:55Z"
-        giantswarm.io/latest-release-tag: 0.1.5
+        giantswarm.io/latest-release-date: "2025-10-21T12:51:48Z"
+        giantswarm.io/latest-release-tag: 0.1.6
         github.com/project-slug: giantswarm/kyverno-policy-operator
 spec:
     type: service
@@ -4741,8 +4741,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/n8n-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/n8n-app/tree/main
         giantswarm.io/deployment-names: n8n,n8n-app
-        giantswarm.io/latest-release-date: "2025-03-25T09:09:05Z"
-        giantswarm.io/latest-release-tag: 1.5.1
+        giantswarm.io/latest-release-date: "2025-10-21T14:27:17Z"
+        giantswarm.io/latest-release-tag: 1.5.2
         github.com/project-slug: giantswarm/n8n-app
     tags:
         - automation
@@ -5079,8 +5079,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/organization-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/organization-operator/tree/main
         giantswarm.io/deployment-names: organization-operator,organization-operator-app
-        giantswarm.io/latest-release-date: "2025-08-21T10:29:13Z"
-        giantswarm.io/latest-release-tag: 2.1.1
+        giantswarm.io/latest-release-date: "2025-10-21T15:57:18Z"
+        giantswarm.io/latest-release-tag: 2.1.2
         github.com/project-slug: giantswarm/organization-operator
 spec:
     type: service
@@ -5383,8 +5383,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-10-09T07:29:11Z"
-        giantswarm.io/latest-release-tag: 4.77.2
+        giantswarm.io/latest-release-date: "2025-10-21T11:58:31Z"
+        giantswarm.io/latest-release-tag: 4.78.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
