@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-21T08:48:16Z"
-        giantswarm.io/latest-release-tag: 6.2.0
+        giantswarm.io/latest-release-date: "2025-10-25T08:31:26Z"
+        giantswarm.io/latest-release-tag: 6.3.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-azure
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-azure/tree/main
         giantswarm.io/deployment-names: cluster-azure,cluster-azure-app
-        giantswarm.io/latest-release-date: "2025-10-15T07:27:03Z"
-        giantswarm.io/latest-release-tag: 4.2.0
+        giantswarm.io/latest-release-date: "2025-10-25T08:25:50Z"
+        giantswarm.io/latest-release-tag: 4.3.0
         github.com/project-slug: giantswarm/cluster-azure
 spec:
     type: service
