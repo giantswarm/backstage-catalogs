@@ -500,8 +500,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-load-balancer-controller-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-load-balancer-controller-app/tree/main
         giantswarm.io/deployment-names: aws-load-balancer-controller,aws-load-balancer-controller-app
-        giantswarm.io/latest-release-date: "2025-04-22T11:54:44Z"
-        giantswarm.io/latest-release-tag: 2.2.0
+        giantswarm.io/latest-release-date: "2025-10-30T08:49:57Z"
+        giantswarm.io/latest-release-tag: 2.2.1
         github.com/project-slug: giantswarm/aws-load-balancer-controller-app
     tags:
         - alb
@@ -2063,8 +2063,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-10-02T15:15:05Z"
-        giantswarm.io/latest-release-tag: 3.4.1
+        giantswarm.io/latest-release-date: "2025-10-30T11:30:38Z"
+        giantswarm.io/latest-release-tag: 3.5.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
@@ -4033,8 +4033,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-crossplane-resources/tree/main
         giantswarm.io/deployment-names: karpenter-crossplane-resources,karpenter-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-10-02T10:44:55Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-10-30T12:57:31Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
 spec:
     type: service
@@ -5403,8 +5403,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-10-29T09:15:12Z"
-        giantswarm.io/latest-release-tag: 4.80.0
+        giantswarm.io/latest-release-date: "2025-10-30T11:29:23Z"
+        giantswarm.io/latest-release-tag: 4.81.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
