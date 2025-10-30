@@ -218,8 +218,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-10-22T07:49:45Z"
-        giantswarm.io/latest-release-tag: 7.4.1
+        giantswarm.io/latest-release-date: "2025-10-29T11:55:03Z"
+        giantswarm.io/latest-release-tag: 7.5.0
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-25T08:31:26Z"
-        giantswarm.io/latest-release-tag: 6.3.0
+        giantswarm.io/latest-release-date: "2025-10-29T19:25:38Z"
+        giantswarm.io/latest-release-tag: 6.4.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -4977,8 +4977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-10-28T15:50:36Z"
-        giantswarm.io/latest-release-tag: 0.46.1
+        giantswarm.io/latest-release-date: "2025-10-29T15:45:35Z"
+        giantswarm.io/latest-release-tag: 0.46.2
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
