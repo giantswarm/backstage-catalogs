@@ -1311,8 +1311,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2025-10-09T14:56:13Z"
-        giantswarm.io/latest-release-tag: 1.1.4
+        giantswarm.io/latest-release-date: "2025-11-01T07:58:37Z"
+        giantswarm.io/latest-release-tag: 1.1.5
         github.com/project-slug: giantswarm/capi-node-labeler-app
 spec:
     type: service
@@ -1331,8 +1331,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-10-09T16:05:29Z"
-        giantswarm.io/latest-release-tag: 2.9.12
+        giantswarm.io/latest-release-date: "2025-11-01T07:47:51Z"
+        giantswarm.io/latest-release-tag: 2.9.13
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -3085,8 +3085,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2025-10-09T14:41:06Z"
-        giantswarm.io/latest-release-tag: 1.10.9
+        giantswarm.io/latest-release-date: "2025-11-01T07:48:10Z"
+        giantswarm.io/latest-release-tag: 1.10.10
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -3927,8 +3927,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2025-10-09T14:34:07Z"
-        giantswarm.io/latest-release-tag: 0.10.8
+        giantswarm.io/latest-release-date: "2025-11-01T07:35:20Z"
+        giantswarm.io/latest-release-tag: 0.10.9
         github.com/project-slug: giantswarm/k8s-audit-metrics
 spec:
     type: service
@@ -4833,8 +4833,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/node-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/node-exporter-app/tree/main
         giantswarm.io/deployment-names: node-exporter,node-exporter-app
-        giantswarm.io/latest-release-date: "2025-10-09T15:52:59Z"
-        giantswarm.io/latest-release-tag: 1.20.7
+        giantswarm.io/latest-release-date: "2025-11-01T07:35:38Z"
+        giantswarm.io/latest-release-tag: 1.20.8
         github.com/project-slug: giantswarm/node-exporter-app
     tags:
         - exporter
