@@ -1191,8 +1191,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-10-06T16:00:55Z"
-        giantswarm.io/latest-release-tag: 1.6.0
+        giantswarm.io/latest-release-date: "2025-11-03T12:05:34Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -2189,8 +2189,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-eks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-eks/tree/main
         giantswarm.io/deployment-names: cluster-eks,cluster-eks-app
-        giantswarm.io/latest-release-date: "2025-10-10T13:06:29Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-11-03T06:30:30Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/cluster-eks
 spec:
     type: service
