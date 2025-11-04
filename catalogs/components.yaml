@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-10-16T12:28:15Z"
-        giantswarm.io/latest-release-tag: 0.88.1
+        giantswarm.io/latest-release-date: "2025-11-04T09:17:54Z"
+        giantswarm.io/latest-release-tag: 0.89.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3531,8 +3531,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-crds-app/tree/main
         giantswarm.io/deployment-names: gateway-api-crds,gateway-api-crds-app
-        giantswarm.io/latest-release-date: "2025-10-20T13:41:39Z"
-        giantswarm.io/latest-release-tag: 1.5.1
+        giantswarm.io/latest-release-date: "2025-11-04T15:23:38Z"
+        giantswarm.io/latest-release-tag: 1.6.0
         github.com/project-slug: giantswarm/gateway-api-crds-app
 spec:
     type: service
@@ -4977,8 +4977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-10-29T15:45:35Z"
-        giantswarm.io/latest-release-tag: 0.46.2
+        giantswarm.io/latest-release-date: "2025-11-04T09:32:03Z"
+        giantswarm.io/latest-release-tag: 0.48.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-10-28T16:59:39Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-11-04T14:03:17Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5791,8 +5791,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/squid-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/squid-proxy-app/tree/main
         giantswarm.io/deployment-names: squid-proxy,squid-proxy-app
-        giantswarm.io/latest-release-date: "2025-10-03T10:08:16Z"
-        giantswarm.io/latest-release-tag: 0.6.2
+        giantswarm.io/latest-release-date: "2025-11-04T13:45:04Z"
+        giantswarm.io/latest-release-tag: 0.6.3
         github.com/project-slug: giantswarm/squid-proxy-app
 spec:
     type: service
@@ -6261,8 +6261,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-09-02T09:25:00Z"
-        giantswarm.io/latest-release-tag: 2.3.3
+        giantswarm.io/latest-release-date: "2025-11-04T13:08:17Z"
+        giantswarm.io/latest-release-tag: 2.3.6
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
