@@ -3802,8 +3802,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-11-05T00:09:28Z"
-        giantswarm.io/latest-release-tag: 4.1.4
+        giantswarm.io/latest-release-date: "2025-11-05T09:43:36Z"
+        giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
@@ -4977,8 +4977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-11-04T09:32:03Z"
-        giantswarm.io/latest-release-tag: 0.48.0
+        giantswarm.io/latest-release-date: "2025-11-05T09:25:21Z"
+        giantswarm.io/latest-release-tag: 0.48.1
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5671,8 +5671,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/silence-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/silence-operator/tree/main
         giantswarm.io/deployment-names: silence-operator,silence-operator-app
-        giantswarm.io/latest-release-date: "2025-09-17T10:12:49Z"
-        giantswarm.io/latest-release-tag: 0.19.0
+        giantswarm.io/latest-release-date: "2025-11-05T10:20:37Z"
+        giantswarm.io/latest-release-tag: 0.20.0
         github.com/project-slug: giantswarm/silence-operator
 spec:
     type: service
