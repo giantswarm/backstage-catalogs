@@ -3802,8 +3802,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-10-02T09:32:24Z"
-        giantswarm.io/latest-release-tag: 4.1.3
+        giantswarm.io/latest-release-date: "2025-11-05T00:09:28Z"
+        giantswarm.io/latest-release-tag: 4.1.4
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-04T14:03:17Z"
-        giantswarm.io/latest-release-tag: 0.2.1
+        giantswarm.io/latest-release-date: "2025-11-04T17:36:43Z"
+        giantswarm.io/latest-release-tag: 0.2.3
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5791,8 +5791,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/squid-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/squid-proxy-app/tree/main
         giantswarm.io/deployment-names: squid-proxy,squid-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-04T13:45:04Z"
-        giantswarm.io/latest-release-tag: 0.6.3
+        giantswarm.io/latest-release-date: "2025-11-04T20:08:44Z"
+        giantswarm.io/latest-release-tag: 0.6.4
         github.com/project-slug: giantswarm/squid-proxy-app
 spec:
     type: service
