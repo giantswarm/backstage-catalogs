@@ -1943,8 +1943,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-10-21T16:22:12Z"
-        giantswarm.io/latest-release-tag: 2.33.4
+        giantswarm.io/latest-release-date: "2025-11-05T07:43:09Z"
+        giantswarm.io/latest-release-tag: 2.33.5
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -3000,8 +3000,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
         giantswarm.io/deployment-names: envoy-gateway,envoy-gateway-app
-        giantswarm.io/latest-release-date: "2025-10-29T08:37:28Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-11-05T06:51:58Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/envoy-gateway-app
     tags:
         - eg
@@ -6261,8 +6261,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-11-04T13:08:17Z"
-        giantswarm.io/latest-release-tag: 2.3.6
+        giantswarm.io/latest-release-date: "2025-11-05T07:46:59Z"
+        giantswarm.io/latest-release-tag: 2.3.7
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
