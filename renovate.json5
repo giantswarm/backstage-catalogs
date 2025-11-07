@@ -1,13 +1,13 @@
 {
-  "extends": [
-    // Base config - https://github.com/giantswarm/renovate-presets/blob/main/default.json5
-    "github>giantswarm/renovate-presets:default.json5",
+  extends: [
+    'github>giantswarm/renovate-presets:default.json5',
   ],
   customManagers: [
-    // Detect binary versions in workflow YAML files
     {
       customType: 'regex',
-      fileMatch: ['.*\\.yaml'],
+      managerFilePatterns: [
+        '/.*\\.yaml/',
+      ],
       matchStrings: [
         '# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s+version:\\s*(?<currentValue>\\S+)',
       ],
