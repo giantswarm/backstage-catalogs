@@ -1963,8 +1963,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-azure-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-azure-app/tree/main
         giantswarm.io/deployment-names: cluster-api-provider-azure,cluster-api-provider-azure-app
-        giantswarm.io/latest-release-date: "2025-10-08T04:37:18Z"
-        giantswarm.io/latest-release-tag: 4.0.0
+        giantswarm.io/latest-release-date: "2025-11-06T11:53:59Z"
+        giantswarm.io/latest-release-tag: 4.0.1
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
 spec:
     type: service
@@ -3491,8 +3491,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-10-29T09:47:43Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-11-06T10:53:16Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -3511,8 +3511,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/latest-release-date: "2025-06-24T09:06:31Z"
-        giantswarm.io/latest-release-tag: 0.5.1
+        giantswarm.io/latest-release-date: "2025-11-06T08:43:16Z"
+        giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/gateway-api-config-app
 spec:
     type: service
@@ -3678,8 +3678,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-10-22T12:45:33Z"
-        giantswarm.io/latest-release-tag: 2.27.1
+        giantswarm.io/latest-release-date: "2025-11-06T09:09:54Z"
+        giantswarm.io/latest-release-tag: 2.27.2
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-04T17:36:43Z"
-        giantswarm.io/latest-release-tag: 0.2.3
+        giantswarm.io/latest-release-date: "2025-11-06T16:09:47Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5403,8 +5403,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-10-30T11:29:23Z"
-        giantswarm.io/latest-release-tag: 4.81.0
+        giantswarm.io/latest-release-date: "2025-11-06T11:32:47Z"
+        giantswarm.io/latest-release-tag: 4.82.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
