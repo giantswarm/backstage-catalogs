@@ -218,8 +218,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/app-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/app-operator/tree/main
         giantswarm.io/deployment-names: app-operator,app-operator-app
-        giantswarm.io/latest-release-date: "2025-10-29T11:55:03Z"
-        giantswarm.io/latest-release-tag: 7.5.0
+        giantswarm.io/latest-release-date: "2025-11-07T09:44:40Z"
+        giantswarm.io/latest-release-tag: 7.5.1
         github.com/project-slug: giantswarm/app-operator
 spec:
     type: service
@@ -1431,8 +1431,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/chart-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/chart-operator/tree/main
         giantswarm.io/deployment-names: chart-operator,chart-operator-app
-        giantswarm.io/latest-release-date: "2025-10-02T14:52:19Z"
-        giantswarm.io/latest-release-tag: 4.1.1
+        giantswarm.io/latest-release-date: "2025-11-07T09:46:08Z"
+        giantswarm.io/latest-release-tag: 4.1.2
         github.com/project-slug: giantswarm/chart-operator
 spec:
     type: service
@@ -3065,8 +3065,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-defrag-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-defrag-app/tree/main
         giantswarm.io/deployment-names: etcd-defrag,etcd-defrag-app
-        giantswarm.io/latest-release-date: "2025-10-18T15:13:26Z"
-        giantswarm.io/latest-release-tag: 1.2.2
+        giantswarm.io/latest-release-date: "2025-11-08T08:13:11Z"
+        giantswarm.io/latest-release-tag: 1.2.3
         github.com/project-slug: giantswarm/etcd-defrag-app
 spec:
     type: service
@@ -3225,8 +3225,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
-        giantswarm.io/latest-release-date: "2025-10-03T10:12:40Z"
-        giantswarm.io/latest-release-tag: 0.18.3
+        giantswarm.io/latest-release-date: "2025-11-07T08:51:46Z"
+        giantswarm.io/latest-release-tag: 0.20.4
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - kubernetes-external-secrets
@@ -4263,8 +4263,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubectl-apply-job
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubectl-apply-job/tree/main
         giantswarm.io/deployment-names: kubectl-apply-job,kubectl-apply-job-app
-        giantswarm.io/latest-release-date: "2025-11-07T07:47:03Z"
-        giantswarm.io/latest-release-tag: 0.10.3
+        giantswarm.io/latest-release-date: "2025-11-07T13:02:09Z"
+        giantswarm.io/latest-release-tag: 0.11.0
         github.com/project-slug: giantswarm/kubectl-apply-job
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-06T16:09:47Z"
-        giantswarm.io/latest-release-tag: 1.0.1
+        giantswarm.io/latest-release-date: "2025-11-07T16:44:45Z"
+        giantswarm.io/latest-release-tag: 1.0.2
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5270,6 +5270,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: priority-classes
+    namespace: giantswarm
+    title: priority-classes
+    description: Standardized PriorityClass resources for Giant Swarm clusters, providing giantswarm-critical and giantswarm-high priority levels
+    annotations:
+        backstage.io/kubernetes-id: priority-classes
+        backstage.io/source-location: url:https://github.com/giantswarm/priority-classes
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/priority-classes/tree/main
+        giantswarm.io/deployment-names: priority-classes,priority-classes-app
+        giantswarm.io/latest-release-date: "2025-11-07T15:35:46Z"
+        giantswarm.io/latest-release-tag: 0.3.0
+        github.com/project-slug: giantswarm/priority-classes
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-tenet
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: prometheus-agent
     namespace: giantswarm
     title: prometheus-agent
@@ -5403,8 +5423,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-11-06T11:32:47Z"
-        giantswarm.io/latest-release-tag: 4.82.0
+        giantswarm.io/latest-release-date: "2025-11-07T10:16:08Z"
+        giantswarm.io/latest-release-tag: 4.83.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
