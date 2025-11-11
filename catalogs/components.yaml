@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-11-04T09:17:54Z"
-        giantswarm.io/latest-release-tag: 0.89.0
+        giantswarm.io/latest-release-date: "2025-11-11T09:17:24Z"
+        giantswarm.io/latest-release-tag: 0.90.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -3000,8 +3000,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
         giantswarm.io/deployment-names: envoy-gateway,envoy-gateway-app
-        giantswarm.io/latest-release-date: "2025-11-05T06:51:58Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-11-11T10:20:49Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/envoy-gateway-app
     tags:
         - eg
@@ -3491,8 +3491,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-11-06T10:53:16Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-11-11T11:18:47Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-10T12:10:20Z"
-        giantswarm.io/latest-release-tag: 1.0.5
+        giantswarm.io/latest-release-date: "2025-11-11T11:54:00Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5678,6 +5678,54 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: shoot
+    namespace: giantswarm
+    title: shoot
+    description: A Helm chart for shoot - General purpose agent for Kubernetes
+    annotations:
+        backstage.io/kubernetes-id: shoot
+        backstage.io/source-location: url:https://github.com/giantswarm/shoot
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot/tree/main
+        giantswarm.io/deployment-names: shoot,shoot-app
+        giantswarm.io/latest-release-date: "2025-11-11T12:06:59Z"
+        giantswarm.io/latest-release-tag: 2.0.0
+        github.com/project-slug: giantswarm/shoot
+    tags:
+        - ai
+        - debugging
+        - troubleshooting
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: shoot-controller
+    namespace: giantswarm
+    title: shoot-controller
+    description: Kubernetes controller to deploy the shoot agent
+    annotations:
+        backstage.io/kubernetes-id: shoot-controller
+        backstage.io/source-location: url:https://github.com/giantswarm/shoot-controller
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot-controller/tree/main
+        giantswarm.io/deployment-names: shoot-controller,shoot-controller-app
+        giantswarm.io/latest-release-date: "2025-11-11T11:12:11Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/shoot-controller
+    tags:
+        - ai
+        - debugging
+        - troubleshooting
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
