@@ -4577,8 +4577,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-10-27T08:34:07Z"
-        giantswarm.io/latest-release-tag: 0.35.0
+        giantswarm.io/latest-release-date: "2025-11-10T10:12:40Z"
+        giantswarm.io/latest-release-tag: 0.36.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4597,8 +4597,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-10-28T10:47:21Z"
-        giantswarm.io/latest-release-tag: 0.33.2
+        giantswarm.io/latest-release-date: "2025-11-10T08:08:25Z"
+        giantswarm.io/latest-release-tag: 0.34.0
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-07T16:44:45Z"
-        giantswarm.io/latest-release-tag: 1.0.2
+        giantswarm.io/latest-release-date: "2025-11-10T12:10:20Z"
+        giantswarm.io/latest-release-tag: 1.0.5
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5977,8 +5977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tempo-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tempo-app/tree/main
         giantswarm.io/deployment-names: tempo,tempo-app
-        giantswarm.io/latest-release-date: "2025-10-27T08:05:50Z"
-        giantswarm.io/latest-release-tag: 0.7.0
+        giantswarm.io/latest-release-date: "2025-11-10T08:07:18Z"
+        giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/tempo-app
 spec:
     type: service
