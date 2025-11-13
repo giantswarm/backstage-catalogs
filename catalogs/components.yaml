@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-11-11T09:17:24Z"
-        giantswarm.io/latest-release-tag: 0.90.0
+        giantswarm.io/latest-release-date: "2025-11-13T09:39:50Z"
+        giantswarm.io/latest-release-tag: 0.90.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1191,8 +1191,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-11-12T13:19:00Z"
-        giantswarm.io/latest-release-tag: 2.0.1
+        giantswarm.io/latest-release-date: "2025-11-13T11:16:35Z"
+        giantswarm.io/latest-release-tag: 2.0.2
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -3368,8 +3368,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
-        giantswarm.io/latest-release-date: "2025-10-03T10:01:41Z"
-        giantswarm.io/latest-release-tag: 1.7.2
+        giantswarm.io/latest-release-date: "2025-11-13T12:36:30Z"
+        giantswarm.io/latest-release-tag: 1.7.3
         github.com/project-slug: giantswarm/flux-app
     tags:
         - flux
@@ -4917,8 +4917,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/oauth2-proxy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/oauth2-proxy-app/tree/main
         giantswarm.io/deployment-names: oauth2-proxy,oauth2-proxy-app
-        giantswarm.io/latest-release-date: "2025-10-27T12:37:48Z"
-        giantswarm.io/latest-release-tag: 3.2.0
+        giantswarm.io/latest-release-date: "2025-11-13T10:56:42Z"
+        giantswarm.io/latest-release-tag: 3.3.0
         github.com/project-slug: giantswarm/oauth2-proxy-app
 spec:
     type: service
@@ -4977,8 +4977,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-11-12T14:11:22Z"
-        giantswarm.io/latest-release-tag: 0.49.0
+        giantswarm.io/latest-release-date: "2025-11-13T14:16:58Z"
+        giantswarm.io/latest-release-tag: 0.50.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5691,8 +5691,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot/tree/main
         giantswarm.io/deployment-names: shoot,shoot-app
-        giantswarm.io/latest-release-date: "2025-11-12T13:02:51Z"
-        giantswarm.io/latest-release-tag: 2.6.0
+        giantswarm.io/latest-release-date: "2025-11-13T08:00:27Z"
+        giantswarm.io/latest-release-tag: 2.8.0
         github.com/project-slug: giantswarm/shoot
     tags:
         - ai
