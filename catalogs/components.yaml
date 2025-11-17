@@ -75,8 +75,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/alfred-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/alfred-app/tree/main
         giantswarm.io/deployment-names: alfred,alfred-app
-        giantswarm.io/latest-release-date: "2025-09-01T08:17:57Z"
-        giantswarm.io/latest-release-tag: 0.14.1
+        giantswarm.io/latest-release-date: "2025-11-17T12:07:53Z"
+        giantswarm.io/latest-release-tag: 0.15.0
         github.com/project-slug: giantswarm/alfred-app
 spec:
     type: service
@@ -4412,8 +4412,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-crds
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-crds/tree/main
         giantswarm.io/deployment-names: kyverno-crds,kyverno-crds-app
-        giantswarm.io/latest-release-date: "2025-10-28T13:55:53Z"
-        giantswarm.io/latest-release-tag: 1.15.0
+        giantswarm.io/latest-release-date: "2025-11-17T12:25:12Z"
+        giantswarm.io/latest-release-tag: 1.16.0
         github.com/project-slug: giantswarm/kyverno-crds
 spec:
     type: service
