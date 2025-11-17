@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-11T15:29:39Z"
-        giantswarm.io/latest-release-tag: 1.1.1
+        giantswarm.io/latest-release-date: "2025-11-14T15:35:43Z"
+        giantswarm.io/latest-release-tag: 1.2.0
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5691,8 +5691,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot/tree/main
         giantswarm.io/deployment-names: shoot,shoot-app
-        giantswarm.io/latest-release-date: "2025-11-13T08:00:27Z"
-        giantswarm.io/latest-release-tag: 2.8.0
+        giantswarm.io/latest-release-date: "2025-11-14T11:47:39Z"
+        giantswarm.io/latest-release-tag: 2.10.1
         github.com/project-slug: giantswarm/shoot
     tags:
         - ai
