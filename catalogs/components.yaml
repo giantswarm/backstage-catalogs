@@ -4937,8 +4937,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/object-storage-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/object-storage-operator/tree/main
         giantswarm.io/deployment-names: object-storage-operator,object-storage-operator-app
-        giantswarm.io/latest-release-date: "2025-09-29T15:41:24Z"
-        giantswarm.io/latest-release-tag: 0.13.0
+        giantswarm.io/latest-release-date: "2025-11-17T15:59:54Z"
+        giantswarm.io/latest-release-tag: 0.13.1
         github.com/project-slug: giantswarm/object-storage-operator
 spec:
     type: service
