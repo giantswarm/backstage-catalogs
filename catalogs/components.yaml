@@ -3511,8 +3511,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/latest-release-date: "2025-11-06T08:43:16Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-11-18T10:24:14Z"
+        giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/gateway-api-config-app
 spec:
     type: service
@@ -5119,8 +5119,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-14T15:35:43Z"
-        giantswarm.io/latest-release-tag: 1.2.0
+        giantswarm.io/latest-release-date: "2025-11-18T09:45:13Z"
+        giantswarm.io/latest-release-tag: 1.2.1
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5179,8 +5179,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/plugin-barman-cloud
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/plugin-barman-cloud/tree/main
         giantswarm.io/deployment-names: plugin-barman-cloud,plugin-barman-cloud-app
-        giantswarm.io/latest-release-date: "2025-10-14T14:56:18Z"
-        giantswarm.io/latest-release-tag: 0.0.3
+        giantswarm.io/latest-release-date: "2025-11-18T09:43:12Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/plugin-barman-cloud
 spec:
     type: service
@@ -5423,8 +5423,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-11-12T09:32:04Z"
-        giantswarm.io/latest-release-tag: 4.84.0
+        giantswarm.io/latest-release-date: "2025-11-18T09:48:07Z"
+        giantswarm.io/latest-release-tag: 4.85.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
