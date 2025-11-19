@@ -3491,8 +3491,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/latest-release-date: "2025-11-11T11:18:47Z"
-        giantswarm.io/latest-release-tag: 1.2.0
+        giantswarm.io/latest-release-date: "2025-11-18T12:48:27Z"
+        giantswarm.io/latest-release-tag: 1.3.0
         github.com/project-slug: giantswarm/gateway-api-bundle
 spec:
     type: service
@@ -5179,8 +5179,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/plugin-barman-cloud
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/plugin-barman-cloud/tree/main
         giantswarm.io/deployment-names: plugin-barman-cloud,plugin-barman-cloud-app
-        giantswarm.io/latest-release-date: "2025-11-18T09:43:12Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2025-11-18T16:55:53Z"
+        giantswarm.io/latest-release-tag: 0.2.2
         github.com/project-slug: giantswarm/plugin-barman-cloud
 spec:
     type: service
