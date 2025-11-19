@@ -460,8 +460,28 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
         giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-10-07T14:52:03Z"
-        giantswarm.io/latest-release-tag: 2.1.5
+        giantswarm.io/latest-release-date: "2025-11-19T08:54:16Z"
+        giantswarm.io/latest-release-tag: 3.0.0
+        github.com/project-slug: giantswarm/aws-efs-csi-driver
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-efs-csi-driver-bundle
+    namespace: giantswarm
+    title: aws-efs-csi-driver-bundle
+    description: A Helm chart for AWS EFS CSI Driver
+    annotations:
+        backstage.io/kubernetes-id: aws-efs-csi-driver-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
+        giantswarm.io/deployment-names: aws-efs-csi-driver-bundle,aws-efs-csi-driver-bundle-app
+        giantswarm.io/latest-release-date: "2025-11-19T08:54:10Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/aws-efs-csi-driver
 spec:
     type: service
@@ -1495,8 +1515,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2025-09-22T14:54:23Z"
-        giantswarm.io/latest-release-tag: 1.3.1
+        giantswarm.io/latest-release-date: "2025-11-19T09:45:09Z"
+        giantswarm.io/latest-release-tag: 1.3.2
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -1723,8 +1743,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloudnative-pg-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudnative-pg-app/tree/main
         giantswarm.io/deployment-names: cloudnative-pg,cloudnative-pg-app
-        giantswarm.io/latest-release-date: "2025-06-24T15:05:32Z"
-        giantswarm.io/latest-release-tag: 0.0.10
+        giantswarm.io/latest-release-date: "2025-11-19T10:03:31Z"
+        giantswarm.io/latest-release-tag: 0.0.12
         github.com/project-slug: giantswarm/cloudnative-pg-app
 spec:
     type: service
