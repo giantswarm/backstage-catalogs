@@ -1763,8 +1763,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-11-12T20:56:31Z"
-        giantswarm.io/latest-release-tag: 4.5.1
+        giantswarm.io/latest-release-date: "2025-11-20T10:50:20Z"
+        giantswarm.io/latest-release-tag: 4.6.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -3698,8 +3698,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-11-06T09:09:54Z"
-        giantswarm.io/latest-release-tag: 2.27.2
+        giantswarm.io/latest-release-date: "2025-11-20T09:04:28Z"
+        giantswarm.io/latest-release-tag: 2.27.3
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
