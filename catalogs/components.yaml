@@ -1963,8 +1963,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-11-05T07:43:09Z"
-        giantswarm.io/latest-release-tag: 2.33.5
+        giantswarm.io/latest-release-date: "2025-11-21T11:59:01Z"
+        giantswarm.io/latest-release-tag: 2.34.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -3125,8 +3125,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/event-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/event-exporter-app/tree/main
         giantswarm.io/deployment-names: event-exporter,event-exporter-app
-        giantswarm.io/latest-release-date: "2025-09-17T14:42:45Z"
-        giantswarm.io/latest-release-tag: 3.3.1
+        giantswarm.io/latest-release-date: "2025-11-21T09:24:16Z"
+        giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/event-exporter-app
 spec:
     type: service
@@ -6349,8 +6349,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-11-05T07:46:59Z"
-        giantswarm.io/latest-release-tag: 2.3.7
+        giantswarm.io/latest-release-date: "2025-11-21T16:09:12Z"
+        giantswarm.io/latest-release-tag: 2.4.0
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
