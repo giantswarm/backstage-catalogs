@@ -1046,8 +1046,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-11-13T09:39:50Z"
-        giantswarm.io/latest-release-tag: 0.90.1
+        giantswarm.io/latest-release-date: "2025-11-24T11:42:22Z"
+        giantswarm.io/latest-release-tag: 0.90.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1351,8 +1351,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-01T07:47:51Z"
-        giantswarm.io/latest-release-tag: 2.9.13
+        giantswarm.io/latest-release-date: "2025-11-25T11:00:59Z"
+        giantswarm.io/latest-release-tag: 2.9.14
         github.com/project-slug: giantswarm/cert-exporter
 spec:
     type: service
@@ -1763,8 +1763,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster/tree/main
         giantswarm.io/deployment-names: cluster,cluster-app
-        giantswarm.io/latest-release-date: "2025-11-20T10:50:20Z"
-        giantswarm.io/latest-release-tag: 4.6.0
+        giantswarm.io/latest-release-date: "2025-11-25T12:06:59Z"
+        giantswarm.io/latest-release-tag: 5.0.0
         github.com/project-slug: giantswarm/cluster
 spec:
     type: service
@@ -1963,8 +1963,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-11-05T07:43:09Z"
-        giantswarm.io/latest-release-tag: 2.33.5
+        giantswarm.io/latest-release-date: "2025-11-21T11:59:01Z"
+        giantswarm.io/latest-release-tag: 2.34.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -2103,8 +2103,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-autoscaler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-autoscaler-app/tree/main
         giantswarm.io/deployment-names: cluster-autoscaler,cluster-autoscaler-app
-        giantswarm.io/latest-release-date: "2025-10-08T09:03:11Z"
-        giantswarm.io/latest-release-tag: 1.33.1-2
+        giantswarm.io/latest-release-date: "2025-11-25T10:58:13Z"
+        giantswarm.io/latest-release-tag: 1.34.1-1
         github.com/project-slug: giantswarm/cluster-autoscaler-app
 spec:
     type: service
@@ -2123,8 +2123,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-10-29T19:25:38Z"
-        giantswarm.io/latest-release-tag: 6.4.0
+        giantswarm.io/latest-release-date: "2025-11-24T16:42:00Z"
+        giantswarm.io/latest-release-tag: 6.4.1
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -3105,8 +3105,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-01T07:48:10Z"
-        giantswarm.io/latest-release-tag: 1.10.10
+        giantswarm.io/latest-release-date: "2025-11-25T10:48:51Z"
+        giantswarm.io/latest-release-tag: 1.10.11
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -3125,8 +3125,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/event-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/event-exporter-app/tree/main
         giantswarm.io/deployment-names: event-exporter,event-exporter-app
-        giantswarm.io/latest-release-date: "2025-09-17T14:42:45Z"
-        giantswarm.io/latest-release-tag: 3.3.1
+        giantswarm.io/latest-release-date: "2025-11-21T09:24:16Z"
+        giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/event-exporter-app
 spec:
     type: service
@@ -3947,8 +3947,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2025-11-01T07:35:20Z"
-        giantswarm.io/latest-release-tag: 0.10.9
+        giantswarm.io/latest-release-date: "2025-11-25T10:44:34Z"
+        giantswarm.io/latest-release-tag: 0.10.10
         github.com/project-slug: giantswarm/k8s-audit-metrics
 spec:
     type: service
@@ -4537,8 +4537,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-06-06T04:46:59Z"
-        giantswarm.io/latest-release-tag: 0.12.0
+        giantswarm.io/latest-release-date: "2025-11-25T16:27:44Z"
+        giantswarm.io/latest-release-tag: 0.12.1
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
@@ -4597,8 +4597,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/logging-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/logging-operator/tree/main
         giantswarm.io/deployment-names: logging-operator,logging-operator-app
-        giantswarm.io/latest-release-date: "2025-11-10T10:12:40Z"
-        giantswarm.io/latest-release-tag: 0.36.0
+        giantswarm.io/latest-release-date: "2025-11-24T09:58:16Z"
+        giantswarm.io/latest-release-tag: 0.37.0
         github.com/project-slug: giantswarm/logging-operator
 spec:
     type: service
@@ -4697,8 +4697,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-10-08T14:46:43Z"
-        giantswarm.io/latest-release-tag: 0.0.36
+        giantswarm.io/latest-release-date: "2025-11-24T08:08:20Z"
+        giantswarm.io/latest-release-tag: 0.0.42
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
@@ -4853,8 +4853,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/node-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/node-exporter-app/tree/main
         giantswarm.io/deployment-names: node-exporter,node-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-01T07:35:38Z"
-        giantswarm.io/latest-release-tag: 1.20.8
+        giantswarm.io/latest-release-date: "2025-11-25T10:46:56Z"
+        giantswarm.io/latest-release-tag: 1.20.9
         github.com/project-slug: giantswarm/node-exporter-app
     tags:
         - exporter
@@ -6349,8 +6349,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-11-05T07:46:59Z"
-        giantswarm.io/latest-release-tag: 2.3.7
+        giantswarm.io/latest-release-date: "2025-11-21T16:09:12Z"
+        giantswarm.io/latest-release-tag: 2.4.0
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
