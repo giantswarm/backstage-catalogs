@@ -15,8 +15,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ailefroide-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ailefroide-app/tree/main
         giantswarm.io/deployment-names: ailefroide,ailefroide-app
-        giantswarm.io/latest-release-date: "2024-10-28T15:21:34Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-11-26T11:23:25Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/ailefroide-app
 spec:
     type: service
@@ -1451,8 +1451,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/chart-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/chart-operator/tree/main
         giantswarm.io/deployment-names: chart-operator,chart-operator-app
-        giantswarm.io/latest-release-date: "2025-11-07T09:46:08Z"
-        giantswarm.io/latest-release-tag: 4.1.2
+        giantswarm.io/latest-release-date: "2025-11-26T16:07:07Z"
+        giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/chart-operator
 spec:
     type: service
@@ -1783,8 +1783,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-09-30T06:20:26Z"
-        giantswarm.io/latest-release-tag: 5.0.0
+        giantswarm.io/latest-release-date: "2025-11-26T16:18:52Z"
+        giantswarm.io/latest-release-tag: 6.0.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -3582,6 +3582,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: gel
+    namespace: giantswarm
+    title: gel
+    description: A Helm chart for deploying the Gel graph database.
+    annotations:
+        backstage.io/kubernetes-id: gel
+        backstage.io/source-location: url:https://github.com/giantswarm/gel-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gel-app/tree/main
+        giantswarm.io/deployment-names: gel,gel-app
+        giantswarm.io/latest-release-date: "2025-11-26T18:29:24Z"
+        giantswarm.io/latest-release-tag: 1.0.0
+        github.com/project-slug: giantswarm/gel-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: giantswarm-cluster-suite
     namespace: giantswarm
     title: giantswarm-cluster-suite
@@ -4497,8 +4517,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-dx
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-dx/tree/main
         giantswarm.io/deployment-names: kyverno-policies-dx,kyverno-policies-dx-app
-        giantswarm.io/latest-release-date: "2025-08-25T15:27:05Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-11-26T12:23:58Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/kyverno-policies-dx
 spec:
     type: service
@@ -4537,8 +4557,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-ux
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-ux/tree/main
         giantswarm.io/deployment-names: kyverno-policies-ux,kyverno-policies-ux-app
-        giantswarm.io/latest-release-date: "2025-11-25T16:27:44Z"
-        giantswarm.io/latest-release-tag: 0.12.1
+        giantswarm.io/latest-release-date: "2025-11-26T16:22:56Z"
+        giantswarm.io/latest-release-tag: 0.12.2
         github.com/project-slug: giantswarm/kyverno-policies-ux
 spec:
     type: service
@@ -5443,8 +5463,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-11-18T09:48:07Z"
-        giantswarm.io/latest-release-tag: 4.85.0
+        giantswarm.io/latest-release-date: "2025-11-26T13:11:03Z"
+        giantswarm.io/latest-release-tag: 4.86.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5735,8 +5755,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot-controller/tree/main
         giantswarm.io/deployment-names: shoot-controller,shoot-controller-app
-        giantswarm.io/latest-release-date: "2025-11-12T13:27:10Z"
-        giantswarm.io/latest-release-tag: 0.3.1
+        giantswarm.io/latest-release-date: "2025-11-26T12:33:34Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/shoot-controller
     tags:
         - ai
