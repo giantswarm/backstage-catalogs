@@ -1783,8 +1783,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-11-27T16:27:44Z"
-        giantswarm.io/latest-release-tag: 6.0.1
+        giantswarm.io/latest-release-date: "2025-11-28T08:50:15Z"
+        giantswarm.io/latest-release-tag: 6.0.2
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
