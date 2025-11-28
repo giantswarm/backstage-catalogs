@@ -1211,8 +1211,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capa-iam-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capa-iam-operator/tree/master
         giantswarm.io/deployment-names: capa-iam-operator,capa-iam-operator-app
-        giantswarm.io/latest-release-date: "2025-11-13T11:16:35Z"
-        giantswarm.io/latest-release-tag: 2.0.2
+        giantswarm.io/latest-release-date: "2025-11-27T16:39:56Z"
+        giantswarm.io/latest-release-tag: 2.0.3
         github.com/project-slug: giantswarm/capa-iam-operator
 spec:
     type: service
@@ -1783,8 +1783,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-11-26T16:18:52Z"
-        giantswarm.io/latest-release-tag: 6.0.0
+        giantswarm.io/latest-release-date: "2025-11-27T16:27:44Z"
+        giantswarm.io/latest-release-tag: 6.0.1
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -1863,8 +1863,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-cleaner-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-api-cleaner-vsphere,cluster-api-cleaner-vsphere-app
-        giantswarm.io/latest-release-date: "2024-08-01T09:14:39Z"
-        giantswarm.io/latest-release-tag: 0.3.1
+        giantswarm.io/latest-release-date: "2025-11-27T15:40:59Z"
+        giantswarm.io/latest-release-tag: 0.4.0
         github.com/project-slug: giantswarm/cluster-api-cleaner-vsphere
 spec:
     type: service
@@ -1963,8 +1963,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-provider-aws-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-provider-aws-app/tree/master
         giantswarm.io/deployment-names: cluster-api-provider-aws,cluster-api-provider-aws-app
-        giantswarm.io/latest-release-date: "2025-11-21T11:59:01Z"
-        giantswarm.io/latest-release-tag: 2.34.0
+        giantswarm.io/latest-release-date: "2025-11-27T16:36:10Z"
+        giantswarm.io/latest-release-tag: 2.34.1
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
 spec:
     type: service
@@ -2329,8 +2329,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-vsphere
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-vsphere/tree/main
         giantswarm.io/deployment-names: cluster-vsphere,cluster-vsphere-app
-        giantswarm.io/latest-release-date: "2025-10-29T05:56:13Z"
-        giantswarm.io/latest-release-tag: 3.4.0
+        giantswarm.io/latest-release-date: "2025-11-27T10:59:58Z"
+        giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
         - capv
@@ -4073,8 +4073,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-crossplane-resources
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-crossplane-resources/tree/main
         giantswarm.io/deployment-names: karpenter-crossplane-resources,karpenter-crossplane-resources-app
-        giantswarm.io/latest-release-date: "2025-10-30T12:57:31Z"
-        giantswarm.io/latest-release-tag: 0.5.0
+        giantswarm.io/latest-release-date: "2025-11-27T09:03:06Z"
+        giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
 spec:
     type: service
@@ -5731,8 +5731,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot/tree/main
         giantswarm.io/deployment-names: shoot,shoot-app
-        giantswarm.io/latest-release-date: "2025-11-14T11:47:39Z"
-        giantswarm.io/latest-release-tag: 2.10.1
+        giantswarm.io/latest-release-date: "2025-11-27T10:30:56Z"
+        giantswarm.io/latest-release-tag: 2.11.0
         github.com/project-slug: giantswarm/shoot
     tags:
         - ai
