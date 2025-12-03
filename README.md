@@ -8,11 +8,11 @@ All entities in these catalogs use the `giantswarm` namespace.
 
 ## Catalogs
 
-### Components
+### Charts
 
-File: [components.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/components.yaml)
+File: [charts.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/charts.yaml)
 
-The components catalog consist of apps published in the public app catalogs by Giant Swarm, represented as `Component` entities. For each app, only information on the latest release is included.
+The charts catalog consist of charts published to the public OCI registry `oci.azurecr.io` by Giant Swarm, represented as `Component` entities. For each chart, only information on the latest release is included.
 
 ### Groups
 
