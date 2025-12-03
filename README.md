@@ -40,7 +40,7 @@ To have these catalogs read from your Backstage instance, configure your app con
 catalog:
   locations:
     - type: url
-      target: https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/components.yaml
+      target: https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/charts.yaml
       rules:
         allow:
           - Component
