@@ -278,20 +278,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: dogagezer
-    namespace: giantswarm
-    annotations:
-        github.com/user-id: "59503477"
-        github.com/user-login: dogagezer
-spec:
-    profile:
-        email: doga@giantswarm.io
-        picture: https://avatars.githubusercontent.com/u/59503477?v=4
-    memberOf: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
     name: fhielpos
     namespace: giantswarm
     annotations:
