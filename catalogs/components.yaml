@@ -537,6 +537,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: aws-load-balancer-controller-bundle
+    namespace: giantswarm
+    title: aws-load-balancer-controller-bundle
+    description: AWS Load Balancer Controller Bundle with Crossplane resources
+    annotations:
+        backstage.io/kubernetes-id: aws-load-balancer-controller-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-load-balancer-controller-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-load-balancer-controller-app/tree/main
+        giantswarm.io/deployment-names: aws-load-balancer-controller-bundle,aws-load-balancer-controller-bundle-app
+        giantswarm.io/latest-release-date: "2025-12-04T08:29:00Z"
+        giantswarm.io/latest-release-tag: 3.0.0
+        github.com/project-slug: giantswarm/aws-load-balancer-controller-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: aws-network-topology-operator
     namespace: giantswarm
     title: aws-network-topology-operator
@@ -1783,8 +1803,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-app/tree/main
         giantswarm.io/deployment-names: cluster-api,cluster-api-app
-        giantswarm.io/latest-release-date: "2025-11-28T08:50:15Z"
-        giantswarm.io/latest-release-tag: 6.0.2
+        giantswarm.io/latest-release-date: "2025-12-04T06:18:02Z"
+        giantswarm.io/latest-release-tag: 6.1.0
         github.com/project-slug: giantswarm/cluster-api-app
 spec:
     type: service
@@ -2183,8 +2203,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cloud-director
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-cloud-director/tree/main
         giantswarm.io/deployment-names: cluster-cloud-director,cluster-cloud-director-app
-        giantswarm.io/latest-release-date: "2025-10-30T06:43:52Z"
-        giantswarm.io/latest-release-tag: 2.4.0
+        giantswarm.io/latest-release-date: "2025-12-04T09:26:58Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
         - capvcd
@@ -3591,8 +3611,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gel-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gel-app/tree/main
         giantswarm.io/deployment-names: gel,gel-app
-        giantswarm.io/latest-release-date: "2025-11-26T18:29:24Z"
-        giantswarm.io/latest-release-tag: 1.0.0
+        giantswarm.io/latest-release-date: "2025-12-05T00:43:34Z"
+        giantswarm.io/latest-release-tag: 1.0.1
         github.com/project-slug: giantswarm/gel-app
 spec:
     type: service
