@@ -3205,8 +3205,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-dns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-app/tree/main
         giantswarm.io/deployment-names: external-dns,external-dns-app
-        giantswarm.io/latest-release-date: "2025-02-20T09:18:53Z"
-        giantswarm.io/latest-release-tag: 3.2.0
+        giantswarm.io/latest-release-date: "2025-12-05T12:25:08Z"
+        giantswarm.io/latest-release-tag: 3.3.0
         github.com/project-slug: giantswarm/external-dns-app
 spec:
     type: service
@@ -3718,8 +3718,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gpu-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gpu-operator-app/tree/main
         giantswarm.io/deployment-names: gpu-operator,gpu-operator-app
-        giantswarm.io/latest-release-date: "2025-10-28T07:11:13Z"
-        giantswarm.io/latest-release-tag: 1.1.0
+        giantswarm.io/latest-release-date: "2025-12-05T11:17:17Z"
+        giantswarm.io/latest-release-tag: 1.1.1
         github.com/project-slug: giantswarm/gpu-operator-app
 spec:
     type: service
