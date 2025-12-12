@@ -3738,8 +3738,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/grafana-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/grafana-app/tree/main
         giantswarm.io/deployment-names: grafana,grafana-app
-        giantswarm.io/latest-release-date: "2025-12-10T15:59:45Z"
-        giantswarm.io/latest-release-tag: 2.28.5
+        giantswarm.io/latest-release-date: "2025-12-12T07:21:27Z"
+        giantswarm.io/latest-release-tag: 2.29.0
         github.com/project-slug: giantswarm/grafana-app
 spec:
     type: service
@@ -6105,13 +6105,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/tempo-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/tempo-app/tree/main
         giantswarm.io/deployment-names: tempo,tempo-app
-        giantswarm.io/latest-release-date: "2025-11-10T08:07:18Z"
-        giantswarm.io/latest-release-tag: 0.8.0
+        giantswarm.io/latest-release-date: "2025-12-12T07:59:25Z"
+        giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/tempo-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-atlas
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
