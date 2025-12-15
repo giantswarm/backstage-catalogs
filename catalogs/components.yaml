@@ -2143,8 +2143,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aws
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aws/tree/main
         giantswarm.io/deployment-names: cluster-aws,cluster-aws-app
-        giantswarm.io/latest-release-date: "2025-12-10T16:45:54Z"
-        giantswarm.io/latest-release-tag: 7.1.0
+        giantswarm.io/latest-release-date: "2025-12-15T12:08:08Z"
+        giantswarm.io/latest-release-tag: 7.2.0
         github.com/project-slug: giantswarm/cluster-aws
 spec:
     type: service
@@ -3862,8 +3862,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/latest-release-date: "2025-11-05T09:43:36Z"
-        giantswarm.io/latest-release-tag: 4.2.0
+        giantswarm.io/latest-release-date: "2025-12-15T15:17:52Z"
+        giantswarm.io/latest-release-tag: 4.2.1
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - ingress
@@ -3871,7 +3871,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4657,13 +4657,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/loki-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/loki-app/tree/main
         giantswarm.io/deployment-names: loki,loki-app
-        giantswarm.io/latest-release-date: "2025-11-10T08:08:25Z"
-        giantswarm.io/latest-release-tag: 0.34.0
+        giantswarm.io/latest-release-date: "2025-12-15T10:38:13Z"
+        giantswarm.io/latest-release-tag: 0.35.0
         github.com/project-slug: giantswarm/loki-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-atlas
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -5179,8 +5179,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-11-18T09:45:13Z"
-        giantswarm.io/latest-release-tag: 1.2.1
+        giantswarm.io/latest-release-date: "2025-12-15T13:25:22Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
@@ -5751,8 +5751,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot/tree/main
         giantswarm.io/deployment-names: shoot,shoot-app
-        giantswarm.io/latest-release-date: "2025-11-27T10:30:56Z"
-        giantswarm.io/latest-release-tag: 2.11.0
+        giantswarm.io/latest-release-date: "2025-12-15T15:30:04Z"
+        giantswarm.io/latest-release-tag: 2.11.1
         github.com/project-slug: giantswarm/shoot
     tags:
         - ai
@@ -5761,7 +5761,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-phoenix
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
