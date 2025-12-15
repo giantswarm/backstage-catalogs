@@ -866,8 +866,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-controller-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-controller-manager,azure-cloud-controller-manager-app
-        giantswarm.io/latest-release-date: "2025-09-09T08:24:56Z"
-        giantswarm.io/latest-release-tag: 1.32.7
+        giantswarm.io/latest-release-date: "2025-12-13T19:35:07Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
 spec:
     type: service
@@ -886,8 +886,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azure-cloud-node-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-cloud-node-manager-app/tree/main
         giantswarm.io/deployment-names: azure-cloud-node-manager,azure-cloud-node-manager-app
-        giantswarm.io/latest-release-date: "2025-09-09T08:52:53Z"
-        giantswarm.io/latest-release-tag: 1.32.7
+        giantswarm.io/latest-release-date: "2025-12-13T19:34:43Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
 spec:
     type: service
@@ -1026,8 +1026,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azuredisk-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azuredisk-csi-driver-app/tree/main
         giantswarm.io/deployment-names: azuredisk-csi-driver,azuredisk-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-09-09T08:54:55Z"
-        giantswarm.io/latest-release-tag: 1.32.9
+        giantswarm.io/latest-release-date: "2025-12-13T19:34:29Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/azuredisk-csi-driver-app
 spec:
     type: service
@@ -1046,8 +1046,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/azurefile-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/azurefile-csi-driver-app/tree/main
         giantswarm.io/deployment-names: azurefile-csi-driver,azurefile-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-09-09T08:59:18Z"
-        giantswarm.io/latest-release-tag: 1.32.5
+        giantswarm.io/latest-release-date: "2025-12-13T19:33:41Z"
+        giantswarm.io/latest-release-tag: 2.0.0
         github.com/project-slug: giantswarm/azurefile-csi-driver-app
 spec:
     type: service
@@ -4737,8 +4737,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-12-12T15:32:32Z"
-        giantswarm.io/latest-release-tag: 0.0.90
+        giantswarm.io/latest-release-date: "2025-12-14T18:08:42Z"
+        giantswarm.io/latest-release-tag: 0.0.98
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
