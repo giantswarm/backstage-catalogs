@@ -77,7 +77,7 @@ jobs:
         with:
           binary: backstage-catalog-importer
           # renovate: datasource=github-releases depName=giantswarm/backstage-catalog-importer versioning=loose
-          version: 0.22.0
+          version: 0.23.1
           smoke_test: ${binary} --help
 
       - name: Execute backstage-catalog-importer
