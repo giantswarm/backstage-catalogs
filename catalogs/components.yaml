@@ -1093,13 +1093,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-12-11T09:50:27Z"
-        giantswarm.io/latest-release-tag: 0.91.1
+        giantswarm.io/latest-release-date: "2025-12-18T12:54:28Z"
+        giantswarm.io/latest-release-tag: 0.92.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1388,8 +1388,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/capi-node-labeler-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/capi-node-labeler-app/tree/master
         giantswarm.io/deployment-names: capi-node-labeler,capi-node-labeler-app
-        giantswarm.io/latest-release-date: "2025-11-01T07:58:37Z"
-        giantswarm.io/latest-release-tag: 1.1.5
+        giantswarm.io/latest-release-date: "2025-12-19T08:55:12Z"
+        giantswarm.io/latest-release-tag: 1.1.6
         github.com/project-slug: giantswarm/capi-node-labeler-app
     tags:
         - defaultbranch:master
@@ -1410,15 +1410,15 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-exporter/tree/master
         giantswarm.io/deployment-names: cert-exporter,cert-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-25T11:00:59Z"
-        giantswarm.io/latest-release-tag: 2.9.14
+        giantswarm.io/latest-release-date: "2025-12-19T09:02:07Z"
+        giantswarm.io/latest-release-tag: 2.9.15
         github.com/project-slug: giantswarm/cert-exporter
     tags:
         - defaultbranch:master
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-turtles
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3139,8 +3139,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-backup-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-backup-operator/tree/main
         giantswarm.io/deployment-names: etcd-backup-operator,etcd-backup-operator-app
-        giantswarm.io/latest-release-date: "2025-05-06T06:58:19Z"
-        giantswarm.io/latest-release-tag: 4.13.0
+        giantswarm.io/latest-release-date: "2025-12-19T08:51:41Z"
+        giantswarm.io/latest-release-tag: 4.13.1
         github.com/project-slug: giantswarm/etcd-backup-operator
 spec:
     type: service
@@ -3199,8 +3199,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter/tree/main
         giantswarm.io/deployment-names: etcd-kubernetes-resources-count-exporter,etcd-kubernetes-resources-count-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-25T10:48:51Z"
-        giantswarm.io/latest-release-tag: 1.10.11
+        giantswarm.io/latest-release-date: "2025-12-19T08:45:15Z"
+        giantswarm.io/latest-release-tag: 1.10.12
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
 spec:
     type: service
@@ -4077,8 +4077,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-audit-metrics
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-audit-metrics/tree/master
         giantswarm.io/deployment-names: k8s-audit-metrics,k8s-audit-metrics-app
-        giantswarm.io/latest-release-date: "2025-11-25T10:44:34Z"
-        giantswarm.io/latest-release-tag: 0.10.10
+        giantswarm.io/latest-release-date: "2025-12-19T11:03:34Z"
+        giantswarm.io/latest-release-tag: 0.10.11
         github.com/project-slug: giantswarm/k8s-audit-metrics
     tags:
         - defaultbranch:master
@@ -4619,13 +4619,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-08-18T19:00:09Z"
-        giantswarm.io/latest-release-tag: 0.9.1
+        giantswarm.io/latest-release-date: "2025-12-19T15:06:52Z"
+        giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4843,8 +4843,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-12-14T18:08:42Z"
-        giantswarm.io/latest-release-tag: 0.0.98
+        giantswarm.io/latest-release-date: "2025-12-19T12:19:43Z"
+        giantswarm.io/latest-release-tag: 0.0.105
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
@@ -4999,8 +4999,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/node-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/node-exporter-app/tree/main
         giantswarm.io/deployment-names: node-exporter,node-exporter-app
-        giantswarm.io/latest-release-date: "2025-11-25T10:46:56Z"
-        giantswarm.io/latest-release-tag: 1.20.9
+        giantswarm.io/latest-release-date: "2025-12-19T14:15:42Z"
+        giantswarm.io/latest-release-tag: 1.20.10
         github.com/project-slug: giantswarm/node-exporter-app
     tags:
         - exporter
@@ -5331,13 +5331,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/pagerduty-opsgenie-proxy/tree/main
         giantswarm.io/deployment-names: pagerduty-opsgenie-proxy,pagerduty-opsgenie-proxy-app
-        giantswarm.io/latest-release-date: "2025-12-15T13:25:22Z"
-        giantswarm.io/latest-release-tag: 2.0.0
+        giantswarm.io/latest-release-date: "2025-12-19T11:27:11Z"
+        giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/pagerduty-opsgenie-proxy
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-planeteers
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -5635,8 +5635,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-12-17T21:19:22Z"
-        giantswarm.io/latest-release-tag: 4.89.1
+        giantswarm.io/latest-release-date: "2025-12-19T18:15:35Z"
+        giantswarm.io/latest-release-tag: 4.89.2
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -5933,8 +5933,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/shoot-controller
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/shoot-controller/tree/main
         giantswarm.io/deployment-names: shoot-controller,shoot-controller-app
-        giantswarm.io/latest-release-date: "2025-11-26T12:33:34Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2025-12-18T09:11:59Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/shoot-controller
     tags:
         - ai
@@ -5943,7 +5943,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-phoenix
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -6555,8 +6555,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/vsphere-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vsphere-csi-driver-app/tree/main
         giantswarm.io/deployment-names: vsphere-csi-driver,vsphere-csi-driver-app
-        giantswarm.io/latest-release-date: "2025-03-17T12:44:07Z"
-        giantswarm.io/latest-release-tag: 3.4.2
+        giantswarm.io/latest-release-date: "2025-12-19T11:20:50Z"
+        giantswarm.io/latest-release-tag: 3.4.3
         github.com/project-slug: giantswarm/vsphere-csi-driver-app
     tags:
         - csi
@@ -6565,7 +6565,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rocket
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -6599,8 +6599,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/latest-release-date: "2025-11-21T16:09:12Z"
-        giantswarm.io/latest-release-tag: 2.4.0
+        giantswarm.io/latest-release-date: "2025-12-18T15:22:19Z"
+        giantswarm.io/latest-release-tag: 2.5.0
         github.com/project-slug: giantswarm/zot
     tags:
         - kubernetes-zot-registry
@@ -6608,4 +6608,4 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
