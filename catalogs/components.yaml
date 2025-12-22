@@ -2861,8 +2861,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
-        giantswarm.io/latest-release-date: "2025-12-10T10:41:14Z"
-        giantswarm.io/latest-release-tag: 2.1.4
+        giantswarm.io/latest-release-date: "2025-12-22T15:14:06Z"
+        giantswarm.io/latest-release-tag: 2.1.5
         github.com/project-slug: giantswarm/dex-app
     tags:
         - authentication
@@ -4441,8 +4441,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubeedge-cloudcore-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubeedge-cloudcore-app/tree/main
         giantswarm.io/deployment-names: kubeedge-cloudcore,kubeedge-cloudcore-app
-        giantswarm.io/latest-release-date: "2025-10-03T09:00:24Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-12-22T13:28:08Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/kubeedge-cloudcore-app
     tags:
         - edge
@@ -4451,7 +4451,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rocket
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
