@@ -4351,8 +4351,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-prometheus-stack-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-prometheus-stack-app/tree/main
         giantswarm.io/deployment-names: kube-prometheus-stack,kube-prometheus-stack-app
-        giantswarm.io/latest-release-date: "2025-12-16T11:51:55Z"
-        giantswarm.io/latest-release-tag: 19.0.0
+        giantswarm.io/latest-release-date: "2025-12-29T14:20:09Z"
+        giantswarm.io/latest-release-tag: 19.0.1
         github.com/project-slug: giantswarm/kube-prometheus-stack-app
 spec:
     type: service
@@ -4730,6 +4730,29 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: local-path-provisioner
+    namespace: giantswarm
+    title: local-path-provisioner
+    description: Dynamically provisioning persistent local storage with Kubernetes
+    annotations:
+        backstage.io/kubernetes-id: local-path-provisioner
+        backstage.io/source-location: url:https://github.com/giantswarm/local-path-provisioner-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/local-path-provisioner-app/tree/main
+        giantswarm.io/deployment-names: local-path-provisioner,local-path-provisioner-app
+        giantswarm.io/latest-release-date: "2025-12-23T17:35:14Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/local-path-provisioner-app
+    tags:
+        - hostpath
+        - storage
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/unspecified
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: logging-operator
     namespace: giantswarm
     title: logging-operator
@@ -4843,8 +4866,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-12-22T22:55:36Z"
-        giantswarm.io/latest-release-tag: 0.0.109
+        giantswarm.io/latest-release-date: "2025-12-24T00:47:28Z"
+        giantswarm.io/latest-release-tag: 0.0.112
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
@@ -4907,8 +4930,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/latest-release-date: "2025-12-23T00:28:29Z"
-        giantswarm.io/latest-release-tag: 0.0.92
+        giantswarm.io/latest-release-date: "2025-12-25T08:34:15Z"
+        giantswarm.io/latest-release-tag: 0.0.119
         github.com/project-slug: giantswarm/muster
     tags:
         - aggregator
@@ -6207,8 +6230,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-exporter/tree/main
         giantswarm.io/deployment-names: teleport-exporter,teleport-exporter-app
-        giantswarm.io/latest-release-date: "2025-12-17T14:35:09Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-12-23T14:44:01Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/teleport-exporter
 spec:
     type: service
