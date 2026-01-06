@@ -1093,8 +1093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-12-18T12:54:28Z"
-        giantswarm.io/latest-release-tag: 0.92.0
+        giantswarm.io/latest-release-date: "2026-01-06T13:03:07Z"
+        giantswarm.io/latest-release-tag: 0.93.0
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1578,8 +1578,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2025-11-19T09:45:09Z"
-        giantswarm.io/latest-release-tag: 1.3.2
+        giantswarm.io/latest-release-date: "2026-01-06T13:37:18Z"
+        giantswarm.io/latest-release-tag: 1.3.3
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -1592,7 +1592,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4739,8 +4739,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/local-path-provisioner-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/local-path-provisioner-app/tree/main
         giantswarm.io/deployment-names: local-path-provisioner,local-path-provisioner-app
-        giantswarm.io/latest-release-date: "2025-12-23T17:35:14Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2026-01-06T12:15:00Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/local-path-provisioner-app
     tags:
         - hostpath
@@ -5005,13 +5005,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/network-policies-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/network-policies-app/tree/main
         giantswarm.io/deployment-names: network-policies,network-policies-app
-        giantswarm.io/latest-release-date: "2024-04-10T12:59:35Z"
-        giantswarm.io/latest-release-tag: 0.1.1
+        giantswarm.io/latest-release-date: "2026-01-06T16:30:34Z"
+        giantswarm.io/latest-release-tag: 0.1.3
         github.com/project-slug: giantswarm/network-policies-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
