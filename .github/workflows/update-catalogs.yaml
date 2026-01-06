@@ -73,11 +73,11 @@ jobs:
 
       - name: Install backstage-catalog-importer
         if: env.workflow_due == 'true'
-        uses: giantswarm/install-binary-action@0797deb878056114fa54ee30c519f617716e8c69 # v3.1.1
+        uses: giantswarm/install-binary-action@c94c7adadeb14af4bdbdd601f9a6e7f69638134c # v4.0.0
         with:
           binary: backstage-catalog-importer
           # renovate: datasource=github-releases depName=giantswarm/backstage-catalog-importer versioning=loose
-          version: 0.22.0
+          version: 0.23.1
           smoke_test: ${binary} --help
 
       - name: Execute backstage-catalog-importer
@@ -172,7 +172,7 @@ jobs:
 
       - name: Persist state file
         if: env.looked_for_changes == 'true'
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         with:
           name: state
           path: update-catalog-state.txt
