@@ -4910,13 +4910,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mimir-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mimir-app/tree/main
         giantswarm.io/deployment-names: mimir,mimir-app
-        giantswarm.io/latest-release-date: "2025-10-02T14:00:37Z"
-        giantswarm.io/latest-release-tag: 0.21.0
+        giantswarm.io/latest-release-date: "2026-01-06T09:19:26Z"
+        giantswarm.io/latest-release-tag: 0.22.0
         github.com/project-slug: giantswarm/mimir-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-atlas
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
