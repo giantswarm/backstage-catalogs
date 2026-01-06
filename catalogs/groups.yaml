@@ -17,7 +17,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/3817103?s=116&v=4
     children: []
     members:
-        - QuantumEnigmaa
         - QuentinBisson
         - Rotfuks
         - TheoBrigitte
@@ -37,6 +36,7 @@ spec:
         picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
     children: []
     members:
+        - QuantumEnigmaa
         - mcharriere
         - ubergesundheit
         - weatherhog
