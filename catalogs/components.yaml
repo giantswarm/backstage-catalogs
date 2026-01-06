@@ -2592,13 +2592,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dashboards
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dashboards/tree/main
         giantswarm.io/deployment-names: dashboards,dashboards-app
-        giantswarm.io/latest-release-date: "2025-10-07T08:28:14Z"
-        giantswarm.io/latest-release-tag: 4.9.1
+        giantswarm.io/latest-release-date: "2026-01-05T11:06:26Z"
+        giantswarm.io/latest-release-tag: 4.11.0
         github.com/project-slug: giantswarm/dashboards
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-atlas
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3635,8 +3635,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/latest-release-date: "2025-12-12T14:54:14Z"
-        giantswarm.io/latest-release-tag: 1.3.0
+        giantswarm.io/latest-release-date: "2026-01-05T10:39:50Z"
+        giantswarm.io/latest-release-tag: 1.4.0
         github.com/project-slug: giantswarm/gateway-api-config-app
 spec:
     type: service
@@ -4351,8 +4351,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-prometheus-stack-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-prometheus-stack-app/tree/main
         giantswarm.io/deployment-names: kube-prometheus-stack,kube-prometheus-stack-app
-        giantswarm.io/latest-release-date: "2025-12-16T11:51:55Z"
-        giantswarm.io/latest-release-tag: 19.0.0
+        giantswarm.io/latest-release-date: "2025-12-29T14:20:09Z"
+        giantswarm.io/latest-release-tag: 19.0.1
         github.com/project-slug: giantswarm/kube-prometheus-stack-app
 spec:
     type: service
@@ -4730,6 +4730,29 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: local-path-provisioner
+    namespace: giantswarm
+    title: local-path-provisioner
+    description: Dynamically provisioning persistent local storage with Kubernetes
+    annotations:
+        backstage.io/kubernetes-id: local-path-provisioner
+        backstage.io/source-location: url:https://github.com/giantswarm/local-path-provisioner-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/local-path-provisioner-app/tree/main
+        giantswarm.io/deployment-names: local-path-provisioner,local-path-provisioner-app
+        giantswarm.io/latest-release-date: "2025-12-23T17:35:14Z"
+        giantswarm.io/latest-release-tag: 0.1.0
+        github.com/project-slug: giantswarm/local-path-provisioner-app
+    tags:
+        - hostpath
+        - storage
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/unspecified
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: logging-operator
     namespace: giantswarm
     title: logging-operator
@@ -4843,8 +4866,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/mcp-kubernetes
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/mcp-kubernetes/tree/main
         giantswarm.io/deployment-names: mcp-kubernetes,mcp-kubernetes-app
-        giantswarm.io/latest-release-date: "2025-12-22T22:55:36Z"
-        giantswarm.io/latest-release-tag: 0.0.109
+        giantswarm.io/latest-release-date: "2025-12-24T00:47:28Z"
+        giantswarm.io/latest-release-tag: 0.0.112
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
         - kubernetes
@@ -4907,8 +4930,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/latest-release-date: "2025-12-23T00:28:29Z"
-        giantswarm.io/latest-release-tag: 0.0.92
+        giantswarm.io/latest-release-date: "2025-12-25T08:34:15Z"
+        giantswarm.io/latest-release-tag: 0.0.119
         github.com/project-slug: giantswarm/muster
     tags:
         - aggregator
@@ -5171,8 +5194,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/observability-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-operator/tree/main
         giantswarm.io/deployment-names: observability-operator,observability-operator-app
-        giantswarm.io/latest-release-date: "2025-12-17T09:51:33Z"
-        giantswarm.io/latest-release-tag: 0.54.0
+        giantswarm.io/latest-release-date: "2026-01-05T10:10:36Z"
+        giantswarm.io/latest-release-tag: 0.55.0
         github.com/project-slug: giantswarm/observability-operator
 spec:
     type: service
@@ -5277,8 +5300,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/openssf-scorecard-exporter/tree/main
         giantswarm.io/deployment-names: openssf-scorecard-exporter,openssf-scorecard-exporter-app
-        giantswarm.io/latest-release-date: "2025-12-17T02:59:01Z"
-        giantswarm.io/latest-release-tag: 0.0.1
+        giantswarm.io/latest-release-date: "2026-01-02T17:58:26Z"
+        giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
 spec:
     type: service
@@ -5661,8 +5684,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/prometheus-rules
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/prometheus-rules/tree/main
         giantswarm.io/deployment-names: prometheus-rules,prometheus-rules-app
-        giantswarm.io/latest-release-date: "2025-12-19T18:15:35Z"
-        giantswarm.io/latest-release-tag: 4.89.2
+        giantswarm.io/latest-release-date: "2026-01-05T16:46:52Z"
+        giantswarm.io/latest-release-tag: 4.90.0
         github.com/project-slug: giantswarm/prometheus-rules
 spec:
     type: service
@@ -6207,8 +6230,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-exporter/tree/main
         giantswarm.io/deployment-names: teleport-exporter,teleport-exporter-app
-        giantswarm.io/latest-release-date: "2025-12-17T14:35:09Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2025-12-23T14:44:01Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/teleport-exporter
 spec:
     type: service
