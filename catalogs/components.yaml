@@ -1093,8 +1093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2026-01-06T17:20:38Z"
-        giantswarm.io/latest-release-tag: 0.93.1
+        giantswarm.io/latest-release-date: "2026-01-07T09:07:08Z"
+        giantswarm.io/latest-release-tag: 0.93.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1756,8 +1756,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloud-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloud-provider-vsphere-app/tree/main
         giantswarm.io/deployment-names: cloud-provider-vsphere,cloud-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2025-12-12T11:15:26Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2026-01-07T08:46:23Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/cloud-provider-vsphere-app
     tags:
         - cloud
@@ -2154,13 +2154,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-10-30T11:30:38Z"
-        giantswarm.io/latest-release-tag: 3.5.0
+        giantswarm.io/latest-release-date: "2026-01-07T08:58:46Z"
+        giantswarm.io/latest-release-tag: 3.6.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3281,13 +3281,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-dns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-app/tree/main
         giantswarm.io/deployment-names: external-dns,external-dns-app
-        giantswarm.io/latest-release-date: "2025-12-05T12:25:08Z"
-        giantswarm.io/latest-release-tag: 3.3.0
+        giantswarm.io/latest-release-date: "2026-01-07T10:29:58Z"
+        giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/external-dns-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
