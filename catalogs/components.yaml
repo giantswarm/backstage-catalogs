@@ -4930,8 +4930,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/latest-release-date: "2025-12-25T08:34:15Z"
-        giantswarm.io/latest-release-tag: 0.0.119
+        giantswarm.io/latest-release-date: "2026-01-07T07:58:36Z"
+        giantswarm.io/latest-release-tag: 0.0.120
         github.com/project-slug: giantswarm/muster
     tags:
         - aggregator
