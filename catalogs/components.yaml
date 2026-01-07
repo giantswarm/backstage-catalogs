@@ -1093,8 +1093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2026-01-06T13:03:07Z"
-        giantswarm.io/latest-release-tag: 0.93.0
+        giantswarm.io/latest-release-date: "2026-01-06T17:20:38Z"
+        giantswarm.io/latest-release-tag: 0.93.1
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -4619,8 +4619,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-12-19T15:06:52Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2026-01-06T17:27:29Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
