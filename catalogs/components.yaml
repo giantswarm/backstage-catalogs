@@ -717,13 +717,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2025-10-02T13:49:39Z"
-        giantswarm.io/latest-release-tag: 0.23.1
+        giantswarm.io/latest-release-date: "2026-01-08T09:55:52Z"
+        giantswarm.io/latest-release-tag: 0.24.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-phoenix
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -2539,6 +2539,49 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-bigmac
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: crossplane
+    namespace: giantswarm
+    title: crossplane
+    description: Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume.
+    annotations:
+        backstage.io/kubernetes-id: crossplane
+        backstage.io/source-location: url:https://github.com/giantswarm/crossplane
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/crossplane/tree/main
+        giantswarm.io/deployment-names: crossplane,crossplane-app
+        giantswarm.io/latest-release-date: "2026-01-08T06:55:53Z"
+        giantswarm.io/latest-release-tag: 2.5.2
+        github.com/project-slug: giantswarm/crossplane
+    tags:
+        - aks
+        - alibaba
+        - app
+        - application
+        - asparadb
+        - aws
+        - azure
+        - azuredatabase
+        - bucket
+        - cache
+        - cloud
+        - cloudsql
+        - database
+        - eks
+        - gcp
+        - gke
+        - infra
+        - infrastructure
+        - ops
+        - rds
+        - s3
+        - services
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
