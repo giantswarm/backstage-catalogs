@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 Since we don't do releases in this repository, we use the date of the
 change to structure the log.
 
+## 2026-01-08
+
+- Add `charts.yaml` catalog
+
 ## 2025-07-01
 
 ### Changes
