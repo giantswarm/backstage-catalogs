@@ -717,13 +717,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/aws-resolver-rules-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-resolver-rules-operator/tree/main
         giantswarm.io/deployment-names: aws-resolver-rules-operator,aws-resolver-rules-operator-app
-        giantswarm.io/latest-release-date: "2025-10-02T13:49:39Z"
-        giantswarm.io/latest-release-tag: 0.23.1
+        giantswarm.io/latest-release-date: "2026-01-08T09:55:52Z"
+        giantswarm.io/latest-release-tag: 0.24.0
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-phoenix
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1093,8 +1093,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/backstage
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/backstage/tree/main
         giantswarm.io/deployment-names: backstage,backstage-app
-        giantswarm.io/latest-release-date: "2025-12-18T12:54:28Z"
-        giantswarm.io/latest-release-tag: 0.92.0
+        giantswarm.io/latest-release-date: "2026-01-07T09:07:08Z"
+        giantswarm.io/latest-release-tag: 0.93.2
         github.com/project-slug: giantswarm/backstage
 spec:
     type: service
@@ -1578,8 +1578,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-app/tree/main
         giantswarm.io/deployment-names: cilium,cilium-app
-        giantswarm.io/latest-release-date: "2025-11-19T09:45:09Z"
-        giantswarm.io/latest-release-tag: 1.3.2
+        giantswarm.io/latest-release-date: "2026-01-06T13:37:18Z"
+        giantswarm.io/latest-release-tag: 1.3.3
         github.com/project-slug: giantswarm/cilium-app
     tags:
         - bpf
@@ -1592,7 +1592,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1756,8 +1756,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloud-provider-vsphere-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloud-provider-vsphere-app/tree/main
         giantswarm.io/deployment-names: cloud-provider-vsphere,cloud-provider-vsphere-app
-        giantswarm.io/latest-release-date: "2025-12-12T11:15:26Z"
-        giantswarm.io/latest-release-tag: 2.1.0
+        giantswarm.io/latest-release-date: "2026-01-07T08:46:23Z"
+        giantswarm.io/latest-release-tag: 2.2.0
         github.com/project-slug: giantswarm/cloud-provider-vsphere-app
     tags:
         - cloud
@@ -2154,13 +2154,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-apps-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-apps-operator/tree/main
         giantswarm.io/deployment-names: cluster-apps-operator,cluster-apps-operator-app
-        giantswarm.io/latest-release-date: "2025-10-30T11:30:38Z"
-        giantswarm.io/latest-release-tag: 3.5.0
+        giantswarm.io/latest-release-date: "2026-01-07T08:58:46Z"
+        giantswarm.io/latest-release-tag: 3.6.0
         github.com/project-slug: giantswarm/cluster-apps-operator
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -2539,6 +2539,49 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-bigmac
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: crossplane
+    namespace: giantswarm
+    title: crossplane
+    description: Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume.
+    annotations:
+        backstage.io/kubernetes-id: crossplane
+        backstage.io/source-location: url:https://github.com/giantswarm/crossplane
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/crossplane/tree/main
+        giantswarm.io/deployment-names: crossplane,crossplane-app
+        giantswarm.io/latest-release-date: "2026-01-08T06:55:53Z"
+        giantswarm.io/latest-release-tag: 2.5.2
+        github.com/project-slug: giantswarm/crossplane
+    tags:
+        - aks
+        - alibaba
+        - app
+        - application
+        - asparadb
+        - aws
+        - azure
+        - azuredatabase
+        - bucket
+        - cache
+        - cloud
+        - cloudsql
+        - database
+        - eks
+        - gcp
+        - gke
+        - infra
+        - infrastructure
+        - ops
+        - rds
+        - s3
+        - services
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3281,13 +3324,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/external-dns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-app/tree/main
         giantswarm.io/deployment-names: external-dns,external-dns-app
-        giantswarm.io/latest-release-date: "2025-12-05T12:25:08Z"
-        giantswarm.io/latest-release-tag: 3.3.0
+        giantswarm.io/latest-release-date: "2026-01-07T10:29:58Z"
+        giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/external-dns-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -3882,13 +3925,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-10-08T15:24:59Z"
-        giantswarm.io/latest-release-tag: 1.71.6
+        giantswarm.io/latest-release-date: "2026-01-07T12:51:54Z"
+        giantswarm.io/latest-release-tag: 1.71.7
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -4619,8 +4662,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies-connectivity
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies-connectivity/tree/main
         giantswarm.io/deployment-names: kyverno-policies-connectivity,kyverno-policies-connectivity-app
-        giantswarm.io/latest-release-date: "2025-12-19T15:06:52Z"
-        giantswarm.io/latest-release-tag: 0.10.0
+        giantswarm.io/latest-release-date: "2026-01-06T17:27:29Z"
+        giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
 spec:
     type: service
@@ -4739,8 +4782,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/local-path-provisioner-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/local-path-provisioner-app/tree/main
         giantswarm.io/deployment-names: local-path-provisioner,local-path-provisioner-app
-        giantswarm.io/latest-release-date: "2025-12-23T17:35:14Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2026-01-06T12:15:00Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/local-path-provisioner-app
     tags:
         - hostpath
@@ -4930,8 +4973,8 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/latest-release-date: "2025-12-25T08:34:15Z"
-        giantswarm.io/latest-release-tag: 0.0.119
+        giantswarm.io/latest-release-date: "2026-01-07T07:58:36Z"
+        giantswarm.io/latest-release-tag: 0.0.120
         github.com/project-slug: giantswarm/muster
     tags:
         - aggregator
@@ -5005,13 +5048,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/network-policies-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/network-policies-app/tree/main
         giantswarm.io/deployment-names: network-policies,network-policies-app
-        giantswarm.io/latest-release-date: "2024-04-10T12:59:35Z"
-        giantswarm.io/latest-release-tag: 0.1.1
+        giantswarm.io/latest-release-date: "2026-01-06T16:30:34Z"
+        giantswarm.io/latest-release-tag: 0.1.3
         github.com/project-slug: giantswarm/network-policies-app
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
