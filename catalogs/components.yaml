@@ -1941,6 +1941,26 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: cluster-api-control-plane-provider-kamaji
+    namespace: giantswarm
+    title: cluster-api-control-plane-provider-kamaji
+    description: The Kamaji Control Plane provider for Cluster API
+    annotations:
+        backstage.io/kubernetes-id: cluster-api-control-plane-provider-kamaji
+        backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/tree/main
+        giantswarm.io/deployment-names: cluster-api-control-plane-provider-kamaji,cluster-api-control-plane-provider-kamaji-app
+        giantswarm.io/latest-release-date: "2026-01-08T12:12:59Z"
+        giantswarm.io/latest-release-tag: 0.1.1
+        github.com/project-slug: giantswarm/cluster-api-control-plane-provider-kamaji-app
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/unspecified
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cluster-api-core
     namespace: giantswarm
     title: cluster-api-core
