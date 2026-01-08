@@ -3882,13 +3882,13 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/happa
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/happa/tree/main
         giantswarm.io/deployment-names: happa,happa-app
-        giantswarm.io/latest-release-date: "2025-10-08T15:24:59Z"
-        giantswarm.io/latest-release-tag: 1.71.6
+        giantswarm.io/latest-release-date: "2026-01-07T12:51:54Z"
+        giantswarm.io/latest-release-tag: 1.71.7
         github.com/project-slug: giantswarm/happa
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
