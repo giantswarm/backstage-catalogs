@@ -91,6 +91,7 @@ jobs:
           backstage-catalog-importer charts \
             gsoci.azurecr.io \
             --prefix charts/giantswarm/ \
+            --namespace giantswarm \
             --output ./catalogs
           
           backstage-catalog-importer users \
