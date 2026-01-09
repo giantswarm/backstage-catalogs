@@ -19,7 +19,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.0-08ae17ecee368b8eed22d908c8b87881b6ab98b7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/alertmanager-to-github
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:34+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:05Z"
         giantswarm.io/latest-release-tag: 0.2.0-08ae17ecee368b8eed22d908c8b87881b6ab98b7
         github.com/project-slug: giantswarm/alertmanager-to-github-app
     tags:
@@ -46,7 +46,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.15.1-116bc0d2953298439557e5095ad8215d29ff1766
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/alloy
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:34+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:05Z"
         giantswarm.io/latest-release-tag: 0.15.1-116bc0d2953298439557e5095ad8215d29ff1766
         github.com/project-slug: giantswarm/alloy-app
     tags:
@@ -73,7 +73,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.4.1-1ce48e8e1f74201af0fdde52b996f2e56253f1f3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/alloy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:35+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:05Z"
         giantswarm.io/latest-release-tag: 0.4.1-1ce48e8e1f74201af0fdde52b996f2e56253f1f3
         github.com/project-slug: giantswarm/alloy-gateway-app
     tags:
@@ -100,7 +100,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.0.0-046b3e8901bb7fbc2e9e5721a4618d8e4666231f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/app-admission-controller
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:36+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:06Z"
         giantswarm.io/latest-release-tag: 2.0.0-046b3e8901bb7fbc2e9e5721a4618d8e4666231f
         github.com/project-slug: giantswarm/app-admission-controller
     tags:
@@ -127,7 +127,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.1-0497eb01d0a56f209c74cf89e36308a0f947ce39
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/app-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:36+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:07Z"
         giantswarm.io/latest-release-tag: 1.0.1-0497eb01d0a56f209c74cf89e36308a0f947ce39
         github.com/project-slug: giantswarm/app-exporter
     tags:
@@ -154,7 +154,7 @@ metadata:
         giantswarm.io/helmchart-versions: 7.4.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/app-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:37+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:07Z"
         giantswarm.io/latest-release-tag: 7.4.0
         github.com/project-slug: giantswarm/app-operator
     tags:
@@ -181,7 +181,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.0-6d4d13d151ae7b9789186ad254f1b8b35b344d55
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/appcatalog
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:38+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:08Z"
         giantswarm.io/latest-release-tag: 1.0.0-6d4d13d151ae7b9789186ad254f1b8b35b344d55
         github.com/project-slug: giantswarm/appcatalog
     tags:
@@ -207,7 +207,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: v1.8.0
         giantswarm.io/helmchart-versions: 1.4.1-0384b5551a57fffde550a157be19b2760cecd9c1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/apptest-app
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:39+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:08Z"
         giantswarm.io/latest-release-tag: 1.4.1-0384b5551a57fffde550a157be19b2760cecd9c1
         github.com/project-slug: giantswarm/apptest
     tags:
@@ -233,7 +233,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.5-152f9fbaab5f8b11d99d5970aa4423c094d126fc
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/auth-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/athena/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:39+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:09Z"
         giantswarm.io/latest-release-tag: 0.2.5-152f9fbaab5f8b11d99d5970aa4423c094d126fc
         github.com/project-slug: giantswarm/auth-bundle
     tags:
@@ -260,7 +260,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.33.2-1-162f36d81ce43858afb553f6369d3b0e5d31c51d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-cloud-controller-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:40+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:09Z"
         giantswarm.io/latest-release-tag: 1.33.2-1-162f36d81ce43858afb553f6369d3b0e5d31c51d
         github.com/project-slug: giantswarm/aws-cloud-controller-manager-app
     tags:
@@ -287,7 +287,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.3.0-34ad8bd9397b8ea00e5f955ba126f01f76cddd7c
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:41+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:09Z"
         giantswarm.io/latest-release-tag: 3.3.0-34ad8bd9397b8ea00e5f955ba126f01f76cddd7c
         github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
     tags:
@@ -314,7 +314,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:41+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:10Z"
         giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/aws-efs-csi-driver
     tags:
@@ -341,7 +341,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:42+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:10Z"
         giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/aws-efs-csi-driver
     tags:
@@ -368,7 +368,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-load-balancer-controller
         giantswarm.io/icon-url: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:42+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:11Z"
         giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/aws-load-balancer-controller-app
     tags:
@@ -395,7 +395,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-load-balancer-controller-bundle
         giantswarm.io/icon-url: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:43+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:11Z"
         giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/aws-load-balancer-controller-app
     tags:
@@ -422,7 +422,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.23.0-2c5c65e40d4513c1184530f616aa9697c2d16a29
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-node-termination-handler
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:44+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:11Z"
         giantswarm.io/latest-release-tag: 1.23.0-2c5c65e40d4513c1184530f616aa9697c2d16a29
         github.com/project-slug: giantswarm/aws-node-termination-handler-app
     tags:
@@ -449,7 +449,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.3.0-0af5a9f6229f829503598c170a19d35e4766b9c4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-nth-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:44+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:12Z"
         giantswarm.io/latest-release-tag: 1.3.0-0af5a9f6229f829503598c170a19d35e4766b9c4
         github.com/project-slug: giantswarm/aws-nth-bundle
     tags:
@@ -476,7 +476,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.3.0-4fdd9a9a1367e8fe0ad94678cb7dcbf98eb4a429
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-nth-crossplane-resources
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:45+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:12Z"
         giantswarm.io/latest-release-tag: 1.3.0-4fdd9a9a1367e8fe0ad94678cb7dcbf98eb4a429
         github.com/project-slug: giantswarm/aws-nth-crossplane-resources
     tags:
@@ -502,7 +502,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-pod-identity-webhook
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:46+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:13Z"
         giantswarm.io/latest-release-tag: 2.1.0
         github.com/project-slug: giantswarm/aws-pod-identity-webhook
     tags:
@@ -528,7 +528,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.23.1-00e40dad90e5b84d4d57f16eeeeb86ad85a1ad9e
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-resolver-rules-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:46+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:13Z"
         giantswarm.io/latest-release-tag: 0.23.1-00e40dad90e5b84d4d57f16eeeeb86ad85a1ad9e
         github.com/project-slug: giantswarm/aws-resolver-rules-operator
     tags:
@@ -555,7 +555,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.1-0c6f89a6f6dfe4b439545ccc731b74bc759a74d6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-vpc-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:47+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:14Z"
         giantswarm.io/latest-release-tag: 0.8.1-0c6f89a6f6dfe4b439545ccc731b74bc759a74d6
         github.com/project-slug: giantswarm/aws-vpc-operator
     tags:
@@ -582,7 +582,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.32.7-1-05afb6e00c7c5a92a8e34e2ba26b74510e479abf
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azure-cloud-controller-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:48+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:14Z"
         giantswarm.io/latest-release-tag: 1.32.7-1-05afb6e00c7c5a92a8e34e2ba26b74510e479abf
         github.com/project-slug: giantswarm/azure-cloud-controller-manager-app
     tags:
@@ -609,7 +609,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.32.7-029f8a62e2c1ab26dcf7e5194db1ab0049d93bea
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azure-cloud-node-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:49+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:15Z"
         giantswarm.io/latest-release-tag: 1.32.7-029f8a62e2c1ab26dcf7e5194db1ab0049d93bea
         github.com/project-slug: giantswarm/azure-cloud-node-manager-app
     tags:
@@ -636,7 +636,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.3.1-4941cd6aeccd4af2541bc79596b6174657bd1caf
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azure-private-endpoint-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:49+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:15Z"
         giantswarm.io/latest-release-tag: 0.3.1-4941cd6aeccd4af2541bc79596b6174657bd1caf
         github.com/project-slug: giantswarm/azure-private-endpoint-operator
     tags:
@@ -663,7 +663,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-166f4683832c888430d96fd4e0334a15bdbf28c2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azure-storageclasses
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:50+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:16Z"
         giantswarm.io/latest-release-tag: 0.1.0-166f4683832c888430d96fd4e0334a15bdbf28c2
         github.com/project-slug: giantswarm/azure-storageclasses
     tags:
@@ -690,7 +690,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.32.9-008dd843e5d5ca57a79d5dce5b21036f09adc04a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azuredisk-csi-driver-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:51+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:17Z"
         giantswarm.io/latest-release-tag: 1.32.9-008dd843e5d5ca57a79d5dce5b21036f09adc04a
         github.com/project-slug: giantswarm/azuredisk-csi-driver-app
     tags:
@@ -717,7 +717,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.32.5-0668792a6ab782a6c6d26adc1e75efd98e7641ef
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azurefile-csi-driver-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:51+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:17Z"
         giantswarm.io/latest-release-tag: 1.32.5-0668792a6ab782a6c6d26adc1e75efd98e7641ef
         github.com/project-slug: giantswarm/azurefile-csi-driver-app
     tags:
@@ -744,7 +744,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.90.2-2de1ccb7531dddd325a70bdff1a8b4b22f47b4af
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/backstage
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:52+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:18Z"
         giantswarm.io/latest-release-tag: 0.90.2-2de1ccb7531dddd325a70bdff1a8b4b22f47b4af
         github.com/project-slug: giantswarm/backstage
     tags:
@@ -771,7 +771,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.3.5-34aee16568fc98eaee08c32e01f083fde19a04d1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/blog-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:53+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:18Z"
         giantswarm.io/latest-release-tag: 1.3.5-34aee16568fc98eaee08c32e01f083fde19a04d1
         github.com/project-slug: giantswarm/blog
     tags:
@@ -798,7 +798,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.3-2a1b2f0f1de52732cefa55087b46e93921fadcf8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/caicloud-event-exporter-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:53+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:19Z"
         giantswarm.io/latest-release-tag: 0.2.3-2a1b2f0f1de52732cefa55087b46e93921fadcf8
         github.com/project-slug: giantswarm/caicloud-event-exporter-app
     tags:
@@ -824,7 +824,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 2.0.1
         giantswarm.io/helmchart-versions: 2.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/capa-iam-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:54+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:19Z"
         giantswarm.io/latest-release-tag: 2.0.1
         github.com/project-slug: giantswarm/capa-iam-operator
     tags:
@@ -850,7 +850,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 1.0.1-01d41d4288a2a31c7ab398c2eac2a077cfded6f9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/capa-karpenter-taint-remover
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:55+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:19Z"
         giantswarm.io/latest-release-tag: 1.0.1-01d41d4288a2a31c7ab398c2eac2a077cfded6f9
         github.com/project-slug: giantswarm/capa-karpenter-taint-remover
     tags:
@@ -876,7 +876,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 1.1.5-08e5c34f984ec2976ab4b4716731c704d0a66bf0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/capi-node-labeler
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:56+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:20Z"
         giantswarm.io/latest-release-tag: 1.1.5-08e5c34f984ec2976ab4b4716731c704d0a66bf0
         github.com/project-slug: giantswarm/capi-node-labeler-app
     tags:
@@ -903,7 +903,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.9.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:56+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:20Z"
         giantswarm.io/latest-release-tag: 2.9.14
         github.com/project-slug: giantswarm/cert-exporter
     tags:
@@ -930,7 +930,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-4f35607020ab373c91011fc64b4d08919c219063
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-crossplane-resources
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:57+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:21Z"
         giantswarm.io/latest-release-tag: 0.1.0-4f35607020ab373c91011fc64b4d08919c219063
         github.com/project-slug: giantswarm/cert-manager-crossplane-resources
     tags:
@@ -957,7 +957,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.1.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/chart-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:57+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:21Z"
         giantswarm.io/latest-release-tag: 4.1.2
         github.com/project-slug: giantswarm/chart-operator
     tags:
@@ -984,7 +984,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.1.2-178f84c27247fad412940a04a56e67a51c74b7b5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/chart-operator-extensions
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:58+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:22Z"
         giantswarm.io/latest-release-tag: 1.1.2-178f84c27247fad412940a04a56e67a51c74b7b5
         github.com/project-slug: giantswarm/chart-operator-extensions
     tags:
@@ -1010,7 +1010,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.1-0a5c1ae54b97280aff719e6db9bf888005b60bad
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cilium-crossplane-resources
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:39:59+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:23Z"
         giantswarm.io/latest-release-tag: 0.2.1-0a5c1ae54b97280aff719e6db9bf888005b60bad
         github.com/project-slug: giantswarm/cilium-crossplane-resources
     tags:
@@ -1037,7 +1037,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.3-65f1ab68813efe9c855f0b819cae2ae59dd50f3c
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cilium-servicemonitors
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cilium/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:00+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:23Z"
         giantswarm.io/latest-release-tag: 0.1.3-65f1ab68813efe9c855f0b819cae2ae59dd50f3c
         github.com/project-slug: giantswarm/cilium-servicemonitors-app
     tags:
@@ -1063,7 +1063,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 0.5.0-5fcb14ea31ef0fab64ce264cd2946aef559ad17d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloud-provider-cloud-director
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:00+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:23Z"
         giantswarm.io/latest-release-tag: 0.5.0-5fcb14ea31ef0fab64ce264cd2946aef559ad17d
         github.com/project-slug: giantswarm/cloud-provider-cloud-director-app
     tags:
@@ -1090,7 +1090,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.1-684c2e431f283a15821e596f47cf76a24468b420
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/proxmox-cloud-controller-manager
         giantswarm.io/icon-url: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:16+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:13Z"
         giantswarm.io/latest-release-tag: 0.2.1-684c2e431f283a15821e596f47cf76a24468b420
         github.com/project-slug: giantswarm/cloud-provider-proxmox-app
     tags:
@@ -1117,7 +1117,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.0.1-175356a9a31ab89d75f48ea90314156ae05f888e
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloud-provider-vsphere
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:01+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:24Z"
         giantswarm.io/latest-release-tag: 2.0.1-175356a9a31ab89d75f48ea90314156ae05f888e
         github.com/project-slug: giantswarm/cloud-provider-vsphere-app
     tags:
@@ -1144,7 +1144,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.11
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloudnative-pg
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:02+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:24Z"
         giantswarm.io/latest-release-tag: 0.0.11
         github.com/project-slug: giantswarm/cloudnative-pg-app
     tags:
@@ -1170,7 +1170,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.5.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:03+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:25Z"
         giantswarm.io/latest-release-tag: 4.5.0
         github.com/project-slug: giantswarm/cluster
     tags:
@@ -1197,7 +1197,7 @@ metadata:
         giantswarm.io/helmchart-versions: 6.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:04+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:25Z"
         giantswarm.io/latest-release-tag: 6.0.0
         github.com/project-slug: giantswarm/cluster-api-app
     tags:
@@ -1207,6 +1207,33 @@ spec:
     type: service
     lifecycle: production
     owner: group:default/team-tenet
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: cluster-api-control-plane-provider-kamaji-app
+    title: cluster-api-control-plane-provider-kamaji-app
+    description: The Kamaji Control Plane provider for Cluster API
+    annotations:
+        application.giantswarm.io/audience: giantswarm
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: cluster-api-control-plane-provider-kamaji-app
+        backstage.io/source-location: url:https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app
+        giantswarm.io/deployment-names: cluster-api-control-plane-provider-kamaji,cluster-api-control-plane-provider-kamaji-app
+        giantswarm.io/helmchart-app-versions: 0.16.0
+        giantswarm.io/helmchart-versions: 0.1.0-095f99bdbbf29fd367c2b8feaa39c0b7305eab38
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-control-plane-provider-kamaji
+        giantswarm.io/icon-url: https://raw.githubusercontent.com/clastix/kamaji/refs/heads/master/assets/logo-white.png
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:26Z"
+        giantswarm.io/latest-release-tag: 0.1.0-095f99bdbbf29fd367c2b8feaa39c0b7305eab38
+        github.com/project-slug: giantswarm/cluster-api-control-plane-provider-kamaji-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:default/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1224,7 +1251,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.0-19631a5611a76a4e225aa85c86dd930caba55f0a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-events
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:04+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:27Z"
         giantswarm.io/latest-release-tag: 0.8.0-19631a5611a76a4e225aa85c86dd930caba55f0a
         github.com/project-slug: giantswarm/cluster-api-events
     tags:
@@ -1251,7 +1278,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.17.1-377d9b7ec98900cb6931ae2791fb67640594f176
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-monitoring
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:05+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:27Z"
         giantswarm.io/latest-release-tag: 1.17.1-377d9b7ec98900cb6931ae2791fb67640594f176
         github.com/project-slug: giantswarm/cluster-api-monitoring
     tags:
@@ -1278,7 +1305,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.34.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-provider-aws
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:05+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:28Z"
         giantswarm.io/latest-release-tag: 2.34.0
         github.com/project-slug: giantswarm/cluster-api-provider-aws-app
     tags:
@@ -1305,7 +1332,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-provider-azure
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:06+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:28Z"
         giantswarm.io/latest-release-tag: 4.0.1
         github.com/project-slug: giantswarm/cluster-api-provider-azure-app
     tags:
@@ -1332,7 +1359,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.2-1d2a84df8c70d3d698225eea67ea38aae83efaa0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-api-provider-cloud-director
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:07+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:28Z"
         giantswarm.io/latest-release-tag: 0.8.2-1d2a84df8c70d3d698225eea67ea38aae83efaa0
         github.com/project-slug: giantswarm/cluster-api-provider-cloud-director-app
     tags:
@@ -1359,7 +1386,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.5.0-0af8d37d1de187f8359d58489664136086ea50b5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-apps-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:07+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:29Z"
         giantswarm.io/latest-release-tag: 3.5.0-0af8d37d1de187f8359d58489664136086ea50b5
         github.com/project-slug: giantswarm/cluster-apps-operator
     tags:
@@ -1386,7 +1413,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.33.1-2-0ad768ea2fd753366e35a5573816933e178d07dd
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-autoscaler-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:08+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:29Z"
         giantswarm.io/latest-release-tag: 1.33.1-2-0ad768ea2fd753366e35a5573816933e178d07dd
         github.com/project-slug: giantswarm/cluster-autoscaler-app
     tags:
@@ -1413,7 +1440,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.34.1-1-4b2b66755641cabd0932d5d1a148c7f306ac3b30
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-autoscaler-app-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:09+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:30Z"
         giantswarm.io/latest-release-tag: 1.34.1-1-4b2b66755641cabd0932d5d1a148c7f306ac3b30
         github.com/project-slug: giantswarm/cluster-autoscaler-app
     tags:
@@ -1439,7 +1466,7 @@ metadata:
         giantswarm.io/helmchart-versions: 6.4.0-2aa67176789ad64a693ffc6640f7da2ea2c70428
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aws
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:09+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:30Z"
         giantswarm.io/latest-release-tag: 6.4.0-2aa67176789ad64a693ffc6640f7da2ea2c70428
         github.com/project-slug: giantswarm/cluster-aws
     tags:
@@ -1465,7 +1492,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.4.0-167f1ed359b0a98598f5c6b916c7d3723aa62c5b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-azure
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:10+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:31Z"
         giantswarm.io/latest-release-tag: 4.4.0-167f1ed359b0a98598f5c6b916c7d3723aa62c5b
         github.com/project-slug: giantswarm/cluster-azure
     tags:
@@ -1492,7 +1519,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.10.1-3a3963296bbbdef49efe77d9fc27a8484aed1961
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-cleaner
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:10+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:31Z"
         giantswarm.io/latest-release-tag: 0.10.1-3a3963296bbbdef49efe77d9fc27a8484aed1961
         github.com/project-slug: giantswarm/cluster-cleaner
     tags:
@@ -1518,7 +1545,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-cloud-director
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:11+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:32Z"
         giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/cluster-cloud-director
     tags:
@@ -1544,7 +1571,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.1.0-27ae23d5f85ca0fdbe794b60e75e06f4b36ba3ff
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-eks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:12+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:32Z"
         giantswarm.io/latest-release-tag: 1.1.0-27ae23d5f85ca0fdbe794b60e75e06f4b36ba3ff
         github.com/project-slug: giantswarm/cluster-eks
     tags:
@@ -1570,7 +1597,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.5.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-vsphere
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:12+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:33Z"
         giantswarm.io/latest-release-tag: 3.5.0
         github.com/project-slug: giantswarm/cluster-vsphere
     tags:
@@ -1597,7 +1624,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.28.2-0ed7b498062f9e6701be65b6594fa267b0f99e09
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:13+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:33Z"
         giantswarm.io/latest-release-tag: 1.28.2-0ed7b498062f9e6701be65b6594fa267b0f99e09
         github.com/project-slug: giantswarm/coredns-app
     tags:
@@ -1624,7 +1651,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.2-0a2ecec0fb7cf8f195c98c2e01957a367eac25ed
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-extensions
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:14+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:34Z"
         giantswarm.io/latest-release-tag: 0.1.2-0a2ecec0fb7cf8f195c98c2e01957a367eac25ed
         github.com/project-slug: giantswarm/coredns-extensions-app
     tags:
@@ -1651,7 +1678,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.5.1-084410569c26cc4b0a256234be6e8e8be0ac82d3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/crossplane
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/crossplane/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:14+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:34Z"
         giantswarm.io/latest-release-tag: 2.5.1-084410569c26cc4b0a256234be6e8e8be0ac82d3
         github.com/project-slug: giantswarm/crossplane
     tags:
@@ -1678,7 +1705,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.10.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dashboards
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:15+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:35Z"
         giantswarm.io/latest-release-tag: 4.10.0
         github.com/project-slug: giantswarm/dashboards
     tags:
@@ -1705,7 +1732,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.2.0-3d1242b35984ca8a545944d4028e2284f23de0df
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/debug-toolbox
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:15+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:35Z"
         giantswarm.io/latest-release-tag: 1.2.0-3d1242b35984ca8a545944d4028e2284f23de0df
         github.com/project-slug: giantswarm/debug-toolbox
     tags:
@@ -1731,7 +1758,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.6.0-06c016b99b0795bf4ff3ea984adf10420c0d98fd
         giantswarm.io/helmchart-versions: 0.6.0-06c016b99b0795bf4ff3ea984adf10420c0d98fd
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/deletion-blocker-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:16+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:35Z"
         giantswarm.io/latest-release-tag: 0.6.0-06c016b99b0795bf4ff3ea984adf10420c0d98fd
         github.com/project-slug: giantswarm/deletion-blocker-operator
     tags:
@@ -1758,7 +1785,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.2-82d352a2d4c550dab7b73cecfad08595aac48652
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/descheduler
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:17+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:36Z"
         giantswarm.io/latest-release-tag: 1.0.2-82d352a2d4c550dab7b73cecfad08595aac48652
         github.com/project-slug: giantswarm/descheduler-app
     tags:
@@ -1784,7 +1811,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 2.3.1-0637de5f4b6cb3c0740035ae9d4cc6f59401eeb7
         giantswarm.io/helmchart-versions: 2.3.1-0637de5f4b6cb3c0740035ae9d4cc6f59401eeb7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dns-operator-azure
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:17+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:36Z"
         giantswarm.io/latest-release-tag: 2.3.1-0637de5f4b6cb3c0740035ae9d4cc6f59401eeb7
         github.com/project-slug: giantswarm/dns-operator-azure
     tags:
@@ -1811,7 +1838,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.10.1-1d6203c08078b1955a4c250ab7f09b04b57e7466
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dns-operator-route53
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openstack/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:18+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:37Z"
         giantswarm.io/latest-release-tag: 0.10.1-1d6203c08078b1955a4c250ab7f09b04b57e7466
         github.com/project-slug: giantswarm/dns-operator-route53
     tags:
@@ -1837,7 +1864,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 4.0.0
         giantswarm.io/helmchart-versions: 4.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/docs-indexer-app
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:19+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:38Z"
         giantswarm.io/latest-release-tag: 4.0.0
         github.com/project-slug: giantswarm/docs-indexer
     tags:
@@ -1863,7 +1890,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 1.7.0-5a229bd7dcbd570cc9fbd02289266b1924003438
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/docs-proxy-app
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:20+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:38Z"
         giantswarm.io/latest-release-tag: 1.7.0-5a229bd7dcbd570cc9fbd02289266b1924003438
         github.com/project-slug: giantswarm/docs-proxy
     tags:
@@ -1890,7 +1917,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.3.100
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/docs-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:19+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:37Z"
         giantswarm.io/latest-release-tag: 2.3.100
         github.com/project-slug: giantswarm/docs/
     tags:
@@ -1916,7 +1943,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.2.0-215f079dd24ba1cec2620e90b46256f8642a9610
         giantswarm.io/helmchart-versions: 0.2.0-215f079dd24ba1cec2620e90b46256f8642a9610
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/encryption-config-hasher
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:21+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:39Z"
         giantswarm.io/latest-release-tag: 0.2.0-215f079dd24ba1cec2620e90b46256f8642a9610
         github.com/project-slug: giantswarm/encryption-config-hasher
     tags:
@@ -1942,7 +1969,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.6.1-dev
         giantswarm.io/helmchart-versions: 0.6.0-00b489775a8a6de44ba42d9f4ee871b0e469571a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/encryption-provider-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:21+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:39Z"
         giantswarm.io/latest-release-tag: 0.6.0-00b489775a8a6de44ba42d9f4ee871b0e469571a
         github.com/project-slug: giantswarm/encryption-provider-operator
     tags:
@@ -1969,7 +1996,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.0-061fbc8b5901d1f9e2a37f964e78b07c3ab61e50
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:22+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:39Z"
         giantswarm.io/latest-release-tag: 0.0.0-061fbc8b5901d1f9e2a37f964e78b07c3ab61e50
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
@@ -1996,7 +2023,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:23+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:40Z"
         giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/envoy-gateway-app
     tags:
@@ -2022,7 +2049,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 4.13.1-dev
         giantswarm.io/helmchart-versions: 4.13.0-14cc6516bc49e778801a4d4aaf29a386b2554384
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/etcd-backup-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:23+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:40Z"
         giantswarm.io/latest-release-tag: 4.13.0-14cc6516bc49e778801a4d4aaf29a386b2554384
         github.com/project-slug: giantswarm/etcd-backup-operator
     tags:
@@ -2049,7 +2076,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.2.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/etcd-defrag
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:24+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:41Z"
         giantswarm.io/latest-release-tag: 1.2.3
         github.com/project-slug: giantswarm/etcd-defrag-app
     tags:
@@ -2076,7 +2103,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.10.11
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/etcd-kubernetes-resources-count-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:24+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:41Z"
         giantswarm.io/latest-release-tag: 1.10.11
         github.com/project-slug: giantswarm/etcd-kubernetes-resources-count-exporter
     tags:
@@ -2103,7 +2130,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.4.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/event-exporter-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:25+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:41Z"
         giantswarm.io/latest-release-tag: 3.4.0
         github.com/project-slug: giantswarm/event-exporter-app
     tags:
@@ -2130,7 +2157,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-dns-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:26+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:42Z"
         giantswarm.io/latest-release-tag: 3.3.0
         github.com/project-slug: giantswarm/external-dns-app
     tags:
@@ -2157,7 +2184,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.20.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-secrets
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:27+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:42Z"
         giantswarm.io/latest-release-tag: 0.20.4
         github.com/project-slug: giantswarm/external-secrets
     tags:
@@ -2184,7 +2211,7 @@ metadata:
         giantswarm.io/helmchart-versions: 5.5.0-38491fb6a07f413a80becf5669c8c9210055e96a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fluent-logshipping-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:28+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:43Z"
         giantswarm.io/latest-release-tag: 5.5.0-38491fb6a07f413a80becf5669c8c9210055e96a
         github.com/project-slug: giantswarm/fluent-logshipping-app
     tags:
@@ -2211,7 +2238,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.7.3-26db12e4b78cbabba4391220c90d4d534b43ada7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:29+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:43Z"
         giantswarm.io/latest-release-tag: 1.7.3-26db12e4b78cbabba4391220c90d4d534b43ada7
         github.com/project-slug: giantswarm/flux-app
     tags:
@@ -2238,7 +2265,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-01bf7329eab2f95af0cdc9371977ac1328c07fb5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:29+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:44Z"
         giantswarm.io/latest-release-tag: 0.1.0-01bf7329eab2f95af0cdc9371977ac1328c07fb5
         github.com/project-slug: giantswarm/flux-operator-app
     tags:
@@ -2264,7 +2291,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fulfillment
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:30+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:44Z"
         giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/fulfillment
     tags:
@@ -2291,7 +2318,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:31+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:45Z"
         giantswarm.io/latest-release-tag: 1.1.0
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
@@ -2318,7 +2345,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:31+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:45Z"
         giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
@@ -2345,7 +2372,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.6.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:32+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:46Z"
         giantswarm.io/latest-release-tag: 1.6.0
         github.com/project-slug: giantswarm/gateway-api-crds-app
     tags:
@@ -2372,7 +2399,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gel
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/edgedb/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:32+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:46Z"
         giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/gel-app
     tags:
@@ -2399,7 +2426,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.2-0cf7eb7cf4bfc10f138d8fe7f8d9dbea57142ab3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gitops-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/weaveworks/1/icon_light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:33+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:46Z"
         giantswarm.io/latest-release-tag: 0.1.2-0cf7eb7cf4bfc10f138d8fe7f8d9dbea57142ab3
         github.com/project-slug: giantswarm/gitops-server-app
     tags:
@@ -2426,7 +2453,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.1.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gpu-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:34+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:47Z"
         giantswarm.io/latest-release-tag: 1.1.1
         github.com/project-slug: giantswarm/gpu-operator-app
     tags:
@@ -2453,7 +2480,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.27.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/grafana
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:34+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:47Z"
         giantswarm.io/latest-release-tag: 2.27.2
         github.com/project-slug: giantswarm/grafana-app
     tags:
@@ -2480,7 +2507,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.14.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/handbook
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/handbook/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:35+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:47Z"
         giantswarm.io/latest-release-tag: 0.14.0
         github.com/project-slug: giantswarm/handbook
     tags:
@@ -2507,7 +2534,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.71.6-1297f0bc8ff853e6703f4c4cef69a3833e1988b6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fe-docs
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:28+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:43Z"
         giantswarm.io/latest-release-tag: 1.71.6-1297f0bc8ff853e6703f4c4cef69a3833e1988b6
         github.com/project-slug: giantswarm/happa
     tags:
@@ -2534,7 +2561,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.71.6-1297f0bc8ff853e6703f4c4cef69a3833e1988b6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/happa
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:36+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:48Z"
         giantswarm.io/latest-release-tag: 1.71.6-1297f0bc8ff853e6703f4c4cef69a3833e1988b6
         github.com/project-slug: giantswarm/happa
     tags:
@@ -2561,7 +2588,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.10.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/hello-world
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:36+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:48Z"
         giantswarm.io/latest-release-tag: 2.10.0
         github.com/project-slug: giantswarm/hello-world-app
     tags:
@@ -2588,7 +2615,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.1.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:37+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:49Z"
         giantswarm.io/latest-release-tag: 4.1.4
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
@@ -2615,7 +2642,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.0-80ea9d87a928683be59d7a8c9fa271d2c1669456
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:37+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:49Z"
         giantswarm.io/latest-release-tag: 0.2.0-80ea9d87a928683be59d7a8c9fa271d2c1669456
         github.com/project-slug: giantswarm/ingress-sla-app
     tags:
@@ -2641,7 +2668,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.34.0-1b6f0cf76e945ffe05cb87540a560b736cb656ea
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/irsa-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:38+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:49Z"
         giantswarm.io/latest-release-tag: 0.34.0-1b6f0cf76e945ffe05cb87540a560b736cb656ea
         github.com/project-slug: giantswarm/irsa-operator
     tags:
@@ -2668,7 +2695,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-7b535bae4667b7327ba32010b8ec9cc3f8742479
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/irsa-servicemonitors
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:39+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:50Z"
         giantswarm.io/latest-release-tag: 0.1.0-7b535bae4667b7327ba32010b8ec9cc3f8742479
         github.com/project-slug: giantswarm/irsa-servicemonitors-app
     tags:
@@ -2694,7 +2721,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.10.10
         giantswarm.io/helmchart-versions: 0.10.10
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/k8s-audit-metrics
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:39+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:50Z"
         giantswarm.io/latest-release-tag: 0.10.10
         github.com/project-slug: giantswarm/k8s-audit-metrics
     tags:
@@ -2721,7 +2748,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.9.1-00ffec70538571815f4da047d89c9ea9e7b3224d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/k8s-dns-node-cache-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:40+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:51Z"
         giantswarm.io/latest-release-tag: 2.9.1-00ffec70538571815f4da047d89c9ea9e7b3224d
         github.com/project-slug: giantswarm/k8s-dns-node-cache-app
     tags:
@@ -2745,11 +2772,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         giantswarm.io/deployment-names: karpenter,karpenter-app
         giantswarm.io/helmchart-app-versions: 1.5.0
-        giantswarm.io/helmchart-versions: 1.4.0-2f86bc3ed2501b4af4bfe07ab547b3549186972a
+        giantswarm.io/helmchart-versions: 1.4.0-0747ea70096b53ac248115c75b84b204daf70408
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:41+01:00"
-        giantswarm.io/latest-release-tag: 1.4.0-2f86bc3ed2501b4af4bfe07ab547b3549186972a
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:51Z"
+        giantswarm.io/latest-release-tag: 1.4.0-0747ea70096b53ac248115c75b84b204daf70408
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - helmchart
@@ -2775,7 +2802,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.5.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter-crossplane-resources
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:41+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:52Z"
         giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/karpenter-crossplane-resources
     tags:
@@ -2802,7 +2829,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.1-7f0c135f9d28e2cbdc3e51cd56293d3c0463495d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/konfigure-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:43+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:52Z"
         giantswarm.io/latest-release-tag: 1.0.1-7f0c135f9d28e2cbdc3e51cd56293d3c0463495d
         github.com/project-slug: giantswarm/konfigure-operator
     tags:
@@ -2829,7 +2856,7 @@ metadata:
         giantswarm.io/helmchart-versions: 5.2.0-9cd7efb370c7952d08b27274a7285289c925a144
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kong-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kong/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:43+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:53Z"
         giantswarm.io/latest-release-tag: 5.2.0-9cd7efb370c7952d08b27274a7285289c925a144
         github.com/project-slug: giantswarm/kong-app
     tags:
@@ -2856,7 +2883,7 @@ metadata:
         giantswarm.io/helmchart-versions: 18.1.0-09b95e4b2d43c177e36ec1fc2a7091d9de09bd91
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kube-prometheus-stack
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:44+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:54Z"
         giantswarm.io/latest-release-tag: 18.1.0-09b95e4b2d43c177e36ec1fc2a7091d9de09bd91
         github.com/project-slug: giantswarm/kube-prometheus-stack-app
     tags:
@@ -2881,7 +2908,7 @@ metadata:
         giantswarm.io/deployment-names: kubectl-apply-job,kubectl-apply-job-app
         giantswarm.io/helmchart-versions: 0.10.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubectl-apply-job
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:46+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:55Z"
         giantswarm.io/latest-release-tag: 0.10.1
         github.com/project-slug: giantswarm/kubectl-apply-job
     tags:
@@ -2907,7 +2934,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-0667fb19428cf3aa58309c6af18fbeaad828d09c
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubeedge-cloudcore
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubeedge/kubeedge/refs/heads/master/docs/images/kubeedge-logo-only.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:47+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:55Z"
         giantswarm.io/latest-release-tag: 0.1.0-0667fb19428cf3aa58309c6af18fbeaad828d09c
         github.com/project-slug: giantswarm/kubeedge-cloudcore-app
     tags:
@@ -2933,7 +2960,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubescape
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:48+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:56Z"
         giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/kubescape
     tags:
@@ -2960,7 +2987,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-3a5c02b3b449e80de590bfd6f3a65588a248c3f3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:48+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:56Z"
         giantswarm.io/latest-release-tag: 0.1.0-3a5c02b3b449e80de590bfd6f3a65588a248c3f3
         github.com/project-slug: giantswarm/kueue-app
     tags:
@@ -2987,7 +3014,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.21.0-241f11bd26ca1e3323d31af8846829b187fa818b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:49+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:57Z"
         giantswarm.io/latest-release-tag: 0.21.0-241f11bd26ca1e3323d31af8846829b187fa818b
         github.com/project-slug: giantswarm/kyverno-app
     tags:
@@ -3013,7 +3040,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.16.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:49+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:57Z"
         giantswarm.io/latest-release-tag: 1.16.0
         github.com/project-slug: giantswarm/kyverno-crds
     tags:
@@ -3039,7 +3066,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.24.0-036d5cd93c4704e50a1da8ab271e9037ba0fcfd2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:50+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:57Z"
         giantswarm.io/latest-release-tag: 0.24.0-036d5cd93c4704e50a1da8ab271e9037ba0fcfd2
         github.com/project-slug: giantswarm/kyverno-policies
     tags:
@@ -3066,7 +3093,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.10.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:51+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:58Z"
         giantswarm.io/latest-release-tag: 0.10.0
         github.com/project-slug: giantswarm/kyverno-policies-connectivity
     tags:
@@ -3093,7 +3120,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies-dx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:51+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:58Z"
         giantswarm.io/latest-release-tag: 0.8.1
         github.com/project-slug: giantswarm/kyverno-policies-dx
     tags:
@@ -3120,7 +3147,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.0-322679852535c240e21dff7f4ec6de9a45d5b64d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies-observability
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:52+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:59Z"
         giantswarm.io/latest-release-tag: 0.8.0-322679852535c240e21dff7f4ec6de9a45d5b64d
         github.com/project-slug: giantswarm/kyverno-policies-observability
     tags:
@@ -3147,7 +3174,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.12.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies-ux
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:52+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:59Z"
         giantswarm.io/latest-release-tag: 0.12.1
         github.com/project-slug: giantswarm/kyverno-policies-ux
     tags:
@@ -3174,7 +3201,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.6-92f60a57f033bdd11f20dd4f4802b4542c4f90b4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:53+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:58:59Z"
         giantswarm.io/latest-release-tag: 0.1.6-92f60a57f033bdd11f20dd4f4802b4542c4f90b4
         github.com/project-slug: giantswarm/kyverno-policy-operator
     tags:
@@ -3200,7 +3227,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 0.6.0-75b321d0ffda6456a06c82079974b9ca0fdfed05
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/loadtest-app
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:54+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:00Z"
         giantswarm.io/latest-release-tag: 0.6.0-75b321d0ffda6456a06c82079974b9ca0fdfed05
         github.com/project-slug: giantswarm/loadtest-app
     tags:
@@ -3227,7 +3254,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.0-0360bd1528975f8a5653e6cecb2aabccd875e650
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/local-path-provisioner
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:54+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:00Z"
         giantswarm.io/latest-release-tag: 0.0.0-0360bd1528975f8a5653e6cecb2aabccd875e650
         github.com/project-slug: giantswarm/local-path-provisioner-app
     tags:
@@ -3253,7 +3280,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.36.0
         giantswarm.io/helmchart-versions: 0.36.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/logging-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:55+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:01Z"
         giantswarm.io/latest-release-tag: 0.36.0
         github.com/project-slug: giantswarm/logging-operator
     tags:
@@ -3280,7 +3307,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.34.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/loki
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:55+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:01Z"
         giantswarm.io/latest-release-tag: 0.34.0
         github.com/project-slug: giantswarm/loki-app
     tags:
@@ -3307,7 +3334,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.100
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/mcp-kubernetes
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:56+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:02Z"
         giantswarm.io/latest-release-tag: 0.0.100
         github.com/project-slug: giantswarm/mcp-kubernetes
     tags:
@@ -3334,7 +3361,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.17-146d221f942c7b36fd13629f4daa5517e5cbafc3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/mcp-prometheus
         giantswarm.io/icon-url: https://github.com/prometheus/prometheus/raw/main/documentation/images/prometheus-logo.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:57+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:02Z"
         giantswarm.io/latest-release-tag: 0.0.17-146d221f942c7b36fd13629f4daa5517e5cbafc3
         github.com/project-slug: giantswarm/mcp-prometheus
     tags:
@@ -3361,7 +3388,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.7.0-3388dc52ebd9d14c8fec8c56a5d28173df21be07
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/metrics-server-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:57+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:03Z"
         giantswarm.io/latest-release-tag: 2.7.0-3388dc52ebd9d14c8fec8c56a5d28173df21be07
         github.com/project-slug: giantswarm/metrics-server-app
     tags:
@@ -3388,7 +3415,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.21.0-0314f2d7b714d1714d08107eb076357397f411c0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/mimir
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:58+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:03Z"
         giantswarm.io/latest-release-tag: 0.21.0-0314f2d7b714d1714d08107eb076357397f411c0
         github.com/project-slug: giantswarm/mimir-app
     tags:
@@ -3415,7 +3442,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.100
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:59+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:03Z"
         giantswarm.io/latest-release-tag: 0.0.100
         github.com/project-slug: giantswarm/muster
     tags:
@@ -3442,7 +3469,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.5.2-600638af84fd6b92a4ba21c7add972a64fc01f1d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/n8n
         giantswarm.io/icon-url: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
-        giantswarm.io/latest-release-date: "2026-01-08T11:40:59+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:04Z"
         giantswarm.io/latest-release-tag: 1.5.2-600638af84fd6b92a4ba21c7add972a64fc01f1d
         github.com/project-slug: giantswarm/n8n-app
     tags:
@@ -3469,7 +3496,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.23.0-2eeeb31c0d7d57c1450cf5a96924f5f5a7c77186
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/net-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:00+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:04Z"
         giantswarm.io/latest-release-tag: 1.23.0-2eeeb31c0d7d57c1450cf5a96924f5f5a7c77186
         github.com/project-slug: giantswarm/net-exporter
     tags:
@@ -3496,7 +3523,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.1-06d02ee2f6dfe7b61da174fa05a1ddda84d0cd17
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/network-policies
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubernetes-netpol/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:01+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:05Z"
         giantswarm.io/latest-release-tag: 0.1.1-06d02ee2f6dfe7b61da174fa05a1ddda84d0cd17
         github.com/project-slug: giantswarm/network-policies-app
     tags:
@@ -3523,7 +3550,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.20.10
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/node-exporter-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:01+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:05Z"
         giantswarm.io/latest-release-tag: 1.20.10
         github.com/project-slug: giantswarm/node-exporter-app
     tags:
@@ -3550,7 +3577,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.0-6043f355f04c327cac993ea28b044c1ce3d52bf3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/nos
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:02+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:05Z"
         giantswarm.io/latest-release-tag: 0.2.0-6043f355f04c327cac993ea28b044c1ce3d52bf3
         github.com/project-slug: giantswarm/nos-app
     tags:
@@ -3577,7 +3604,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/oauth2-proxy
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:03+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:06Z"
         giantswarm.io/latest-release-tag: 3.3.0
         github.com/project-slug: giantswarm/oauth2-proxy-app
     tags:
@@ -3604,7 +3631,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.13.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/object-storage-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:04+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:06Z"
         giantswarm.io/latest-release-tag: 0.13.1
         github.com/project-slug: giantswarm/object-storage-operator
     tags:
@@ -3630,7 +3657,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.3.2-11fdad942414d5d086b0b66f422c0f7a34747bd6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:05+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:07Z"
         giantswarm.io/latest-release-tag: 2.3.2-11fdad942414d5d086b0b66f422c0f7a34747bd6
         github.com/project-slug: giantswarm/observability-bundle
     tags:
@@ -3657,7 +3684,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.48.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:05+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:07Z"
         giantswarm.io/latest-release-tag: 0.48.1
         github.com/project-slug: giantswarm/observability-operator
     tags:
@@ -3684,7 +3711,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0-5aa36cf244e19c852fc6ac0125a7110b050733fd
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-platform-api
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:06+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:07Z"
         giantswarm.io/latest-release-tag: 0.1.0-5aa36cf244e19c852fc6ac0125a7110b050733fd
         github.com/project-slug: giantswarm/observability-platform-api
     tags:
@@ -3711,7 +3738,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-policies
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:06+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:08Z"
         giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/observability-policies-app
     tags:
@@ -3737,7 +3764,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/oncall-shift-reporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:07+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:08Z"
         giantswarm.io/latest-release-tag: 1.0.0
         github.com/project-slug: giantswarm/oncall-shift-reporter
     tags:
@@ -3764,7 +3791,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.0-05bae4c9fc7e62b58b4121dc732119d225162c1d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:08+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:09Z"
         giantswarm.io/latest-release-tag: 0.0.0-05bae4c9fc7e62b58b4121dc732119d225162c1d
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
     tags:
@@ -3790,7 +3817,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.4.4-0631f5837624fefa26b534f8425554ab3f83cfd2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/operational-load-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:09+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:09Z"
         giantswarm.io/latest-release-tag: 0.4.4-0631f5837624fefa26b534f8425554ab3f83cfd2
         github.com/project-slug: giantswarm/operational-load-exporter
     tags:
@@ -3817,7 +3844,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.1.2-0d1c4eb9c2e1f7447352b3e8183afc1596fe8bf7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/organization-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/organization-operator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:10+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:09Z"
         giantswarm.io/latest-release-tag: 2.1.2-0d1c4eb9c2e1f7447352b3e8183afc1596fe8bf7
         github.com/project-slug: giantswarm/organization-operator
     tags:
@@ -3844,7 +3871,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/pg-cluster-recovery-test
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:11+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:10Z"
         giantswarm.io/latest-release-tag: 0.3.0
         github.com/project-slug: giantswarm/pg-cluster-recovery-test
     tags:
@@ -3871,7 +3898,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/plugin-barman-cloud
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:11+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:10Z"
         giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/plugin-barman-cloud
     tags:
@@ -3897,7 +3924,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.6-08eb58a86f9b127a8518b9e6d18ed51f289f919a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:12+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:11Z"
         giantswarm.io/latest-release-tag: 0.0.6-08eb58a86f9b127a8518b9e6d18ed51f289f919a
         github.com/project-slug: giantswarm/policy-api
     tags:
@@ -3924,7 +3951,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3-05faacaae0e7968acb420bdff69eaa9e5e72dfd0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-meta-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:13+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:11Z"
         giantswarm.io/latest-release-tag: 0.0.3-05faacaae0e7968acb420bdff69eaa9e5e72dfd0
         github.com/project-slug: giantswarm/policy-meta-operator
     tags:
@@ -3951,7 +3978,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/priority-classes
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:13+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:11Z"
         giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/priority-classes
     tags:
@@ -3978,7 +4005,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.5.0-14419ed8524a4aadcc09d3c0d883549cb10472cc
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/prometheus-blackbox-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:14+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:12Z"
         giantswarm.io/latest-release-tag: 0.5.0-14419ed8524a4aadcc09d3c0d883549cb10472cc
         github.com/project-slug: giantswarm/prometheus-blackbox-exporter-app
     tags:
@@ -4005,7 +4032,7 @@ metadata:
         giantswarm.io/helmchart-versions: 18.0.0-08baa993455d902b2bd24f9d05d8c16d819b4b9d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/prometheus-operator-crd
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:14+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:12Z"
         giantswarm.io/latest-release-tag: 18.0.0-08baa993455d902b2bd24f9d05d8c16d819b4b9d
         github.com/project-slug: giantswarm/prometheus-operator-crd
     tags:
@@ -4032,7 +4059,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.82.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/prometheus-rules
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:15+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:13Z"
         giantswarm.io/latest-release-tag: 4.82.0
         github.com/project-slug: giantswarm/prometheus-rules
     tags:
@@ -4059,7 +4086,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.0-23246fe7170108a7407f48870e9a7f4d2e30c95c
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/pyroscope
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:17+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:14Z"
         giantswarm.io/latest-release-tag: 0.2.0-23246fe7170108a7407f48870e9a7f4d2e30c95c
         github.com/project-slug: giantswarm/pyroscope
     tags:
@@ -4086,7 +4113,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.2-14a9b2945d2aeae66943e8963a750d8018eab831
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/rbac-bootstrap
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:17+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:14Z"
         giantswarm.io/latest-release-tag: 0.2.2-14a9b2945d2aeae66943e8963a750d8018eab831
         github.com/project-slug: giantswarm/rbac-bootstrap-app
     tags:
@@ -4113,7 +4140,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.42.3-167997d76ce538daf1cf205d1ec3072380ff558b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/rbac-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:18+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:15Z"
         giantswarm.io/latest-release-tag: 0.42.3-167997d76ce538daf1cf205d1ec3072380ff558b
         github.com/project-slug: giantswarm/rbac-operator
     tags:
@@ -4140,7 +4167,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.2-1887a5629ab83099e2af7fc358d64e218f748110
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:19+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:15Z"
         giantswarm.io/latest-release-tag: 0.1.2-1887a5629ab83099e2af7fc358d64e218f748110
         github.com/project-slug: giantswarm/release-exporter
     tags:
@@ -4166,7 +4193,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 4.2.2-dev
         giantswarm.io/helmchart-versions: 4.2.1-255c4e1787f272c6e3708a45a8909057846fb167
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:19+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:15Z"
         giantswarm.io/latest-release-tag: 4.2.1-255c4e1787f272c6e3708a45a8909057846fb167
         github.com/project-slug: giantswarm/release-operator
     tags:
@@ -4193,7 +4220,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3-01941449ac460c574aa5fa438f04296c9e7f467a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/reports-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:20+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:16Z"
         giantswarm.io/latest-release-tag: 0.0.3-01941449ac460c574aa5fa438f04296c9e7f467a
         github.com/project-slug: giantswarm/reports-server-app
     tags:
@@ -4220,7 +4247,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.6.0-48d3a634372a78297065f00374b4a5b441c1cd61
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/resource-police
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:20+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:16Z"
         giantswarm.io/latest-release-tag: 1.6.0-48d3a634372a78297065f00374b4a5b441c1cd61
         github.com/project-slug: giantswarm/resource-police
     tags:
@@ -4247,7 +4274,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/schema-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/json-schema/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:21+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:17Z"
         giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/schema-server
     tags:
@@ -4273,7 +4300,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.15.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/security-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:22+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:17Z"
         giantswarm.io/latest-release-tag: 1.15.0
         github.com/project-slug: giantswarm/security-bundle
     tags:
@@ -4300,7 +4327,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.11.0-5139dc89c746c1a7bb217e572847e01ecd8c379d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/shoot
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:22+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:17Z"
         giantswarm.io/latest-release-tag: 2.11.0-5139dc89c746c1a7bb217e572847e01ecd8c379d
         github.com/project-slug: giantswarm/shoot
     tags:
@@ -4327,7 +4354,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/shoot-controller
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:23+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:18Z"
         giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/shoot-controller
     tags:
@@ -4354,7 +4381,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.20.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/silence-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:23+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:18Z"
         giantswarm.io/latest-release-tag: 0.20.0
         github.com/project-slug: giantswarm/silence-operator
     tags:
@@ -4381,7 +4408,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.0.0-0ce4f5cfb8b3ce19884d8bbd2717ef65a95b5666
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/sitesearch
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:24+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:18Z"
         giantswarm.io/latest-release-tag: 2.0.0-0ce4f5cfb8b3ce19884d8bbd2717ef65a95b5666
         github.com/project-slug: giantswarm/sitesearch
     tags:
@@ -4407,7 +4434,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.8.0-1ff9370b74122fa11793d6b773ca1f49ee50828a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/sloth
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/sloth/1/light-icon.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:24+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:19Z"
         giantswarm.io/latest-release-tag: 1.8.0-1ff9370b74122fa11793d6b773ca1f49ee50828a
         github.com/project-slug: giantswarm/sloth-app
     tags:
@@ -4433,7 +4460,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 5.2-22.04_beta
         giantswarm.io/helmchart-versions: 0.6.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/squid-proxy
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:25+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:19Z"
         giantswarm.io/latest-release-tag: 0.6.3
         github.com/project-slug: giantswarm/squid-proxy-app
     tags:
@@ -4460,7 +4487,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.2-040c40d7597fc309e732444dc3aaf0dcb17003b7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/starboard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:25+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:20Z"
         giantswarm.io/latest-release-tag: 0.8.2-040c40d7597fc309e732444dc3aaf0dcb17003b7
         github.com/project-slug: giantswarm/starboard-exporter
     tags:
@@ -4486,7 +4513,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.4.1-223f6dbbd9809cc9020a5c213767a100aa15cffc
         giantswarm.io/helmchart-versions: 0.4.1-223f6dbbd9809cc9020a5c213767a100aa15cffc
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/tekton-dashboard-loki-proxy
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:26+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:20Z"
         giantswarm.io/latest-release-tag: 0.4.1-223f6dbbd9809cc9020a5c213767a100aa15cffc
         github.com/project-slug: giantswarm/tekton-dashboard-loki-proxy
     tags:
@@ -4513,7 +4540,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.0-0511e580518c823f458c500cf26b8fee3ba39c38
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:26+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:21Z"
         giantswarm.io/latest-release-tag: 0.0.0-0511e580518c823f458c500cf26b8fee3ba39c38
         github.com/project-slug: giantswarm/teleport-exporter
     tags:
@@ -4539,7 +4566,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.12.3-01763646186ce0727e3021f02d35d253d13567ca
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/teleport/1/light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:27+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:21Z"
         giantswarm.io/latest-release-tag: 0.12.3-01763646186ce0727e3021f02d35d253d13567ca
         github.com/project-slug: giantswarm/teleport-operator
     tags:
@@ -4565,7 +4592,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.4.0-301960dda48ec03424a105f8e3900cfb7b40967f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-tbot
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/teleport/1/light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:28+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:22Z"
         giantswarm.io/latest-release-tag: 0.4.0-301960dda48ec03424a105f8e3900cfb7b40967f
         github.com/project-slug: giantswarm/teleport-tbot
     tags:
@@ -4592,7 +4619,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/tempo
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/grafana-tempo/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:29+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:22Z"
         giantswarm.io/latest-release-tag: 0.8.0
         github.com/project-slug: giantswarm/tempo-app
     tags:
@@ -4619,7 +4646,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.0.1-1ea8a1dbca924bc5651a9dd4783980be219e923a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/test-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:29+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:22Z"
         giantswarm.io/latest-release-tag: 1.0.1-1ea8a1dbca924bc5651a9dd4783980be219e923a
         github.com/project-slug: giantswarm/test-app
     tags:
@@ -4645,7 +4672,7 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.10.1-1537ebed12c9c7c43f388ac8ee6c222c0e466042
         giantswarm.io/helmchart-versions: 0.10.1-1537ebed12c9c7c43f388ac8ee6c222c0e466042
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/upgrade-schedule-operator
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:30+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:23Z"
         giantswarm.io/latest-release-tag: 0.10.1-1537ebed12c9c7c43f388ac8ee6c222c0e466042
         github.com/project-slug: giantswarm/upgrade-schedule-operator
     tags:
@@ -4672,7 +4699,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.1.1-fd158fb45f36cb4dd1255e16e66767b197d0c2fa
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/valkey
         giantswarm.io/icon-url: https://dyltqmyl993wv.cloudfront.net/assets/stacks/valkey/img/valkey-stack-220x234.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:31+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:23Z"
         giantswarm.io/latest-release-tag: 0.1.1-fd158fb45f36cb4dd1255e16e66767b197d0c2fa
         github.com/project-slug: giantswarm/valkey-app
     tags:
@@ -4699,7 +4726,7 @@ metadata:
         giantswarm.io/helmchart-versions: 6.1.1-10fac6a530360077f00cbe9d70270b92b85d10ce
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vertical-pod-autoscaler-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:31+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:24Z"
         giantswarm.io/latest-release-tag: 6.1.1-10fac6a530360077f00cbe9d70270b92b85d10ce
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-app
     tags:
@@ -4726,7 +4753,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.1.1-3cfd146e026860dd60e435b5cf426bd86572c53b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vertical-pod-autoscaler-crd
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:32+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:24Z"
         giantswarm.io/latest-release-tag: 4.1.1-3cfd146e026860dd60e435b5cf426bd86572c53b
         github.com/project-slug: giantswarm/vertical-pod-autoscaler-crd
     tags:
@@ -4753,7 +4780,7 @@ metadata:
         giantswarm.io/helmchart-versions: 3.4.2-176d7156676442d9301c2be470de73923d392992
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vsphere-csi-driver
         giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:32+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:25Z"
         giantswarm.io/latest-release-tag: 3.4.2-176d7156676442d9301c2be470de73923d392992
         github.com/project-slug: giantswarm/vsphere-csi-driver-app
     tags:
@@ -4780,7 +4807,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.17.0-28fbbff99db8f3b9344ffdcee482b15a103335c8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/web-assets-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:33+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:25Z"
         giantswarm.io/latest-release-tag: 0.17.0-28fbbff99db8f3b9344ffdcee482b15a103335c8
         github.com/project-slug: giantswarm/web-assets
     tags:
@@ -4807,7 +4834,7 @@ metadata:
         giantswarm.io/helmchart-versions: 2.3.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/zot
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/zot/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T11:41:33+01:00"
+        giantswarm.io/latest-release-date: "2026-01-09T06:59:25Z"
         giantswarm.io/latest-release-tag: 2.3.6
         github.com/project-slug: giantswarm/zot
     tags:
