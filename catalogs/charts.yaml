@@ -7,6 +7,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: alertmanager-to-github-app
+    namespace: giantswarm
     title: alertmanager-to-github-app
     description: Github integration for Alertmanager
     annotations:
@@ -28,12 +29,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: alloy-app
+    namespace: giantswarm
     title: alloy-app
     description: Grafana Alloy OpenTelemetry Collector
     annotations:
@@ -55,12 +57,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: alloy-gateway-app
+    namespace: giantswarm
     title: alloy-gateway-app
     description: App used to deploy Alloy in gateway mode.
     annotations:
@@ -82,12 +85,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: app-admission-controller
+    namespace: giantswarm
     title: app-admission-controller
     description: app-admission-controller validates and defaults app CRs
     annotations:
@@ -109,12 +113,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: app-exporter
+    namespace: giantswarm
     title: app-exporter
     description: Chart holding app-exporter.
     annotations:
@@ -136,12 +141,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: app-operator
+    namespace: giantswarm
     title: app-operator
     description: A Helm chart for the app-operator
     annotations:
@@ -163,12 +169,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: appcatalog
+    namespace: giantswarm
     title: appcatalog
     description: A Helm chart for appcatalog CRs and related configmaps and secrets. Used by opsctl ensure appcatalogs.
     annotations:
@@ -190,12 +197,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: apptest
+    namespace: giantswarm
     title: apptest
     description: A test app for the apptest library
     annotations:
@@ -216,12 +224,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/unspecified
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: auth-bundle
+    namespace: giantswarm
     title: auth-bundle
     description: A Helm chart for Giant Swarm's collection of auth tools.
     annotations:
@@ -242,12 +251,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-bigmac
+    owner: group:giantswarm/team-bigmac
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-cloud-controller-manager-app
+    namespace: giantswarm
     title: aws-cloud-controller-manager-app
     description: A Helm chart to run AWS Cloud Controller Manager.
     annotations:
@@ -269,12 +279,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-ebs-csi-driver-app
+    namespace: giantswarm
     title: aws-ebs-csi-driver-app
     description: A Helm chart for the AWS EBS CSI Driver.
     annotations:
@@ -296,12 +307,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-efs-csi-driver
+    namespace: giantswarm
     title: aws-efs-csi-driver
     description: A Helm chart for AWS EFS CSI Driver
     annotations:
@@ -323,12 +335,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-efs-csi-driver
+    namespace: giantswarm
     title: aws-efs-csi-driver
     description: A Helm chart for AWS EFS CSI Driver
     annotations:
@@ -350,12 +363,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-load-balancer-controller-app
+    namespace: giantswarm
     title: aws-load-balancer-controller-app
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     annotations:
@@ -377,12 +391,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-load-balancer-controller-app
+    namespace: giantswarm
     title: aws-load-balancer-controller-app
     description: AWS Load Balancer Controller Bundle with Crossplane resources
     annotations:
@@ -404,12 +419,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-node-termination-handler-app
+    namespace: giantswarm
     title: aws-node-termination-handler-app
     description: Deploy components for the aws-node-termination-handler app
     annotations:
@@ -431,12 +447,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-nth-bundle
+    namespace: giantswarm
     title: aws-nth-bundle
     description: AWS Node Termination Handler Crossplane Resources
     annotations:
@@ -458,12 +475,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-nth-crossplane-resources
+    namespace: giantswarm
     title: aws-nth-crossplane-resources
     description: Please add description
     annotations:
@@ -485,12 +503,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-pod-identity-webhook
+    namespace: giantswarm
     title: aws-pod-identity-webhook
     description: This webhook is for mutating pods that will require AWS IAM access.
     annotations:
@@ -511,12 +530,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-resolver-rules-operator
+    namespace: giantswarm
     title: aws-resolver-rules-operator
     description: Operator for reconciling the Route53 hosted zone and basic records for a cluster, and resolver rules for private clusters.
     annotations:
@@ -537,12 +557,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: aws-vpc-operator
+    namespace: giantswarm
     title: aws-vpc-operator
     description: Operator for managing private AWS VPCs for Cluster API AWS workload clusters
     annotations:
@@ -564,12 +585,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azure-cloud-controller-manager-app
+    namespace: giantswarm
     title: azure-cloud-controller-manager-app
     description: A Helm chart for the Azure Cloud Controller Manager.
     annotations:
@@ -591,12 +613,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azure-cloud-node-manager-app
+    namespace: giantswarm
     title: azure-cloud-node-manager-app
     description: A Helm chart for the Azure Cloud Node Manager.
     annotations:
@@ -618,12 +641,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azure-private-endpoint-operator
+    namespace: giantswarm
     title: azure-private-endpoint-operator
     description: Operator for reconciling Azure Private Links in CAPZ workload clusters to Azure Private Endpoints in CAPZ management clusters
     annotations:
@@ -645,12 +669,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azure-storageclasses
+    namespace: giantswarm
     title: azure-storageclasses
     description: A Helm chart for azure-storageclasses
     annotations:
@@ -672,12 +697,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azuredisk-csi-driver-app
+    namespace: giantswarm
     title: azuredisk-csi-driver-app
     description: A Helm chart to run Azure CSI driver for Azure Disks.
     annotations:
@@ -699,12 +725,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: azurefile-csi-driver-app
+    namespace: giantswarm
     title: azurefile-csi-driver-app
     description: A Helm chart to run Azure CSI driver for Azure File.
     annotations:
@@ -726,12 +753,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: backstage
+    namespace: giantswarm
     title: backstage
     description: Backstage app provided by Giant Swarm
     annotations:
@@ -753,12 +781,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: blog
+    namespace: giantswarm
     title: blog
     description: Serves redirects at https://blog.giantswarm.io/
     annotations:
@@ -780,12 +809,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: caicloud-event-exporter-app
+    namespace: giantswarm
     title: caicloud-event-exporter-app
     description: 'Kubernetes events to Prometheus bridge. A Collector that can list and watch Kubernetes events, and according to events'' occurrence, determine how long the event lasts. The information is then translated into metrics. '
     annotations:
@@ -807,12 +837,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: capa-iam-operator
+    namespace: giantswarm
     title: capa-iam-operator
     description: Operator for managing IAM roles for CAPA clusters
     annotations:
@@ -833,12 +864,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: capa-karpenter-taint-remover
+    namespace: giantswarm
     title: capa-karpenter-taint-remover
     description: CAPA karpenter taint remover
     annotations:
@@ -859,12 +891,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: capi-node-labeler-app
+    namespace: giantswarm
     title: capi-node-labeler-app
     description: CAPI node labeler
     annotations:
@@ -885,12 +918,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cert-exporter
+    namespace: giantswarm
     title: cert-exporter
     description: The cert-exporter walks a directory path it has gotten as input and emits all NotAfter timestamps as metrics.
     annotations:
@@ -912,12 +946,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cert-manager-crossplane-resources
+    namespace: giantswarm
     title: cert-manager-crossplane-resources
     description: Crossplane Resources for cert-manager
     annotations:
@@ -939,12 +974,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: chart-operator
+    namespace: giantswarm
     title: chart-operator
     description: A Helm chart for the chart-operator
     annotations:
@@ -966,12 +1002,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: chart-operator-extensions
+    namespace: giantswarm
     title: chart-operator-extensions
     description: Chart Operator ServiceMonitors
     annotations:
@@ -993,12 +1030,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cilium-crossplane-resources
+    namespace: giantswarm
     title: cilium-crossplane-resources
     description: Included by cluster-aws to provide certain features that depend on Crossplane values
     annotations:
@@ -1019,12 +1057,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cilium-servicemonitors-app
+    namespace: giantswarm
     title: cilium-servicemonitors-app
     description: Cilium ServiceMonitors
     annotations:
@@ -1046,12 +1085,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cloud-provider-cloud-director-app
+    namespace: giantswarm
     title: cloud-provider-cloud-director-app
     description: A Helm chart for cloud-provider-cloud-director with CPI and CSI
     annotations:
@@ -1072,12 +1112,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cloud-provider-proxmox-app
+    namespace: giantswarm
     title: cloud-provider-proxmox-app
     description: Cloud Controller Manager plugin for Proxmox
     annotations:
@@ -1099,12 +1140,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cloud-provider-vsphere-app
+    namespace: giantswarm
     title: cloud-provider-vsphere-app
     description: A Helm chart for vSphere Cloud Provider Interface Manager (CPI)
     annotations:
@@ -1126,12 +1168,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cloudnative-pg-app
+    namespace: giantswarm
     title: cloudnative-pg-app
     description: A Giant Swarm app for deploying CloudNative PostgreSQL.
     annotations:
@@ -1153,12 +1196,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster
+    namespace: giantswarm
     title: cluster
     description: Giant Swarm cluster chart with provider-independent cluster resources
     annotations:
@@ -1179,12 +1223,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-app
+    namespace: giantswarm
     title: cluster-api-app
     description: A Helm chart for Cluster API components.
     annotations:
@@ -1206,12 +1251,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-control-plane-provider-kamaji-app
+    namespace: giantswarm
     title: cluster-api-control-plane-provider-kamaji-app
     description: The Kamaji Control Plane provider for Cluster API
     annotations:
@@ -1233,12 +1279,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-events
+    namespace: giantswarm
     title: cluster-api-events
     description: Operator for sending cluster events.
     annotations:
@@ -1260,12 +1307,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-monitoring
+    namespace: giantswarm
     title: cluster-api-monitoring
     description: A modified kube-state-metrics which only monitor CAPI related CRs
     annotations:
@@ -1287,12 +1335,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-provider-aws-app
+    namespace: giantswarm
     title: cluster-api-provider-aws-app
     description: Helm chart for cluster-api-provider-aws.
     annotations:
@@ -1314,12 +1363,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-provider-azure-app
+    namespace: giantswarm
     title: cluster-api-provider-azure-app
     description: A Helm chart for Cluster API Provider Azure components.
     annotations:
@@ -1341,12 +1391,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-api-provider-cloud-director-app
+    namespace: giantswarm
     title: cluster-api-provider-cloud-director-app
     description: A Helm chart for Cluster API provider VMware Cloud Director (VCD)
     annotations:
@@ -1368,12 +1419,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-apps-operator
+    namespace: giantswarm
     title: cluster-apps-operator
     description: Chart holding cluster-apps-operator.
     annotations:
@@ -1395,12 +1447,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-autoscaler-app
+    namespace: giantswarm
     title: cluster-autoscaler-app
     description: A Helm chart for the Cluster Autoscaler.
     annotations:
@@ -1422,12 +1475,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-autoscaler-app
+    namespace: giantswarm
     title: cluster-autoscaler-app
     description: A Helm chart for Cluster Autoscaler with IAM resources
     annotations:
@@ -1449,12 +1503,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-aws
+    namespace: giantswarm
     title: cluster-aws
     description: A helm chart for creating Cluster API clusters with the AWS infrastructure provider (CAPA).
     annotations:
@@ -1475,12 +1530,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-azure
+    namespace: giantswarm
     title: cluster-azure
     description: A helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ).
     annotations:
@@ -1501,12 +1557,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-cleaner
+    namespace: giantswarm
     title: cluster-cleaner
     description: Operator for deleting test clusters
     annotations:
@@ -1528,12 +1585,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-cloud-director
+    namespace: giantswarm
     title: cluster-cloud-director
     description: A helm chart for creating Cluster API clusters with the VMware Cloud Director (VCD) infrastructure provider (CAPVCD).
     annotations:
@@ -1554,12 +1612,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-eks
+    namespace: giantswarm
     title: cluster-eks
     description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure provider (CAPA).
     annotations:
@@ -1580,12 +1639,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cluster-vsphere
+    namespace: giantswarm
     title: cluster-vsphere
     description: A helm chart for creating Cluster API clusters with the vSphere provider (CAPV).
     annotations:
@@ -1606,12 +1666,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: coredns-app
+    namespace: giantswarm
     title: coredns-app
     description: A Helm chart for CoreDNS
     annotations:
@@ -1633,12 +1694,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: coredns-extensions-app
+    namespace: giantswarm
     title: coredns-extensions-app
     description: Extra resources for CoreDNS
     annotations:
@@ -1660,12 +1722,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: crossplane
+    namespace: giantswarm
     title: crossplane
     description: Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume.
     annotations:
@@ -1687,12 +1750,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: dashboards
+    namespace: giantswarm
     title: dashboards
     description: Grafana dashboards accessible by Giant Swarm customers
     annotations:
@@ -1714,12 +1778,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: debug-toolbox
+    namespace: giantswarm
     title: debug-toolbox
     description: The debug toolbox is a collection of tools that can be used to debug issues in a Kubernetes cluster.
     annotations:
@@ -1741,12 +1806,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: deletion-blocker-operator
+    namespace: giantswarm
     title: deletion-blocker-operator
     description: An helper operator to block deletion of k8s objects by managing finalizers based on some defined rules
     annotations:
@@ -1767,12 +1833,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: descheduler-app
+    namespace: giantswarm
     title: descheduler-app
     description: Descheduler for Kubernetes is used to rebalance clusters by evicting pods that can potentially be scheduled on better nodes. In the current implementation, descheduler does not schedule replacement of evicted pods but relies on the default scheduler for that.
     annotations:
@@ -1794,12 +1861,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: dns-operator-azure
+    namespace: giantswarm
     title: dns-operator-azure
     description: Operator for managing DNS zones and records for CAPZ clusters.
     annotations:
@@ -1820,12 +1888,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: dns-operator-route53
+    namespace: giantswarm
     title: dns-operator-route53
     description: Operator for managing DNS zones and records for CAPO clusters
     annotations:
@@ -1834,12 +1903,12 @@ metadata:
         backstage.io/kubernetes-id: dns-operator-route53
         backstage.io/source-location: url:https://github.com/giantswarm/dns-operator-route53
         giantswarm.io/deployment-names: dns-operator-route53,dns-operator-route53-app
-        giantswarm.io/helmchart-app-versions: 0.10.1-1d6203c08078b1955a4c250ab7f09b04b57e7466
-        giantswarm.io/helmchart-versions: 0.10.1-1d6203c08078b1955a4c250ab7f09b04b57e7466
+        giantswarm.io/helmchart-app-versions: 0.10.1-1a29b0070ef708c394dfe4af1e1eb6ad9c3f6fe2
+        giantswarm.io/helmchart-versions: 0.10.1-1a29b0070ef708c394dfe4af1e1eb6ad9c3f6fe2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dns-operator-route53
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openstack/1/light.svg
-        giantswarm.io/latest-release-date: "2025-12-08T20:31:59Z"
-        giantswarm.io/latest-release-tag: 0.10.1-1d6203c08078b1955a4c250ab7f09b04b57e7466
+        giantswarm.io/latest-release-date: "2026-01-09T09:30:39Z"
+        giantswarm.io/latest-release-tag: 0.10.1-1a29b0070ef708c394dfe4af1e1eb6ad9c3f6fe2
         github.com/project-slug: giantswarm/dns-operator-route53
     tags:
         - helmchart
@@ -1847,12 +1916,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: docs
+    namespace: giantswarm
     title: docs
     description: Giant Swarm documentation published at https://docs.giantswarm.io/
     annotations:
@@ -1874,12 +1944,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-sig-docs
+    owner: group:giantswarm/team-sig-docs
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: docs-indexer
+    namespace: giantswarm
     title: docs-indexer
     description: Indexes content for the docs search engine.
     annotations:
@@ -1900,12 +1971,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: docs-proxy
+    namespace: giantswarm
     title: docs-proxy
     description: Reverse proxy that brings several documentation components together at https://docs.giantswarm.io/
     annotations:
@@ -1926,12 +1998,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: encryption-config-hasher
+    namespace: giantswarm
     title: encryption-config-hasher
     description: A Helm chart for encryption-config-hasher
     annotations:
@@ -1952,12 +2025,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/unspecified
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: encryption-provider-operator
+    namespace: giantswarm
     title: encryption-provider-operator
     description: Operator for managing encryption config for encryptiong k8s secret in etcd
     annotations:
@@ -1978,12 +2052,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: envoy-extension-server
+    namespace: giantswarm
     title: envoy-extension-server
     description: Please add description
     annotations:
@@ -2005,12 +2080,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: envoy-gateway-app
+    namespace: giantswarm
     title: envoy-gateway-app
     description: The Helm chart for Envoy Gateway
     annotations:
@@ -2032,12 +2108,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: etcd-backup-operator
+    namespace: giantswarm
     title: etcd-backup-operator
     description: A Helm chart for the etcd-backup-operator.
     annotations:
@@ -2058,12 +2135,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: etcd-defrag-app
+    namespace: giantswarm
     title: etcd-defrag-app
     description: etcd-defrag is an easy to use and smart etcd defragmentation tool.
     annotations:
@@ -2085,12 +2163,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: etcd-kubernetes-resources-count-exporter
+    namespace: giantswarm
     title: etcd-kubernetes-resources-count-exporter
     description: Collector that exposes metrics about k8s resources stored in etcd
     annotations:
@@ -2112,12 +2191,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: event-exporter-app
+    namespace: giantswarm
     title: event-exporter-app
     description: The Event Exporter runs on management clusters to watch and act upon Kubernetes events.
     annotations:
@@ -2139,12 +2219,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: external-dns-app
+    namespace: giantswarm
     title: external-dns-app
     description: Configure external DNS servers for Kubernetes Ingresses and Services
     annotations:
@@ -2166,12 +2247,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: external-secrets
+    namespace: giantswarm
     title: external-secrets
     description: External secret management for Kubernetes
     annotations:
@@ -2193,12 +2275,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: fluent-logshipping-app
+    namespace: giantswarm
     title: fluent-logshipping-app
     description: The Log Shipping App forwards cluster logs to storage backends
     annotations:
@@ -2220,12 +2303,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: flux-app
+    namespace: giantswarm
     title: flux-app
     description: 'Flux is a collection of tools for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. '
     annotations:
@@ -2247,12 +2331,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: flux-operator-app
+    namespace: giantswarm
     title: flux-operator-app
     description: A Helm Chart for ControlPlane's Flux Operator.
     annotations:
@@ -2274,12 +2359,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: fulfillment
+    namespace: giantswarm
     title: fulfillment
     description: A Helm chart for fulfillment
     annotations:
@@ -2300,12 +2386,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-bundle
+    namespace: giantswarm
     title: gateway-api-bundle
     description: Gateway API bundle
     annotations:
@@ -2327,12 +2414,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-config-app
+    namespace: giantswarm
     title: gateway-api-config-app
     description: Default configuration for Envoy Gateway
     annotations:
@@ -2354,12 +2442,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-crds-app
+    namespace: giantswarm
     title: gateway-api-crds-app
     description: App to install Gateway API CRDs to Giantswarm Clusters
     annotations:
@@ -2381,12 +2470,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gel-app
+    namespace: giantswarm
     title: gel-app
     description: A Helm chart for deploying the Gel graph database.
     annotations:
@@ -2408,12 +2498,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gitops-server-app
+    namespace: giantswarm
     title: gitops-server-app
     description: Weave Gitops is a set of tools and services to aid your interactions with Flux
     annotations:
@@ -2435,12 +2526,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gpu-operator-app
+    namespace: giantswarm
     title: gpu-operator-app
     description: A Helm chart to deploy NVIDIA GPU Operator with custom Cilium Network Policies.
     annotations:
@@ -2462,12 +2554,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: grafana-app
+    namespace: giantswarm
     title: grafana-app
     description: The leading tool for querying and visualizing time series and metrics.
     annotations:
@@ -2489,12 +2582,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: handbook
+    namespace: giantswarm
     title: handbook
     description: A Helm chart for out handbook
     annotations:
@@ -2516,12 +2610,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-up
+    owner: group:giantswarm/team-up
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: happa
+    namespace: giantswarm
     title: happa
     description: The Giant Swarm front end documentation.
     annotations:
@@ -2543,12 +2638,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: happa
+    namespace: giantswarm
     title: happa
     description: Web user interface for Giant Swarm Kubernetes as a Service.
     annotations:
@@ -2570,12 +2666,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: hello-world-app
+    namespace: giantswarm
     title: hello-world-app
     description: A chart that deploys a basic hello world site and lets you test values merging of user values configmap and secrets.
     annotations:
@@ -2597,12 +2694,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: ingress-nginx-app
+    namespace: giantswarm
     title: ingress-nginx-app
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
     annotations:
@@ -2624,12 +2722,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: ingress-sla-app
+    namespace: giantswarm
     title: ingress-sla-app
     description: Resources required to provide metrics to Giant Swarm SLA dashboard.
     annotations:
@@ -2651,12 +2750,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: irsa-operator
+    namespace: giantswarm
     title: irsa-operator
     description: Operator for managing IAM roles for service accounts
     annotations:
@@ -2677,12 +2777,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: irsa-servicemonitors-app
+    namespace: giantswarm
     title: irsa-servicemonitors-app
     description: IRSA ServiceMonitors
     annotations:
@@ -2704,12 +2805,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: k8s-audit-metrics
+    namespace: giantswarm
     title: k8s-audit-metrics
     description: Collector that exposes metrics from k8s apiserver audit log.
     annotations:
@@ -2730,12 +2832,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: k8s-dns-node-cache-app
+    namespace: giantswarm
     title: k8s-dns-node-cache-app
     description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
     annotations:
@@ -2757,12 +2860,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: karpenter-app
+    namespace: giantswarm
     title: karpenter-app
     description: A Helm chart for Karpenter, an open-source node provisioning project built for Kubernetes.
     annotations:
@@ -2784,12 +2888,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: karpenter-crossplane-resources
+    namespace: giantswarm
     title: karpenter-crossplane-resources
     description: Crossplane Resources for Karpenter
     annotations:
@@ -2811,12 +2916,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: konfigure-operator
+    namespace: giantswarm
     title: konfigure-operator
     description: A Helm chart for the konfigure-operator
     annotations:
@@ -2838,12 +2944,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kong-app
+    namespace: giantswarm
     title: kong-app
     description: The Cloud-Native Ingress and API-management
     annotations:
@@ -2865,12 +2972,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kube-prometheus-stack-app
+    namespace: giantswarm
     title: kube-prometheus-stack-app
     description: Giant Swarm's Prometheus Operator Deployment
     annotations:
@@ -2892,12 +3000,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kubectl-apply-job
+    namespace: giantswarm
     title: kubectl-apply-job
     description: 'A Helm chart containing a Job to apply kubernetes manifests using kubectl apply. '
     annotations:
@@ -2916,12 +3025,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/unspecified
+    owner: group:giantswarm/unspecified
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kubeedge-cloudcore-app
+    namespace: giantswarm
     title: kubeedge-cloudcore-app
     description: The KubeEdge cloudcore component.
     annotations:
@@ -2943,12 +3053,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kubescape
+    namespace: giantswarm
     title: kubescape
     description: This chart contains the kubescape operator chart and custom Giant Swarm resources.
     annotations:
@@ -2969,12 +3080,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kueue-app
+    namespace: giantswarm
     title: kueue-app
     description: Kueue is a set of APIs and controllers for job queueing.
     annotations:
@@ -2996,12 +3108,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-app
+    namespace: giantswarm
     title: kyverno-app
     description: 'Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. '
     annotations:
@@ -3023,12 +3136,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-crds
+    namespace: giantswarm
     title: kyverno-crds
     description: This app contains the Kyverno CRDs.
     annotations:
@@ -3049,12 +3163,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policies
+    namespace: giantswarm
     title: kyverno-policies
     description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
     annotations:
@@ -3075,12 +3190,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policies-connectivity
+    namespace: giantswarm
     title: kyverno-policies-connectivity
     description: Giant Swarm policies for connectivity management.
     annotations:
@@ -3102,12 +3218,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policies-dx
+    namespace: giantswarm
     title: kyverno-policies-dx
     description: Giant Swarm policies for DX management.
     annotations:
@@ -3129,12 +3246,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policies-observability
+    namespace: giantswarm
     title: kyverno-policies-observability
     description: Giant Swarm policies for observability management.
     annotations:
@@ -3156,12 +3274,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policies-ux
+    namespace: giantswarm
     title: kyverno-policies-ux
     description: Giant Swarm policies supporting user experience.
     annotations:
@@ -3183,12 +3302,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policy-operator
+    namespace: giantswarm
     title: kyverno-policy-operator
     description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions based on PolicyExceptionsDraft resources.
     annotations:
@@ -3210,12 +3330,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: loadtest-app
+    namespace: giantswarm
     title: loadtest-app
     description: A Helm chart for Load Test App
     annotations:
@@ -3236,12 +3357,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: local-path-provisioner-app
+    namespace: giantswarm
     title: local-path-provisioner-app
     description: Dynamically provisioning persistent local storage with Kubernetes
     annotations:
@@ -3263,12 +3385,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: logging-operator
+    namespace: giantswarm
     title: logging-operator
     description: The logging-operator manages loki and logging related config.
     annotations:
@@ -3289,12 +3412,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: loki-app
+    namespace: giantswarm
     title: loki-app
     description: Helm chart for Grafana Loki in simple, scalable mode
     annotations:
@@ -3316,12 +3440,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: mcp-kubernetes
+    namespace: giantswarm
     title: mcp-kubernetes
     description: A Helm chart for mcp-kubernetes - Model Context Protocol server for Kubernetes
     annotations:
@@ -3343,12 +3468,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: mcp-prometheus
+    namespace: giantswarm
     title: mcp-prometheus
     description: A Helm chart for mcp-prometheus - MCP server for Prometheus metrics
     annotations:
@@ -3370,12 +3496,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: metrics-server-app
+    namespace: giantswarm
     title: metrics-server-app
     description: Metrics Server is a cluster-wide aggregator of resource usage data.
     annotations:
@@ -3397,12 +3524,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: mimir-app
+    namespace: giantswarm
     title: mimir-app
     description: A Helm chart for grafana's Mimir
     annotations:
@@ -3424,12 +3552,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: muster
+    namespace: giantswarm
     title: muster
     description: A Helm chart for muster - Universal Control Plane for AI Agents built on MCP
     annotations:
@@ -3451,12 +3580,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: n8n-app
+    namespace: giantswarm
     title: n8n-app
     description: A Helm chart for fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
     annotations:
@@ -3478,12 +3608,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: net-exporter
+    namespace: giantswarm
     title: net-exporter
     description: Helm chart for net-exporter.
     annotations:
@@ -3505,12 +3636,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: network-policies-app
+    namespace: giantswarm
     title: network-policies-app
     description: CiliumNetworkPolicies and NetworkPolicies that should be installed in target cluster.
     annotations:
@@ -3532,12 +3664,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-cabbage
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: node-exporter-app
+    namespace: giantswarm
     title: node-exporter-app
     description: A Helm chart for prometheus node-exporter
     annotations:
@@ -3559,12 +3692,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: nos-app
+    namespace: giantswarm
     title: nos-app
     description: Nebuly Open Source (NOS) is a Kubernetes-native solution for managing and optimizing GPU workloads.
     annotations:
@@ -3586,12 +3720,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: oauth2-proxy-app
+    namespace: giantswarm
     title: oauth2-proxy-app
     description: A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers
     annotations:
@@ -3613,12 +3748,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: object-storage-operator
+    namespace: giantswarm
     title: object-storage-operator
     description: The object-storage-operator manages object storage on CAPI management clusters.
     annotations:
@@ -3640,12 +3776,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: observability-bundle
+    namespace: giantswarm
     title: observability-bundle
     description: A Helm chart for Giant Swarm's collection of observability tools.
     annotations:
@@ -3666,12 +3803,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: observability-operator
+    namespace: giantswarm
     title: observability-operator
     description: The observability-operator manages the Giant Swarm observability platform.
     annotations:
@@ -3693,12 +3831,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: observability-platform-api
+    namespace: giantswarm
     title: observability-platform-api
     description: Giant Swarm Observability Platform API definition
     annotations:
@@ -3720,12 +3859,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: observability-policies-app
+    namespace: giantswarm
     title: observability-policies-app
     description: Observability stack Kyverno policies
     annotations:
@@ -3747,12 +3887,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: oncall-shift-reporter
+    namespace: giantswarm
     title: oncall-shift-reporter
     description: A Helm chart for oncall-shift-reporter
     annotations:
@@ -3773,12 +3914,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: openssf-scorecard-exporter
+    namespace: giantswarm
     title: openssf-scorecard-exporter
     description: OpenSSF Scorecard Exporter scrapes the OpenSSF API and exposes Prometheus metrics for Scorecard data.
     annotations:
@@ -3800,12 +3942,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: operational-load-exporter
+    namespace: giantswarm
     title: operational-load-exporter
     description: A Helm chart for operational-load-exporter
     annotations:
@@ -3826,12 +3969,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-horizon
+    owner: group:giantswarm/team-horizon
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: organization-operator
+    namespace: giantswarm
     title: organization-operator
     description: Chart holding organization-operator.
     annotations:
@@ -3853,12 +3997,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: pg-cluster-recovery-test
+    namespace: giantswarm
     title: pg-cluster-recovery-test
     description: Please add description
     annotations:
@@ -3880,12 +4025,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: plugin-barman-cloud
+    namespace: giantswarm
     title: plugin-barman-cloud
     description: A Helm chart for plugin-barman-cloud
     annotations:
@@ -3907,12 +4053,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: policy-api
+    namespace: giantswarm
     title: policy-api
     description: This app contains the Policy API CRDs.
     annotations:
@@ -3933,12 +4080,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: policy-meta-operator
+    namespace: giantswarm
     title: policy-meta-operator
     description: Policy Meta Operator Helm chart for Giant Swarm
     annotations:
@@ -3960,12 +4108,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: priority-classes
+    namespace: giantswarm
     title: priority-classes
     description: Standardized PriorityClass resources for Giant Swarm clusters, providing giantswarm-critical and giantswarm-high priority levels
     annotations:
@@ -3987,12 +4136,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tenet
+    owner: group:giantswarm/team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: prometheus-blackbox-exporter-app
+    namespace: giantswarm
     title: prometheus-blackbox-exporter-app
     description: Prometheus Blackbox Exporter
     annotations:
@@ -4014,12 +4164,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: prometheus-operator-crd
+    namespace: giantswarm
     title: prometheus-operator-crd
     description: kube-prometheus-stack CustomResourceDefinitions.
     annotations:
@@ -4041,12 +4192,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: prometheus-rules
+    namespace: giantswarm
     title: prometheus-rules
     description: A Helm chart for Giant Swarm prometheus alerting and recording rules
     annotations:
@@ -4068,12 +4220,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: pyroscope
+    namespace: giantswarm
     title: pyroscope
     description: Helm chart for Pyroscope
     annotations:
@@ -4095,12 +4248,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: rbac-bootstrap-app
+    namespace: giantswarm
     title: rbac-bootstrap-app
     description: Helps to set up initial role bindings in a new cluster
     annotations:
@@ -4122,12 +4276,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: rbac-operator
+    namespace: giantswarm
     title: rbac-operator
     description: rbac-operator manages authorization for OIDC enabled control-plane Kubernetes APIs.
     annotations:
@@ -4149,12 +4304,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: release-exporter
+    namespace: giantswarm
     title: release-exporter
     description: A Helm chart for release-exporter
     annotations:
@@ -4176,12 +4332,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: release-operator
+    namespace: giantswarm
     title: release-operator
     description: Helm chart for release-operator.
     annotations:
@@ -4202,12 +4359,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: reports-server-app
+    namespace: giantswarm
     title: reports-server-app
     description: A Giant Swarm app for deploying the Kyverno Reports Server.
     annotations:
@@ -4229,12 +4387,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: resource-police
+    namespace: giantswarm
     title: resource-police
     description: Report about tenant clusters in test installations
     annotations:
@@ -4256,12 +4415,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: schema-server
+    namespace: giantswarm
     title: schema-server
     description: Serves JSON schema provided by Giant Swarm
     annotations:
@@ -4283,12 +4443,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rainbow
+    owner: group:giantswarm/team-rainbow
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: security-bundle
+    namespace: giantswarm
     title: security-bundle
     description: A Helm chart for Giant Swarm's collection of open-source security tools.
     annotations:
@@ -4309,12 +4470,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: shoot
+    namespace: giantswarm
     title: shoot
     description: A Helm chart for shoot - General purpose agent for Kubernetes
     annotations:
@@ -4336,12 +4498,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: shoot-controller
+    namespace: giantswarm
     title: shoot-controller
     description: Kubernetes controller to deploy the shoot agent
     annotations:
@@ -4363,12 +4526,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: silence-operator
+    namespace: giantswarm
     title: silence-operator
     description: The silence-operator manages alertmanager silences.
     annotations:
@@ -4390,12 +4554,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: sitesearch
+    namespace: giantswarm
     title: sitesearch
     description: OpenSearch-based search engine for the Giant Swarm documentation at https://docs.giantswarm.io/
     annotations:
@@ -4417,12 +4582,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: sloth-app
+    namespace: giantswarm
     title: sloth-app
     description: Base chart for Sloth.
     annotations:
@@ -4443,12 +4609,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: squid-proxy-app
+    namespace: giantswarm
     title: squid-proxy-app
     description: squid proxy for giantswarm internal use
     annotations:
@@ -4469,12 +4636,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: starboard-exporter
+    namespace: giantswarm
     title: starboard-exporter
     description: A Helm chart for starboard-exporter, which exposes Prometheus metrics from Aqua VulnerabilityReport and other custom resources.
     annotations:
@@ -4496,12 +4664,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: tekton-dashboard-loki-proxy
+    namespace: giantswarm
     title: tekton-dashboard-loki-proxy
     description: Proxies logs from a Loki endpoint for use by Tekton Dashboard as an external-logs source
     annotations:
@@ -4522,12 +4691,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-tinkerers
+    owner: group:giantswarm/team-tinkerers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: teleport-exporter
+    namespace: giantswarm
     title: teleport-exporter
     description: A Helm chart for teleport-exporter, which exposes Prometheus metrics about nodes, clusters, databases, and applications registered in Teleport.
     annotations:
@@ -4549,12 +4719,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: teleport-operator
+    namespace: giantswarm
     title: teleport-operator
     description: Teleport operator
     annotations:
@@ -4575,12 +4746,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: teleport-tbot
+    namespace: giantswarm
     title: teleport-tbot
     description: Teleport TBOT
     annotations:
@@ -4601,12 +4773,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-shield
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: tempo-app
+    namespace: giantswarm
     title: tempo-app
     description: Helm chart for Grafana Tempo in microservice mode
     annotations:
@@ -4628,12 +4801,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-atlas
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: test-app
+    namespace: giantswarm
     title: test-app
     description: A Helm chart for a test app
     annotations:
@@ -4655,12 +4829,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: upgrade-schedule-operator
+    namespace: giantswarm
     title: upgrade-schedule-operator
     description: Operator for managing scheduled updates for a cluster
     annotations:
@@ -4681,12 +4856,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-phoenix
+    owner: group:giantswarm/team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: valkey-app
+    namespace: giantswarm
     title: valkey-app
     description: A Giant Swarm app for deploying Valkey (a Redis alternative) on Kubernetes.
     annotations:
@@ -4708,12 +4884,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-planeteers
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: vertical-pod-autoscaler-app
+    namespace: giantswarm
     title: vertical-pod-autoscaler-app
     description: A Helm chart for the Vertical Pod Autoscaler.
     annotations:
@@ -4735,12 +4912,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: vertical-pod-autoscaler-crd
+    namespace: giantswarm
     title: vertical-pod-autoscaler-crd
     description: A Helm chart for the Vertical Pod Autoscaler CRDs.
     annotations:
@@ -4762,12 +4940,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-turtles
+    owner: group:giantswarm/team-turtles
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: vsphere-csi-driver-app
+    namespace: giantswarm
     title: vsphere-csi-driver-app
     description: A Helm chart for vSphere CSI (Container Storage Interface) Driver
     annotations:
@@ -4789,12 +4968,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-rocket
+    owner: group:giantswarm/team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: web-assets
+    namespace: giantswarm
     title: web-assets
     description: Static files used on potentially multiple web sites
     annotations:
@@ -4816,12 +4996,13 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: zot
+    namespace: giantswarm
     title: zot
     description: A Helm chart for Kubernetes
     annotations:
@@ -4843,4 +5024,4 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:default/team-honeybadger
+    owner: group:giantswarm/team-honeybadger
