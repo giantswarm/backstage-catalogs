@@ -8,6 +8,7 @@ change to structure the log.
 ## 2026-01-09
 
 - Remove `components.yaml` catalog
+- Change namespace for `charts.yaml` components to `giantswarm`
 
 ## 2026-01-08
 
