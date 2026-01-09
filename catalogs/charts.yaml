@@ -2377,7 +2377,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fulfillment
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T09:41:58Z"
+        giantswarm.io/latest-release-date: "2026-01-09T09:58:29Z"
         giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/fulfillment
     tags:
