@@ -1572,12 +1572,11 @@ metadata:
         backstage.io/kubernetes-id: cluster-cleaner
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-cleaner
         giantswarm.io/deployment-names: cluster-cleaner,cluster-cleaner-app
-        giantswarm.io/helmchart-app-versions: 0.10.1-3a3963296bbbdef49efe77d9fc27a8484aed1961
-        giantswarm.io/helmchart-versions: 0.10.1-3a3963296bbbdef49efe77d9fc27a8484aed1961
+        giantswarm.io/helmchart-app-versions: 0.10.1-1e05be7d76bef8c643238a1880233dbb15424b44
+        giantswarm.io/helmchart-versions: 0.10.1-1e05be7d76bef8c643238a1880233dbb15424b44
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-cleaner
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-01-06T09:02:20Z"
-        giantswarm.io/latest-release-tag: 0.10.1-3a3963296bbbdef49efe77d9fc27a8484aed1961
+        giantswarm.io/latest-release-date: "2026-01-10T00:35:10Z"
+        giantswarm.io/latest-release-tag: 0.10.1-1e05be7d76bef8c643238a1880233dbb15424b44
         github.com/project-slug: giantswarm/cluster-cleaner
     tags:
         - helmchart
@@ -2377,7 +2376,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fulfillment
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-08T09:41:58Z"
+        giantswarm.io/latest-release-date: "2026-01-09T21:35:21Z"
         giantswarm.io/latest-release-tag: 0.0.3
         github.com/project-slug: giantswarm/fulfillment
     tags:
@@ -2765,11 +2764,11 @@ metadata:
         backstage.io/kubernetes-id: irsa-operator
         backstage.io/source-location: url:https://github.com/giantswarm/irsa-operator
         giantswarm.io/deployment-names: irsa-operator,irsa-operator-app
-        giantswarm.io/helmchart-versions: 0.34.0-1b6f0cf76e945ffe05cb87540a560b736cb656ea
+        giantswarm.io/helmchart-versions: 0.34.0-043ef161e24f54cd81cd5df293f6e72d5f1dc1bf
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/irsa-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2025-12-11T13:01:32Z"
-        giantswarm.io/latest-release-tag: 0.34.0-1b6f0cf76e945ffe05cb87540a560b736cb656ea
+        giantswarm.io/latest-release-date: "2026-01-10T01:25:51Z"
+        giantswarm.io/latest-release-tag: 0.34.0-043ef161e24f54cd81cd5df293f6e72d5f1dc1bf
         github.com/project-slug: giantswarm/irsa-operator
     tags:
         - helmchart
