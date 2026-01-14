@@ -34,6 +34,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: envoy-ai-gateway-app
+    namespace: giantswarm
+    title: envoy-ai-gateway-app
+    description: The Helm chart for Envoy AI Gateway
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: envoy-ai-gateway-app
+        backstage.io/source-location: url:https://github.com/giantswarm/envoy-ai-gateway-app
+        giantswarm.io/deployment-names: envoy-ai-gateway,envoy-ai-gateway-app
+        giantswarm.io/helmchart-app-versions: v0.4.0
+        giantswarm.io/helmchart-versions: 0.0.0-4a9715824b3b92a8580d644778993d3b2fb79e9c
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-ai-gateway
+        giantswarm.io/icon-url: https://raw.githubusercontent.com/envoyproxy/ai-gateway/refs/heads/main/site/static/img/logo.svg
+        giantswarm.io/latest-release-date: "2026-01-14T11:29:56Z"
+        giantswarm.io/latest-release-tag: 0.0.0-4a9715824b3b92a8580d644778993d3b2fb79e9c
+        github.com/project-slug: giantswarm/envoy-ai-gateway-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: envoy-extension-server
     namespace: giantswarm
     title: envoy-extension-server
