@@ -53,7 +53,6 @@ kind: User
 metadata:
     name: JosephSalisbury
     namespace: giantswarm
-    description: astral warlock
     annotations:
         github.com/user-id: "297653"
         github.com/user-login: JosephSalisbury
