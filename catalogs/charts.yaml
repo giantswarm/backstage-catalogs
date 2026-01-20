@@ -72,12 +72,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-061fbc8b5901d1f9e2a37f964e78b07c3ab61e50
-        giantswarm.io/helmchart-versions: 0.0.0-061fbc8b5901d1f9e2a37f964e78b07c3ab61e50
+        giantswarm.io/helmchart-app-versions: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
+        giantswarm.io/helmchart-versions: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2025-12-17T08:58:37Z"
-        giantswarm.io/latest-release-tag: 0.0.0-061fbc8b5901d1f9e2a37f964e78b07c3ab61e50
+        giantswarm.io/latest-release-date: "2025-12-23T10:48:48Z"
+        giantswarm.io/latest-release-tag: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -129,11 +129,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         giantswarm.io/deployment-names: openssf-scorecard-exporter,openssf-scorecard-exporter-app
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.0.0-05bae4c9fc7e62b58b4121dc732119d225162c1d
+        giantswarm.io/helmchart-versions: 0.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
-        giantswarm.io/latest-release-date: "2025-12-17T02:31:29Z"
-        giantswarm.io/latest-release-tag: 0.0.0-05bae4c9fc7e62b58b4121dc732119d225162c1d
+        giantswarm.io/latest-release-date: "2025-12-17T02:58:52Z"
+        giantswarm.io/latest-release-tag: 0.0.1
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
     tags:
         - helmchart
