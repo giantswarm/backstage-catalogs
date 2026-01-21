@@ -16,12 +16,12 @@ metadata:
         backstage.io/kubernetes-id: coredns-app
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         giantswarm.io/deployment-names: coredns,coredns-app
-        giantswarm.io/helmchart-app-versions: 1.13.2
-        giantswarm.io/helmchart-versions: 1.28.3
+        giantswarm.io/helmchart-app-versions: 1.14.1
+        giantswarm.io/helmchart-versions: 1.29.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
-        giantswarm.io/latest-release-date: "2025-12-11T13:26:43Z"
-        giantswarm.io/latest-release-tag: 1.28.3
+        giantswarm.io/latest-release-date: "2026-01-19T11:35:37Z"
+        giantswarm.io/latest-release-tag: 1.29.1
         github.com/project-slug: giantswarm/coredns-app
     tags:
         - helmchart
@@ -45,11 +45,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-ai-gateway-app
         giantswarm.io/deployment-names: envoy-ai-gateway,envoy-ai-gateway-app
         giantswarm.io/helmchart-app-versions: v0.4.0
-        giantswarm.io/helmchart-versions: 0.0.0-4a9715824b3b92a8580d644778993d3b2fb79e9c
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-ai-gateway
         giantswarm.io/icon-url: https://raw.githubusercontent.com/envoyproxy/ai-gateway/refs/heads/main/site/static/img/logo.svg
-        giantswarm.io/latest-release-date: "2026-01-14T11:29:56Z"
-        giantswarm.io/latest-release-tag: 0.0.0-4a9715824b3b92a8580d644778993d3b2fb79e9c
+        giantswarm.io/latest-release-date: "2026-01-14T11:51:21Z"
+        giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/envoy-ai-gateway-app
     tags:
         - helmchart
@@ -72,12 +72,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
-        giantswarm.io/helmchart-versions: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
+        giantswarm.io/helmchart-app-versions: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
+        giantswarm.io/helmchart-versions: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2025-12-23T10:48:48Z"
-        giantswarm.io/latest-release-tag: 0.0.0-87c905d254e328ab9d5af095a2a95030ef6b724c
+        giantswarm.io/latest-release-date: "2026-01-20T13:42:34Z"
+        giantswarm.io/latest-release-tag: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -101,11 +101,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/hello-world-app
         giantswarm.io/deployment-names: hello-world,hello-world-app
         giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 2.10.0
+        giantswarm.io/helmchart-versions: 2.11.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/hello-world
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
-        giantswarm.io/latest-release-date: "2025-12-09T09:36:58Z"
-        giantswarm.io/latest-release-tag: 2.10.0
+        giantswarm.io/latest-release-date: "2025-12-17T13:30:34Z"
+        giantswarm.io/latest-release-tag: 2.11.0
         github.com/project-slug: giantswarm/hello-world-app
     tags:
         - helmchart
@@ -114,6 +114,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: ingress-nginx-app
+    namespace: giantswarm
+    title: ingress-nginx-app
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: ingress-nginx-app
+        backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
+        giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
+        giantswarm.io/helmchart-app-versions: 1.14.1
+        giantswarm.io/helmchart-versions: 4.2.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
+        giantswarm.io/latest-release-date: "2025-12-15T15:17:41Z"
+        giantswarm.io/latest-release-tag: 4.2.1
+        github.com/project-slug: giantswarm/ingress-nginx-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -128,12 +156,12 @@ metadata:
         backstage.io/kubernetes-id: openssf-scorecard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         giantswarm.io/deployment-names: openssf-scorecard-exporter,openssf-scorecard-exporter-app
-        giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.0.1
+        giantswarm.io/helmchart-app-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
-        giantswarm.io/latest-release-date: "2025-12-17T02:58:52Z"
-        giantswarm.io/latest-release-tag: 0.0.1
+        giantswarm.io/latest-release-date: "2026-01-02T17:58:22Z"
+        giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
     tags:
         - helmchart
