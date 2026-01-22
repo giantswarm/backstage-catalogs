@@ -146,6 +146,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kubeedge-cloudcore-app
+    namespace: giantswarm
+    title: kubeedge-cloudcore-app
+    description: The KubeEdge cloudcore component.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kubeedge-cloudcore-app
+        backstage.io/source-location: url:https://github.com/giantswarm/kubeedge-cloudcore-app
+        giantswarm.io/deployment-names: kubeedge-cloudcore,kubeedge-cloudcore-app
+        giantswarm.io/helmchart-app-versions: 1.22.1
+        giantswarm.io/helmchart-versions: 0.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubeedge-cloudcore
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubeedge/1/light.png
+        giantswarm.io/latest-release-date: "2026-01-22T14:57:51Z"
+        giantswarm.io/latest-release-tag: 0.3.0
+        github.com/project-slug: giantswarm/kubeedge-cloudcore-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-rocket
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: openssf-scorecard-exporter
     namespace: giantswarm
     title: openssf-scorecard-exporter
@@ -198,3 +226,31 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: zot
+    namespace: giantswarm
+    title: zot
+    description: OCI-native container image registry that can be used as a cache
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: zot
+        backstage.io/source-location: url:https://github.com/giantswarm/zot
+        giantswarm.io/deployment-names: zot,zot-app
+        giantswarm.io/helmchart-app-versions: v2.1.11
+        giantswarm.io/helmchart-versions: 2.6.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/zot
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/zot/2/light.svg
+        giantswarm.io/latest-release-date: "2026-01-22T14:32:29Z"
+        giantswarm.io/latest-release-tag: 2.6.1
+        github.com/project-slug: giantswarm/zot
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
