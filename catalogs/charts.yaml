@@ -90,6 +90,90 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: external-secrets
+    namespace: giantswarm
+    title: external-secrets
+    description: External secret management for Kubernetes
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: external-secrets
+        backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
+        giantswarm.io/deployment-names: external-secrets,external-secrets-app
+        giantswarm.io/helmchart-app-versions: v0.20.4
+        giantswarm.io/helmchart-versions: 0.20.5
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-secrets
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
+        giantswarm.io/latest-release-date: "2026-01-23T11:35:31Z"
+        giantswarm.io/latest-release-tag: 0.20.5
+        github.com/project-slug: giantswarm/external-secrets
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: flux-app
+    namespace: giantswarm
+    title: flux-app
+    description: 'Flux is a collection of tools for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. '
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: flux-app
+        backstage.io/source-location: url:https://github.com/giantswarm/flux-app
+        giantswarm.io/deployment-names: flux,flux-app
+        giantswarm.io/helmchart-app-versions: 2.5.1
+        giantswarm.io/helmchart-versions: 1.8.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
+        giantswarm.io/latest-release-date: "2026-01-23T11:37:52Z"
+        giantswarm.io/latest-release-tag: 1.8.1
+        github.com/project-slug: giantswarm/flux-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: flux-operator-app
+    namespace: giantswarm
+    title: flux-operator-app
+    description: Flux Operator is a Kubernetes CRD controller that manages the lifecycle of Flux CD
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: flux-operator-app
+        backstage.io/source-location: url:https://github.com/giantswarm/flux-operator-app
+        giantswarm.io/deployment-names: flux-operator,flux-operator-app
+        giantswarm.io/helmchart-app-versions: v0.26.0
+        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-operator
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
+        giantswarm.io/latest-release-date: "2026-01-23T11:36:36Z"
+        giantswarm.io/latest-release-tag: 0.1.1
+        github.com/project-slug: giantswarm/flux-operator-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: hello-world-app
     namespace: giantswarm
     title: hello-world-app
@@ -240,12 +324,12 @@ metadata:
         backstage.io/kubernetes-id: zot
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         giantswarm.io/deployment-names: zot,zot-app
-        giantswarm.io/helmchart-app-versions: v2.1.11
-        giantswarm.io/helmchart-versions: 2.6.1
+        giantswarm.io/helmchart-app-versions: v2.1.13
+        giantswarm.io/helmchart-versions: 2.6.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/zot
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/zot/2/light.svg
-        giantswarm.io/latest-release-date: "2026-01-22T14:32:29Z"
-        giantswarm.io/latest-release-tag: 2.6.1
+        giantswarm.io/latest-release-date: "2026-01-23T10:34:24Z"
+        giantswarm.io/latest-release-tag: 2.6.2
         github.com/project-slug: giantswarm/zot
     tags:
         - helmchart
