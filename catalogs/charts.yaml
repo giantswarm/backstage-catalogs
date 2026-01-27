@@ -212,12 +212,12 @@ metadata:
         backstage.io/kubernetes-id: ingress-nginx-app
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/helmchart-app-versions: 1.14.1
-        giantswarm.io/helmchart-versions: 4.2.1
+        giantswarm.io/helmchart-app-versions: 1.14.2
+        giantswarm.io/helmchart-versions: 4.2.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2025-12-15T15:17:41Z"
-        giantswarm.io/latest-release-tag: 4.2.1
+        giantswarm.io/latest-release-date: "2026-01-27T14:20:56Z"
+        giantswarm.io/latest-release-tag: 4.2.2
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - helmchart
