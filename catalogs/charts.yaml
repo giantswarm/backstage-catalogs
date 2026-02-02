@@ -34,6 +34,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: debug-toolbox
+    namespace: giantswarm
+    title: debug-toolbox
+    description: The debug toolbox is a collection of tools that can be used to debug issues in a Kubernetes cluster.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: debug-toolbox
+        backstage.io/source-location: url:https://github.com/giantswarm/debug-toolbox
+        giantswarm.io/deployment-names: debug-toolbox,debug-toolbox-app
+        giantswarm.io/helmchart-app-versions: v1.0.0
+        giantswarm.io/helmchart-versions: 1.2.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/debug-toolbox
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+        giantswarm.io/latest-release-date: "2026-02-02T12:24:34Z"
+        giantswarm.io/latest-release-tag: 1.2.1
+        github.com/project-slug: giantswarm/debug-toolbox
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: envoy-ai-gateway-app
     namespace: giantswarm
     title: envoy-ai-gateway-app
@@ -254,6 +282,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-rocket
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: kueue-app
+    namespace: giantswarm
+    title: kueue-app
+    description: Kueue is a set of APIs and controllers for job queueing.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: kueue-app
+        backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
+        giantswarm.io/deployment-names: kueue,kueue-app
+        giantswarm.io/helmchart-app-versions: v0.14.1
+        giantswarm.io/helmchart-versions: 0.1.0-ff70eb101cce8880a6b8a7b09e44503b3f356fe9
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-02T12:13:37Z"
+        giantswarm.io/latest-release-tag: 0.1.0-ff70eb101cce8880a6b8a7b09e44503b3f356fe9
+        github.com/project-slug: giantswarm/kueue-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
