@@ -6,6 +6,33 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: auth-bundle
+    namespace: giantswarm
+    title: auth-bundle
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: auth-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/auth-bundle
+        giantswarm.io/deployment-names: auth-bundle,auth-bundle-app
+        giantswarm.io/helmchart-versions: 0.5.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/auth-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/athena/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-03T12:46:26Z"
+        giantswarm.io/latest-release-tag: 0.5.1
+        github.com/project-slug: giantswarm/auth-bundle
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: coredns-app
     namespace: giantswarm
     title: coredns-app
@@ -240,12 +267,12 @@ metadata:
         backstage.io/kubernetes-id: ingress-nginx-app
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/helmchart-app-versions: 1.14.2
-        giantswarm.io/helmchart-versions: 4.2.2
+        giantswarm.io/helmchart-app-versions: 1.14.3
+        giantswarm.io/helmchart-versions: 4.2.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-01-27T14:20:56Z"
-        giantswarm.io/latest-release-tag: 4.2.2
+        giantswarm.io/latest-release-date: "2026-02-03T08:41:13Z"
+        giantswarm.io/latest-release-tag: 4.2.3
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - helmchart
@@ -314,6 +341,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: muster
+    namespace: giantswarm
+    title: muster
+    description: A Helm chart for muster - Universal Control Plane for AI Agents built on MCP
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: muster
+        backstage.io/source-location: url:https://github.com/giantswarm/muster
+        giantswarm.io/deployment-names: muster,muster-app
+        giantswarm.io/helmchart-app-versions: 0.0.209
+        giantswarm.io/helmchart-versions: 0.0.209
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
+        giantswarm.io/icon-url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+        giantswarm.io/latest-release-date: "2026-02-03T23:13:43Z"
+        giantswarm.io/latest-release-tag: 0.0.209
+        github.com/project-slug: giantswarm/muster
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: openssf-scorecard-exporter
     namespace: giantswarm
     title: openssf-scorecard-exporter
@@ -331,6 +386,34 @@ metadata:
         giantswarm.io/latest-release-date: "2026-01-02T17:58:22Z"
         giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: rbac-bootstrap-app
+    namespace: giantswarm
+    title: rbac-bootstrap-app
+    description: Helps to set up initial role bindings in a new cluster
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: rbac-bootstrap-app
+        backstage.io/source-location: url:https://github.com/giantswarm/rbac-bootstrap-app
+        giantswarm.io/deployment-names: rbac-bootstrap,rbac-bootstrap-app
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.2.3
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/rbac-bootstrap
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-03T12:42:01Z"
+        giantswarm.io/latest-release-tag: 0.2.3
+        github.com/project-slug: giantswarm/rbac-bootstrap-app
     tags:
         - helmchart
         - helmchart-deployable
