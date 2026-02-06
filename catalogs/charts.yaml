@@ -6,6 +6,34 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: athena
+    namespace: giantswarm
+    title: athena
+    description: A service providing non-sensitive information about your cluster to clients
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: athena
+        backstage.io/source-location: url:https://github.com/giantswarm/athena
+        giantswarm.io/deployment-names: athena,athena-app
+        giantswarm.io/helmchart-app-versions: 1.15.2
+        giantswarm.io/helmchart-versions: 1.15.2
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/athena
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/athena/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T14:40:59Z"
+        giantswarm.io/latest-release-tag: 1.15.2
+        github.com/project-slug: giantswarm/athena
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: auth-bundle
     namespace: giantswarm
     title: auth-bundle
@@ -22,6 +50,33 @@ metadata:
         giantswarm.io/latest-release-date: "2026-02-03T12:46:26Z"
         giantswarm.io/latest-release-tag: 0.5.1
         github.com/project-slug: giantswarm/auth-bundle
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: cert-manager-bundle
+    namespace: giantswarm
+    title: cert-manager-bundle
+    description: cert-manager Bundle with crossplane resources
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: cert-manager-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-bundle
+        giantswarm.io/deployment-names: cert-manager-bundle,cert-manager-bundle-app
+        giantswarm.io/helmchart-versions: 0.0.1-26c1772bdd8c50b2c89f7a818a1ebfecb0353c49
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T19:32:43Z"
+        giantswarm.io/latest-release-tag: 0.0.1-26c1772bdd8c50b2c89f7a818a1ebfecb0353c49
+        github.com/project-slug: giantswarm/cert-manager-bundle
     tags:
         - helmchart
         - helmchart-deployable
@@ -89,6 +144,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: dex-app
+    namespace: giantswarm
+    title: dex-app
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: dex-app
+        backstage.io/source-location: url:https://github.com/giantswarm/dex-app
+        giantswarm.io/deployment-names: dex,dex-app
+        giantswarm.io/helmchart-app-versions: 2.2.0-33136c7babf9c490dcfc4a1db4186a82310c8fcb
+        giantswarm.io/helmchart-versions: 2.2.0-33136c7babf9c490dcfc4a1db4186a82310c8fcb
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dex-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T19:37:51Z"
+        giantswarm.io/latest-release-tag: 2.2.0-33136c7babf9c490dcfc4a1db4186a82310c8fcb
+        github.com/project-slug: giantswarm/dex-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: envoy-ai-gateway-app
     namespace: giantswarm
     title: envoy-ai-gateway-app
@@ -145,6 +228,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: exception-recommender
+    namespace: giantswarm
+    title: exception-recommender
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts from Kyverno's PolicyReport results.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: exception-recommender
+        backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
+        giantswarm.io/deployment-names: exception-recommender,exception-recommender-app
+        giantswarm.io/helmchart-app-versions: 0.2.0-393870a78a96b8374df623396b2e113f6dcc0a12
+        giantswarm.io/helmchart-versions: 0.2.0-393870a78a96b8374df623396b2e113f6dcc0a12
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T19:23:45Z"
+        giantswarm.io/latest-release-tag: 0.2.0-393870a78a96b8374df623396b2e113f6dcc0a12
+        github.com/project-slug: giantswarm/exception-recommender
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: external-secrets
     namespace: giantswarm
     title: external-secrets
@@ -169,6 +280,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: falco-app
+    namespace: giantswarm
+    title: falco-app
+    description: A Helm chart for falco
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: falco-app
+        backstage.io/source-location: url:https://github.com/giantswarm/falco-app
+        giantswarm.io/deployment-names: falco,falco-app
+        giantswarm.io/helmchart-app-versions: 0.41.3
+        giantswarm.io/helmchart-versions: 0.11.0-b110148bb2c3670ff442d9f1b48daa1d16a0487e
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/falco
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
+        giantswarm.io/latest-release-date: "2026-02-05T13:04:48Z"
+        giantswarm.io/latest-release-tag: 0.11.0-b110148bb2c3670ff442d9f1b48daa1d16a0487e
+        github.com/project-slug: giantswarm/falco-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -285,6 +424,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: jiralert-app
+    namespace: giantswarm
+    title: jiralert-app
+    description: Alertmanager plugin that creates Jira tickets
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: jiralert-app
+        backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
+        giantswarm.io/deployment-names: jiralert,jiralert-app
+        giantswarm.io/helmchart-app-versions: "1.2"
+        giantswarm.io/helmchart-versions: 0.1.3-709543f58a134fbb7ba92003aa9f8d8618d2488b
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T15:55:30Z"
+        giantswarm.io/latest-release-tag: 0.1.3-709543f58a134fbb7ba92003aa9f8d8618d2488b
+        github.com/project-slug: giantswarm/jiralert-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kubeedge-cloudcore-app
     namespace: giantswarm
     title: kubeedge-cloudcore-app
@@ -341,6 +508,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kyverno-policy-operator
+    namespace: giantswarm
+    title: kyverno-policy-operator
+    description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions based on PolicyExceptionsDraft resources.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kyverno-policy-operator
+        backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
+        giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.1.6-ebfb047ee6be2dcf147ef2bdcd2ec0c3ba256d2e
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T14:20:21Z"
+        giantswarm.io/latest-release-tag: 0.1.6-ebfb047ee6be2dcf147ef2bdcd2ec0c3ba256d2e
+        github.com/project-slug: giantswarm/kyverno-policy-operator
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: muster
     namespace: giantswarm
     title: muster
@@ -365,6 +560,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: onepassword-scim-bridge-app
+    namespace: giantswarm
+    title: onepassword-scim-bridge-app
+    description: Giant Swarm App packaging for the 1Password SCIM bridge.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: onepassword-scim-bridge-app
+        backstage.io/source-location: url:https://github.com/giantswarm/onepassword-scim-bridge-app
+        giantswarm.io/deployment-names: onepassword-scim-bridge,onepassword-scim-bridge-app
+        giantswarm.io/helmchart-app-versions: v2.9.9
+        giantswarm.io/helmchart-versions: 0.0.4-ee79629103e97680f83af158998ed9aea66d69ed
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/onepassword-scim-bridge
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T19:32:44Z"
+        giantswarm.io/latest-release-tag: 0.0.4-ee79629103e97680f83af158998ed9aea66d69ed
+        github.com/project-slug: giantswarm/onepassword-scim-bridge-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -414,6 +637,89 @@ metadata:
         giantswarm.io/latest-release-date: "2026-02-03T12:42:01Z"
         giantswarm.io/latest-release-tag: 0.2.3
         github.com/project-slug: giantswarm/rbac-bootstrap-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: teleport-tbot
+    namespace: giantswarm
+    title: teleport-tbot
+    description: Teleport TBOT
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: teleport-tbot
+        backstage.io/source-location: url:https://github.com/giantswarm/teleport-tbot
+        giantswarm.io/deployment-names: teleport-tbot,teleport-tbot-app
+        giantswarm.io/helmchart-versions: 0.4.0-f7b97bb91f43604443b91687442372e274f0f84a
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-tbot
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/teleport/1/light.png
+        giantswarm.io/latest-release-date: "2026-02-05T12:45:11Z"
+        giantswarm.io/latest-release-tag: 0.4.0-f7b97bb91f43604443b91687442372e274f0f84a
+        github.com/project-slug: giantswarm/teleport-tbot
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: trivy-app
+    namespace: giantswarm
+    title: trivy-app
+    description: A Helm chart for trivy
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: trivy-app
+        backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
+        giantswarm.io/deployment-names: trivy,trivy-app
+        giantswarm.io/helmchart-app-versions: 0.63.0
+        giantswarm.io/helmchart-versions: 0.14.1-bc6b9c7acef9c11e1b44eb213417a1b0a46b90e0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T13:57:59Z"
+        giantswarm.io/latest-release-tag: 0.14.1-bc6b9c7acef9c11e1b44eb213417a1b0a46b90e0
+        github.com/project-slug: giantswarm/trivy-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: trivy-operator-app
+    namespace: giantswarm
+    title: trivy-operator-app
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from Aqua Security.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: trivy-operator-app
+        backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
+        giantswarm.io/deployment-names: trivy-operator,trivy-operator-app
+        giantswarm.io/helmchart-app-versions: 0.27.3
+        giantswarm.io/helmchart-versions: 0.12.1-f1ab79b1dbd7d55b85f09cef2d7ca5a084958e34
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy-operator
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T15:54:55Z"
+        giantswarm.io/latest-release-tag: 0.12.1-f1ab79b1dbd7d55b85f09cef2d7ca5a084958e34
+        github.com/project-slug: giantswarm/trivy-operator-app
     tags:
         - helmchart
         - helmchart-deployable
