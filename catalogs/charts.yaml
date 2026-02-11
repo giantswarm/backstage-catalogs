@@ -238,12 +238,12 @@ metadata:
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
         giantswarm.io/deployment-names: exception-recommender,exception-recommender-app
-        giantswarm.io/helmchart-app-versions: 0.2.0-658af8bf7144bcdd802c3aa461ddff372c64888d
-        giantswarm.io/helmchart-versions: 0.2.0-658af8bf7144bcdd802c3aa461ddff372c64888d
+        giantswarm.io/helmchart-app-versions: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
+        giantswarm.io/helmchart-versions: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-09T09:19:16Z"
-        giantswarm.io/latest-release-tag: 0.2.0-658af8bf7144bcdd802c3aa461ddff372c64888d
+        giantswarm.io/latest-release-date: "2026-02-11T00:43:28Z"
+        giantswarm.io/latest-release-tag: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
         github.com/project-slug: giantswarm/exception-recommender
     tags:
         - helmchart
@@ -295,11 +295,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/falco-app
         giantswarm.io/deployment-names: falco,falco-app
         giantswarm.io/helmchart-app-versions: 0.41.3
-        giantswarm.io/helmchart-versions: 0.11.0-b110148bb2c3670ff442d9f1b48daa1d16a0487e
+        giantswarm.io/helmchart-versions: 0.11.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/falco
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-02-05T13:04:48Z"
-        giantswarm.io/latest-release-tag: 0.11.0-b110148bb2c3670ff442d9f1b48daa1d16a0487e
+        giantswarm.io/latest-release-date: "2026-02-10T16:02:20Z"
+        giantswarm.io/latest-release-tag: 0.11.1
         github.com/project-slug: giantswarm/falco-app
     tags:
         - helmchart
@@ -508,6 +508,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kubescape
+    namespace: giantswarm
+    title: kubescape
+    description: This chart contains the kubescape operator chart and custom Giant Swarm resources.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kubescape
+        backstage.io/source-location: url:https://github.com/giantswarm/kubescape
+        giantswarm.io/deployment-names: kubescape,kubescape-app
+        giantswarm.io/helmchart-versions: 0.0.6
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubescape
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
+        giantswarm.io/latest-release-date: "2026-02-10T12:39:38Z"
+        giantswarm.io/latest-release-tag: 0.0.6
+        github.com/project-slug: giantswarm/kubescape
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kueue-app
     namespace: giantswarm
     title: kueue-app
@@ -547,11 +574,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.1.6-ebfb047ee6be2dcf147ef2bdcd2ec0c3ba256d2e
+        giantswarm.io/helmchart-versions: 0.1.6-ee6a187d6bdf643ca501e6319441660561d4274b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T14:20:21Z"
-        giantswarm.io/latest-release-tag: 0.1.6-ebfb047ee6be2dcf147ef2bdcd2ec0c3ba256d2e
+        giantswarm.io/latest-release-date: "2026-02-11T02:16:37Z"
+        giantswarm.io/latest-release-tag: 0.1.6-ee6a187d6bdf643ca501e6319441660561d4274b
         github.com/project-slug: giantswarm/kyverno-policy-operator
     tags:
         - helmchart
