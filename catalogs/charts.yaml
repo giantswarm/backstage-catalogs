@@ -116,6 +116,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: coredns-extensions-app
+    namespace: giantswarm
+    title: coredns-extensions-app
+    description: Extra resources for CoreDNS
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: coredns-extensions-app
+        backstage.io/source-location: url:https://github.com/giantswarm/coredns-extensions-app
+        giantswarm.io/deployment-names: coredns-extensions,coredns-extensions-app
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.1.2-f2273798fbd07a6dd21a488ae23d67b626f94df1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-extensions
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+        giantswarm.io/latest-release-date: "2026-02-13T09:00:02Z"
+        giantswarm.io/latest-release-tag: 0.1.2-f2273798fbd07a6dd21a488ae23d67b626f94df1
+        github.com/project-slug: giantswarm/coredns-extensions-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: debug-toolbox
     namespace: giantswarm
     title: debug-toolbox
@@ -182,12 +210,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
-        giantswarm.io/helmchart-versions: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
+        giantswarm.io/helmchart-app-versions: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
+        giantswarm.io/helmchart-versions: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-20T13:42:34Z"
-        giantswarm.io/latest-release-tag: 0.0.0-c38a7a3cfb196aeb468834166083f5d80e3799c6
+        giantswarm.io/latest-release-date: "2026-02-13T09:45:02Z"
+        giantswarm.io/latest-release-tag: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -340,6 +368,62 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: gateway-api-bundle
+    namespace: giantswarm
+    title: gateway-api-bundle
+    description: Gateway API bundle
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: gateway-api-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
+        giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
+        giantswarm.io/helmchart-app-versions: 1.12.1
+        giantswarm.io/helmchart-versions: 1.12.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-13T11:01:22Z"
+        giantswarm.io/latest-release-tag: 1.12.1
+        github.com/project-slug: giantswarm/gateway-api-bundle
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: gateway-api-crds-app
+    namespace: giantswarm
+    title: gateway-api-crds-app
+    description: App to install Gateway API CRDs to Giantswarm Clusters
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: gateway-api-crds-app
+        backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
+        giantswarm.io/deployment-names: gateway-api-crds,gateway-api-crds-app
+        giantswarm.io/helmchart-app-versions: 'gateway-api: v1.4.1, gateway-api-inference-extension: v1.3.0'
+        giantswarm.io/helmchart-versions: 1.7.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-crds
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-13T10:04:47Z"
+        giantswarm.io/latest-release-tag: 1.7.0
+        github.com/project-slug: giantswarm/gateway-api-crds-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: hello-world-app
     namespace: giantswarm
     title: hello-world-app
@@ -385,6 +469,34 @@ metadata:
         giantswarm.io/latest-release-date: "2026-02-03T08:41:13Z"
         giantswarm.io/latest-release-tag: 4.2.3
         github.com/project-slug: giantswarm/ingress-nginx-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: ingress-sla-app
+    namespace: giantswarm
+    title: ingress-sla-app
+    description: Resources required to provide metrics to Giant Swarm SLA dashboard.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: ingress-sla-app
+        backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
+        giantswarm.io/deployment-names: ingress-sla,ingress-sla-app
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.2.0-f9dcc74f3a114c8cd4c6c65d9b9077d2a91df4a0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+        giantswarm.io/latest-release-date: "2026-02-13T09:24:54Z"
+        giantswarm.io/latest-release-tag: 0.2.0-f9dcc74f3a114c8cd4c6c65d9b9077d2a91df4a0
+        github.com/project-slug: giantswarm/ingress-sla-app
     tags:
         - helmchart
         - helmchart-deployable
