@@ -406,13 +406,41 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.1
-        giantswarm.io/helmchart-versions: 1.12.1
+        giantswarm.io/helmchart-app-versions: 1.12.2
+        giantswarm.io/helmchart-versions: 1.12.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-13T11:01:22Z"
-        giantswarm.io/latest-release-tag: 1.12.1
+        giantswarm.io/latest-release-date: "2026-02-17T10:02:46Z"
+        giantswarm.io/latest-release-tag: 1.12.2
         github.com/project-slug: giantswarm/gateway-api-bundle
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: gateway-api-config-app
+    namespace: giantswarm
+    title: gateway-api-config-app
+    description: Default configuration for Envoy Gateway
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: gateway-api-config-app
+        backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
+        giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
+        giantswarm.io/helmchart-app-versions: 1.7.1
+        giantswarm.io/helmchart-versions: 1.7.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-17T09:37:55Z"
+        giantswarm.io/latest-release-tag: 1.7.1
+        github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
         - helmchart-deployable
