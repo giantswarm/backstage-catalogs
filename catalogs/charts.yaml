@@ -210,12 +210,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
-        giantswarm.io/helmchart-versions: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
+        giantswarm.io/helmchart-app-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
+        giantswarm.io/helmchart-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-13T09:45:02Z"
-        giantswarm.io/latest-release-tag: 0.0.0-d7bca2934393ce074684083addd2f8be137b4839
+        giantswarm.io/latest-release-date: "2026-02-13T18:39:30Z"
+        giantswarm.io/latest-release-tag: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -308,6 +308,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: fluent-logshipping-app
+    namespace: giantswarm
+    title: fluent-logshipping-app
+    description: The Log Shipping App forwards cluster logs to storage backends
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: fluent-logshipping-app
+        backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
+        giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
+        giantswarm.io/helmchart-app-versions: 3.1.9
+        giantswarm.io/helmchart-versions: 5.5.2
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fluent-logshipping-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+        giantswarm.io/latest-release-date: "2026-02-16T15:21:20Z"
+        giantswarm.io/latest-release-tag: 5.5.2
+        github.com/project-slug: giantswarm/fluent-logshipping-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
