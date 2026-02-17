@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 Since we don't do releases in this repository, we use the date of the
 change to structure the log.
 
+## 2026-02-17
+
+- Remove `users.yaml` catalog
+
 ## 2026-01-09
 
 - Remove `components.yaml` catalog
