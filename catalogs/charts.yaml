@@ -406,12 +406,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.2
-        giantswarm.io/helmchart-versions: 1.12.2
+        giantswarm.io/helmchart-app-versions: 1.12.3
+        giantswarm.io/helmchart-versions: 1.12.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-17T10:02:46Z"
-        giantswarm.io/latest-release-tag: 1.12.2
+        giantswarm.io/latest-release-date: "2026-02-17T12:26:49Z"
+        giantswarm.io/latest-release-tag: 1.12.3
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -434,12 +434,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.1
-        giantswarm.io/helmchart-versions: 1.7.1
+        giantswarm.io/helmchart-app-versions: 1.7.2
+        giantswarm.io/helmchart-versions: 1.7.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-17T09:37:55Z"
-        giantswarm.io/latest-release-tag: 1.7.1
+        giantswarm.io/latest-release-date: "2026-02-17T15:18:39Z"
+        giantswarm.io/latest-release-tag: 1.7.2
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -603,11 +603,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-vip-app
         giantswarm.io/deployment-names: kube-vip,kube-vip-app
         giantswarm.io/helmchart-app-versions: 0.8.4
-        giantswarm.io/helmchart-versions: 0.2.0-507ba8ba0a90492cec32c3baa6cac5e925b4b521
+        giantswarm.io/helmchart-versions: 0.2.0-91e7d67d4242e5d996233866afe18b066910ab96
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kube-vip
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
-        giantswarm.io/latest-release-date: "2026-02-03T11:41:12Z"
-        giantswarm.io/latest-release-tag: 0.2.0-507ba8ba0a90492cec32c3baa6cac5e925b4b521
+        giantswarm.io/latest-release-date: "2026-02-18T10:57:44Z"
+        giantswarm.io/latest-release-tag: 0.2.0-91e7d67d4242e5d996233866afe18b066910ab96
         github.com/project-slug: giantswarm/kube-vip-app
     tags:
         - helmchart
