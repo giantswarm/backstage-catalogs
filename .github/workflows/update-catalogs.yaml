@@ -94,9 +94,6 @@ jobs:
             --namespace giantswarm \
             --output ./catalogs
           
-          backstage-catalog-importer users \
-            --output ./catalogs
-          
           ls -la ./catalogs
 
           echo "looked_for_changes=true" >> $GITHUB_ENV
