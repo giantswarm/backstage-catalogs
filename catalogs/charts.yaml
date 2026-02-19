@@ -238,12 +238,12 @@ metadata:
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
         giantswarm.io/deployment-names: exception-recommender,exception-recommender-app
-        giantswarm.io/helmchart-app-versions: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
-        giantswarm.io/helmchart-versions: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
+        giantswarm.io/helmchart-app-versions: 0.2.0-f65a49fde159e04c87331b0a6d15863f2a85381a
+        giantswarm.io/helmchart-versions: 0.2.0-f65a49fde159e04c87331b0a6d15863f2a85381a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-11T00:43:28Z"
-        giantswarm.io/latest-release-tag: 0.2.0-eeb03bde60cbdd0533dcf2918a35a6ade3a1b108
+        giantswarm.io/latest-release-date: "2026-02-18T16:29:42Z"
+        giantswarm.io/latest-release-tag: 0.2.0-f65a49fde159e04c87331b0a6d15863f2a85381a
         github.com/project-slug: giantswarm/exception-recommender
     tags:
         - helmchart
@@ -575,11 +575,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
         giantswarm.io/deployment-names: jiralert,jiralert-app
         giantswarm.io/helmchart-app-versions: "1.2"
-        giantswarm.io/helmchart-versions: 0.1.3-709543f58a134fbb7ba92003aa9f8d8618d2488b
+        giantswarm.io/helmchart-versions: 0.1.3-b12afe70d5d3fc801f5e1b3bbabd5de1392790f7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T15:55:30Z"
-        giantswarm.io/latest-release-tag: 0.1.3-709543f58a134fbb7ba92003aa9f8d8618d2488b
+        giantswarm.io/latest-release-date: "2026-02-18T16:42:04Z"
+        giantswarm.io/latest-release-tag: 0.1.3-b12afe70d5d3fc801f5e1b3bbabd5de1392790f7
         github.com/project-slug: giantswarm/jiralert-app
     tags:
         - helmchart
@@ -755,34 +755,6 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-planeteers
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-    name: onepassword-scim-bridge-app
-    namespace: giantswarm
-    title: onepassword-scim-bridge-app
-    description: Giant Swarm App packaging for the 1Password SCIM bridge.
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "true"
-        backstage.io/kubernetes-id: onepassword-scim-bridge-app
-        backstage.io/source-location: url:https://github.com/giantswarm/onepassword-scim-bridge-app
-        giantswarm.io/deployment-names: onepassword-scim-bridge,onepassword-scim-bridge-app
-        giantswarm.io/helmchart-app-versions: v2.9.9
-        giantswarm.io/helmchart-versions: 0.0.4-ee79629103e97680f83af158998ed9aea66d69ed
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/onepassword-scim-bridge
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T19:32:44Z"
-        giantswarm.io/latest-release-tag: 0.0.4-ee79629103e97680f83af158998ed9aea66d69ed
-        github.com/project-slug: giantswarm/onepassword-scim-bridge-app
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
