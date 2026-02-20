@@ -61,6 +61,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: cert-manager-app
+    namespace: giantswarm
+    title: cert-manager-app
+    description: Simplifies the process of obtaining, renewing and using certificates.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: cert-manager-app
+        backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
+        giantswarm.io/deployment-names: cert-manager,cert-manager-app
+        giantswarm.io/helmchart-app-versions: v1.18.2
+        giantswarm.io/helmchart-versions: 3.10.0-c1e92b3ccc7a1bdd845347661379e4371c5e6090
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-19T19:20:38Z"
+        giantswarm.io/latest-release-tag: 3.10.0-c1e92b3ccc7a1bdd845347661379e4371c5e6090
+        github.com/project-slug: giantswarm/cert-manager-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cert-manager-bundle
     namespace: giantswarm
     title: cert-manager-bundle
