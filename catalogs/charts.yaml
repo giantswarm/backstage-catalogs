@@ -72,11 +72,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
         giantswarm.io/deployment-names: cert-manager,cert-manager-app
         giantswarm.io/helmchart-app-versions: v1.18.2
-        giantswarm.io/helmchart-versions: 3.10.0-c1e92b3ccc7a1bdd845347661379e4371c5e6090
+        giantswarm.io/helmchart-versions: 3.11.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-19T19:20:38Z"
-        giantswarm.io/latest-release-tag: 3.10.0-c1e92b3ccc7a1bdd845347661379e4371c5e6090
+        giantswarm.io/latest-release-date: "2026-02-20T19:08:41Z"
+        giantswarm.io/latest-release-tag: 3.11.0
         github.com/project-slug: giantswarm/cert-manager-app
     tags:
         - helmchart
@@ -797,12 +797,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.0.232
-        giantswarm.io/helmchart-versions: 0.0.232
+        giantswarm.io/helmchart-app-versions: 0.0.236
+        giantswarm.io/helmchart-versions: 0.0.236
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-19T17:02:20Z"
-        giantswarm.io/latest-release-tag: 0.0.232
+        giantswarm.io/latest-release-date: "2026-02-23T00:30:55Z"
+        giantswarm.io/latest-release-tag: 0.0.236
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
