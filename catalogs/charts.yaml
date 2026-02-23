@@ -116,6 +116,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: cert-manager-crossplane-resources
+    namespace: giantswarm
+    title: cert-manager-crossplane-resources
+    description: Crossplane Resources for cert-manager
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: cert-manager-crossplane-resources
+        backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
+        giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.1.0-b75173602dd3672048d322d296dc0516d5f79554
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-crossplane-resources
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T19:32:58Z"
+        giantswarm.io/latest-release-tag: 0.1.0-b75173602dd3672048d322d296dc0516d5f79554
+        github.com/project-slug: giantswarm/cert-manager-crossplane-resources
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cilium-servicemonitors-app
     namespace: giantswarm
     title: cilium-servicemonitors-app
