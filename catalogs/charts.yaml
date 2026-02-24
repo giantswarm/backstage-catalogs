@@ -312,6 +312,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: envoy-gateway-app
+    namespace: giantswarm
+    title: envoy-gateway-app
+    description: The Helm chart for Envoy Gateway
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: envoy-gateway-app
+        backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
+        giantswarm.io/deployment-names: envoy-gateway,envoy-gateway-app
+        giantswarm.io/helmchart-app-versions: 1.7.0
+        giantswarm.io/helmchart-versions: 1.6.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-23T10:56:08Z"
+        giantswarm.io/latest-release-tag: 1.6.0
+        github.com/project-slug: giantswarm/envoy-gateway-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: exception-recommender
     namespace: giantswarm
     title: exception-recommender
@@ -490,12 +518,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.4
-        giantswarm.io/helmchart-versions: 1.12.4
+        giantswarm.io/helmchart-app-versions: 1.12.5
+        giantswarm.io/helmchart-versions: 1.12.5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-19T10:12:04Z"
-        giantswarm.io/latest-release-tag: 1.12.4
+        giantswarm.io/latest-release-date: "2026-02-23T11:21:02Z"
+        giantswarm.io/latest-release-tag: 1.12.5
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -518,12 +546,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.3
-        giantswarm.io/helmchart-versions: 1.7.3
+        giantswarm.io/helmchart-app-versions: 1.7.4
+        giantswarm.io/helmchart-versions: 1.7.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-19T14:14:08Z"
-        giantswarm.io/latest-release-tag: 1.7.3
+        giantswarm.io/latest-release-date: "2026-02-23T10:40:14Z"
+        giantswarm.io/latest-release-tag: 1.7.4
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -798,11 +826,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.1.6-ee6a187d6bdf643ca501e6319441660561d4274b
+        giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-11T02:16:37Z"
-        giantswarm.io/latest-release-tag: 0.1.6-ee6a187d6bdf643ca501e6319441660561d4274b
+        giantswarm.io/latest-release-date: "2026-02-23T20:26:57Z"
+        giantswarm.io/latest-release-tag: 0.2.0
         github.com/project-slug: giantswarm/kyverno-policy-operator
     tags:
         - helmchart
