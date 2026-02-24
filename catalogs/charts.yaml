@@ -407,11 +407,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/falco-app
         giantswarm.io/deployment-names: falco,falco-app
         giantswarm.io/helmchart-app-versions: 0.41.3
-        giantswarm.io/helmchart-versions: 0.11.1
+        giantswarm.io/helmchart-versions: 0.11.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/falco
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-02-10T16:02:20Z"
-        giantswarm.io/latest-release-tag: 0.11.1
+        giantswarm.io/latest-release-date: "2026-02-24T14:47:53Z"
+        giantswarm.io/latest-release-tag: 0.11.2
         github.com/project-slug: giantswarm/falco-app
     tags:
         - helmchart
@@ -518,12 +518,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.5
-        giantswarm.io/helmchart-versions: 1.12.5
+        giantswarm.io/helmchart-app-versions: 1.12.7
+        giantswarm.io/helmchart-versions: 1.12.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-23T11:21:02Z"
-        giantswarm.io/latest-release-tag: 1.12.5
+        giantswarm.io/latest-release-date: "2026-02-24T14:59:18Z"
+        giantswarm.io/latest-release-tag: 1.12.7
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -546,12 +546,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.4
-        giantswarm.io/helmchart-versions: 1.7.4
+        giantswarm.io/helmchart-app-versions: 1.7.7
+        giantswarm.io/helmchart-versions: 1.7.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-23T10:40:14Z"
-        giantswarm.io/latest-release-tag: 1.7.4
+        giantswarm.io/latest-release-date: "2026-02-24T14:28:15Z"
+        giantswarm.io/latest-release-tag: 1.7.7
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -811,6 +811,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: kyverno-app
+    namespace: giantswarm
+    title: kyverno-app
+    description: 'Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. '
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kyverno-app
+        backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
+        giantswarm.io/deployment-names: kyverno,kyverno-app
+        giantswarm.io/helmchart-app-versions: v1.17.0
+        giantswarm.io/helmchart-versions: 0.24.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-24T12:46:43Z"
+        giantswarm.io/latest-release-tag: 0.24.1
+        github.com/project-slug: giantswarm/kyverno-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
