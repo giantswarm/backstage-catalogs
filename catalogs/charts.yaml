@@ -854,11 +854,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0
+        giantswarm.io/helmchart-versions: 0.2.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-23T20:26:57Z"
-        giantswarm.io/latest-release-tag: 0.2.0
+        giantswarm.io/latest-release-date: "2026-02-24T18:14:25Z"
+        giantswarm.io/latest-release-tag: 0.2.1
         github.com/project-slug: giantswarm/kyverno-policy-operator
     tags:
         - helmchart
@@ -881,12 +881,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.0.236
-        giantswarm.io/helmchart-versions: 0.0.236
+        giantswarm.io/helmchart-app-versions: 0.1.0-70e4efa7cc08b4b8623d30760f8185e3a90ce407
+        giantswarm.io/helmchart-versions: 0.1.0-70e4efa7cc08b4b8623d30760f8185e3a90ce407
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-23T00:30:55Z"
-        giantswarm.io/latest-release-tag: 0.0.236
+        giantswarm.io/latest-release-date: "2026-02-24T21:42:26Z"
+        giantswarm.io/latest-release-tag: 0.1.0-70e4efa7cc08b4b8623d30760f8185e3a90ce407
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
