@@ -994,11 +994,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         giantswarm.io/deployment-names: trivy,trivy-app
         giantswarm.io/helmchart-app-versions: 0.63.0
-        giantswarm.io/helmchart-versions: 0.14.1-cc82ea27a925bcf7913dd63abe3befb06741f1aa
+        giantswarm.io/helmchart-versions: 0.14.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-19T14:13:28Z"
-        giantswarm.io/latest-release-tag: 0.14.1-cc82ea27a925bcf7913dd63abe3befb06741f1aa
+        giantswarm.io/latest-release-date: "2026-02-26T09:19:00Z"
+        giantswarm.io/latest-release-tag: 0.14.2
         github.com/project-slug: giantswarm/trivy-app
     tags:
         - helmchart
@@ -1022,11 +1022,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
         giantswarm.io/deployment-names: trivy-operator,trivy-operator-app
         giantswarm.io/helmchart-app-versions: 0.27.3
-        giantswarm.io/helmchart-versions: 0.12.1-f1ab79b1dbd7d55b85f09cef2d7ca5a084958e34
+        giantswarm.io/helmchart-versions: 0.12.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T15:54:55Z"
-        giantswarm.io/latest-release-tag: 0.12.1-f1ab79b1dbd7d55b85f09cef2d7ca5a084958e34
+        giantswarm.io/latest-release-date: "2026-02-26T10:45:43Z"
+        giantswarm.io/latest-release-tag: 0.12.2
         github.com/project-slug: giantswarm/trivy-operator-app
     tags:
         - helmchart
