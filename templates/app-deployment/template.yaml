@@ -2,6 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: app-deployment
+  namespace: giantswarm
   title: App Deployment
   description: Deploy an app to a cluster.
 spec:
