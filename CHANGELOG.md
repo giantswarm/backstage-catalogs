@@ -35,4 +35,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Remove `users.yaml` catalog.
 - Remove `components.yaml` catalog.
 
-[Unreleased]: https://github.com/giantswarm/backstage-catalogs/commits/main
+[Unreleased]: https://github.com/giantswarm/backstage-catalogs/tree/main
