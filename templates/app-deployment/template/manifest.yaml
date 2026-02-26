@@ -1,0 +1,83 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: OCIRepository
+metadata:
+  name: ${{ values.name }}
+  namespace: ${{ values.namespace }}
+spec:
+  interval: 1h0m0s
+  provider: generic
+  ref:
+    {% if values.automaticUpgrades === 'no-upgrades' %}
+    tag: ${{ values.chartTag }}
+    {% elif values.automaticUpgrades === 'patch-upgrades' %}
+    semver: '~${{ values.chartTag }}'
+    {% elif values.automaticUpgrades === 'minor-upgrades' %}
+    semver: '^${{ values.chartTag }}'
+    {% elif values.automaticUpgrades === 'major-upgrades' %}
+    semver: '>=${{ values.chartTag }}'
+    {% endif %}
+  url: oci://${{ values.chartRef }}
+
+---
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: ${{ values.name }}
+  namespace: ${{ values.namespace }}
+  labels:
+    giantswarm.io/cluster: ${{ values.clusterName }}
+spec:
+  chartRef:
+    kind: OCIRepository
+    name: ${{ values.name }}
+  install:
+    createNamespace: true
+  interval: 1h0m0s
+  {% if not values.isManagementCluster %}
+  kubeConfig:
+    secretRef:
+      name: ${{ values.clusterName }}-kubeconfig
+  storageNamespace: ${{ values.targetNamespace }}
+  {% endif %}
+  releaseName: ${{ values.name }}
+  targetNamespace: ${{ values.targetNamespace }}
+  {% if values.values or values.secretValues %}
+  valuesFrom:
+    {% if values.values %}
+    - kind: ConfigMap
+      name: ${{ values.name }}-user-values
+      valuesKey: values
+    {% endif %}
+    {% if values.secretValues %}
+    - kind: Secret
+      name: ${{ values.name }}-user-secrets
+      valuesKey: values
+    {% endif %}
+  {% else %}
+  values: {}
+  {% endif %}
+
+{% if values.values %}
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ${{ values.name }}-user-values
+  namespace: ${{ values.namespace }}
+data:
+  values: |-
+    ${{ values.values | indent(4) }}
+{% endif %}
+
+{% if values.secretValues %}
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ${{ values.name }}-user-secrets
+  namespace: ${{ values.namespace }}
+stringData:
+  values: |-
+    ${{ values.secretValues | indent(4) }}
+{% endif %}
