@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Add `app-deployment` template.
 - Add `charts.yaml` catalog.
 - Add `python-service` template.
 - Add `rds-and-elasticache-service` template.
