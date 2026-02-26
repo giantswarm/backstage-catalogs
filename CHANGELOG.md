@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Change `app-deployment` template namespace to `giantswarm`.
+
 ## [0.1.0] - 2026-02-26
 
 ### Added
