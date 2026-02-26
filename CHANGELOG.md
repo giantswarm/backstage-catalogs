@@ -2,83 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
-Since we don't do releases in this repository, we use the date of the
-change to structure the log.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2026-02-17
-
-- Remove `users.yaml` catalog
-
-## 2026-01-09
-
-- Remove `components.yaml` catalog
-- Change namespace for `charts.yaml` components to `giantswarm`
-
-## 2026-01-08
-
-- Add `charts.yaml` catalog
-
-## 2025-07-01
-
-### Changes
-
-- Change `githubTokenSecretRef` in `go-service` and `python-service` templates.
-
-## 2025-05-29
-
-### Changes
-
-- Update `go-service`, `python-service` and `rds-and-elasticache-service` templates.
-
-## 2024-11-19
+## [Unreleased]
 
 ### Added
 
+- Add `app-deployment` template.
+- Add `charts.yaml` catalog.
 - Add `python-service` template.
-
-## 2024-09-25
-
-### Added
-
 - Add `rds-and-elasticache-service` template.
+- Add templates directory for public templates.
+- Add `go-service` template.
+- Add automation to update catalog content.
+- Add first catalogs for components, groups, and users and basic documentation.
+- Add full users catalog.
 
-## 2024-09-17
+### Changed
 
-### Changes
-
+- Change namespace for `charts.yaml` components to `giantswarm`.
+- Change `githubTokenSecretRef` in `go-service` and `python-service` templates.
+- Update `go-service`, `python-service` and `rds-and-elasticache-service` templates.
 - Remove integrations from `go-service` template.
-
-## 2024-09-03
-
-### Changes
-
 - Generate kratix resource request from `go-service` template.
-
-## 2024-08-27
-
-### Changes
-
 - Generate crossplane claim from `go-service` template.
+- `go-service` template improvements: use GSStepLayout for form steps; update ESO step wordings.
+- Update groups catalog to include member names, use deterministic sort order.
 
-## 2024-08-21
+### Removed
 
-### Changes
+- Remove `users.yaml` catalog.
+- Remove `components.yaml` catalog.
 
-- `go-service` template improvements:
-  - use GSStepLayout for form steps;
-  - update ESO step wordings.
-
-## 2024-07-25
-
-- Added templates directory for public templates.
-- Added go-service template.
-
-## 2024-07-10
-
-- Added automation to update catalog content.
-
-## 2024-06-19
-
-- Added first catalogs for components, groups, and users and basic documentation.
-- Updated groups catalog to include member names, use deterministic sort order.
-- Add full users catalog
+[Unreleased]: https://github.com/giantswarm/backstage-catalogs/commits/main
