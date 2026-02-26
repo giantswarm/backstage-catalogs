@@ -857,7 +857,7 @@ metadata:
         giantswarm.io/helmchart-versions: 0.2.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-25T16:57:09Z"
+        giantswarm.io/latest-release-date: "2026-02-25T17:40:25Z"
         giantswarm.io/latest-release-tag: 0.2.2
         github.com/project-slug: giantswarm/kyverno-policy-operator
     tags:
