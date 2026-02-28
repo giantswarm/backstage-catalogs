@@ -715,11 +715,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-vip-app
         giantswarm.io/deployment-names: kube-vip,kube-vip-app
         giantswarm.io/helmchart-app-versions: 0.8.4
-        giantswarm.io/helmchart-versions: 0.2.0-91e7d67d4242e5d996233866afe18b066910ab96
+        giantswarm.io/helmchart-versions: 0.2.0-baab41ff4734c7c4e04ecff040df9767c0a8a049
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kube-vip
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
-        giantswarm.io/latest-release-date: "2026-02-18T10:57:44Z"
-        giantswarm.io/latest-release-tag: 0.2.0-91e7d67d4242e5d996233866afe18b066910ab96
+        giantswarm.io/latest-release-date: "2026-02-27T17:11:44Z"
+        giantswarm.io/latest-release-tag: 0.2.0-baab41ff4734c7c4e04ecff040df9767c0a8a049
         github.com/project-slug: giantswarm/kube-vip-app
     tags:
         - helmchart
@@ -881,12 +881,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.4
-        giantswarm.io/helmchart-versions: 0.1.4
+        giantswarm.io/helmchart-app-versions: 0.1.9
+        giantswarm.io/helmchart-versions: 0.1.9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-25T15:58:21Z"
-        giantswarm.io/latest-release-tag: 0.1.4
+        giantswarm.io/latest-release-date: "2026-02-27T17:40:12Z"
+        giantswarm.io/latest-release-tag: 0.1.9
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -909,12 +909,12 @@ metadata:
         backstage.io/kubernetes-id: openssf-scorecard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         giantswarm.io/deployment-names: openssf-scorecard-exporter,openssf-scorecard-exporter-app
-        giantswarm.io/helmchart-app-versions: 0.1.0
-        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmchart-app-versions: 0.1.1
+        giantswarm.io/helmchart-versions: 0.1.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
-        giantswarm.io/latest-release-date: "2026-01-02T17:58:22Z"
-        giantswarm.io/latest-release-tag: 0.1.0
+        giantswarm.io/latest-release-date: "2026-02-27T18:34:29Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
     tags:
         - helmchart
