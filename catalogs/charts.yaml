@@ -927,6 +927,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: policy-api
+    namespace: giantswarm
+    title: policy-api
+    description: This app contains the Policy API CRDs.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: policy-api
+        backstage.io/source-location: url:https://github.com/giantswarm/policy-api
+        giantswarm.io/deployment-names: policy-api,policy-api-app
+        giantswarm.io/helmchart-versions: 0.0.6-ee10d5367f712cf4627d74b9453292c09c73633b
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-05T12:45:09Z"
+        giantswarm.io/latest-release-tag: 0.0.6-ee10d5367f712cf4627d74b9453292c09c73633b
+        github.com/project-slug: giantswarm/policy-api
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: rbac-bootstrap-app
     namespace: giantswarm
     title: rbac-bootstrap-app
