@@ -715,11 +715,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kube-vip-app
         giantswarm.io/deployment-names: kube-vip,kube-vip-app
         giantswarm.io/helmchart-app-versions: 0.8.4
-        giantswarm.io/helmchart-versions: 0.2.0-baab41ff4734c7c4e04ecff040df9767c0a8a049
+        giantswarm.io/helmchart-versions: 0.2.0-edb7d47a33834de8e8228198d9454cd6d6bff7d3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kube-vip
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
-        giantswarm.io/latest-release-date: "2026-02-27T17:11:44Z"
-        giantswarm.io/latest-release-tag: 0.2.0-baab41ff4734c7c4e04ecff040df9767c0a8a049
+        giantswarm.io/latest-release-date: "2026-03-03T13:10:05Z"
+        giantswarm.io/latest-release-tag: 0.2.0-edb7d47a33834de8e8228198d9454cd6d6bff7d3
         github.com/project-slug: giantswarm/kube-vip-app
     tags:
         - helmchart
