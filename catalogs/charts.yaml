@@ -546,12 +546,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.7
-        giantswarm.io/helmchart-versions: 1.7.7
+        giantswarm.io/helmchart-app-versions: 1.7.8
+        giantswarm.io/helmchart-versions: 1.7.8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-24T14:28:15Z"
-        giantswarm.io/latest-release-tag: 1.7.7
+        giantswarm.io/latest-release-date: "2026-03-04T13:49:42Z"
+        giantswarm.io/latest-release-tag: 1.7.8
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -728,6 +728,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: kong-app
+    namespace: giantswarm
+    title: kong-app
+    description: The Cloud-Native Ingress and API-management
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: kong-app
+        backstage.io/source-location: url:https://github.com/giantswarm/kong-app
+        giantswarm.io/deployment-names: kong,kong-app
+        giantswarm.io/helmchart-app-versions: 3.8.0
+        giantswarm.io/helmchart-versions: 5.2.1-d78fe9240c1bfdf75426fc15b0425eee3f014b6a
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kong-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kong/1/light.svg
+        giantswarm.io/latest-release-date: "2026-03-04T15:10:45Z"
+        giantswarm.io/latest-release-tag: 5.2.1-d78fe9240c1bfdf75426fc15b0425eee3f014b6a
+        github.com/project-slug: giantswarm/kong-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -909,12 +937,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.10
-        giantswarm.io/helmchart-versions: 0.1.10
+        giantswarm.io/helmchart-app-versions: 0.1.11
+        giantswarm.io/helmchart-versions: 0.1.11
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-01T18:28:53Z"
-        giantswarm.io/latest-release-tag: 0.1.10
+        giantswarm.io/latest-release-date: "2026-03-04T11:39:48Z"
+        giantswarm.io/latest-release-tag: 0.1.11
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
