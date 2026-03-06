@@ -256,6 +256,34 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: dex-app
+    namespace: giantswarm
+    title: dex-app
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: dex-app
+        backstage.io/source-location: url:https://github.com/giantswarm/dex-app
+        giantswarm.io/deployment-names: dex,dex-app
+        giantswarm.io/helmchart-app-versions: 2.2.0-f9ab4b8ba86d1090b3c676f0fa2758fc1860fa84
+        giantswarm.io/helmchart-versions: 2.2.0-f9ab4b8ba86d1090b3c676f0fa2758fc1860fa84
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dex-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+        giantswarm.io/latest-release-date: "2026-03-05T15:36:35Z"
+        giantswarm.io/latest-release-tag: 2.2.0-f9ab4b8ba86d1090b3c676f0fa2758fc1860fa84
+        github.com/project-slug: giantswarm/dex-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: envoy-ai-gateway-app
     namespace: giantswarm
     title: envoy-ai-gateway-app
@@ -518,12 +546,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.7
-        giantswarm.io/helmchart-versions: 1.12.7
+        giantswarm.io/helmchart-app-versions: 1.12.9
+        giantswarm.io/helmchart-versions: 1.12.9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-24T14:59:18Z"
-        giantswarm.io/latest-release-tag: 1.12.7
+        giantswarm.io/latest-release-date: "2026-03-05T13:59:39Z"
+        giantswarm.io/latest-release-tag: 1.12.9
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -546,12 +574,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.8
-        giantswarm.io/helmchart-versions: 1.7.8
+        giantswarm.io/helmchart-app-versions: 1.7.9
+        giantswarm.io/helmchart-versions: 1.7.9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-04T13:49:42Z"
-        giantswarm.io/latest-release-tag: 1.7.8
+        giantswarm.io/latest-release-date: "2026-03-05T13:51:52Z"
+        giantswarm.io/latest-release-tag: 1.7.9
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -937,12 +965,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.11
-        giantswarm.io/helmchart-versions: 0.1.11
+        giantswarm.io/helmchart-app-versions: 0.1.14
+        giantswarm.io/helmchart-versions: 0.1.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-04T11:39:48Z"
-        giantswarm.io/latest-release-tag: 0.1.11
+        giantswarm.io/latest-release-date: "2026-03-05T23:32:23Z"
+        giantswarm.io/latest-release-tag: 0.1.14
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
