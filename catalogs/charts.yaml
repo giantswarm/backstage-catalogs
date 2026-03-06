@@ -965,12 +965,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.14
-        giantswarm.io/helmchart-versions: 0.1.14
+        giantswarm.io/helmchart-app-versions: 0.1.16
+        giantswarm.io/helmchart-versions: 0.1.16
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-05T23:32:23Z"
-        giantswarm.io/latest-release-tag: 0.1.14
+        giantswarm.io/latest-release-date: "2026-03-06T07:12:28Z"
+        giantswarm.io/latest-release-tag: 0.1.16
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
