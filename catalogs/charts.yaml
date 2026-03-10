@@ -89,61 +89,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: cert-manager-bundle
-    namespace: giantswarm
-    title: cert-manager-bundle
-    description: cert-manager Bundle with crossplane resources
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "true"
-        backstage.io/kubernetes-id: cert-manager-bundle
-        backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-bundle
-        giantswarm.io/deployment-names: cert-manager-bundle,cert-manager-bundle-app
-        giantswarm.io/helmchart-versions: 0.0.1-26c1772bdd8c50b2c89f7a818a1ebfecb0353c49
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-bundle
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T19:32:43Z"
-        giantswarm.io/latest-release-tag: 0.0.1-26c1772bdd8c50b2c89f7a818a1ebfecb0353c49
-        github.com/project-slug: giantswarm/cert-manager-bundle
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:giantswarm/team-shield
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-    name: cert-manager-crossplane-resources
-    namespace: giantswarm
-    title: cert-manager-crossplane-resources
-    description: Crossplane Resources for cert-manager
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "true"
-        backstage.io/kubernetes-id: cert-manager-crossplane-resources
-        backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-crossplane-resources
-        giantswarm.io/deployment-names: cert-manager-crossplane-resources,cert-manager-crossplane-resources-app
-        giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.1.0-b75173602dd3672048d322d296dc0516d5f79554
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-crossplane-resources
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T19:32:58Z"
-        giantswarm.io/latest-release-tag: 0.1.0-b75173602dd3672048d322d296dc0516d5f79554
-        github.com/project-slug: giantswarm/cert-manager-crossplane-resources
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:giantswarm/team-shield
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: cilium-servicemonitors-app
     namespace: giantswarm
     title: cilium-servicemonitors-app
@@ -882,11 +827,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         giantswarm.io/deployment-names: kueue,kueue-app
         giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-ff70eb101cce8880a6b8a7b09e44503b3f356fe9
+        giantswarm.io/helmchart-versions: 0.1.0-882cefaae742a667403fc2ff3aad91706720476d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-02T12:13:37Z"
-        giantswarm.io/latest-release-tag: 0.1.0-ff70eb101cce8880a6b8a7b09e44503b3f356fe9
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
+        giantswarm.io/latest-release-date: "2026-02-18T11:43:49Z"
+        giantswarm.io/latest-release-tag: 0.1.0-882cefaae742a667403fc2ff3aad91706720476d
         github.com/project-slug: giantswarm/kueue-app
     tags:
         - helmchart
@@ -965,12 +910,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.16
-        giantswarm.io/helmchart-versions: 0.1.16
+        giantswarm.io/helmchart-app-versions: 0.1.25
+        giantswarm.io/helmchart-versions: 0.1.25
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-06T07:12:28Z"
-        giantswarm.io/latest-release-tag: 0.1.16
+        giantswarm.io/latest-release-date: "2026-03-09T21:34:57Z"
+        giantswarm.io/latest-release-tag: 0.1.25
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1021,11 +966,11 @@ metadata:
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         giantswarm.io/deployment-names: policy-api,policy-api-app
-        giantswarm.io/helmchart-versions: 0.0.6-ee10d5367f712cf4627d74b9453292c09c73633b
+        giantswarm.io/helmchart-versions: 0.0.6-ea6221c572be6e4bc18c6fa418f5bfaca6adcef9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-05T12:45:09Z"
-        giantswarm.io/latest-release-tag: 0.0.6-ee10d5367f712cf4627d74b9453292c09c73633b
+        giantswarm.io/latest-release-date: "2026-02-24T16:01:33Z"
+        giantswarm.io/latest-release-tag: 0.0.6-ea6221c572be6e4bc18c6fa418f5bfaca6adcef9
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
