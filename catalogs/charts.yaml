@@ -423,11 +423,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
         giantswarm.io/helmchart-app-versions: 3.1.9
-        giantswarm.io/helmchart-versions: 5.5.2
+        giantswarm.io/helmchart-versions: 5.6.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fluent-logshipping-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
-        giantswarm.io/latest-release-date: "2026-02-16T15:21:20Z"
-        giantswarm.io/latest-release-tag: 5.5.2
+        giantswarm.io/latest-release-date: "2026-03-11T12:58:02Z"
+        giantswarm.io/latest-release-tag: 5.6.0
         github.com/project-slug: giantswarm/fluent-logshipping-app
     tags:
         - helmchart
@@ -654,12 +654,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
-        giantswarm.io/helmchart-app-versions: 1.14.4
-        giantswarm.io/helmchart-versions: 4.2.4
+        giantswarm.io/helmchart-app-versions: 1.15.0
+        giantswarm.io/helmchart-versions: 4.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
-        giantswarm.io/latest-release-date: "2026-03-10T17:15:10Z"
-        giantswarm.io/latest-release-tag: 4.2.4
+        giantswarm.io/latest-release-date: "2026-03-11T14:18:57Z"
+        giantswarm.io/latest-release-tag: 4.3.0
         github.com/project-slug: giantswarm/ingress-nginx-app
     tags:
         - helmchart
