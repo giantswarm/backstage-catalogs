@@ -519,12 +519,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
-        giantswarm.io/helmchart-app-versions: 1.7.9
-        giantswarm.io/helmchart-versions: 1.7.9
+        giantswarm.io/helmchart-app-versions: 1.7.10
+        giantswarm.io/helmchart-versions: 1.7.10
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-05T13:51:52Z"
-        giantswarm.io/latest-release-tag: 1.7.9
+        giantswarm.io/latest-release-date: "2026-03-11T08:06:58Z"
+        giantswarm.io/latest-release-tag: 1.7.10
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
