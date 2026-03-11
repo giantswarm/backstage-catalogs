@@ -15,6 +15,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: athena
         backstage.io/source-location: url:https://github.com/giantswarm/athena
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/athena/tree/main
         giantswarm.io/deployment-names: athena,athena-app
         giantswarm.io/helmchart-app-versions: 1.15.2
         giantswarm.io/helmchart-versions: 1.15.2
@@ -43,6 +44,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: auth-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/auth-bundle
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/auth-bundle/tree/main
         giantswarm.io/deployment-names: auth-bundle,auth-bundle-app
         giantswarm.io/helmchart-versions: 0.6.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/auth-bundle
@@ -70,6 +72,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: cert-manager-app
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-app/tree/main
         giantswarm.io/deployment-names: cert-manager,cert-manager-app
         giantswarm.io/helmchart-app-versions: v1.18.2
         giantswarm.io/helmchart-versions: 3.11.0
@@ -98,6 +101,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: cilium-servicemonitors-app
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-servicemonitors-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-servicemonitors-app/tree/main
         giantswarm.io/deployment-names: cilium-servicemonitors,cilium-servicemonitors-app
         giantswarm.io/helmchart-app-versions: 1.0.0
         giantswarm.io/helmchart-versions: 0.1.4
@@ -126,6 +130,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: coredns-app
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/deployment-names: coredns,coredns-app
         giantswarm.io/helmchart-app-versions: 1.14.1
         giantswarm.io/helmchart-versions: 1.29.1
@@ -154,6 +159,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: coredns-extensions-app
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-extensions-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-extensions-app/tree/main
         giantswarm.io/deployment-names: coredns-extensions,coredns-extensions-app
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 0.1.3
@@ -182,6 +188,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: debug-toolbox
         backstage.io/source-location: url:https://github.com/giantswarm/debug-toolbox
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/debug-toolbox/tree/main
         giantswarm.io/deployment-names: debug-toolbox,debug-toolbox-app
         giantswarm.io/helmchart-app-versions: v1.0.0
         giantswarm.io/helmchart-versions: 1.2.1
@@ -210,6 +217,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: dex-app
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
         giantswarm.io/deployment-names: dex,dex-app
         giantswarm.io/helmchart-app-versions: 2.2.0-f9ab4b8ba86d1090b3c676f0fa2758fc1860fa84
         giantswarm.io/helmchart-versions: 2.2.0-f9ab4b8ba86d1090b3c676f0fa2758fc1860fa84
@@ -238,6 +246,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: envoy-ai-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-ai-gateway-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-ai-gateway-app/tree/main
         giantswarm.io/deployment-names: envoy-ai-gateway,envoy-ai-gateway-app
         giantswarm.io/helmchart-app-versions: v0.4.0
         giantswarm.io/helmchart-versions: 0.1.0
@@ -266,6 +275,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-extension-server/tree/main
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
         giantswarm.io/helmchart-app-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
         giantswarm.io/helmchart-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
@@ -294,6 +304,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
         giantswarm.io/deployment-names: envoy-gateway,envoy-gateway-app
         giantswarm.io/helmchart-app-versions: 1.7.0
         giantswarm.io/helmchart-versions: 1.6.0
@@ -322,6 +333,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/exception-recommender/tree/main
         giantswarm.io/deployment-names: exception-recommender,exception-recommender-app
         giantswarm.io/helmchart-app-versions: 0.2.0-f65a49fde159e04c87331b0a6d15863f2a85381a
         giantswarm.io/helmchart-versions: 0.2.0-f65a49fde159e04c87331b0a6d15863f2a85381a
@@ -350,6 +362,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: external-secrets
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
         giantswarm.io/deployment-names: external-secrets,external-secrets-app
         giantswarm.io/helmchart-app-versions: v0.20.4
         giantswarm.io/helmchart-versions: 0.20.5
@@ -378,6 +391,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: falco-app
         backstage.io/source-location: url:https://github.com/giantswarm/falco-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/falco-app/tree/main
         giantswarm.io/deployment-names: falco,falco-app
         giantswarm.io/helmchart-app-versions: 0.41.3
         giantswarm.io/helmchart-versions: 0.11.2
@@ -406,6 +420,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: fluent-logshipping-app
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
         giantswarm.io/deployment-names: fluent-logshipping,fluent-logshipping-app
         giantswarm.io/helmchart-app-versions: 3.1.9
         giantswarm.io/helmchart-versions: 5.5.2
@@ -434,6 +449,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: flux-app
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
         giantswarm.io/helmchart-app-versions: 2.5.1
         giantswarm.io/helmchart-versions: 1.8.2
@@ -462,6 +478,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: flux-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/flux-operator-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-operator-app/tree/main
         giantswarm.io/deployment-names: flux-operator,flux-operator-app
         giantswarm.io/helmchart-app-versions: v0.26.0
         giantswarm.io/helmchart-versions: 0.1.1
@@ -490,13 +507,14 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
         giantswarm.io/deployment-names: gateway-api-bundle,gateway-api-bundle-app
-        giantswarm.io/helmchart-app-versions: 1.12.9
-        giantswarm.io/helmchart-versions: 1.12.9
+        giantswarm.io/helmchart-app-versions: 1.12.10
+        giantswarm.io/helmchart-versions: 1.12.10
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-05T13:59:39Z"
-        giantswarm.io/latest-release-tag: 1.12.9
+        giantswarm.io/latest-release-date: "2026-03-11T08:21:35Z"
+        giantswarm.io/latest-release-tag: 1.12.10
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -518,6 +536,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
         giantswarm.io/deployment-names: gateway-api-config,gateway-api-config-app
         giantswarm.io/helmchart-app-versions: 1.7.10
         giantswarm.io/helmchart-versions: 1.7.10
@@ -546,6 +565,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: gateway-api-crds-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-crds-app/tree/main
         giantswarm.io/deployment-names: gateway-api-crds,gateway-api-crds-app
         giantswarm.io/helmchart-app-versions: 'gateway-api: v1.4.1, gateway-api-inference-extension: v1.3.0'
         giantswarm.io/helmchart-versions: 1.7.0
@@ -574,6 +594,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: gpu-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/gpu-operator-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/gpu-operator-app/tree/main
         giantswarm.io/deployment-names: gpu-operator,gpu-operator-app
         giantswarm.io/helmchart-app-versions: 25.10.1
         giantswarm.io/helmchart-versions: 1.2.0
@@ -602,6 +623,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: hello-world-app
         backstage.io/source-location: url:https://github.com/giantswarm/hello-world-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/hello-world-app/tree/main
         giantswarm.io/deployment-names: hello-world,hello-world-app
         giantswarm.io/helmchart-app-versions: 0.3.0
         giantswarm.io/helmchart-versions: 2.11.0
@@ -630,6 +652,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: ingress-nginx-app
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
         giantswarm.io/deployment-names: ingress-nginx,ingress-nginx-app
         giantswarm.io/helmchart-app-versions: 1.14.4
         giantswarm.io/helmchart-versions: 4.2.4
@@ -658,6 +681,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: ingress-sla-app
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/deployment-names: ingress-sla,ingress-sla-app
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 0.2.0-f9dcc74f3a114c8cd4c6c65d9b9077d2a91df4a0
@@ -686,6 +710,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: jiralert-app
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/jiralert-app/tree/main
         giantswarm.io/deployment-names: jiralert,jiralert-app
         giantswarm.io/helmchart-app-versions: "1.2"
         giantswarm.io/helmchart-versions: 0.1.3-b12afe70d5d3fc801f5e1b3bbabd5de1392790f7
@@ -714,6 +739,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: kong-app
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
         giantswarm.io/helmchart-app-versions: 3.8.0
         giantswarm.io/helmchart-versions: 5.2.1-d78fe9240c1bfdf75426fc15b0425eee3f014b6a
@@ -742,6 +768,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: kube-vip-app
         backstage.io/source-location: url:https://github.com/giantswarm/kube-vip-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-vip-app/tree/main
         giantswarm.io/deployment-names: kube-vip,kube-vip-app
         giantswarm.io/helmchart-app-versions: 0.8.4
         giantswarm.io/helmchart-versions: 0.3.0
@@ -770,6 +797,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: kubeedge-cloudcore-app
         backstage.io/source-location: url:https://github.com/giantswarm/kubeedge-cloudcore-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubeedge-cloudcore-app/tree/main
         giantswarm.io/deployment-names: kubeedge-cloudcore,kubeedge-cloudcore-app
         giantswarm.io/helmchart-app-versions: 1.22.1
         giantswarm.io/helmchart-versions: 0.3.0
@@ -798,6 +826,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: kubescape
         backstage.io/source-location: url:https://github.com/giantswarm/kubescape
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubescape/tree/main
         giantswarm.io/deployment-names: kubescape,kubescape-app
         giantswarm.io/helmchart-versions: 0.0.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubescape
@@ -825,6 +854,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: kueue-app
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
         giantswarm.io/deployment-names: kueue,kueue-app
         giantswarm.io/helmchart-app-versions: v0.14.1
         giantswarm.io/helmchart-versions: 0.1.0-882cefaae742a667403fc2ff3aad91706720476d
@@ -853,6 +883,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: kyverno-app
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-app/tree/main
         giantswarm.io/deployment-names: kyverno,kyverno-app
         giantswarm.io/helmchart-app-versions: v1.17.0
         giantswarm.io/helmchart-versions: 0.24.1
@@ -881,6 +912,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: kyverno-policy-operator
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policy-operator/tree/main
         giantswarm.io/deployment-names: kyverno-policy-operator,kyverno-policy-operator-app
         giantswarm.io/helmchart-app-versions: 0.2.2
         giantswarm.io/helmchart-versions: 0.2.2
@@ -909,13 +941,14 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.31
-        giantswarm.io/helmchart-versions: 0.1.31
+        giantswarm.io/helmchart-app-versions: 0.1.34
+        giantswarm.io/helmchart-versions: 0.1.34
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-10T10:14:21Z"
-        giantswarm.io/latest-release-tag: 0.1.31
+        giantswarm.io/latest-release-date: "2026-03-11T12:08:07Z"
+        giantswarm.io/latest-release-tag: 0.1.34
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -937,6 +970,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: openssf-scorecard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/openssf-scorecard-exporter/tree/main
         giantswarm.io/deployment-names: openssf-scorecard-exporter,openssf-scorecard-exporter-app
         giantswarm.io/helmchart-app-versions: 0.1.1
         giantswarm.io/helmchart-versions: 0.1.1
@@ -965,6 +999,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
         giantswarm.io/deployment-names: policy-api,policy-api-app
         giantswarm.io/helmchart-versions: 0.0.6-ea6221c572be6e4bc18c6fa418f5bfaca6adcef9
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
@@ -992,6 +1027,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: rbac-bootstrap-app
         backstage.io/source-location: url:https://github.com/giantswarm/rbac-bootstrap-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/rbac-bootstrap-app/tree/main
         giantswarm.io/deployment-names: rbac-bootstrap,rbac-bootstrap-app
         giantswarm.io/helmchart-app-versions: 0.0.1
         giantswarm.io/helmchart-versions: 0.2.3
@@ -1020,6 +1056,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: starboard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
         giantswarm.io/deployment-names: starboard-exporter,starboard-exporter-app
         giantswarm.io/helmchart-app-versions: 1.0.3
         giantswarm.io/helmchart-versions: 1.0.3
@@ -1048,6 +1085,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: trivy-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
         giantswarm.io/deployment-names: trivy,trivy-app
         giantswarm.io/helmchart-app-versions: 0.63.0
         giantswarm.io/helmchart-versions: 0.14.2
@@ -1076,6 +1114,7 @@ metadata:
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: trivy-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-operator-app/tree/main
         giantswarm.io/deployment-names: trivy-operator,trivy-operator-app
         giantswarm.io/helmchart-app-versions: 0.27.3
         giantswarm.io/helmchart-versions: 0.12.2
@@ -1104,6 +1143,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: valkey-app
         backstage.io/source-location: url:https://github.com/giantswarm/valkey-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/valkey-app/tree/main
         giantswarm.io/deployment-names: valkey,valkey-app
         giantswarm.io/helmchart-app-versions: 8.1.4
         giantswarm.io/helmchart-versions: 0.1.2
@@ -1132,6 +1172,7 @@ metadata:
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: zot
         backstage.io/source-location: url:https://github.com/giantswarm/zot
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
         giantswarm.io/deployment-names: zot,zot-app
         giantswarm.io/helmchart-app-versions: v2.1.13
         giantswarm.io/helmchart-versions: 2.6.2
