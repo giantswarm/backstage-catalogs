@@ -643,6 +643,35 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: important-service
+    namespace: giantswarm
+    title: important-service
+    description: An application to demonstrate workload deployment at Giant Swarm
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: important-service
+        backstage.io/source-location: url:https://github.com/giantswarm/important-service
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/important-service/tree/main
+        giantswarm.io/deployment-names: important-service,important-service-app
+        giantswarm.io/helmchart-app-versions: 0.3.0
+        giantswarm.io/helmchart-versions: 0.0.0-486ee0aa3503f061c50c6e907a153dc25c92721e
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/important-service
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-03-11T22:57:37Z"
+        giantswarm.io/latest-release-tag: 0.0.0-486ee0aa3503f061c50c6e907a153dc25c92721e
+        github.com/project-slug: giantswarm/important-service
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:giantswarm/team-honeybadger
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: ingress-nginx-app
     namespace: giantswarm
     title: ingress-nginx-app
