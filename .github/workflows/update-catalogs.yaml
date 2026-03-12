@@ -108,10 +108,9 @@ jobs:
       - name: Ping heartbeat
         if: env.workflow_due == 'true'
         env:
-          OPSGENIE_HEARTBEAT_KEY: ${{ secrets.OPSGENIE_HEARTBEAT_KEY }}
-          HEARTBEAT_NAME: customer-backstage-catalog-update-cronjob
+          CRONITOR_HEARTBEAT_ID: ${{ secrets.CRONITOR_HEARTBEAT_ID }}
         run: |
-          curl -X GET https://api.opsgenie.com/v2/heartbeats/${HEARTBEAT_NAME}/ping --header "Authorization: GenieKey ${OPSGENIE_HEARTBEAT_KEY}"
+          curl -X GET https://cronitor.link/p/${CRONITOR_HEARTBEAT_ID}
 
       - name: Create and merge pull request in github
         if: env.changes_exist == 'true'
