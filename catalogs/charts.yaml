@@ -30,7 +30,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -58,7 +58,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -87,7 +87,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -116,7 +116,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -145,7 +145,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -174,7 +174,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -203,7 +203,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-planeteers
+    owner: group:team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -232,7 +232,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -261,7 +261,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -290,7 +290,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -319,7 +319,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -348,7 +348,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -377,7 +377,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -406,7 +406,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -435,7 +435,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-atlas
+    owner: group:team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -464,7 +464,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -493,7 +493,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -522,7 +522,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -551,7 +551,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -580,7 +580,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -609,7 +609,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-tenet
+    owner: group:team-tenet
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -638,7 +638,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -667,7 +667,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -696,7 +696,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -725,7 +725,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -754,7 +754,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -783,7 +783,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-cabbage
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -812,7 +812,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rocket
+    owner: group:team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -841,7 +841,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-rocket
+    owner: group:team-rocket
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -869,7 +869,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -898,7 +898,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-planeteers
+    owner: group:team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -927,7 +927,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -956,7 +956,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -972,12 +972,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.37
-        giantswarm.io/helmchart-versions: 0.1.37
+        giantswarm.io/helmchart-app-versions: 0.1.42
+        giantswarm.io/helmchart-versions: 0.1.42
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-11T20:46:53Z"
-        giantswarm.io/latest-release-tag: 0.1.37
+        giantswarm.io/latest-release-date: "2026-03-12T09:50:07Z"
+        giantswarm.io/latest-release-tag: 0.1.42
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -985,7 +985,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-planeteers
+    owner: group:team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1014,7 +1014,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1042,7 +1042,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1071,7 +1071,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1100,7 +1100,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1129,7 +1129,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1158,7 +1158,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-shield
+    owner: group:team-shield
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1187,7 +1187,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-planeteers
+    owner: group:team-planeteers
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1216,4 +1216,4 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:giantswarm/team-honeybadger
+    owner: group:team-honeybadger
