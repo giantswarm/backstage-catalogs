@@ -7,7 +7,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: athena
-    namespace: giantswarm
     title: athena
     description: A service providing non-sensitive information about your cluster to clients
     annotations:
@@ -36,7 +35,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: auth-bundle
-    namespace: giantswarm
     title: auth-bundle
     description: A Helm chart for Giant Swarm's collection of auth tools.
     annotations:
@@ -64,7 +62,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cert-manager-app
-    namespace: giantswarm
     title: cert-manager-app
     description: Simplifies the process of obtaining, renewing and using certificates.
     annotations:
@@ -93,7 +90,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: cilium-servicemonitors-app
-    namespace: giantswarm
     title: cilium-servicemonitors-app
     description: Cilium ServiceMonitors
     annotations:
@@ -122,7 +118,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: coredns-app
-    namespace: giantswarm
     title: coredns-app
     description: A Helm chart for CoreDNS
     annotations:
@@ -151,7 +146,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: coredns-extensions-app
-    namespace: giantswarm
     title: coredns-extensions-app
     description: Extra resources for CoreDNS
     annotations:
@@ -180,7 +174,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: debug-toolbox
-    namespace: giantswarm
     title: debug-toolbox
     description: The debug toolbox is a collection of tools that can be used to debug issues in a Kubernetes cluster.
     annotations:
@@ -209,7 +202,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: dex-app
-    namespace: giantswarm
     title: dex-app
     description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     annotations:
@@ -238,7 +230,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: envoy-ai-gateway-app
-    namespace: giantswarm
     title: envoy-ai-gateway-app
     description: The Helm chart for Envoy AI Gateway
     annotations:
@@ -267,7 +258,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: envoy-extension-server
-    namespace: giantswarm
     title: envoy-extension-server
     description: Please add description
     annotations:
@@ -296,7 +286,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: envoy-gateway-app
-    namespace: giantswarm
     title: envoy-gateway-app
     description: The Helm chart for Envoy Gateway
     annotations:
@@ -325,7 +314,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: exception-recommender
-    namespace: giantswarm
     title: exception-recommender
     description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts from Kyverno's PolicyReport results.
     annotations:
@@ -354,7 +342,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: external-secrets
-    namespace: giantswarm
     title: external-secrets
     description: External secret management for Kubernetes
     annotations:
@@ -383,7 +370,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: falco-app
-    namespace: giantswarm
     title: falco-app
     description: A Helm chart for falco
     annotations:
@@ -412,7 +398,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: fluent-logshipping-app
-    namespace: giantswarm
     title: fluent-logshipping-app
     description: The Log Shipping App forwards cluster logs to storage backends
     annotations:
@@ -441,7 +426,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: flux-app
-    namespace: giantswarm
     title: flux-app
     description: 'Flux is a collection of tools for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. '
     annotations:
@@ -470,7 +454,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: flux-operator-app
-    namespace: giantswarm
     title: flux-operator-app
     description: Flux Operator is a Kubernetes CRD controller that manages the lifecycle of Flux CD
     annotations:
@@ -499,7 +482,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-bundle
-    namespace: giantswarm
     title: gateway-api-bundle
     description: Gateway API bundle
     annotations:
@@ -528,7 +510,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-config-app
-    namespace: giantswarm
     title: gateway-api-config-app
     description: Default configuration for Envoy Gateway
     annotations:
@@ -557,7 +538,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gateway-api-crds-app
-    namespace: giantswarm
     title: gateway-api-crds-app
     description: App to install Gateway API CRDs to Giantswarm Clusters
     annotations:
@@ -586,7 +566,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: gpu-operator-app
-    namespace: giantswarm
     title: gpu-operator-app
     description: A Helm chart to deploy NVIDIA GPU Operator with custom Cilium Network Policies.
     annotations:
@@ -615,7 +594,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: hello-world-app
-    namespace: giantswarm
     title: hello-world-app
     description: A chart that deploys a basic hello world site and lets you test values merging of user values configmap and secrets.
     annotations:
@@ -644,7 +622,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: important-service
-    namespace: giantswarm
     title: important-service
     description: An application to demonstrate workload deployment at Giant Swarm
     annotations:
@@ -673,7 +650,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: ingress-nginx-app
-    namespace: giantswarm
     title: ingress-nginx-app
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
     annotations:
@@ -702,7 +678,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: ingress-sla-app
-    namespace: giantswarm
     title: ingress-sla-app
     description: Resources required to provide metrics to Giant Swarm SLA dashboard.
     annotations:
@@ -731,7 +706,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: jiralert-app
-    namespace: giantswarm
     title: jiralert-app
     description: Alertmanager plugin that creates Jira tickets
     annotations:
@@ -760,7 +734,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kong-app
-    namespace: giantswarm
     title: kong-app
     description: The Cloud-Native Ingress and API-management
     annotations:
@@ -789,7 +762,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kube-vip-app
-    namespace: giantswarm
     title: kube-vip-app
     description: A Helm chart for kube-vip
     annotations:
@@ -818,7 +790,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kubeedge-cloudcore-app
-    namespace: giantswarm
     title: kubeedge-cloudcore-app
     description: The KubeEdge cloudcore component.
     annotations:
@@ -847,7 +818,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kubescape
-    namespace: giantswarm
     title: kubescape
     description: This chart contains the kubescape operator chart and custom Giant Swarm resources.
     annotations:
@@ -875,7 +845,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kueue-app
-    namespace: giantswarm
     title: kueue-app
     description: Kueue is a set of APIs and controllers for job queueing.
     annotations:
@@ -904,7 +873,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-app
-    namespace: giantswarm
     title: kyverno-app
     description: 'Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. '
     annotations:
@@ -933,7 +901,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: kyverno-policy-operator
-    namespace: giantswarm
     title: kyverno-policy-operator
     description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions based on PolicyExceptionsDraft resources.
     annotations:
@@ -962,7 +929,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: muster
-    namespace: giantswarm
     title: muster
     description: A Helm chart for muster - Universal Control Plane for AI Agents built on MCP
     annotations:
@@ -972,12 +938,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.42
-        giantswarm.io/helmchart-versions: 0.1.42
+        giantswarm.io/helmchart-app-versions: 0.1.44
+        giantswarm.io/helmchart-versions: 0.1.44
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-12T09:50:07Z"
-        giantswarm.io/latest-release-tag: 0.1.42
+        giantswarm.io/latest-release-date: "2026-03-12T13:02:56Z"
+        giantswarm.io/latest-release-tag: 0.1.44
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -991,7 +957,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: openssf-scorecard-exporter
-    namespace: giantswarm
     title: openssf-scorecard-exporter
     description: OpenSSF Scorecard Exporter scrapes the OpenSSF API and exposes Prometheus metrics for Scorecard data.
     annotations:
@@ -1020,7 +985,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: policy-api
-    namespace: giantswarm
     title: policy-api
     description: This app contains the Policy API CRDs.
     annotations:
@@ -1048,7 +1012,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: rbac-bootstrap-app
-    namespace: giantswarm
     title: rbac-bootstrap-app
     description: Helps to set up initial role bindings in a new cluster
     annotations:
@@ -1077,7 +1040,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: starboard-exporter
-    namespace: giantswarm
     title: starboard-exporter
     description: A Helm chart for starboard-exporter, which exposes Prometheus metrics from Aqua VulnerabilityReport and other custom resources.
     annotations:
@@ -1106,7 +1068,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: trivy-app
-    namespace: giantswarm
     title: trivy-app
     description: A Helm chart for trivy
     annotations:
@@ -1135,7 +1096,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: trivy-operator-app
-    namespace: giantswarm
     title: trivy-operator-app
     description: A Giant Swarm App for trivy-operator, the cluster security tool from Aqua Security.
     annotations:
@@ -1164,7 +1124,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: valkey-app
-    namespace: giantswarm
     title: valkey-app
     description: A Giant Swarm app for deploying Valkey (a Redis alternative) on Kubernetes.
     annotations:
@@ -1193,7 +1152,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
     name: zot
-    namespace: giantswarm
     title: zot
     description: OCI-native container image registry that can be used as a cache
     annotations:
