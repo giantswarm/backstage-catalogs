@@ -7,7 +7,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-atlas
-    namespace: giantswarm
     title: Team Atlas
     description: Monitoring, observability, logging, prometheus, loki
 spec:
@@ -26,7 +25,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-cabbage
-    namespace: giantswarm
     title: Team Cabbage
     description: Team Cabbage’s mission is to provide connectivity solutions on top of Kubernetes. ingress, nginx, gateway, kong, linkerd, mesh, loadbalancer, network, cni, external-dns
 spec:
@@ -45,7 +43,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-honeybadger
-    namespace: giantswarm
     title: Team Honeybadger
     description: GitOps, flux, helm, app-platform, crossplane, developer experience, ui, ux, happa
 spec:
@@ -67,7 +64,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-phoenix
-    namespace: giantswarm
     title: Team Phoenix
     description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
 spec:
@@ -88,7 +84,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-phoenix
-    namespace: giantswarm
     title: Team Phoenix
     description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
 spec:
@@ -109,7 +104,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-planeteers
-    namespace: giantswarm
     title: Team Planeteers
     description: Customer Success and Product Management
 spec:
@@ -132,7 +126,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-rocket
-    namespace: giantswarm
     title: Team Rocket
     description: kvm, openstack, vmware, vsphere, cloud-director, capo, capv, capvcd, rook, calico, metrics-server
 spec:
@@ -151,7 +144,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-shield
-    namespace: giantswarm
     title: Team Shield
     description: kyverno, falco, trivy, starboard, PSA, PSP
 spec:
@@ -170,7 +162,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-tenet
-    namespace: giantswarm
     title: Team Tenet
 spec:
     type: team
@@ -188,7 +179,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-tinkerers
-    namespace: giantswarm
     title: Team Tinkerers
     description: 'Our mission is to reduce friction in the development process by providing unified automated RelEng tools and process definitions across KAAS teams. Keywords: Release Engineering, Testing, Pipelines, Tekton, CI/CD'
 spec:
@@ -204,7 +194,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-turtles
-    namespace: giantswarm
     title: Team Turtles
     description: GitHub Team of the one and only Turtles
 spec:
