@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Remove `giantswarm` namespace from `update-catalogs` workflow.
+- Remove `giantswarm` namespace from `app-deployment` template.
 
 ## [0.1.1] - 2026-02-26
 
