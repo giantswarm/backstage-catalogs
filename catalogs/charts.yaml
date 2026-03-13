@@ -632,11 +632,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/important-service/tree/main
         giantswarm.io/deployment-names: important-service,important-service-app
         giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 0.0.0-486ee0aa3503f061c50c6e907a153dc25c92721e
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/important-service
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-11T22:57:37Z"
-        giantswarm.io/latest-release-tag: 0.0.0-486ee0aa3503f061c50c6e907a153dc25c92721e
+        giantswarm.io/latest-release-date: "2026-03-12T16:28:52Z"
+        giantswarm.io/latest-release-tag: 0.1.0
         github.com/project-slug: giantswarm/important-service
     tags:
         - helmchart
@@ -938,12 +938,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.44
-        giantswarm.io/helmchart-versions: 0.1.44
+        giantswarm.io/helmchart-app-versions: 0.1.51
+        giantswarm.io/helmchart-versions: 0.1.51
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-12T13:02:56Z"
-        giantswarm.io/latest-release-tag: 0.1.44
+        giantswarm.io/latest-release-date: "2026-03-12T21:59:25Z"
+        giantswarm.io/latest-release-tag: 0.1.51
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
