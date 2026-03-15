@@ -938,12 +938,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.54
-        giantswarm.io/helmchart-versions: 0.1.54
+        giantswarm.io/helmchart-app-versions: 0.1.59
+        giantswarm.io/helmchart-versions: 0.1.59
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-13T13:49:00Z"
-        giantswarm.io/latest-release-tag: 0.1.54
+        giantswarm.io/latest-release-date: "2026-03-14T19:01:17Z"
+        giantswarm.io/latest-release-tag: 0.1.59
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
