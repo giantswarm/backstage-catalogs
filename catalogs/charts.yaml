@@ -267,12 +267,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-extension-server/tree/main
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
-        giantswarm.io/helmchart-versions: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
+        giantswarm.io/helmchart-app-versions: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
+        giantswarm.io/helmchart-versions: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-13T18:39:30Z"
-        giantswarm.io/latest-release-tag: 0.0.0-f7ff6b06fe65d8f08408368ab56b6500167bbac4
+        giantswarm.io/latest-release-date: "2026-02-27T14:18:36Z"
+        giantswarm.io/latest-release-tag: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -632,11 +632,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/important-service/tree/main
         giantswarm.io/deployment-names: important-service,important-service-app
         giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 0.1.2
+        giantswarm.io/helmchart-versions: 0.1.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/important-service
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-13T16:40:39Z"
-        giantswarm.io/latest-release-tag: 0.1.2
+        giantswarm.io/latest-release-date: "2026-03-16T13:38:11Z"
+        giantswarm.io/latest-release-tag: 0.1.3
         github.com/project-slug: giantswarm/important-service
     tags:
         - helmchart
@@ -688,11 +688,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/deployment-names: ingress-sla,ingress-sla-app
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-f9dcc74f3a114c8cd4c6c65d9b9077d2a91df4a0
+        giantswarm.io/helmchart-versions: 0.2.0-d4f26fdf02b73cd06d250868702637b86fa7a2e1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-02-13T09:24:54Z"
-        giantswarm.io/latest-release-tag: 0.2.0-f9dcc74f3a114c8cd4c6c65d9b9077d2a91df4a0
+        giantswarm.io/latest-release-date: "2026-03-12T14:00:33Z"
+        giantswarm.io/latest-release-tag: 0.2.0-d4f26fdf02b73cd06d250868702637b86fa7a2e1
         github.com/project-slug: giantswarm/ingress-sla-app
     tags:
         - helmchart
@@ -938,12 +938,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.60
-        giantswarm.io/helmchart-versions: 0.1.60
+        giantswarm.io/helmchart-app-versions: 0.1.63
+        giantswarm.io/helmchart-versions: 0.1.63
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-15T13:19:50Z"
-        giantswarm.io/latest-release-tag: 0.1.60
+        giantswarm.io/latest-release-date: "2026-03-16T15:38:52Z"
+        giantswarm.io/latest-release-tag: 0.1.63
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
