@@ -10,11 +10,15 @@ spec:
   ref:
     {% if values.automaticUpgrades === 'no-upgrades' %}
     tag: ${{ values.chartTag }}
+    semver: null
     {% elif values.automaticUpgrades === 'patch-upgrades' %}
+    tag: null
     semver: '~${{ values.chartTag }}'
     {% elif values.automaticUpgrades === 'minor-upgrades' %}
+    tag: null
     semver: '^${{ values.chartTag }}'
     {% elif values.automaticUpgrades === 'major-upgrades' %}
+    tag: null
     semver: '>=${{ values.chartTag }}'
     {% endif %}
   url: oci://${{ values.chartRef }}
@@ -54,8 +58,10 @@ spec:
       name: ${{ values.name }}-user-secrets
       valuesKey: values
     {% endif %}
+  values: null
   {% else %}
-  values: {}
+  valuesFrom: null
+  values: null
   {% endif %}
 
 {% if values.values %}

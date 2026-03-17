@@ -1,0 +1,201 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: edit-app-deployment
+  title: Edit App Deployment
+  description: Edit values, secrets, chart version, or upgrade strategy of an existing app deployment.
+  tags:
+    - hidden
+spec:
+  owner: group:team-honeybadger
+  type: resource
+  parameters:
+    - title: Deployment
+      description: Here you can modify chart version and upgrade strategy.
+      ui:ObjectFieldTemplate: GSStepLayout
+      ui:options:
+        formWidth: 1200
+      required:
+        - chartTag
+      properties:
+        installation:
+          type: object
+          ui:widget: hidden
+          properties:
+            installationName:
+              type: string
+        cluster:
+          type: object
+          ui:widget: hidden
+          properties:
+            clusterName:
+              type: string
+            clusterNamespace:
+              type: string
+            isManagementCluster:
+              type: boolean
+        name:
+          type: string
+          ui:widget: hidden
+        targetNamespace:
+          type: string
+          ui:widget: hidden
+        entityRef:
+          type: string
+          ui:widget: hidden
+        chartRef:
+          type: string
+          ui:widget: hidden
+        _deployment:
+          type: object
+          ui:field: GSDeploymentPicker
+          ui:options:
+            installationNameField: installation.installationName
+            clusterNameField: cluster.clusterName
+            clusterNamespaceField: cluster.clusterNamespace
+            deploymentNameField: name
+            deploymentNamespaceField: cluster.clusterNamespace
+            secretValuesKey: SECRET_VALUES
+          properties:
+            currentValues:
+              type: string
+        chartTag:
+          title: Version
+          description: Select the chart version. The current version is pre-selected.
+          type: string
+          ui:field: GSChartTagPicker
+          ui:options:
+            chartRefField: chartRef
+        automaticUpgrades:
+          title: Automatic upgrades
+          type: string
+          enum:
+            - no-upgrades
+            - patch-upgrades
+            - minor-upgrades
+            - major-upgrades
+          ui:enumNames:
+            - No automatic upgrades
+            - Automatic patch upgrades
+            - Automatic minor and patch upgrades
+            - Automatic major, minor and patch upgrades
+          ui:widget: radio
+    - title: Configuration
+      description: Here you can edit the application's configuration.
+      ui:ObjectFieldTemplate: GSStepLayout
+      ui:options:
+        configurationDocs:
+          chartRefField: chartRef
+          chartTagField: chartTag
+      properties:
+        values:
+          title: Values (stored as ConfigMap).
+          type: string
+          ui:field: GSYamlValuesEditor
+          ui:options:
+            chartRefField: chartRef
+            chartTagField: chartTag
+            initialValueField: _deployment.currentValues
+        secretValues:
+          title: Secret values (stored as Secret).
+          type: string
+          ui:field: GSSecretYamlValuesEditor
+          ui:options:
+            secretsKey: SECRET_VALUES
+            chartRefField: chartRef
+            chartTagField: chartTag
+        schemaValidation:
+          type: boolean
+          ui:field: GSYamlValuesValidation
+          ui:options:
+            chartRefField: chartRef
+            chartTagField: chartTag
+            valuesFields:
+              - values
+            secretValuesKeys:
+              - SECRET_VALUES
+    - title: Output options
+      ui:ObjectFieldTemplate: GSStepLayout
+      ui:options:
+        formWidth: 1200
+      required:
+        - action
+      properties:
+        action:
+          title: Desired result
+          type: string
+          enum:
+            - apply
+            - template
+          default: apply
+          ui:enumNames:
+            - Apply changes to the deployment
+            - Display the manifest (e.g. for use in a GitOps repository)
+          ui:widget: radio
+      dependencies:
+        action:
+          allOf:
+            - if:
+                properties:
+                  action:
+                    const: apply
+                required:
+                  - action
+              then:
+                properties:
+                  userToken:
+                    type: object
+                    ui:field: GSOIDCToken
+                    ui:options:
+                      secretsKey: USER_OIDC_TOKEN
+                      installationNameField: installation.installationName
+  steps:
+    - id: fetchTemplate
+      name: Template manifests
+      action: fetch:template
+      input:
+        url: ./template
+        values:
+          name: ${{ parameters.name }}
+          namespace: ${{ parameters.cluster.clusterNamespace }}
+          clusterName: ${{ parameters.cluster.clusterName }}
+          isManagementCluster: ${{ parameters.cluster.isManagementCluster }}
+          targetNamespace: ${{ parameters.targetNamespace }}
+          chartRef: ${{ parameters.chartRef }}
+          chartTag: ${{ parameters.chartTag }}
+          automaticUpgrades: ${{ parameters.automaticUpgrades }}
+          values: ${{ parameters.values }}
+          secretValues: ${{ secrets.SECRET_VALUES }}
+    - id: cleanup
+      name: Clean up
+      action: roadiehq:utils:fs:replace
+      input:
+        files:
+          - file: manifest.yaml
+            find: \n\s*\n
+            replaceWith: "\n"
+            matchRegex: true
+    - id: parseFile
+      name: Print manifests
+      action: roadiehq:utils:fs:parse
+      input:
+        path: manifest.yaml
+    - id: apply
+      if: ${{ parameters.action == 'apply' }}
+      action: kube:apply
+      name: Apply to cluster
+      input:
+        namespaced: true
+        clusterName: ${{ parameters.installation.installationName }}
+        token: ${{ secrets.USER_OIDC_TOKEN }}
+        manifest: ${{ steps.parseFile.output.content }}
+  output:
+    links:
+      - title: Go to deployment
+        url: /deployments/${{ parameters.installation.installationName }}/helmrelease/${{ parameters.cluster.clusterNamespace }}/${{ parameters.name }}
+    text:
+      - title: Manifests
+        content: |
+          ```yaml
+          ${{ steps.parseFile.output.content }}
+          ```
