@@ -21,7 +21,7 @@ spec:
           title: Application
           description: Select the application you want to deploy.
           type: string
-          ui:field: EntityPicker
+          ui:field: GSEntityPicker
           ui:options:
             allowArbitraryValues: false
             catalogFilter:
