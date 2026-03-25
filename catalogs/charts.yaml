@@ -733,6 +733,62 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: karpenter-app
+    title: karpenter-app
+    description: A Helm chart for Karpenter, an open-source node provisioning project built for Kubernetes.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: karpenter-app
+        backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
+        giantswarm.io/deployment-names: karpenter,karpenter-app
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+        giantswarm.io/latest-release-date: "2026-03-24T15:10:48Z"
+        giantswarm.io/latest-release-tag: 2.3.0
+        github.com/project-slug: giantswarm/karpenter-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: karpenter-app
+    title: karpenter-app
+    description: A Helm chart bundle that deploys Karpenter with AWS Crossplane resources (IAM roles, SQS queues, CloudWatch rules).
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: karpenter-app
+        backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
+        giantswarm.io/deployment-names: karpenter,karpenter-app
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
+        giantswarm.io/latest-release-date: "2026-03-24T15:11:40Z"
+        giantswarm.io/latest-release-tag: 2.3.0
+        github.com/project-slug: giantswarm/karpenter-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kong-app
     title: kong-app
     description: The Cloud-Native Ingress and API-management
@@ -744,11 +800,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/deployment-names: kong,kong-app
         giantswarm.io/helmchart-app-versions: 3.8.0
-        giantswarm.io/helmchart-versions: 5.2.1-d78fe9240c1bfdf75426fc15b0425eee3f014b6a
+        giantswarm.io/helmchart-versions: 5.2.2-b26fe68194ca3f4adaeeb5c1ee32fee5a650ebcd
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kong-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kong/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-04T15:10:45Z"
-        giantswarm.io/latest-release-tag: 5.2.1-d78fe9240c1bfdf75426fc15b0425eee3f014b6a
+        giantswarm.io/latest-release-date: "2026-03-24T08:25:44Z"
+        giantswarm.io/latest-release-tag: 5.2.2-b26fe68194ca3f4adaeeb5c1ee32fee5a650ebcd
         github.com/project-slug: giantswarm/kong-app
     tags:
         - helmchart
@@ -938,12 +994,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.81
-        giantswarm.io/helmchart-versions: 0.1.81
+        giantswarm.io/helmchart-app-versions: 0.1.83
+        giantswarm.io/helmchart-versions: 0.1.83
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-23T07:45:14Z"
-        giantswarm.io/latest-release-tag: 0.1.81
+        giantswarm.io/latest-release-date: "2026-03-24T08:46:14Z"
+        giantswarm.io/latest-release-tag: 0.1.83
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
