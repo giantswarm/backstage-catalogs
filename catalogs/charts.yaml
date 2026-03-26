@@ -61,6 +61,118 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: aws-ebs-csi-driver-app
+    title: aws-ebs-csi-driver-app
+    description: A Helm chart for the AWS EBS CSI Driver.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: aws-ebs-csi-driver-app
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-ebs-csi-driver-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/main
+        giantswarm.io/deployment-names: aws-ebs-csi-driver,aws-ebs-csi-driver-app
+        giantswarm.io/helmchart-app-versions: 4.2.0
+        giantswarm.io/helmchart-versions: 4.2.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+        giantswarm.io/latest-release-date: "2026-03-25T09:27:35Z"
+        giantswarm.io/latest-release-tag: 4.2.0
+        github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-ebs-csi-driver-app
+    title: aws-ebs-csi-driver-app
+    description: A Helm chart for AWS EBS CSI Driver with IAM resources
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: aws-ebs-csi-driver-app
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-ebs-csi-driver-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/main
+        giantswarm.io/deployment-names: aws-ebs-csi-driver,aws-ebs-csi-driver-app
+        giantswarm.io/helmchart-app-versions: 4.2.0
+        giantswarm.io/helmchart-versions: 4.2.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+        giantswarm.io/latest-release-date: "2026-03-25T09:28:10Z"
+        giantswarm.io/latest-release-tag: 4.2.0
+        github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-efs-csi-driver
+    title: aws-efs-csi-driver
+    description: A Helm chart for AWS EFS CSI Driver
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: aws-efs-csi-driver
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
+        giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
+        giantswarm.io/helmchart-app-versions: 3.3.0
+        giantswarm.io/helmchart-versions: 3.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+        giantswarm.io/latest-release-date: "2026-03-25T09:20:02Z"
+        giantswarm.io/latest-release-tag: 3.3.0
+        github.com/project-slug: giantswarm/aws-efs-csi-driver
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: aws-efs-csi-driver
+    title: aws-efs-csi-driver
+    description: A Helm chart for AWS EFS CSI Driver
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: aws-efs-csi-driver
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
+        giantswarm.io/deployment-names: aws-efs-csi-driver,aws-efs-csi-driver-app
+        giantswarm.io/helmchart-app-versions: 3.3.0
+        giantswarm.io/helmchart-versions: 3.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+        giantswarm.io/latest-release-date: "2026-03-25T09:20:18Z"
+        giantswarm.io/latest-release-tag: 3.3.0
+        github.com/project-slug: giantswarm/aws-efs-csi-driver
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cert-manager-app
     title: cert-manager-app
     description: Simplifies the process of obtaining, renewing and using certificates.
@@ -436,11 +548,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/deployment-names: flux,flux-app
         giantswarm.io/helmchart-app-versions: 2.5.1
-        giantswarm.io/helmchart-versions: 1.8.2
+        giantswarm.io/helmchart-versions: 1.9.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
-        giantswarm.io/latest-release-date: "2026-02-25T11:58:10Z"
-        giantswarm.io/latest-release-tag: 1.8.2
+        giantswarm.io/latest-release-date: "2026-03-25T14:03:24Z"
+        giantswarm.io/latest-release-tag: 1.9.0
         github.com/project-slug: giantswarm/flux-app
     tags:
         - helmchart
@@ -604,11 +716,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/hello-world-app/tree/main
         giantswarm.io/deployment-names: hello-world,hello-world-app
         giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 2.11.0
+        giantswarm.io/helmchart-versions: 3.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/hello-world
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
-        giantswarm.io/latest-release-date: "2025-12-17T13:30:34Z"
-        giantswarm.io/latest-release-tag: 2.11.0
+        giantswarm.io/latest-release-date: "2026-03-25T10:25:13Z"
+        giantswarm.io/latest-release-tag: 3.0.0
         github.com/project-slug: giantswarm/hello-world-app
     tags:
         - helmchart
@@ -994,12 +1106,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.83
-        giantswarm.io/helmchart-versions: 0.1.83
+        giantswarm.io/helmchart-app-versions: 0.1.84
+        giantswarm.io/helmchart-versions: 0.1.84
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-24T08:46:14Z"
-        giantswarm.io/latest-release-tag: 0.1.83
+        giantswarm.io/latest-release-date: "2026-03-25T08:33:43Z"
+        giantswarm.io/latest-release-tag: 0.1.84
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
