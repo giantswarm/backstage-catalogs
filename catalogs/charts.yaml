@@ -379,12 +379,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-extension-server/tree/main
         giantswarm.io/deployment-names: envoy-extension-server,envoy-extension-server-app
-        giantswarm.io/helmchart-app-versions: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
-        giantswarm.io/helmchart-versions: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
+        giantswarm.io/helmchart-app-versions: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
+        giantswarm.io/helmchart-versions: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-27T14:18:36Z"
-        giantswarm.io/latest-release-tag: 0.0.0-ebe5e97d8cf8b6b3d158deda0cc0921a763d18cf
+        giantswarm.io/latest-release-date: "2026-03-03T05:42:59Z"
+        giantswarm.io/latest-release-tag: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -716,11 +716,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/hello-world-app/tree/main
         giantswarm.io/deployment-names: hello-world,hello-world-app
         giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 3.0.0
+        giantswarm.io/helmchart-versions: 3.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/hello-world
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
-        giantswarm.io/latest-release-date: "2026-03-25T10:25:13Z"
-        giantswarm.io/latest-release-tag: 3.0.0
+        giantswarm.io/latest-release-date: "2026-03-30T11:36:42Z"
+        giantswarm.io/latest-release-tag: 3.0.1
         github.com/project-slug: giantswarm/hello-world-app
     tags:
         - helmchart
@@ -1023,11 +1023,11 @@ metadata:
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
         giantswarm.io/deployment-names: kueue,kueue-app
         giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-4ecfaa0e0974b798f08083dd7534a18cb2d259a1
+        giantswarm.io/helmchart-versions: 0.1.0-031b386757189e68ff2a9a027fa6408d6402f7f6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-27T18:09:53Z"
-        giantswarm.io/latest-release-tag: 0.1.0-4ecfaa0e0974b798f08083dd7534a18cb2d259a1
+        giantswarm.io/latest-release-date: "2026-03-12T18:00:54Z"
+        giantswarm.io/latest-release-tag: 0.1.0-031b386757189e68ff2a9a027fa6408d6402f7f6
         github.com/project-slug: giantswarm/kueue-app
     tags:
         - helmchart
@@ -1106,12 +1106,12 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
         giantswarm.io/deployment-names: muster,muster-app
-        giantswarm.io/helmchart-app-versions: 0.1.89
-        giantswarm.io/helmchart-versions: 0.1.89
+        giantswarm.io/helmchart-app-versions: 0.1.90
+        giantswarm.io/helmchart-versions: 0.1.90
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-27T11:07:22Z"
-        giantswarm.io/latest-release-tag: 0.1.89
+        giantswarm.io/latest-release-date: "2026-03-30T13:21:13Z"
+        giantswarm.io/latest-release-tag: 0.1.90
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1162,11 +1162,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
         giantswarm.io/deployment-names: policy-api,policy-api-app
-        giantswarm.io/helmchart-versions: 0.0.6-ea6221c572be6e4bc18c6fa418f5bfaca6adcef9
+        giantswarm.io/helmchart-versions: 0.0.6-dd47c1c1c66810b1c1ee771a420ffe27866fe064
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-24T16:01:33Z"
-        giantswarm.io/latest-release-tag: 0.0.6-ea6221c572be6e4bc18c6fa418f5bfaca6adcef9
+        giantswarm.io/latest-release-date: "2026-03-04T20:41:22Z"
+        giantswarm.io/latest-release-tag: 0.0.6-dd47c1c1c66810b1c1ee771a420ffe27866fe064
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
@@ -1231,6 +1231,34 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: strimzi-kafka-operator
+    title: strimzi-kafka-operator
+    description: 'Giant Swarm app wrapping the Strimzi Kafka Operator, which manages Apache Kafka clusters natively on Kubernetes via custom resources. '
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: strimzi-kafka-operator
+        backstage.io/source-location: url:https://github.com/giantswarm/strimzi-kafka-operator
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/strimzi-kafka-operator/tree/main
+        giantswarm.io/deployment-names: strimzi-kafka-operator,strimzi-kafka-operator-app
+        giantswarm.io/helmchart-app-versions: 0.51.0
+        giantswarm.io/helmchart-versions: 0.0.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/strimzi-kafka-operator
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        giantswarm.io/latest-release-date: "2026-03-30T11:17:31Z"
+        giantswarm.io/latest-release-tag: 0.0.1
+        github.com/project-slug: giantswarm/strimzi-kafka-operator
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
