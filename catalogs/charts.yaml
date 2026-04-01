@@ -231,11 +231,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
         giantswarm.io/helmchart-app-versions: 1.14.2
-        giantswarm.io/helmchart-versions: 1.29.2
+        giantswarm.io/helmchart-versions: 1.30.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-03-18T10:23:18Z"
-        giantswarm.io/latest-release-tag: 1.29.2
+        giantswarm.io/latest-release-date: "2026-04-01T16:53:15Z"
+        giantswarm.io/latest-release-tag: 1.30.0
         github.com/project-slug: giantswarm/coredns-app
     tags:
         - helmchart
@@ -392,12 +392,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.7.0
-        giantswarm.io/helmchart-versions: 1.6.0
+        giantswarm.io/helmchart-app-versions: 1.7.1
+        giantswarm.io/helmchart-versions: 1.6.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-23T10:56:08Z"
-        giantswarm.io/latest-release-tag: 1.6.0
+        giantswarm.io/latest-release-date: "2026-04-01T08:09:25Z"
+        giantswarm.io/latest-release-tag: 1.6.1
         github.com/project-slug: giantswarm/envoy-gateway-app
     tags:
         - helmchart
@@ -528,11 +528,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
         giantswarm.io/helmchart-app-versions: 2.5.1
-        giantswarm.io/helmchart-versions: 1.9.0
+        giantswarm.io/helmchart-versions: 1.9.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
-        giantswarm.io/latest-release-date: "2026-03-25T14:03:24Z"
-        giantswarm.io/latest-release-tag: 1.9.0
+        giantswarm.io/latest-release-date: "2026-04-01T09:07:51Z"
+        giantswarm.io/latest-release-tag: 1.9.1
         github.com/project-slug: giantswarm/flux-app
     tags:
         - helmchart
@@ -581,12 +581,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.12.11
-        giantswarm.io/helmchart-versions: 1.12.11
+        giantswarm.io/helmchart-app-versions: 1.13.0
+        giantswarm.io/helmchart-versions: 1.13.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-17T10:05:20Z"
-        giantswarm.io/latest-release-tag: 1.12.11
+        giantswarm.io/latest-release-date: "2026-04-01T10:05:42Z"
+        giantswarm.io/latest-release-tag: 1.13.0
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
