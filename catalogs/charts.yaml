@@ -1201,11 +1201,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/strimzi-kafka-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/strimzi-kafka-operator/tree/main
         giantswarm.io/helmchart-app-versions: 0.51.0
-        giantswarm.io/helmchart-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.0.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/strimzi-kafka-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-30T11:17:31Z"
-        giantswarm.io/latest-release-tag: 0.0.1
+        giantswarm.io/latest-release-date: "2026-04-01T23:10:36Z"
+        giantswarm.io/latest-release-tag: 0.0.2
         github.com/project-slug: giantswarm/strimzi-kafka-operator
     tags:
         - helmchart
