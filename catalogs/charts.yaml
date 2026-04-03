@@ -581,12 +581,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.13.0
-        giantswarm.io/helmchart-versions: 1.13.0
+        giantswarm.io/helmchart-app-versions: 1.14.0
+        giantswarm.io/helmchart-versions: 1.14.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-01T10:05:42Z"
-        giantswarm.io/latest-release-tag: 1.13.0
+        giantswarm.io/latest-release-date: "2026-04-02T10:35:25Z"
+        giantswarm.io/latest-release-tag: 1.14.0
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -608,12 +608,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.8.0
-        giantswarm.io/helmchart-versions: 1.8.0
+        giantswarm.io/helmchart-app-versions: 1.9.0
+        giantswarm.io/helmchart-versions: 1.9.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-31T13:45:49Z"
-        giantswarm.io/latest-release-tag: 1.8.0
+        giantswarm.io/latest-release-date: "2026-04-02T09:40:03Z"
+        giantswarm.io/latest-release-tag: 1.9.0
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
