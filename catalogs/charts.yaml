@@ -365,12 +365,12 @@ metadata:
         backstage.io/kubernetes-id: envoy-extension-server
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-extension-server/tree/main
-        giantswarm.io/helmchart-app-versions: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
-        giantswarm.io/helmchart-versions: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
+        giantswarm.io/helmchart-app-versions: 0.0.0-cfbc479aff778053b55ccdd7b9ee19206abaa71f
+        giantswarm.io/helmchart-versions: 0.0.0-cfbc479aff778053b55ccdd7b9ee19206abaa71f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-03T05:42:59Z"
-        giantswarm.io/latest-release-tag: 0.0.0-e333401e74043f806f1058bb02c394faa48c6ae8
+        giantswarm.io/latest-release-date: "2026-03-16T07:55:18Z"
+        giantswarm.io/latest-release-tag: 0.0.0-cfbc479aff778053b55ccdd7b9ee19206abaa71f
         github.com/project-slug: giantswarm/envoy-extension-server
     tags:
         - helmchart
@@ -1120,11 +1120,11 @@ metadata:
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
-        giantswarm.io/helmchart-versions: 0.0.6-dd47c1c1c66810b1c1ee771a420ffe27866fe064
+        giantswarm.io/helmchart-versions: 0.0.6-ce19bec6e89ca51a1294b9e0add0bf0e8505760b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-04T20:41:22Z"
-        giantswarm.io/latest-release-tag: 0.0.6-dd47c1c1c66810b1c1ee771a420ffe27866fe064
+        giantswarm.io/latest-release-date: "2026-03-19T14:05:20Z"
+        giantswarm.io/latest-release-tag: 0.0.6-ce19bec6e89ca51a1294b9e0add0bf0e8505760b
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
