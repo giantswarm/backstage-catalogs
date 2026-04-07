@@ -933,11 +933,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kubeedge-cloudcore-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubeedge-cloudcore-app/tree/main
         giantswarm.io/helmchart-app-versions: 1.23.0
-        giantswarm.io/helmchart-versions: 0.4.0
+        giantswarm.io/helmchart-versions: 0.5.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubeedge-cloudcore
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubeedge/1/light.png
-        giantswarm.io/latest-release-date: "2026-03-17T14:01:18Z"
-        giantswarm.io/latest-release-tag: 0.4.0
+        giantswarm.io/latest-release-date: "2026-04-07T12:26:05Z"
+        giantswarm.io/latest-release-tag: 0.5.0
         github.com/project-slug: giantswarm/kubeedge-cloudcore-app
     tags:
         - helmchart
