@@ -4,6 +4,8 @@ metadata:
   name: edit-app-deployment
   title: Edit App Deployment
   description: Edit values, secrets, chart version, or upgrade strategy of an existing app deployment.
+  labels:
+    giantswarm.io/app-deployment-action: edit
   tags:
     - hidden
 spec:

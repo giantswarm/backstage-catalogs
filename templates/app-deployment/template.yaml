@@ -4,6 +4,8 @@ metadata:
   name: app-deployment
   title: App Deployment
   description: Deploy an app to a cluster.
+  labels:
+    giantswarm.io/app-deployment-action: create
 spec:
   owner: group:team-honeybadger
   type: resource
