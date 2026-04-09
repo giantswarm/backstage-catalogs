@@ -20,47 +20,21 @@ spec:
       required:
         - chartTag
       properties:
-        installation:
+        deployment:
           type: object
-          ui:widget: hidden
-          properties:
-            installationName:
-              type: string
-        cluster:
-          type: object
-          ui:widget: hidden
-          properties:
-            clusterName:
-              type: string
-            clusterNamespace:
-              type: string
-            isManagementCluster:
-              type: boolean
-        name:
-          type: string
-          ui:widget: hidden
-        targetNamespace:
-          type: string
-          ui:widget: hidden
-        entityRef:
-          type: string
-          ui:widget: hidden
-        chartRef:
-          type: string
-          ui:widget: hidden
-        _deployment:
-          type: object
-          ui:field: GSDeploymentPicker
+          ui:field: GSMultiSourceDeploymentPicker
           ui:options:
             installationNameField: installation.installationName
             clusterNameField: cluster.clusterName
             clusterNamespaceField: cluster.clusterNamespace
             deploymentNameField: name
-            deploymentNamespaceField: cluster.clusterNamespace
-            secretValuesKey: SECRET_VALUES
+            deploymentNamespaceField: namespace
+            secretValuesKey: SECRET_VALUES_MAP
           properties:
             currentValues:
               type: string
+            currentValueSources:
+              type: array
         chartTag:
           title: Version
           description: Select the chart version. The current version is pre-selected.
@@ -90,32 +64,65 @@ spec:
           chartRefField: chartRef
           chartTagField: chartTag
       properties:
-        values:
-          title: Values (stored as ConfigMap).
+        valuesMode:
+          title: Configuration mode
           type: string
-          ui:field: GSYamlValuesEditor
-          ui:options:
-            chartRefField: chartRef
-            chartTagField: chartTag
-            initialValueField: _deployment.currentValues
-        secretValues:
-          title: Secret values (stored as Secret).
-          type: string
-          ui:field: GSSecretYamlValuesEditor
-          ui:options:
-            secretsKey: SECRET_VALUES
-            chartRefField: chartRef
-            chartTagField: chartTag
-        schemaValidation:
-          type: boolean
-          ui:field: GSYamlValuesValidation
-          ui:options:
-            chartRefField: chartRef
-            chartTagField: chartTag
-            valuesFields:
-              - values
-            secretValuesKeys:
-              - SECRET_VALUES
+          enum:
+            - valuesFrom
+            - inline
+          ui:enumNames:
+            - Value source references (ConfigMap/Secret)
+            - Inline values
+          ui:widget: radio
+      dependencies:
+        valuesMode:
+          allOf:
+            - if:
+                properties:
+                  valuesMode:
+                    const: valuesFrom
+                required:
+                  - valuesMode
+              then:
+                properties:
+                  valueSources:
+                    title: Value sources
+                    description: Add ConfigMap or Secret value sources. Order determines merge priority (last wins).
+                    type: array
+                    ui:field: GSValueSourcesEditor
+                    ui:options:
+                      secretsKey: SECRET_VALUES_MAP
+                      chartRefField: chartRef
+                      chartTagField: chartTag
+                      initialNamePrefixTemplate: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
+                      initialValueSourcesField: deployment.currentValueSources
+                      maxHeight: 600
+            - if:
+                properties:
+                  valuesMode:
+                    const: inline
+                required:
+                  - valuesMode
+              then:
+                properties:
+                  values:
+                    title: Values
+                    type: string
+                    ui:field: GSYamlValuesEditor
+                    ui:options:
+                      chartRefField: chartRef
+                      chartTagField: chartTag
+                      initialValueField: deployment.currentValues
+                      height: 570
+                      maxHeight: 600
+                  schemaValidation:
+                    type: boolean
+                    ui:field: GSYamlValuesValidation
+                    ui:options:
+                      chartRefField: chartRef
+                      chartTagField: chartTag
+                      valuesFields:
+                        - values
     - title: Output options
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
@@ -159,15 +166,14 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
-          namespace: ${{ parameters.cluster.clusterNamespace }}
-          clusterName: ${{ parameters.cluster.clusterName }}
-          isManagementCluster: ${{ parameters.cluster.isManagementCluster }}
-          targetNamespace: ${{ parameters.targetNamespace }}
-          chartRef: ${{ parameters.chartRef }}
+          namespace: ${{ parameters.namespace or parameters.cluster.clusterNamespace }}
           chartTag: ${{ parameters.chartTag }}
           automaticUpgrades: ${{ parameters.automaticUpgrades }}
-          values: ${{ parameters.values }}
-          secretValues: ${{ secrets.SECRET_VALUES }}
+          valuesMode: ${{ parameters.valuesMode }}
+          valueSources: ${{ parameters.valueSources }}
+          secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}
+          inlineValues: ${{ parameters.values }}
+          editMode: true
     - id: cleanup
       name: Clean up
       action: roadiehq:utils:fs:replace

@@ -1,48 +1,74 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: app-deployment
-  title: App Deployment
-  description: Deploy an app to a cluster.
+  name: edit-app-deployment-v2
+  title: Edit App Deployment v2
+  description: Edit values, secrets, chart version, or upgrade strategy of an existing app deployment.
   labels:
-    giantswarm.io/app-deployment-action: create
+    giantswarm.io/app-deployment-action: edit
+  tags:
+    - hidden
 spec:
   owner: group:team-honeybadger
   type: resource
   parameters:
-    - title: Application
+    - title: Deployment
+      description: Here you can modify chart version and upgrade strategy.
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
         formWidth: 1200
       required:
-        - entityRef
-        - chartRef
         - chartTag
       properties:
+        installation:
+          type: object
+          ui:widget: hidden
+          properties:
+            installationName:
+              type: string
+        cluster:
+          type: object
+          ui:widget: hidden
+          properties:
+            clusterName:
+              type: string
+            clusterNamespace:
+              type: string
+            isManagementCluster:
+              type: boolean
+        name:
+          type: string
+          ui:widget: hidden
+        targetNamespace:
+          type: string
+          ui:widget: hidden
         entityRef:
-          title: Application
-          description: Select the application you want to deploy.
           type: string
-          ui:field: GSEntityPicker
-          ui:options:
-            allowArbitraryValues: false
-            catalogFilter:
-              - kind: Component
-                'metadata.tags': helmchart-deployable
+          ui:widget: hidden
         chartRef:
-          title: Chart
-          description: Some applications provide more than one Helm chart. In that case, please select the chart to deploy.
           type: string
-          ui:field: GSChartPicker
+          ui:widget: hidden
+        _deployment:
+          type: object
+          ui:field: GSMultiSourceDeploymentPicker
           ui:options:
-            entityRefField: entityRef
+            installationNameField: installation.installationName
+            clusterNameField: cluster.clusterName
+            clusterNamespaceField: cluster.clusterNamespace
+            deploymentNameField: name
+            deploymentNamespaceField: cluster.clusterNamespace
+            secretValuesKey: SECRET_VALUES_MAP
+          properties:
+            currentValues:
+              type: string
+            currentValueSources:
+              type: array
         chartTag:
           title: Version
-          description: Select the version you want to deploy initially. Note that the options for automatic upgrades can overrule this.
+          description: Select the chart version. The current version is pre-selected.
           type: string
           ui:field: GSChartTagPicker
           ui:options:
-            entityRefField: entityRef
             chartRefField: chartRef
         automaticUpgrades:
           title: Automatic upgrades
@@ -52,75 +78,12 @@ spec:
             - patch-upgrades
             - minor-upgrades
             - major-upgrades
-          default: no-upgrades
           ui:enumNames:
             - No automatic upgrades
             - Automatic patch upgrades
             - Automatic minor and patch upgrades
             - Automatic major, minor and patch upgrades
           ui:widget: radio
-    - title: Cluster
-      ui:ObjectFieldTemplate: GSStepLayout
-      ui:options:
-        formWidth: 1200
-      required:
-        - installation
-        - cluster
-      properties:
-        installation:
-          title: Installation
-          description: First select an installation to pick a cluster from.
-          type: object
-          required:
-            - installationName
-          properties:
-            installationName:
-              type: string
-              description: Management cluster name
-          ui:field: GSInstallationPicker
-          ui:options:
-            autoSelectFirstValue: false
-            widget: select
-        cluster:
-          title: Cluster
-          description: Select any management or workload cluster to deploy the app to.
-          type: object
-          required:
-            - clusterName
-            - clusterNamespace
-          properties:
-            clusterName:
-              type: string
-            clusterNamespace:
-              type: string
-          ui:field: GSClusterPicker
-          ui:options:
-            installationNameField: installation.installationName
-    - title: Deployment details
-      ui:ObjectFieldTemplate: GSStepLayout
-      ui:options:
-        formWidth: 1200
-      required:
-        - name
-        - targetNamespace
-      properties:
-        name:
-          title: Name
-          description: Name of the HelmRelease and OCIRepository resource. Also becomes part of Secret and ConfigMap resource names.
-          type: string
-          pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
-          ui:autofocus: true
-          ui:field: GSTemplateStringInput
-          ui:options:
-            initialValue: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
-        targetNamespace:
-          title: Namespace
-          type: string
-          description: Namespace to deploy to in the target cluster. If it doesn't exist, it will be created.
-          pattern: ^[a-z][-a-z0-9]*[a-z0-9]$
-          ui:field: GSTemplateStringInput
-          ui:options:
-            initialValue: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
     - title: Configuration
       description: Here you can edit the application's configuration.
       ui:ObjectFieldTemplate: GSStepLayout
@@ -135,7 +98,6 @@ spec:
           enum:
             - valuesFrom
             - inline
-          default: valuesFrom
           ui:enumNames:
             - Value source references (ConfigMap/Secret)
             - Inline values
@@ -161,7 +123,7 @@ spec:
                       chartRefField: chartRef
                       chartTagField: chartTag
                       initialNamePrefixTemplate: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
-                      maxHeight: 600
+                      initialValueSourcesField: _deployment.currentValueSources
             - if:
                 properties:
                   valuesMode:
@@ -177,8 +139,8 @@ spec:
                     ui:options:
                       chartRefField: chartRef
                       chartTagField: chartTag
+                      initialValueField: _deployment.currentValues
                       height: 570
-                      maxHeight: 600
                   schemaValidation:
                     type: boolean
                     ui:field: GSYamlValuesValidation
@@ -202,7 +164,7 @@ spec:
             - template
           default: apply
           ui:enumNames:
-            - Deploy the application
+            - Apply changes to the deployment
             - Display the manifest (e.g. for use in a GitOps repository)
           ui:widget: radio
       dependencies:
@@ -230,7 +192,7 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
-          namespace: ${{ parameters.namespace or parameters.cluster.clusterNamespace }}
+          namespace: ${{ parameters.cluster.clusterNamespace }}
           clusterName: ${{ parameters.cluster.clusterName }}
           isManagementCluster: ${{ parameters.cluster.isManagementCluster }}
           targetNamespace: ${{ parameters.targetNamespace }}
@@ -241,7 +203,6 @@ spec:
           valueSources: ${{ parameters.valueSources }}
           secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}
           inlineValues: ${{ parameters.values }}
-          editMode: false
     - id: cleanup
       name: Clean up
       action: roadiehq:utils:fs:replace

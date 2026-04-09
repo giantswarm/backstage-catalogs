@@ -5,11 +5,8 @@ metadata:
   name: ${{ values.name }}
   namespace: ${{ values.namespace }}
 spec:
-  {% if not values.editMode %}
   interval: 1h0m0s
   provider: generic
-  url: oci://${{ values.chartRef }}
-  {% endif %}
   ref:
     {% if values.automaticUpgrades === 'no-upgrades' %}
     tag: ${{ values.chartTag }}
@@ -24,6 +21,7 @@ spec:
     tag: null
     semver: '>=${{ values.chartTag }}'
     {% endif %}
+  url: oci://${{ values.chartRef }}
 
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2
@@ -31,12 +29,9 @@ kind: HelmRelease
 metadata:
   name: ${{ values.name }}
   namespace: ${{ values.namespace }}
-  {% if not values.editMode %}
   labels:
     giantswarm.io/cluster: ${{ values.clusterName }}
-  {% endif %}
 spec:
-  {% if not values.editMode %}
   chartRef:
     kind: OCIRepository
     name: ${{ values.name }}
@@ -51,8 +46,6 @@ spec:
   {% endif %}
   releaseName: ${{ values.name }}
   targetNamespace: ${{ values.targetNamespace }}
-  {% endif %}
-
   {% if values.valuesMode === 'inline' %}
   {% if values.inlineValues %}
   valuesFrom: null
