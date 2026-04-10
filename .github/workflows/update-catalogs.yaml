@@ -1,12 +1,6 @@
 name: Update catalogs
 
 on:
-  push:
-    branches:
-      - "main"
-    paths:
-      - "catalogs/**"
-      - ".github/workflows/update-catalogs.yaml"
   schedule:
     - cron: "50 5,16 * * MON-FRI"
   workflow_dispatch:
