@@ -1066,12 +1066,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.97
-        giantswarm.io/helmchart-versions: 0.1.97
+        giantswarm.io/helmchart-app-versions: 0.1.99
+        giantswarm.io/helmchart-versions: 0.1.99
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-10T10:22:05Z"
-        giantswarm.io/latest-release-tag: 0.1.97
+        giantswarm.io/latest-release-date: "2026-04-12T11:08:56Z"
+        giantswarm.io/latest-release-tag: 0.1.99
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1153,6 +1153,33 @@ metadata:
         giantswarm.io/latest-release-date: "2026-02-03T12:42:01Z"
         giantswarm.io/latest-release-tag: 0.2.3
         github.com/project-slug: giantswarm/rbac-bootstrap-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: reports-server-app
+    title: reports-server-app
+    description: A Giant Swarm app for deploying the Kyverno Reports Server.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: reports-server-app
+        backstage.io/source-location: url:https://github.com/giantswarm/reports-server-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/reports-server-app/tree/main
+        giantswarm.io/helmchart-app-versions: v0.1.6
+        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/reports-server
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+        giantswarm.io/latest-release-date: "2026-04-10T22:27:54Z"
+        giantswarm.io/latest-release-tag: 0.1.1
+        github.com/project-slug: giantswarm/reports-server-app
     tags:
         - helmchart
         - helmchart-deployable
