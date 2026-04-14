@@ -5,8 +5,11 @@ metadata:
   name: ${{ values.name }}
   namespace: ${{ values.namespace }}
 spec:
+  {% if not values.editMode %}
   interval: 1h0m0s
   provider: generic
+  url: oci://${{ values.chartRef }}
+  {% endif %}
   ref:
     {% if values.automaticUpgrades === 'no-upgrades' %}
     tag: ${{ values.chartTag }}
@@ -21,7 +24,6 @@ spec:
     tag: null
     semver: '>=${{ values.chartTag }}'
     {% endif %}
-  url: oci://${{ values.chartRef }}
 
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2
@@ -29,9 +31,12 @@ kind: HelmRelease
 metadata:
   name: ${{ values.name }}
   namespace: ${{ values.namespace }}
+  {% if not values.editMode %}
   labels:
     giantswarm.io/cluster: ${{ values.clusterName }}
+  {% endif %}
 spec:
+  {% if not values.editMode %}
   chartRef:
     kind: OCIRepository
     name: ${{ values.name }}
@@ -46,44 +51,60 @@ spec:
   {% endif %}
   releaseName: ${{ values.name }}
   targetNamespace: ${{ values.targetNamespace }}
-  {% if values.values or values.secretValues %}
-  valuesFrom:
-    {% if values.values %}
-    - kind: ConfigMap
-      name: ${{ values.name }}-user-values
-      valuesKey: values
-    {% endif %}
-    {% if values.secretValues %}
-    - kind: Secret
-      name: ${{ values.name }}-user-secrets
-      valuesKey: values
-    {% endif %}
-  values: null
-  {% else %}
-  valuesFrom: null
-  values: null
   {% endif %}
 
-{% if values.values %}
+  {% if values.inlineValues %}
+  values:
+    ${{ values.inlineValues | indent(4) }}
+  {% else %}
+  values: null
+  {% endif %}
+  
+  {% set secretMap = values.secretValuesMap | fromJson %}
+  {% set hasAnySource = false %}
+  {% for src in values.valueSources %}
+    {% if (src.kind === 'ConfigMap' and src.values) or (src.kind === 'Secret' and secretMap[src.name]) %}
+      {% set hasAnySource = true %}
+    {% endif %}
+  {% endfor %}
+  {% if hasAnySource %}
+  valuesFrom:
+    {% for src in values.valueSources %}
+    {% if src.kind === 'ConfigMap' and src.values %}
+    - kind: ConfigMap
+      name: ${{ src.name }}
+      valuesKey: values
+    {% elif src.kind === 'Secret' and secretMap[src.name] %}
+    - kind: Secret
+      name: ${{ src.name }}
+      valuesKey: values
+    {% endif %}
+    {% endfor %}
+  {% else %}
+  valuesFrom: null
+  {% endif %}
+
+{% set secretMap = values.secretValuesMap | fromJson %}
+{% for src in values.valueSources %}
+{% if src.kind === 'ConfigMap' and src.values %}
 ---
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: ${{ values.name }}-user-values
+  name: ${{ src.name }}
   namespace: ${{ values.namespace }}
 data:
   values: |-
-    ${{ values.values | indent(4) }}
-{% endif %}
-
-{% if values.secretValues %}
+    ${{ src.values | indent(4) }}
+{% elif src.kind === 'Secret' and secretMap[src.name] %}
 ---
 apiVersion: v1
 kind: Secret
 metadata:
-  name: ${{ values.name }}-user-secrets
+  name: ${{ src.name }}
   namespace: ${{ values.namespace }}
 stringData:
   values: |-
-    ${{ values.secretValues | indent(4) }}
+    ${{ secretMap[src.name] | indent(4) }}
 {% endif %}
+{% endfor %}

@@ -122,28 +122,33 @@ spec:
           ui:options:
             initialValue: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
     - title: Configuration
-      description: Here you can edit the application's configuration.
+      description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
         configurationDocs:
           chartRefField: chartRef
           chartTagField: chartTag
       properties:
+        valueSources:
+          title: Value sources
+          description: Add ConfigMap or Secret value sources. Order determines merge priority (last wins).
+          type: array
+          ui:field: GSValueSourcesEditor
+          ui:options:
+            secretsKey: SECRET_VALUES_MAP
+            chartRefField: chartRef
+            chartTagField: chartTag
+            initialNamePrefixTemplate: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
+            maxHeight: 600
         values:
-          title: Values (stored as ConfigMap).
+          title: Inline values
+          description: Inline values are part of the HelmRelease resource and take precedence over values referenced from ConfigMap and Secrets.
           type: string
           ui:field: GSYamlValuesEditor
           ui:options:
             chartRefField: chartRef
             chartTagField: chartTag
-        secretValues:
-          title: Secret values (stored as Secret).
-          type: string
-          ui:field: GSSecretYamlValuesEditor
-          ui:options:
-            secretsKey: SECRET_VALUES
-            chartRefField: chartRef
-            chartTagField: chartTag
+            maxHeight: 600
         schemaValidation:
           type: boolean
           ui:field: GSYamlValuesValidation
@@ -151,9 +156,10 @@ spec:
             chartRefField: chartRef
             chartTagField: chartTag
             valuesFields:
+              - valueSources
               - values
             secretValuesKeys:
-              - SECRET_VALUES
+              - SECRET_VALUES_MAP
     - title: Output options
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
@@ -197,15 +203,17 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
-          namespace: ${{ parameters.cluster.clusterNamespace }}
+          namespace: ${{ parameters.namespace or parameters.cluster.clusterNamespace }}
           clusterName: ${{ parameters.cluster.clusterName }}
           isManagementCluster: ${{ parameters.cluster.isManagementCluster }}
           targetNamespace: ${{ parameters.targetNamespace }}
           chartRef: ${{ parameters.chartRef }}
           chartTag: ${{ parameters.chartTag }}
           automaticUpgrades: ${{ parameters.automaticUpgrades }}
-          values: ${{ parameters.values }}
-          secretValues: ${{ secrets.SECRET_VALUES }}
+          valueSources: ${{ parameters.valueSources }}
+          secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}
+          inlineValues: ${{ parameters.values }}
+          editMode: false
     - id: cleanup
       name: Clean up
       action: roadiehq:utils:fs:replace
