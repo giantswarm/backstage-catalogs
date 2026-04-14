@@ -419,12 +419,12 @@ metadata:
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/exception-recommender/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.0-f479f90e326e6d4e6b86156586af217646d9cda6
-        giantswarm.io/helmchart-versions: 0.2.0-f479f90e326e6d4e6b86156586af217646d9cda6
+        giantswarm.io/helmchart-app-versions: 0.2.0-f0412daf59a973b0a644ff78ee2748bf48cba374
+        giantswarm.io/helmchart-versions: 0.2.0-f0412daf59a973b0a644ff78ee2748bf48cba374
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-12T15:31:36Z"
-        giantswarm.io/latest-release-tag: 0.2.0-f479f90e326e6d4e6b86156586af217646d9cda6
+        giantswarm.io/latest-release-date: "2026-03-19T14:08:55Z"
+        giantswarm.io/latest-release-tag: 0.2.0-f0412daf59a973b0a644ff78ee2748bf48cba374
         github.com/project-slug: giantswarm/exception-recommender
     tags:
         - helmchart
@@ -761,33 +761,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: ingress-sla-app
-    title: ingress-sla-app
-    description: Resources required to provide metrics to Giant Swarm SLA dashboard.
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
-        backstage.io/kubernetes-id: ingress-sla-app
-        backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-d4f26fdf02b73cd06d250868702637b86fa7a2e1
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-03-12T14:00:33Z"
-        giantswarm.io/latest-release-tag: 0.2.0-d4f26fdf02b73cd06d250868702637b86fa7a2e1
-        github.com/project-slug: giantswarm/ingress-sla-app
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:team-cabbage
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: jiralert-app
     title: jiralert-app
     description: Alertmanager plugin that creates Jira tickets
@@ -811,6 +784,33 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: k8s-dns-node-cache-app
+    title: k8s-dns-node-cache-app
+    description: A Helm chart to run NodeLocal DNSCache in Kubernetes clusters
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: k8s-dns-node-cache-app
+        backstage.io/source-location: url:https://github.com/giantswarm/k8s-dns-node-cache-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-dns-node-cache-app/tree/main
+        giantswarm.io/helmchart-app-versions: 1.26.7
+        giantswarm.io/helmchart-versions: 2.10.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/k8s-dns-node-cache-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+        giantswarm.io/latest-release-date: "2026-04-13T11:02:03Z"
+        giantswarm.io/latest-release-tag: 2.10.0
+        github.com/project-slug: giantswarm/k8s-dns-node-cache-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -976,33 +976,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: kueue-app
-    title: kueue-app
-    description: Kueue is a set of APIs and controllers for job queueing.
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
-        backstage.io/kubernetes-id: kueue-app
-        backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
-        giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-031b386757189e68ff2a9a027fa6408d6402f7f6
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-12T18:00:54Z"
-        giantswarm.io/latest-release-tag: 0.1.0-031b386757189e68ff2a9a027fa6408d6402f7f6
-        github.com/project-slug: giantswarm/kueue-app
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:team-planeteers
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: kyverno-app
     title: kyverno-app
     description: 'Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. '
@@ -1066,12 +1039,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.99
-        giantswarm.io/helmchart-versions: 0.1.99
+        giantswarm.io/helmchart-app-versions: 0.1.100
+        giantswarm.io/helmchart-versions: 0.1.100
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-12T11:08:56Z"
-        giantswarm.io/latest-release-tag: 0.1.99
+        giantswarm.io/latest-release-date: "2026-04-14T06:16:37Z"
+        giantswarm.io/latest-release-tag: 0.1.100
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
