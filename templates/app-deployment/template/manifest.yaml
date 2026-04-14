@@ -53,16 +53,13 @@ spec:
   targetNamespace: ${{ values.targetNamespace }}
   {% endif %}
 
-  {% if values.valuesMode === 'inline' %}
   {% if values.inlineValues %}
-  valuesFrom: null
   values:
     ${{ values.inlineValues | indent(4) }}
   {% else %}
-  valuesFrom: null
   values: null
   {% endif %}
-  {% else %}
+  
   {% set secretMap = values.secretValuesMap | fromJson %}
   {% set hasAnySource = false %}
   {% for src in values.valueSources %}
@@ -76,21 +73,17 @@ spec:
     {% if src.kind === 'ConfigMap' and src.values %}
     - kind: ConfigMap
       name: ${{ src.name }}
-      valuesKey: ${{ src.valuesKey }}
+      valuesKey: values
     {% elif src.kind === 'Secret' and secretMap[src.name] %}
     - kind: Secret
       name: ${{ src.name }}
-      valuesKey: ${{ src.valuesKey }}
+      valuesKey: values
     {% endif %}
     {% endfor %}
-  values: null
   {% else %}
   valuesFrom: null
-  values: null
-  {% endif %}
   {% endif %}
 
-{% if values.valuesMode !== 'inline' %}
 {% set secretMap = values.secretValuesMap | fromJson %}
 {% for src in values.valueSources %}
 {% if src.kind === 'ConfigMap' and src.values %}
@@ -101,7 +94,7 @@ metadata:
   name: ${{ src.name }}
   namespace: ${{ values.namespace }}
 data:
-  ${{ src.valuesKey }}: |-
+  values: |-
     ${{ src.values | indent(4) }}
 {% elif src.kind === 'Secret' and secretMap[src.name] %}
 ---
@@ -111,8 +104,7 @@ metadata:
   name: ${{ src.name }}
   namespace: ${{ values.namespace }}
 stringData:
-  ${{ src.valuesKey }}: |-
+  values: |-
     ${{ secretMap[src.name] | indent(4) }}
 {% endif %}
 {% endfor %}
-{% endif %}
