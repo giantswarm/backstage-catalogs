@@ -122,7 +122,7 @@ spec:
           ui:options:
             initialValue: '${{clusterNamePrefix(cluster)}}${{chartName(chartRef)}}'
     - title: Configuration
-      description: Here you can edit the application's configuration.
+      description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
         configurationDocs:
@@ -142,6 +142,7 @@ spec:
             maxHeight: 600
         values:
           title: Inline values
+          description: Inline values are part of the HelmRelease resource and take precedence over values referenced from ConfigMap and Secrets.
           type: string
           ui:field: GSYamlValuesEditor
           ui:options:
