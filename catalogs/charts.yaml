@@ -761,6 +761,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: ingress-sla-app
+    title: ingress-sla-app
+    description: Resources required to provide metrics to Giant Swarm SLA dashboard.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: ingress-sla-app
+        backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
+        giantswarm.io/helmchart-app-versions: 0.0.1
+        giantswarm.io/helmchart-versions: 0.2.0-0cb8de62f3fac9a7d08acf7bf666cb33515f0144
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+        giantswarm.io/latest-release-date: "2026-04-15T11:02:19Z"
+        giantswarm.io/latest-release-tag: 0.2.0-0cb8de62f3fac9a7d08acf7bf666cb33515f0144
+        github.com/project-slug: giantswarm/ingress-sla-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: jiralert-app
     title: jiralert-app
     description: Alertmanager plugin that creates Jira tickets
@@ -771,11 +798,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/jiralert-app/tree/main
         giantswarm.io/helmchart-app-versions: "1.2"
-        giantswarm.io/helmchart-versions: 0.1.3-1712ddcce9a1dc38ec1f7d89b391e9b07874cc3b
+        giantswarm.io/helmchart-versions: 0.1.3-bedf21cddcc8335057d89213adf035d2c6a3bfbc
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-17T17:52:22Z"
-        giantswarm.io/latest-release-tag: 0.1.3-1712ddcce9a1dc38ec1f7d89b391e9b07874cc3b
+        giantswarm.io/latest-release-date: "2026-04-15T10:32:05Z"
+        giantswarm.io/latest-release-tag: 0.1.3-bedf21cddcc8335057d89213adf035d2c6a3bfbc
         github.com/project-slug: giantswarm/jiralert-app
     tags:
         - helmchart
@@ -1039,12 +1066,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.101
-        giantswarm.io/helmchart-versions: 0.1.101
+        giantswarm.io/helmchart-app-versions: 0.1.103
+        giantswarm.io/helmchart-versions: 0.1.103
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-14T10:27:45Z"
-        giantswarm.io/latest-release-tag: 0.1.101
+        giantswarm.io/latest-release-date: "2026-04-15T14:19:24Z"
+        giantswarm.io/latest-release-tag: 0.1.103
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
