@@ -1174,11 +1174,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/reports-server-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/reports-server-app/tree/main
         giantswarm.io/helmchart-app-versions: v0.1.6
-        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmchart-versions: 0.1.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/reports-server
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-10T22:27:54Z"
-        giantswarm.io/latest-release-tag: 0.1.1
+        giantswarm.io/latest-release-date: "2026-04-16T23:28:16Z"
+        giantswarm.io/latest-release-tag: 0.1.2
         github.com/project-slug: giantswarm/reports-server-app
     tags:
         - helmchart
