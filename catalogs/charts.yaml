@@ -771,11 +771,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-0cb8de62f3fac9a7d08acf7bf666cb33515f0144
+        giantswarm.io/helmchart-versions: 0.2.0-7d18390d0a02454ba750cf148b4ae31167e898a8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-04-15T11:02:19Z"
-        giantswarm.io/latest-release-tag: 0.2.0-0cb8de62f3fac9a7d08acf7bf666cb33515f0144
+        giantswarm.io/latest-release-date: "2026-04-17T15:27:10Z"
+        giantswarm.io/latest-release-tag: 0.2.0-7d18390d0a02454ba750cf148b4ae31167e898a8
         github.com/project-slug: giantswarm/ingress-sla-app
     tags:
         - helmchart
@@ -825,11 +825,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-dns-node-cache-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-dns-node-cache-app/tree/main
         giantswarm.io/helmchart-app-versions: 1.26.7
-        giantswarm.io/helmchart-versions: 2.10.0
+        giantswarm.io/helmchart-versions: 2.11.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/k8s-dns-node-cache-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-04-13T11:02:03Z"
-        giantswarm.io/latest-release-tag: 2.10.0
+        giantswarm.io/latest-release-date: "2026-04-17T08:00:45Z"
+        giantswarm.io/latest-release-tag: 2.11.0
         github.com/project-slug: giantswarm/k8s-dns-node-cache-app
     tags:
         - helmchart
@@ -1066,12 +1066,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.105
-        giantswarm.io/helmchart-versions: 0.1.105
+        giantswarm.io/helmchart-app-versions: 0.1.109
+        giantswarm.io/helmchart-versions: 0.1.109
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-16T13:15:13Z"
-        giantswarm.io/latest-release-tag: 0.1.105
+        giantswarm.io/latest-release-date: "2026-04-17T15:48:45Z"
+        giantswarm.io/latest-release-tag: 0.1.109
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
