@@ -1003,6 +1003,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kueue-app
+    title: kueue-app
+    description: Kueue is a set of APIs and controllers for job queueing.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: kueue-app
+        backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
+        giantswarm.io/helmchart-app-versions: v0.14.1
+        giantswarm.io/helmchart-versions: 0.1.0-54691e83e9fcf75993f97690c40bb17b2e5e922a
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
+        giantswarm.io/latest-release-date: "2026-04-24T12:59:34Z"
+        giantswarm.io/latest-release-tag: 0.1.0-54691e83e9fcf75993f97690c40bb17b2e5e922a
+        github.com/project-slug: giantswarm/kueue-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kyverno-app
     title: kyverno-app
     description: 'Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. '
@@ -1066,12 +1093,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.119
-        giantswarm.io/helmchart-versions: 0.1.119
+        giantswarm.io/helmchart-app-versions: 0.1.124
+        giantswarm.io/helmchart-versions: 0.1.124
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-23T10:20:18Z"
-        giantswarm.io/latest-release-tag: 0.1.119
+        giantswarm.io/latest-release-date: "2026-04-24T15:24:54Z"
+        giantswarm.io/latest-release-tag: 0.1.124
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1120,11 +1147,11 @@ metadata:
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
-        giantswarm.io/helmchart-versions: 0.0.6-eefc83884dd0eeae284371b29ca317fd12bb15fa
+        giantswarm.io/helmchart-versions: 0.0.6-ef55b52ac402172136daaae7a2991620b159cbf7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-23T06:49:09Z"
-        giantswarm.io/latest-release-tag: 0.0.6-eefc83884dd0eeae284371b29ca317fd12bb15fa
+        giantswarm.io/latest-release-date: "2026-04-24T16:37:48Z"
+        giantswarm.io/latest-release-tag: 0.0.6-ef55b52ac402172136daaae7a2991620b159cbf7
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
@@ -1348,6 +1375,32 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: vllm
+    title: vllm
+    description: A Helm chart for vLLM ClusterServingRuntimes (DGX Spark / Blackwell)
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: vllm
+        backstage.io/source-location: url:https://github.com/giantswarm/vllm
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
+        giantswarm.io/helmchart-app-versions: 0.3.7
+        giantswarm.io/helmchart-versions: 0.3.7
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
+        giantswarm.io/latest-release-date: "2026-04-24T14:28:48Z"
+        giantswarm.io/latest-release-tag: 0.3.7
+        github.com/project-slug: giantswarm/vllm
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
