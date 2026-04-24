@@ -771,11 +771,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-7d18390d0a02454ba750cf148b4ae31167e898a8
+        giantswarm.io/helmchart-versions: 0.2.0-ca67653d14cec397579b87be296f93ea7da7867f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-04-17T15:27:10Z"
-        giantswarm.io/latest-release-tag: 0.2.0-7d18390d0a02454ba750cf148b4ae31167e898a8
+        giantswarm.io/latest-release-date: "2026-04-23T06:31:39Z"
+        giantswarm.io/latest-release-tag: 0.2.0-ca67653d14cec397579b87be296f93ea7da7867f
         github.com/project-slug: giantswarm/ingress-sla-app
     tags:
         - helmchart
@@ -798,11 +798,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/jiralert-app/tree/main
         giantswarm.io/helmchart-app-versions: "1.2"
-        giantswarm.io/helmchart-versions: 0.1.3-bedf21cddcc8335057d89213adf035d2c6a3bfbc
+        giantswarm.io/helmchart-versions: 0.1.3-ef6ec8effe766e37bb0205c6a939c5d15545b677
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-15T10:32:05Z"
-        giantswarm.io/latest-release-tag: 0.1.3-bedf21cddcc8335057d89213adf035d2c6a3bfbc
+        giantswarm.io/latest-release-date: "2026-04-23T06:59:03Z"
+        giantswarm.io/latest-release-tag: 0.1.3-ef6ec8effe766e37bb0205c6a939c5d15545b677
         github.com/project-slug: giantswarm/jiralert-app
     tags:
         - helmchart
@@ -1066,12 +1066,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.116
-        giantswarm.io/helmchart-versions: 0.1.116
+        giantswarm.io/helmchart-app-versions: 0.1.119
+        giantswarm.io/helmchart-versions: 0.1.119
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-22T16:05:41Z"
-        giantswarm.io/latest-release-tag: 0.1.116
+        giantswarm.io/latest-release-date: "2026-04-23T10:20:18Z"
+        giantswarm.io/latest-release-tag: 0.1.119
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1120,11 +1120,11 @@ metadata:
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
-        giantswarm.io/helmchart-versions: 0.0.6-c5133880e95387cc8e85986a9171ac3ff955f8a7
+        giantswarm.io/helmchart-versions: 0.0.6-eefc83884dd0eeae284371b29ca317fd12bb15fa
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-30T17:01:33Z"
-        giantswarm.io/latest-release-tag: 0.0.6-c5133880e95387cc8e85986a9171ac3ff955f8a7
+        giantswarm.io/latest-release-date: "2026-04-23T06:49:09Z"
+        giantswarm.io/latest-release-tag: 0.0.6-eefc83884dd0eeae284371b29ca317fd12bb15fa
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
