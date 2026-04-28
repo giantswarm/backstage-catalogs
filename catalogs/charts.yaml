@@ -771,11 +771,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-ca67653d14cec397579b87be296f93ea7da7867f
+        giantswarm.io/helmchart-versions: 0.2.0-d0040f1e2f9cf42c05175a27ad7b7fa4d38347f4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-04-23T06:31:39Z"
-        giantswarm.io/latest-release-tag: 0.2.0-ca67653d14cec397579b87be296f93ea7da7867f
+        giantswarm.io/latest-release-date: "2026-04-28T14:39:12Z"
+        giantswarm.io/latest-release-tag: 0.2.0-d0040f1e2f9cf42c05175a27ad7b7fa4d38347f4
         github.com/project-slug: giantswarm/ingress-sla-app
     tags:
         - helmchart
@@ -851,12 +851,12 @@ metadata:
         backstage.io/kubernetes-id: karpenter-app
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.3.0
-        giantswarm.io/helmchart-versions: 2.3.0
+        giantswarm.io/helmchart-app-versions: 2.4.0
+        giantswarm.io/helmchart-versions: 2.4.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-24T15:10:48Z"
-        giantswarm.io/latest-release-tag: 2.3.0
+        giantswarm.io/latest-release-date: "2026-04-28T13:22:37Z"
+        giantswarm.io/latest-release-tag: 2.4.0
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - helmchart
@@ -878,12 +878,12 @@ metadata:
         backstage.io/kubernetes-id: karpenter-app
         backstage.io/source-location: url:https://github.com/giantswarm/karpenter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/karpenter-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.3.0
-        giantswarm.io/helmchart-versions: 2.3.0
+        giantswarm.io/helmchart-app-versions: 2.4.0
+        giantswarm.io/helmchart-versions: 2.4.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/karpenter-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/karpenter/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-24T15:11:40Z"
-        giantswarm.io/latest-release-tag: 2.3.0
+        giantswarm.io/latest-release-date: "2026-04-28T13:23:07Z"
+        giantswarm.io/latest-release-tag: 2.4.0
         github.com/project-slug: giantswarm/karpenter-app
     tags:
         - helmchart
@@ -906,11 +906,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
         giantswarm.io/helmchart-app-versions: 3.8.0
-        giantswarm.io/helmchart-versions: 5.2.2-e1309adfb6c3ed9e8382e00a6e7be76d78736896
+        giantswarm.io/helmchart-versions: 5.2.2-f330f8be7a47547ec88726ca89fb3ee165dbc9be
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kong-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kong/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-20T10:51:30Z"
-        giantswarm.io/latest-release-tag: 5.2.2-e1309adfb6c3ed9e8382e00a6e7be76d78736896
+        giantswarm.io/latest-release-date: "2026-04-28T14:41:00Z"
+        giantswarm.io/latest-release-tag: 5.2.2-f330f8be7a47547ec88726ca89fb3ee165dbc9be
         github.com/project-slug: giantswarm/kong-app
     tags:
         - helmchart
@@ -1013,11 +1013,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
         giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-54691e83e9fcf75993f97690c40bb17b2e5e922a
+        giantswarm.io/helmchart-versions: 0.1.0-9bc8dafae1484ea8320de6f9789c876a2c349ab5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-24T12:59:34Z"
-        giantswarm.io/latest-release-tag: 0.1.0-54691e83e9fcf75993f97690c40bb17b2e5e922a
+        giantswarm.io/latest-release-date: "2026-04-28T14:13:55Z"
+        giantswarm.io/latest-release-tag: 0.1.0-9bc8dafae1484ea8320de6f9789c876a2c349ab5
         github.com/project-slug: giantswarm/kueue-app
     tags:
         - helmchart
@@ -1093,12 +1093,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.128
-        giantswarm.io/helmchart-versions: 0.1.128
+        giantswarm.io/helmchart-app-versions: 0.1.130
+        giantswarm.io/helmchart-versions: 0.1.130
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-27T09:22:03Z"
-        giantswarm.io/latest-release-tag: 0.1.128
+        giantswarm.io/latest-release-date: "2026-04-28T13:44:28Z"
+        giantswarm.io/latest-release-tag: 0.1.130
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
