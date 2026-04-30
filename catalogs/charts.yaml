@@ -72,7 +72,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-03-25T09:27:35Z"
+        giantswarm.io/latest-release-date: "2026-04-29T08:57:58Z"
         giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
     tags:
@@ -99,7 +99,7 @@ metadata:
         giantswarm.io/helmchart-versions: 4.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
-        giantswarm.io/latest-release-date: "2026-03-25T09:28:10Z"
+        giantswarm.io/latest-release-date: "2026-04-29T08:58:38Z"
         giantswarm.io/latest-release-tag: 4.2.0
         github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
     tags:
@@ -1093,12 +1093,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.130
-        giantswarm.io/helmchart-versions: 0.1.130
+        giantswarm.io/helmchart-app-versions: 0.1.131
+        giantswarm.io/helmchart-versions: 0.1.131
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-28T13:44:28Z"
-        giantswarm.io/latest-release-tag: 0.1.130
+        giantswarm.io/latest-release-date: "2026-04-29T08:16:03Z"
+        giantswarm.io/latest-release-tag: 0.1.131
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1230,7 +1230,7 @@ metadata:
         giantswarm.io/helmchart-versions: 1.17.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/security-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-        giantswarm.io/latest-release-date: "2026-04-22T22:53:53Z"
+        giantswarm.io/latest-release-date: "2026-04-29T18:49:23Z"
         giantswarm.io/latest-release-tag: 1.17.1
         github.com/project-slug: giantswarm/security-bundle
     tags:
