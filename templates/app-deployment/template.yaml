@@ -128,6 +128,7 @@ spec:
         configurationDocs:
           chartRefField: chartRef
           chartTagField: chartTag
+        configureWithAi: true
       properties:
         valueSources:
           title: Value sources
