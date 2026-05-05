@@ -128,7 +128,11 @@ spec:
         configurationDocs:
           chartRefField: chartRef
           chartTagField: chartTag
-        configureWithAi: true
+        configureWithAi:
+          chartRefField: chartRef
+          chartTagField: chartTag
+          installationNameField: installation.installationName
+          clusterNameField: cluster.clusterName
       properties:
         valueSources:
           title: Value sources
