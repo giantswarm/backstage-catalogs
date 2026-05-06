@@ -437,6 +437,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: external-dns-app
+    title: external-dns-app
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: external-dns-app
+        backstage.io/source-location: url:https://github.com/giantswarm/external-dns-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-app/tree/main
+        giantswarm.io/helmchart-app-versions: 0.21.0
+        giantswarm.io/helmchart-versions: 3.5.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-dns-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
+        giantswarm.io/latest-release-date: "2026-05-05T16:56:45Z"
+        giantswarm.io/latest-release-tag: 3.5.0
+        github.com/project-slug: giantswarm/external-dns-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: external-secrets
     title: external-secrets
     description: External secret management for Kubernetes
@@ -581,12 +608,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.0
-        giantswarm.io/helmchart-versions: 1.15.0
+        giantswarm.io/helmchart-app-versions: 1.15.1
+        giantswarm.io/helmchart-versions: 1.15.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-08T13:48:41Z"
-        giantswarm.io/latest-release-tag: 1.15.0
+        giantswarm.io/latest-release-date: "2026-05-05T09:39:05Z"
+        giantswarm.io/latest-release-tag: 1.15.1
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -608,12 +635,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.10.0
-        giantswarm.io/helmchart-versions: 1.10.0
+        giantswarm.io/helmchart-app-versions: 1.10.1
+        giantswarm.io/helmchart-versions: 1.10.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-08T13:27:23Z"
-        giantswarm.io/latest-release-tag: 1.10.0
+        giantswarm.io/latest-release-date: "2026-05-05T09:30:18Z"
+        giantswarm.io/latest-release-tag: 1.10.1
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -1093,12 +1120,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.137
-        giantswarm.io/helmchart-versions: 0.1.137
+        giantswarm.io/helmchart-app-versions: 0.1.139
+        giantswarm.io/helmchart-versions: 0.1.139
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-05-04T19:40:44Z"
-        giantswarm.io/latest-release-tag: 0.1.137
+        giantswarm.io/latest-release-date: "2026-05-06T06:10:04Z"
+        giantswarm.io/latest-release-tag: 0.1.139
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
