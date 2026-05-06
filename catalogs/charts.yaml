@@ -1040,11 +1040,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
         giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-9bc8dafae1484ea8320de6f9789c876a2c349ab5
+        giantswarm.io/helmchart-versions: 0.1.0-b113caf74f929b783aeea84bdbea6376f25772a8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-28T14:13:55Z"
-        giantswarm.io/latest-release-tag: 0.1.0-9bc8dafae1484ea8320de6f9789c876a2c349ab5
+        giantswarm.io/latest-release-date: "2026-05-06T17:04:58Z"
+        giantswarm.io/latest-release-tag: 0.1.0-b113caf74f929b783aeea84bdbea6376f25772a8
         github.com/project-slug: giantswarm/kueue-app
     tags:
         - helmchart
