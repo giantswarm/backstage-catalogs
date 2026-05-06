@@ -167,6 +167,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: aws-pod-identity-webhook
+    title: aws-pod-identity-webhook
+    description: This webhook is for mutating pods that will require AWS IAM access.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: aws-pod-identity-webhook
+        backstage.io/source-location: url:https://github.com/giantswarm/aws-pod-identity-webhook
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-pod-identity-webhook/tree/main
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-pod-identity-webhook
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+        giantswarm.io/latest-release-date: "2026-05-04T15:49:36Z"
+        giantswarm.io/latest-release-tag: 2.3.0
+        github.com/project-slug: giantswarm/aws-pod-identity-webhook
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cert-manager-app
     title: cert-manager-app
     description: Simplifies the process of obtaining, renewing and using certificates.
@@ -356,33 +383,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: envoy-extension-server
-    title: envoy-extension-server
-    description: Please add description
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
-        backstage.io/kubernetes-id: envoy-extension-server
-        backstage.io/source-location: url:https://github.com/giantswarm/envoy-extension-server
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-extension-server/tree/main
-        giantswarm.io/helmchart-app-versions: 0.0.0-bba1752f8a4ddfffff069f94e3c8ddb3d8ba33db
-        giantswarm.io/helmchart-versions: 0.0.0-bba1752f8a4ddfffff069f94e3c8ddb3d8ba33db
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-extension-server
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-03-30T07:48:08Z"
-        giantswarm.io/latest-release-tag: 0.0.0-bba1752f8a4ddfffff069f94e3c8ddb3d8ba33db
-        github.com/project-slug: giantswarm/envoy-extension-server
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:team-cabbage
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: envoy-gateway-app
     title: envoy-gateway-app
     description: The Helm chart for Envoy Gateway
@@ -433,6 +433,33 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: external-dns-app
+    title: external-dns-app
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: external-dns-app
+        backstage.io/source-location: url:https://github.com/giantswarm/external-dns-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-dns-app/tree/main
+        giantswarm.io/helmchart-app-versions: 0.21.0
+        giantswarm.io/helmchart-versions: 3.5.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-dns-app
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-dns/1/dark.png
+        giantswarm.io/latest-release-date: "2026-05-05T16:56:45Z"
+        giantswarm.io/latest-release-tag: 3.5.0
+        github.com/project-slug: giantswarm/external-dns-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -581,12 +608,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.0
-        giantswarm.io/helmchart-versions: 1.15.0
+        giantswarm.io/helmchart-app-versions: 1.15.1
+        giantswarm.io/helmchart-versions: 1.15.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-08T13:48:41Z"
-        giantswarm.io/latest-release-tag: 1.15.0
+        giantswarm.io/latest-release-date: "2026-05-05T09:39:05Z"
+        giantswarm.io/latest-release-tag: 1.15.1
         github.com/project-slug: giantswarm/gateway-api-bundle
     tags:
         - helmchart
@@ -608,12 +635,12 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.10.0
-        giantswarm.io/helmchart-versions: 1.10.0
+        giantswarm.io/helmchart-app-versions: 1.10.1
+        giantswarm.io/helmchart-versions: 1.10.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-08T13:27:23Z"
-        giantswarm.io/latest-release-tag: 1.10.0
+        giantswarm.io/latest-release-date: "2026-05-05T09:30:18Z"
+        giantswarm.io/latest-release-tag: 1.10.1
         github.com/project-slug: giantswarm/gateway-api-config-app
     tags:
         - helmchart
@@ -1040,11 +1067,11 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-app/tree/main
         giantswarm.io/helmchart-app-versions: v1.17.0
-        giantswarm.io/helmchart-versions: 0.24.1
+        giantswarm.io/helmchart-versions: 0.24.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
-        giantswarm.io/latest-release-date: "2026-02-24T12:46:43Z"
-        giantswarm.io/latest-release-tag: 0.24.1
+        giantswarm.io/latest-release-date: "2026-05-04T18:56:34Z"
+        giantswarm.io/latest-release-tag: 0.24.2
         github.com/project-slug: giantswarm/kyverno-app
     tags:
         - helmchart
@@ -1093,12 +1120,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.134
-        giantswarm.io/helmchart-versions: 0.1.134
+        giantswarm.io/helmchart-app-versions: 0.1.139
+        giantswarm.io/helmchart-versions: 0.1.139
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-05-02T09:31:11Z"
-        giantswarm.io/latest-release-tag: 0.1.134
+        giantswarm.io/latest-release-date: "2026-05-06T06:10:04Z"
+        giantswarm.io/latest-release-tag: 0.1.139
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
@@ -1147,11 +1174,11 @@ metadata:
         backstage.io/kubernetes-id: policy-api
         backstage.io/source-location: url:https://github.com/giantswarm/policy-api
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/policy-api/tree/main
-        giantswarm.io/helmchart-versions: 0.0.6-ef7c2d9bc393c706f5e2fb59c12d58edcc838b56
+        giantswarm.io/helmchart-versions: 0.0.6-fbe587f7329dfdebc0a97c70ff1069c15980ade3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/policy-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-30T18:44:30Z"
-        giantswarm.io/latest-release-tag: 0.0.6-ef7c2d9bc393c706f5e2fb59c12d58edcc838b56
+        giantswarm.io/latest-release-date: "2026-05-04T18:38:51Z"
+        giantswarm.io/latest-release-tag: 0.0.6-fbe587f7329dfdebc0a97c70ff1069c15980ade3
         github.com/project-slug: giantswarm/policy-api
     tags:
         - helmchart
@@ -1280,12 +1307,12 @@ metadata:
         backstage.io/kubernetes-id: strimzi-kafka-operator
         backstage.io/source-location: url:https://github.com/giantswarm/strimzi-kafka-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/strimzi-kafka-operator/tree/main
-        giantswarm.io/helmchart-app-versions: 0.51.0
-        giantswarm.io/helmchart-versions: 0.0.2
+        giantswarm.io/helmchart-app-versions: 1.0.0
+        giantswarm.io/helmchart-versions: 0.1.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/strimzi-kafka-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        giantswarm.io/latest-release-date: "2026-04-01T23:10:36Z"
-        giantswarm.io/latest-release-tag: 0.0.2
+        giantswarm.io/latest-release-date: "2026-05-04T14:26:54Z"
+        giantswarm.io/latest-release-tag: 0.1.1
         github.com/project-slug: giantswarm/strimzi-kafka-operator
     tags:
         - helmchart
