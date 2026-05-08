@@ -473,12 +473,12 @@ metadata:
         backstage.io/kubernetes-id: external-secrets
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
-        giantswarm.io/helmchart-app-versions: v0.20.4
-        giantswarm.io/helmchart-versions: 0.20.5
+        giantswarm.io/helmchart-app-versions: v1.3.2
+        giantswarm.io/helmchart-versions: 1.3.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-secrets
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
-        giantswarm.io/latest-release-date: "2026-01-23T11:35:31Z"
-        giantswarm.io/latest-release-tag: 0.20.5
+        giantswarm.io/latest-release-date: "2026-05-08T11:27:31Z"
+        giantswarm.io/latest-release-tag: 1.3.2
         github.com/project-slug: giantswarm/external-secrets
     tags:
         - helmchart
@@ -1120,12 +1120,12 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.152
-        giantswarm.io/helmchart-versions: 0.1.152
+        giantswarm.io/helmchart-app-versions: 0.1.154
+        giantswarm.io/helmchart-versions: 0.1.154
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
-        giantswarm.io/latest-release-date: "2026-05-08T00:24:45Z"
-        giantswarm.io/latest-release-tag: 0.1.152
+        giantswarm.io/latest-release-date: "2026-05-08T14:10:00Z"
+        giantswarm.io/latest-release-tag: 0.1.154
         github.com/project-slug: giantswarm/muster
     tags:
         - helmchart
