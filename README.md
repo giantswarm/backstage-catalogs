@@ -14,6 +14,12 @@ File: [charts.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/c
 
 The charts catalog consist of charts published to the public OCI registry `oci.azurecr.io` by Giant Swarm, represented as `Component` entities. For each chart, only information on the latest release is included.
 
+### Custom Resource Definitions (CRD)
+
+File: [crds.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/crds.yaml)
+
+This catalog provides API entities representing Kubernetes CRDs maintained or used by Giant Swarm.
+
 ### Groups
 
 File: [groups.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/groups.yaml)
@@ -44,6 +50,11 @@ catalog:
       rules:
         allow:
           - Component
+    - type: url
+      target: https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/crds.yaml
+      rules:
+        allow:
+          - API
     - type: url
       target: https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/groups.yaml
       rules:
