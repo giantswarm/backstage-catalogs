@@ -86,7 +86,10 @@ jobs:
             gsoci.azurecr.io \
             --prefix charts/giantswarm/ \
             --output ./catalogs
-          
+
+          backstage-catalog-importer crd \
+            --output ./catalogs
+
           ls -la ./catalogs
 
           echo "looked_for_changes=true" >> $GITHUB_ENV
