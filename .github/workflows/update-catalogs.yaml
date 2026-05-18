@@ -87,8 +87,71 @@ jobs:
             --prefix charts/giantswarm/ \
             --output ./catalogs
 
-          backstage-catalog-importer crd \
-            --output ./catalogs
+          # CRDs
+          cat <<EOF | backstage-catalog-importer crd --output ./catalogs -
+          - url: https://github.com/giantswarm/apiextensions-application/blob/main/config/crd/application.giantswarm.io_apps.yaml
+            owner: group:default/team-honeybadger
+            lifecycle: production
+            system: app-platform
+          - url: https://github.com/giantswarm/apiextensions-application/blob/main/config/crd/application.giantswarm.io_catalogs.yaml
+            owner: group:default/team-honeybadger
+            lifecycle: deprecated
+            system: app-platform
+          - url: https://github.com/giantswarm/silence-operator/blob/main/config/crd/bases/monitoring.giantswarm.io_silences.yaml
+            owner: group:default/team-atlas
+            lifecycle: production
+            system: observability-platform
+          - url: https://github.com/giantswarm/silence-operator/blob/main/config/crd/bases/observability.giantswarm.io_silences.yaml
+            owner: group:default/team-atlas
+            lifecycle: production
+            system: observability-platform
+          - url: https://github.com/giantswarm/observability-operator/blob/main/config/crd/bases/observability.giantswarm.io_grafanaorganizations.yaml
+            owner: group:default/team-atlas
+            lifecycle: production
+            system: observability-platform
+          - url: https://github.com/giantswarm/organization-operator/blob/main/config/crd/bases/security.giantswarm.io_organizations.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/rbac-operator/blob/main/config/crd/auth.giantswarm.io_rolebindingtemplates.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/kyverno.io_clusterpolicies.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/kyverno.io_policyexceptions.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/policy.giantswarm.io_policymanifests.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_automatedexceptions.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policies.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policyconfigs.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptiondrafts.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policymanifests.yaml
+            owner: group:default/team-shield
+            lifecycle: production
+          - url: https://github.com/giantswarm/konfigure-operator/blob/main/config/crd/bases/konfigure.giantswarm.io_konfigurations.yaml
+            owner: group:default/team-honeybadger
+            lifecycle: production
+          - url: https://github.com/giantswarm/konfigure-operator/blob/main/config/crd/bases/konfigure.giantswarm.io_konfigurationschemas.yaml
+            owner: group:default/team-honeybadger
+            lifecycle: production
+          EOF
 
           ls -la ./catalogs
 
