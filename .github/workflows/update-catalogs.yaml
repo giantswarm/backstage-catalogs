@@ -88,7 +88,7 @@ jobs:
             --output ./catalogs
 
           # CRDs
-          cat <<EOF | backstage-catalog-importer crd --output ./catalog -
+          cat <<EOF | backstage-catalog-importer crd --output ./catalogs -
           - url: https://github.com/giantswarm/apiextensions-application/blob/main/config/crd/application.giantswarm.io_apps.yaml
             owner: group:default/team-honeybadger
             lifecycle: production
