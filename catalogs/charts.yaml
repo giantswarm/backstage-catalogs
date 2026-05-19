@@ -332,17 +332,16 @@ kind: Component
 metadata:
     name: dra-driver-nvidia-gpu
     title: dra-driver-nvidia-gpu
-    description: Official Helm chart for the DRA Driver for NVIDIA GPUs
+    description: Official Helm chart for the NVIDIA DRA Driver for GPUs
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: dra-driver-nvidia-gpu
         backstage.io/source-location: url:https://github.com/giantswarm/dra-driver-nvidia-gpu
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dra-driver-nvidia-gpu/tree/main
-        giantswarm.io/helmchart-app-versions: 0.5.0-dev
-        giantswarm.io/helmchart-versions: 0.5.0-dev
+        giantswarm.io/helmchart-app-versions: 25.3.2-flatcar.1-ubi9
+        giantswarm.io/helmchart-versions: 25.3.2-flatcar.1-c95dc26bbb5bed55c25e66bdcc4fc390eb4b718d
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dra-driver-nvidia-gpu
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/dra-driver-nvidia-gpu
     tags:
         - helmchart
@@ -988,8 +987,8 @@ metadata:
         backstage.io/kubernetes-id: kueue-app
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
-        giantswarm.io/helmchart-app-versions: v0.14.1
-        giantswarm.io/helmchart-versions: 0.1.0-b113caf74f929b783aeea84bdbea6376f25772a8
+        giantswarm.io/helmchart-app-versions: v0.17.3
+        giantswarm.io/helmchart-versions: 0.1.0-fd86ee8074cbf21c64b1cff6a09256af675764a2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
         github.com/project-slug: giantswarm/kueue-app
@@ -1063,8 +1062,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.174
-        giantswarm.io/helmchart-versions: 0.1.174
+        giantswarm.io/helmchart-app-versions: 0.1.180
+        giantswarm.io/helmchart-versions: 0.1.180
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1336,8 +1335,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.14
-        giantswarm.io/helmchart-versions: 0.3.14
+        giantswarm.io/helmchart-app-versions: 0.3.15
+        giantswarm.io/helmchart-versions: 0.3.15
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         github.com/project-slug: giantswarm/vllm
     tags:
