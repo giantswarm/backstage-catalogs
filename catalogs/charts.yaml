@@ -1087,8 +1087,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.193
-        giantswarm.io/helmchart-versions: 0.1.193
+        giantswarm.io/helmchart-app-versions: 0.1.198
+        giantswarm.io/helmchart-versions: 0.1.198
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1098,7 +1098,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:team-planeteers
+    owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1112,8 +1112,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.193-f54c1c8efac043cf01584909ee42e6d64b56775d
-        giantswarm.io/helmchart-versions: 0.1.193-f54c1c8efac043cf01584909ee42e6d64b56775d
+        giantswarm.io/helmchart-app-versions: 0.1.194-431417971666759a4e167ba9b5040ff6db335234
+        giantswarm.io/helmchart-versions: 0.1.194-431417971666759a4e167ba9b5040ff6db335234
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1385,8 +1385,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.17
-        giantswarm.io/helmchart-versions: 0.3.17
+        giantswarm.io/helmchart-app-versions: 0.3.18
+        giantswarm.io/helmchart-versions: 0.3.18
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         github.com/project-slug: giantswarm/vllm
     tags:
