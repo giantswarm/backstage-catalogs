@@ -6,6 +6,31 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: agentic-platform
+    title: agentic-platform
+    description: Giant Swarm agentic platform — MCP gateway deploy unit bundling muster and agentgateway.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: agentic-platform
+        backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.0.0-fae1e85b3cb61e786571f45cbd33910b00dc73fa
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/agentic-platform
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: athena
     title: athena
     description: A service providing non-sensitive information about your cluster to clients
@@ -64,8 +89,8 @@ metadata:
         backstage.io/kubernetes-id: aws-ebs-csi-driver-app
         backstage.io/source-location: url:https://github.com/giantswarm/aws-ebs-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/main
-        giantswarm.io/helmchart-app-versions: 4.2.0
-        giantswarm.io/helmchart-versions: 4.2.0
+        giantswarm.io/helmchart-app-versions: 2.56.1
+        giantswarm.io/helmchart-versions: 4.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
         github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
@@ -89,8 +114,8 @@ metadata:
         backstage.io/kubernetes-id: aws-ebs-csi-driver-app
         backstage.io/source-location: url:https://github.com/giantswarm/aws-ebs-csi-driver-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-ebs-csi-driver-app/tree/main
-        giantswarm.io/helmchart-app-versions: 4.2.0
-        giantswarm.io/helmchart-versions: 4.2.0
+        giantswarm.io/helmchart-app-versions: 4.3.0
+        giantswarm.io/helmchart-versions: 4.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-ebs-csi-driver-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
         github.com/project-slug: giantswarm/aws-ebs-csi-driver-app
@@ -340,7 +365,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dra-driver-nvidia-gpu
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dra-driver-nvidia-gpu/tree/main
         giantswarm.io/helmchart-app-versions: 25.3.2-flatcar.1-ubi9
-        giantswarm.io/helmchart-versions: 25.3.2-flatcar.1-c95dc26bbb5bed55c25e66bdcc4fc390eb4b718d
+        giantswarm.io/helmchart-versions: 25.3.2-flatcar.1-c9bb6c39f8f0a97ec388a3b90a4f77234eb800e3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dra-driver-nvidia-gpu
         github.com/project-slug: giantswarm/dra-driver-nvidia-gpu
     tags:
@@ -764,7 +789,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-sla-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-sla-app/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.2.0-dffbd0a70087c449e9bbe06c3fa4a03ab224f3e3
+        giantswarm.io/helmchart-versions: 0.2.0-fbaae795eaf7652006ee1a56cef9eb94806be76b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-sla
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
         github.com/project-slug: giantswarm/ingress-sla-app
@@ -1062,9 +1087,34 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.180
-        giantswarm.io/helmchart-versions: 0.1.180
+        giantswarm.io/helmchart-app-versions: 0.1.193
+        giantswarm.io/helmchart-versions: 0.1.193
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
+        github.com/project-slug: giantswarm/muster
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: muster
+    title: muster
+    description: CustomResourceDefinitions for muster (MCPServer, Workflow). Shipped as a separate chart so its lifecycle (install / upgrade) is managed independently of the muster control plane.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: muster
+        backstage.io/source-location: url:https://github.com/giantswarm/muster
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.193-f54c1c8efac043cf01584909ee42e6d64b56775d
+        giantswarm.io/helmchart-versions: 0.1.193-f54c1c8efac043cf01584909ee42e6d64b56775d
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
     tags:
@@ -1335,8 +1385,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.15
-        giantswarm.io/helmchart-versions: 0.3.15
+        giantswarm.io/helmchart-app-versions: 0.3.17
+        giantswarm.io/helmchart-versions: 0.3.17
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         github.com/project-slug: giantswarm/vllm
     tags:
