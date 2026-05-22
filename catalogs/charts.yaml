@@ -1013,7 +1013,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
         giantswarm.io/helmchart-app-versions: v0.17.3
-        giantswarm.io/helmchart-versions: 0.1.0-fd86ee8074cbf21c64b1cff6a09256af675764a2
+        giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
         github.com/project-slug: giantswarm/kueue-app
@@ -1087,8 +1087,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.199
-        giantswarm.io/helmchart-versions: 0.1.199
+        giantswarm.io/helmchart-app-versions: 0.1.200
+        giantswarm.io/helmchart-versions: 0.1.200
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
