@@ -184,7 +184,7 @@ jobs:
           cd clonedir
           
           git add -A
-          git commit -a -m "Update catalogs"
+          git commit -a -m "chore: update catalog data"
           git push -f origin update-catalogs
 
           # Check if there is an open PR (in a subshell)
@@ -201,7 +201,7 @@ jobs:
             gh pr create \
               --repo giantswarm/backstage-catalogs \
               --head update-catalogs \
-              --title "Update catalogs" \
+              --title "chore: update catalog data" \
               --body "This PR is created automatically from the workflow .github/workflows/update-catalogs.yaml. It should also get approved and merged automatically." \
               --assignee architectbot
           fi
@@ -209,7 +209,7 @@ jobs:
           # Set the PR to merge automatically after checks and reviews are in place          
           gh pr merge \
             --squash \
-            --body "Update catalogs" \
+            --body "" \
             --auto \
             --delete-branch
 
