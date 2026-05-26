@@ -413,8 +413,8 @@ metadata:
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.7.2
-        giantswarm.io/helmchart-versions: 1.6.2
+        giantswarm.io/helmchart-app-versions: 1.8.0
+        giantswarm.io/helmchart-versions: 1.7.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/envoy-gateway-app
@@ -438,8 +438,8 @@ metadata:
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/exception-recommender/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.0-f88acce6de569f996e496736954d39ccc2509fe7
-        giantswarm.io/helmchart-versions: 0.2.0-f88acce6de569f996e496736954d39ccc2509fe7
+        giantswarm.io/helmchart-app-versions: 0.2.0-eace681ee73cfcc5d35cee8c6e1fb719d2ef239a
+        giantswarm.io/helmchart-versions: 0.2.0-eace681ee73cfcc5d35cee8c6e1fb719d2ef239a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/exception-recommender
@@ -663,8 +663,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-crds-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-crds-app/tree/main
-        giantswarm.io/helmchart-app-versions: 'gateway-api: v1.4.1, gateway-api-inference-extension: v1.3.0'
-        giantswarm.io/helmchart-versions: 1.7.0
+        giantswarm.io/helmchart-app-versions: 'gateway-api: v1.5.1, gateway-api-inference-extension: v1.4.0'
+        giantswarm.io/helmchart-versions: 1.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-crds-app
@@ -814,7 +814,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/jiralert-app/tree/main
         giantswarm.io/helmchart-app-versions: "1.2"
-        giantswarm.io/helmchart-versions: 0.1.3-ef6ec8effe766e37bb0205c6a939c5d15545b677
+        giantswarm.io/helmchart-versions: 0.1.3-a3825b8df4244b70fd5f42083b421af8c5ae4830
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/jiralert-app
@@ -1087,8 +1087,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.200
-        giantswarm.io/helmchart-versions: 0.1.200
+        giantswarm.io/helmchart-app-versions: 0.1.201
+        giantswarm.io/helmchart-versions: 0.1.201
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1124,6 +1124,30 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: observability-bundle
+    title: observability-bundle
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: observability-bundle
+        backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
+        giantswarm.io/helmchart-versions: 2.9.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-bundle
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/observability-bundle
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-atlas
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
