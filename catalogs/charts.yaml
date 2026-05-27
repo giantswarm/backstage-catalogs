@@ -8,7 +8,7 @@ kind: Component
 metadata:
     name: agentic-platform
     title: agentic-platform
-    description: Giant Swarm agentic platform — MCP gateway deploy unit bundling muster and agentgateway.
+    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth session storage. Required CRDs (agentgateway-crds, muster-crds) and the Gateway API GatewayClass are cluster-level prerequisites — see README. '
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
@@ -16,7 +16,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
         giantswarm.io/helmchart-app-versions: 0.1.0
-        giantswarm.io/helmchart-versions: 0.0.0-fae1e85b3cb61e786571f45cbd33910b00dc73fa
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -613,8 +613,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.1
-        giantswarm.io/helmchart-versions: 1.15.1
+        giantswarm.io/helmchart-app-versions: 1.15.2
+        giantswarm.io/helmchart-versions: 1.15.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-bundle
@@ -1087,8 +1087,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.201
-        giantswarm.io/helmchart-versions: 0.1.201
+        giantswarm.io/helmchart-app-versions: 0.1.204
+        giantswarm.io/helmchart-versions: 0.1.204
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
