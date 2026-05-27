@@ -8,7 +8,7 @@ kind: Component
 metadata:
     name: agentic-platform
     title: agentic-platform
-    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth session storage. Required CRDs (agentgateway-crds, muster-crds) and the Gateway API GatewayClass are cluster-level prerequisites — see README. '
+    description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth session storage. agentgateway and muster CRDs are bundled; the Gateway API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
@@ -16,7 +16,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
         giantswarm.io/helmchart-app-versions: 0.1.0
-        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -429,6 +429,31 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: envoy-gateway-crds-app
+    title: envoy-gateway-crds-app
+    description: Envoy Gateway CRDs
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: envoy-gateway-crds-app
+        backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-crds-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-crds-app/tree/main
+        giantswarm.io/helmchart-app-versions: 1.8.0
+        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway-crds
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/envoy-gateway-crds-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: exception-recommender
     title: exception-recommender
     description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts from Kyverno's PolicyReport results.
@@ -763,8 +788,8 @@ metadata:
         backstage.io/kubernetes-id: ingress-nginx-app
         backstage.io/source-location: url:https://github.com/giantswarm/ingress-nginx-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/ingress-nginx-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.5
-        giantswarm.io/helmchart-versions: 4.3.2
+        giantswarm.io/helmchart-app-versions: 1.15.6
+        giantswarm.io/helmchart-versions: 4.3.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/ingress-nginx
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
         github.com/project-slug: giantswarm/ingress-nginx-app
@@ -1087,8 +1112,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.204
-        giantswarm.io/helmchart-versions: 0.1.204
+        giantswarm.io/helmchart-app-versions: 0.1.210
+        giantswarm.io/helmchart-versions: 0.1.210
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1105,15 +1130,15 @@ kind: Component
 metadata:
     name: muster
     title: muster
-    description: CustomResourceDefinitions for muster (MCPServer, Workflow). Shipped as a separate chart so its lifecycle (install / upgrade) is managed independently of the muster control plane.
+    description: CRD-only Helm chart for muster - ships the MCPServer and Workflow CustomResourceDefinitions
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.194-431417971666759a4e167ba9b5040ff6db335234
-        giantswarm.io/helmchart-versions: 0.1.194-431417971666759a4e167ba9b5040ff6db335234
+        giantswarm.io/helmchart-app-versions: 0.1.208-caebff5b3021ab36d7b3b27d9af61b0d25cf1e64
+        giantswarm.io/helmchart-versions: 0.1.208-caebff5b3021ab36d7b3b27d9af61b0d25cf1e64
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1123,7 +1148,7 @@ metadata:
 spec:
     type: service
     lifecycle: production
-    owner: group:team-planeteers
+    owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1409,8 +1434,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.19
-        giantswarm.io/helmchart-versions: 0.3.19
+        giantswarm.io/helmchart-app-versions: 0.3.20
+        giantswarm.io/helmchart-versions: 0.3.20
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         github.com/project-slug: giantswarm/vllm
     tags:
