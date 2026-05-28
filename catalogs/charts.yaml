@@ -689,7 +689,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-crds-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-crds-app/tree/main
         giantswarm.io/helmchart-app-versions: 'gateway-api: v1.5.1, gateway-api-inference-extension: v1.4.0'
-        giantswarm.io/helmchart-versions: 1.8.0
+        giantswarm.io/helmchart-versions: 1.8.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-crds-app
@@ -1112,8 +1112,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.210
-        giantswarm.io/helmchart-versions: 0.1.210
+        giantswarm.io/helmchart-app-versions: 0.1.212
+        giantswarm.io/helmchart-versions: 0.1.212
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1137,8 +1137,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.208-caebff5b3021ab36d7b3b27d9af61b0d25cf1e64
-        giantswarm.io/helmchart-versions: 0.1.208-caebff5b3021ab36d7b3b27d9af61b0d25cf1e64
+        giantswarm.io/helmchart-app-versions: 0.1.212-b868c2d212d69137626e111d799d71570b4db8c2
+        giantswarm.io/helmchart-versions: 0.1.212-b868c2d212d69137626e111d799d71570b4db8c2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
