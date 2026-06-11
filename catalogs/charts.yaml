@@ -15,8 +15,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.1.21
-        giantswarm.io/helmchart-versions: 1.1.21
+        giantswarm.io/helmchart-app-versions: 1.1.22-dev.teams-alignment-branch.2026-06-10.19-12-31.h10c664f
+        giantswarm.io/helmchart-versions: 1.1.22-dev.teams-alignment-branch.2026-06-10.19-12-31.h10c664f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.1.21
-        giantswarm.io/helmchart-versions: 1.1.21
+        giantswarm.io/helmchart-app-versions: 1.1.22-dev.teams-alignment-branch.2026-06-10.19-12-31.h10c664f
+        giantswarm.io/helmchart-versions: 1.1.22-dev.teams-alignment-branch.2026-06-10.19-12-31.h10c664f
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -190,8 +190,8 @@ metadata:
         backstage.io/kubernetes-id: aws-efs-csi-driver
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
-        giantswarm.io/helmchart-app-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-09.14-51-09.h3a7afe3
-        giantswarm.io/helmchart-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-09.14-51-09.h3a7afe3
+        giantswarm.io/helmchart-app-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-10.23-39-45.hc626c4a
+        giantswarm.io/helmchart-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-10.23-39-45.hc626c4a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
         github.com/project-slug: giantswarm/aws-efs-csi-driver
@@ -215,8 +215,8 @@ metadata:
         backstage.io/kubernetes-id: aws-efs-csi-driver
         backstage.io/source-location: url:https://github.com/giantswarm/aws-efs-csi-driver
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-efs-csi-driver/tree/main
-        giantswarm.io/helmchart-app-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-09.05-39-40
-        giantswarm.io/helmchart-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-09.05-39-40
+        giantswarm.io/helmchart-app-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-10.23-39-45.hc626c4a
+        giantswarm.io/helmchart-versions: 3.3.1-dev.renovate-architect-9-x.2026-06-10.23-39-45.hc626c4a
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-efs-csi-driver-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
         github.com/project-slug: giantswarm/aws-efs-csi-driver
@@ -252,6 +252,31 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: azure-aks-extras
+    title: azure-aks-extras
+    description: Please add description
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: azure-aks-extras
+        backstage.io/source-location: url:https://github.com/giantswarm/azure-aks-extras
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/azure-aks-extras/tree/main
+        giantswarm.io/helmchart-app-versions: 0.0.0-dev.init.2026-06-11.07-07-35.hd4dece1
+        giantswarm.io/helmchart-versions: 0.0.0-dev.init.2026-06-11.07-07-35.hd4dece1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/azure-aks-extras
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/azure-aks-extras
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-TEAM-NAME
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -539,8 +564,8 @@ metadata:
         backstage.io/kubernetes-id: exception-recommender
         backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/exception-recommender/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.1-dev.renovate-architect-9-x.2026-06-09.17-50-11.h10d40e9
-        giantswarm.io/helmchart-versions: 0.2.1-dev.renovate-architect-9-x.2026-06-09.17-50-11.h10d40e9
+        giantswarm.io/helmchart-app-versions: 0.2.1-dev.renovate-architect-9-x.2026-06-11.02-38-37.hfba1e2b
+        giantswarm.io/helmchart-versions: 0.2.1-dev.renovate-architect-9-x.2026-06-11.02-38-37.hfba1e2b
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/exception-recommender
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/exception-recommender
@@ -589,8 +614,8 @@ metadata:
         backstage.io/kubernetes-id: external-secrets
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
-        giantswarm.io/helmchart-app-versions: 2.4.2-dev.renovate-architect-9-x.2026-06-09.17-08-31.hcb2ea68
-        giantswarm.io/helmchart-versions: 2.4.2-dev.renovate-architect-9-x.2026-06-09.17-08-31.hcb2ea68
+        giantswarm.io/helmchart-app-versions: 2.4.2-dev.renovate-architect-9-x.2026-06-11.00-49-31.h328c309
+        giantswarm.io/helmchart-versions: 2.4.2-dev.renovate-architect-9-x.2026-06-11.00-49-31.h328c309
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-secrets
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
         github.com/project-slug: giantswarm/external-secrets
@@ -739,8 +764,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.10.2-dev.teams-alignment-branch.2026-06-10.08-12-36
-        giantswarm.io/helmchart-versions: 1.10.2-dev.teams-alignment-branch.2026-06-10.08-12-36
+        giantswarm.io/helmchart-app-versions: 1.10.2-dev.teams-alignment-branch.2026-06-11.06-20-04.hb734bda
+        giantswarm.io/helmchart-versions: 1.10.2-dev.teams-alignment-branch.2026-06-11.06-20-04.hb734bda
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-config-app
@@ -1064,8 +1089,8 @@ metadata:
         backstage.io/kubernetes-id: kong-app
         backstage.io/source-location: url:https://github.com/giantswarm/kong-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kong-app/tree/main
-        giantswarm.io/helmchart-app-versions: 5.2.4-dev.renovate-architect-9-x.2026-06-10.08-30-54.h23c05f0
-        giantswarm.io/helmchart-versions: 5.2.4-dev.renovate-architect-9-x.2026-06-10.08-30-54.h23c05f0
+        giantswarm.io/helmchart-app-versions: 5.2.4-dev.renovate-requests-2-x.2026-06-11.06-19-32.h9c4f39e
+        giantswarm.io/helmchart-versions: 5.2.4-dev.renovate-requests-2-x.2026-06-11.06-19-32.h9c4f39e
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kong-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kong/1/light.svg
         github.com/project-slug: giantswarm/kong-app
@@ -1089,8 +1114,8 @@ metadata:
         backstage.io/kubernetes-id: kube-vip-app
         backstage.io/source-location: url:https://github.com/giantswarm/kube-vip-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kube-vip-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.1-dev.renovate-architect-9-x.2026-06-09.18-10-53.h98a2636
-        giantswarm.io/helmchart-versions: 0.3.1-dev.renovate-architect-9-x.2026-06-09.18-10-53.h98a2636
+        giantswarm.io/helmchart-app-versions: 0.3.1-dev.renovate-architect-9-x.2026-06-11.03-03-45.h5da6d99
+        giantswarm.io/helmchart-versions: 0.3.1-dev.renovate-architect-9-x.2026-06-11.03-03-45.h5da6d99
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kube-vip
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kube-vip/1/light.png
         github.com/project-slug: giantswarm/kube-vip-app
@@ -1289,8 +1314,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.12-dev.teams-alignment-branch.2026-06-10.10-09-06.hd6df35f
-        giantswarm.io/helmchart-versions: 0.3.12-dev.teams-alignment-branch.2026-06-10.10-09-06.hd6df35f
+        giantswarm.io/helmchart-app-versions: 0.3.14
+        giantswarm.io/helmchart-versions: 0.3.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1314,8 +1339,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.12-dev.teams-alignment-branch.2026-06-10.10-09-06.hd6df35f
-        giantswarm.io/helmchart-versions: 0.3.12-dev.teams-alignment-branch.2026-06-10.10-09-06.hd6df35f
+        giantswarm.io/helmchart-app-versions: 0.3.14
+        giantswarm.io/helmchart-versions: 0.3.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1589,8 +1614,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.29-dev.teams-alignment-branch.2026-06-10.08-27-05.h9259d0c
-        giantswarm.io/helmchart-versions: 0.3.29-dev.teams-alignment-branch.2026-06-10.08-27-05.h9259d0c
+        giantswarm.io/helmchart-app-versions: 0.3.29-dev.teams-alignment-branch.2026-06-10.19-15-00.h1974667
+        giantswarm.io/helmchart-versions: 0.3.29-dev.teams-alignment-branch.2026-06-10.19-15-00.h1974667
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vllm/1/light.svg
         github.com/project-slug: giantswarm/vllm
@@ -1614,8 +1639,8 @@ metadata:
         backstage.io/kubernetes-id: zot
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
-        giantswarm.io/helmchart-app-versions: 2.7.1-dev.renovate-architect-9-x.2026-06-09.17-10-35.ha1c1130
-        giantswarm.io/helmchart-versions: 2.7.1-dev.renovate-architect-9-x.2026-06-09.17-10-35.ha1c1130
+        giantswarm.io/helmchart-app-versions: 2.7.1-dev.renovate-architect-9-x.2026-06-10.23-28-00.hd70a482
+        giantswarm.io/helmchart-versions: 2.7.1-dev.renovate-architect-9-x.2026-06-10.23-28-00.hd70a482
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/zot
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/zot/2/light.svg
         github.com/project-slug: giantswarm/zot
