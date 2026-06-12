@@ -72,6 +72,9 @@ jobs:
           binary: backstage-catalog-importer
           # renovate: datasource=github-releases depName=giantswarm/backstage-catalog-importer versioning=loose
           version: 0.29.1
+          # Since v0.29.1 the release asset is an uncompressed binary. The URL has no
+          # file extension, so install-binary-action skips unarchiving and installs it directly.
+          download_url: https://github.com/giantswarm/${binary}/releases/download/v${version}/${binary}-linux-amd64
           smoke_test: ${binary} --help
 
       - name: Execute backstage-catalog-importer
