@@ -6,6 +6,56 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: agent-sandbox
+    title: agent-sandbox
+    description: Giant Swarm packaging of the upstream kubernetes-sigs/agent-sandbox controller, which manages Sandbox resources (isolated, stateful, singleton pods) for AI agent runtimes on Kubernetes.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: agent-sandbox
+        backstage.io/source-location: url:https://github.com/giantswarm/agent-sandbox
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-sandbox/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.1
+        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-sandbox
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/agent-sandbox
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: agent-sandbox
+    title: agent-sandbox
+    description: CustomResourceDefinitions for kubernetes-sigs/agent-sandbox (Sandbox, SandboxTemplate, SandboxClaim, SandboxWarmPool), packaged for the Giant Swarm agentic platform.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: agent-sandbox
+        backstage.io/source-location: url:https://github.com/giantswarm/agent-sandbox
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-sandbox/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.1
+        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-sandbox-crds
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/agent-sandbox
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: agentic-platform
     title: agentic-platform
     description: 'Giant Swarm agentic platform — MCP gateway consumer-side deploy unit. Bundles muster (MCP aggregator control plane) and the agentgateway controller + data-plane proxy, plus an opt-in giantswarm/valkey-app for muster''s OAuth session storage. CRDs ship separately in the companion agentic-platform-crds chart, which must be installed first; the Gateway API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
@@ -15,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.1.30
-        giantswarm.io/helmchart-versions: 1.1.30
+        giantswarm.io/helmchart-app-versions: 1.2.7
+        giantswarm.io/helmchart-versions: 1.2.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -40,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.1.30
-        giantswarm.io/helmchart-versions: 1.1.30
+        giantswarm.io/helmchart-app-versions: 1.2.7
+        giantswarm.io/helmchart-versions: 1.2.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -463,6 +513,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/dra-driver-nvidia-gpu
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dra-driver-nvidia-gpu/tree/main
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dra-driver-nvidia-gpu
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubernetes-gpu/1/light.svg
         github.com/project-slug: giantswarm/dra-driver-nvidia-gpu
     tags:
         - helmchart
@@ -1227,8 +1278,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.5.5
-        giantswarm.io/helmchart-versions: 0.5.5
+        giantswarm.io/helmchart-app-versions: 0.5.7
+        giantswarm.io/helmchart-versions: 0.5.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1252,8 +1303,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.5.5
-        giantswarm.io/helmchart-versions: 0.5.5
+        giantswarm.io/helmchart-app-versions: 0.5.7
+        giantswarm.io/helmchart-versions: 0.5.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1277,8 +1328,8 @@ metadata:
         backstage.io/kubernetes-id: observability-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 3.0.0
-        giantswarm.io/helmchart-versions: 3.0.0
+        giantswarm.io/helmchart-app-versions: 3.0.1
+        giantswarm.io/helmchart-versions: 3.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/observability-bundle
@@ -1550,8 +1601,8 @@ metadata:
         backstage.io/kubernetes-id: zot
         backstage.io/source-location: url:https://github.com/giantswarm/zot
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/zot/tree/main
-        giantswarm.io/helmchart-app-versions: v2.1.16
-        giantswarm.io/helmchart-versions: 2.7.0
+        giantswarm.io/helmchart-app-versions: v2.1.17
+        giantswarm.io/helmchart-versions: 2.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/zot
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/zot/2/light.svg
         github.com/project-slug: giantswarm/zot
