@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.4.0
-        giantswarm.io/helmchart-versions: 1.4.0
+        giantswarm.io/helmchart-app-versions: 1.4.4
+        giantswarm.io/helmchart-versions: 1.4.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.4.0
-        giantswarm.io/helmchart-versions: 1.4.0
+        giantswarm.io/helmchart-app-versions: 1.4.4
+        giantswarm.io/helmchart-versions: 1.4.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -389,6 +389,8 @@ metadata:
         backstage.io/kubernetes-id: cluster-aks
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/cluster-aks
@@ -783,8 +785,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 1.17.0
-        giantswarm.io/helmchart-versions: 1.17.0
+        giantswarm.io/helmchart-app-versions: 1.17.1
+        giantswarm.io/helmchart-versions: 1.17.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-bundle
@@ -808,8 +810,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-config-app
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-config-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-config-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.11.0
-        giantswarm.io/helmchart-versions: 1.11.0
+        giantswarm.io/helmchart-app-versions: 1.11.1
+        giantswarm.io/helmchart-versions: 1.11.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-config
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-config-app
@@ -1278,8 +1280,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.7.4
-        giantswarm.io/helmchart-versions: 0.7.4
+        giantswarm.io/helmchart-app-versions: 0.7.7
+        giantswarm.io/helmchart-versions: 0.7.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1303,8 +1305,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.7.4
-        giantswarm.io/helmchart-versions: 0.7.4
+        giantswarm.io/helmchart-app-versions: 0.7.7
+        giantswarm.io/helmchart-versions: 0.7.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1388,6 +1390,29 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: releases
+    title: releases
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: releases
+        backstage.io/source-location: url:https://github.com/giantswarm/releases
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/releases/tree/main
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
+        github.com/project-slug: giantswarm/releases
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
