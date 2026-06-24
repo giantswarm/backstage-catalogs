@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.1
-        giantswarm.io/helmchart-versions: 1.15.1
+        giantswarm.io/helmchart-app-versions: 1.15.2
+        giantswarm.io/helmchart-versions: 1.15.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -115,8 +115,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.15.1
-        giantswarm.io/helmchart-versions: 1.15.1
+        giantswarm.io/helmchart-app-versions: 1.15.2
+        giantswarm.io/helmchart-versions: 1.15.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -389,8 +389,8 @@ metadata:
         backstage.io/kubernetes-id: cert-manager-app
         backstage.io/source-location: url:https://github.com/giantswarm/cert-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cert-manager-app/tree/main
-        giantswarm.io/helmchart-app-versions: 4.0.0
-        giantswarm.io/helmchart-versions: 4.0.0
+        giantswarm.io/helmchart-app-versions: 4.0.1
+        giantswarm.io/helmchart-versions: 4.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cert-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
         github.com/project-slug: giantswarm/cert-manager-app
