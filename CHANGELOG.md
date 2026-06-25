@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - CRDs catalog
 
+### Removed
+
+- Remove `python-service` and `go-service` templates, which were Kratix resource request generators (Kratix is being removed org-wide).
+
 ## [0.4.0] - 2026-05-06
 
 ### Added
