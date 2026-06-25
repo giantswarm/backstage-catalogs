@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- Remove `python-service` template, which was a Kratix resource request generator (Kratix is being removed org-wide).
+- Remove `python-service` and `go-service` templates, which were Kratix resource request generators (Kratix is being removed org-wide).
 
 ## [0.4.0] - 2026-05-06
 
