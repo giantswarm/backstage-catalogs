@@ -3121,7 +3121,7 @@ metadata:
     title: PolicyException
     description: PolicyException is the Schema for the policyexceptions API
     annotations:
-        backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
+        backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
         giantswarm.io/crd-group: policy.giantswarm.io
     tags:
         - crd
@@ -3219,7 +3219,7 @@ metadata:
     title: PolicyException
     description: PolicyException is the Schema for the policyexceptions API
     annotations:
-        backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
+        backstage.io/source-location: url:https://github.com/giantswarm/exception-recommender/blob/main/config/crd/bases/policy.giantswarm.io_policyexceptions.yaml
         giantswarm.io/crd-group: policy.giantswarm.io
     tags:
         - crd
