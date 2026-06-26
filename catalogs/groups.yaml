@@ -6,17 +6,1298 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: ae-adidas
+    namespace: default
+    title: ae-adidas
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-adidas'
+spec:
+    type: team
+    profile:
+        displayName: ae-adidas
+        picture: https://avatars.githubusercontent.com/t/4804179?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-deutsche-telekom
+    namespace: default
+    title: ae-deutsche-telekom
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-deutsche-telekom'
+spec:
+    type: team
+    profile:
+        displayName: ae-deutsche-telekom
+        picture: https://avatars.githubusercontent.com/t/4806205?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - T-Kukawka
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-fashion-digital
+    namespace: default
+    title: ae-fashion-digital
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-fashion-digital'
+spec:
+    type: team
+    profile:
+        displayName: ae-fashion-digital
+        picture: https://avatars.githubusercontent.com/t/4806169?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-fleetio
+    namespace: default
+    title: ae-fleetio
+    description: Account Engineers for Fleetio
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-fleetio'
+spec:
+    type: team
+    profile:
+        displayName: ae-fleetio
+        picture: https://avatars.githubusercontent.com/t/13516982?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-gk-software
+    namespace: default
+    title: ae-gk-software
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-gk-software'
+spec:
+    type: team
+    profile:
+        displayName: ae-gk-software
+        picture: https://avatars.githubusercontent.com/t/4806181?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - T-Kukawka
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-panamax
+    namespace: default
+    title: ae-panamax
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-panamax'
+spec:
+    type: team
+    profile:
+        displayName: ae-panamax
+        picture: https://avatars.githubusercontent.com/t/4806197?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - gawertm
+        - vxav
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-straumann
+    namespace: default
+    title: ae-straumann
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-straumann'
+spec:
+    type: team
+    profile:
+        displayName: ae-straumann
+        picture: https://avatars.githubusercontent.com/t/11035305?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+        - gawertm
+        - luca-rui
+        - puja108
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-vodafone
+    namespace: default
+    title: ae-vodafone
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-vodafone'
+spec:
+    type: team
+    profile:
+        displayName: ae-vodafone
+        picture: https://avatars.githubusercontent.com/t/4806208?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - luca-rui
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: ae-wepa
+    namespace: default
+    title: ae-wepa
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:ae-wepa'
+spec:
+    type: team
+    profile:
+        displayName: ae-wepa
+        picture: https://avatars.githubusercontent.com/t/8657259?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: area-facilitator
+    namespace: default
+    title: area-facilitator
+    description: Github Team for Area Facilitator.
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:area-facilitator'
+spec:
+    type: team
+    profile:
+        displayName: area-facilitator
+        picture: https://avatars.githubusercontent.com/t/6244323?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - annaloew
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: area-kaas
+    namespace: default
+    title: area-kaas
+    description: KaaS Area
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:area-kaas'
+spec:
+    type: team
+    profile:
+        displayName: area-kaas
+        picture: https://avatars.githubusercontent.com/t/5354786?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - Rotfuks
+        - T-Kukawka
+        - alex-dabija
+        - anvddriesch
+        - gawertm
+        - glitchcrab
+        - iuriaranda
+        - njuettner
+        - robinkb
+        - vxav
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: backpack-architect
+    namespace: default
+    title: backpack-architect
+    description: Architect backpackers
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:backpack-architect'
+spec:
+    type: team
+    profile:
+        displayName: backpack-architect
+        picture: https://avatars.githubusercontent.com/t/7940611?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JosephSalisbury
+        - anvddriesch
+        - fiunchinho
+        - mcharriere
+        - piontec
+        - stone-z
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: bots
+    namespace: default
+    title: bots
+    description: Non-personal accounts
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:bots'
+spec:
+    type: team
+    profile:
+        displayName: bots
+        picture: https://avatars.githubusercontent.com/t/2442342?s=116&v=4
+    children: []
+    members:
+        - architectbot
+        - catalogbot
+        - taylorbot
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-ae
+    namespace: default
+    title: chapter ae
+    description: Account engineering
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-ae'
+spec:
+    type: team
+    profile:
+        displayName: chapter ae
+        picture: https://avatars.githubusercontent.com/t/4784623?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+        - luca-rui
+        - othylmann
+        - puja108
+        - robinkb
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-architecture
+    namespace: default
+    title: chapter-architecture
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-architecture'
+spec:
+    type: team
+    profile:
+        displayName: chapter-architecture
+        picture: https://avatars.githubusercontent.com/t/6703975?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - alex-dabija
+        - piontec
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-pe
+    namespace: default
+    title: chapter-pe
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-pe'
+spec:
+    type: team
+    profile:
+        displayName: chapter-pe
+        picture: https://avatars.githubusercontent.com/t/3732650?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - TheoBrigitte
+        - anvddriesch
+        - fiunchinho
+        - ljakimczuk
+        - mcharriere
+        - njuettner
+        - or4dx
+        - robinkb
+        - stone-z
+        - uvegla
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-se
+    namespace: default
+    title: chapter-se
+    description: 'Driver: @pipo02mix'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-se'
+spec:
+    type: team
+    profile:
+        displayName: chapter-se
+        picture: https://avatars.githubusercontent.com/t/2690146?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - T-Kukawka
+        - brinker211
+        - fhielpos
+        - mproffitt
+        - othylmann
+        - paurosello
+        - pipo02mix
+        - vxav
+        - weatherhog
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-sre
+    namespace: default
+    title: chapter-sre
+    description: Giantswarm chapter SRE
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-sre'
+spec:
+    type: team
+    profile:
+        displayName: chapter-sre
+        picture: https://avatars.githubusercontent.com/t/2729722?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - Gacko
+        - QuantumEnigmaa
+        - glitchcrab
+        - hervenicol
+        - iuriaranda
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: chapter-team-facilitator
+    namespace: default
+    title: chapter-team-facilitator
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:chapter-team-facilitator'
+spec:
+    type: team
+    profile:
+        displayName: chapter-team-facilitator
+        picture: https://avatars.githubusercontent.com/t/2690142?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - HelloHeatherC
+        - Jul85
+        - QuentinBisson
+        - T-Kukawka
+        - annaloew
+        - anvddriesch
+        - brinker211
+        - glitchcrab
+        - stone-z
+        - ubergesundheit
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: cnp-product
+    namespace: default
+    title: CNP Product
+    description: Product people of the Cloud Native Pack teams
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:cnp-product'
+spec:
+    type: team
+    profile:
+        displayName: CNP Product
+        picture: https://avatars.githubusercontent.com/t/5713605?s=116&v=4
+    children: []
+    members:
+        - piontec
+        - stone-z
+        - weatherhog
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: employees
+    namespace: default
+    title: Employees
+    description: Every staff member at Giant Swarm
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:employees'
+spec:
+    type: team
+    profile:
+        displayName: Employees
+        picture: https://avatars.githubusercontent.com/t/821991?s=116&v=4
+    children: []
+    members:
+        - AndiDog
+        - Gacko
+        - HelloHeatherC
+        - JosephSalisbury
+        - JoshOlsonKerrigan
+        - Jul85
+        - Noemi002
+        - QuantumEnigmaa
+        - QuentinBisson
+        - Rotfuks
+        - T-Kukawka
+        - TheaMarie
+        - TheoBrigitte
+        - alex-dabija
+        - annaloew
+        - anvddriesch
+        - brinker211
+        - fhielpos
+        - fiunchinho
+        - gawertm
+        - glitchcrab
+        - gusevda
+        - henninglange
+        - hervenicol
+        - iuriaranda
+        - ljakimczuk
+        - luca-rui
+        - lyind
+        - marians
+        - mcharriere
+        - mirza-src
+        - morotki
+        - mproffitt
+        - njuettner
+        - or4dx
+        - othylmann
+        - paurosello
+        - piontec
+        - pipo02mix
+        - puja108
+        - robinkb
+        - simonapetrova1
+        - stone-z
+        - taylorbot
+        - teemow
+        - tommyhobin
+        - ubergesundheit
+        - uvegla
+        - vxav
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: giantswarm-admins
+    namespace: default
+    title: giantswarm-admins
+    description: Members of this group are able to authenticate to the Management API of installations via Dex and get admin permission.
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:giantswarm-admins'
+spec:
+    type: team
+    profile:
+        displayName: giantswarm-admins
+        picture: https://avatars.githubusercontent.com/t/2410197?s=116&v=4
+    children: []
+    members:
+        - AndiDog
+        - Gacko
+        - JosephSalisbury
+        - QuantumEnigmaa
+        - QuentinBisson
+        - Rotfuks
+        - T-Kukawka
+        - TheoBrigitte
+        - alex-dabija
+        - anvddriesch
+        - brinker211
+        - fhielpos
+        - fiunchinho
+        - gawertm
+        - glitchcrab
+        - gusevda
+        - henninglange
+        - hervenicol
+        - iuriaranda
+        - ljakimczuk
+        - luca-rui
+        - lyind
+        - marians
+        - mcharriere
+        - mirza-src
+        - mproffitt
+        - njuettner
+        - or4dx
+        - othylmann
+        - paurosello
+        - piontec
+        - pipo02mix
+        - puja108
+        - robinkb
+        - stone-z
+        - teemow
+        - ubergesundheit
+        - uvegla
+        - vxav
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: giantswarm-admins-test
+    namespace: default
+    title: giantswarm-admins-test
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:giantswarm-admins-test'
+spec:
+    type: team
+    profile:
+        displayName: giantswarm-admins-test
+        picture: https://avatars.githubusercontent.com/t/3624719?s=116&v=4
+    children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: kaas-po
+    namespace: default
+    title: kaas-po
+    description: KaaS POs and Architects
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:kaas-po'
+spec:
+    type: team
+    profile:
+        displayName: kaas-po
+        picture: https://avatars.githubusercontent.com/t/7503956?s=116&v=4
+    children: []
+    parent: area-kaas
+    members:
+        - Rotfuks
+        - alex-dabija
+        - gawertm
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: oncall
+    namespace: default
+    title: oncall
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:oncall'
+spec:
+    type: team
+    profile:
+        displayName: oncall
+        picture: https://avatars.githubusercontent.com/t/2812213?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JosephSalisbury
+        - TheoBrigitte
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: oncall-kaas-cloud
+    namespace: default
+    title: oncall-kaas-cloud
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:oncall-kaas-cloud'
+spec:
+    type: team
+    profile:
+        displayName: oncall-kaas-cloud
+        picture: https://avatars.githubusercontent.com/t/4982847?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - Gacko
+        - T-Kukawka
+        - alex-dabija
+        - fiunchinho
+        - iuriaranda
+        - robinkb
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: oncall-kaas-onprem
+    namespace: default
+    title: oncall-kaas-onprem
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:oncall-kaas-onprem'
+spec:
+    type: team
+    profile:
+        displayName: oncall-kaas-onprem
+        picture: https://avatars.githubusercontent.com/t/4982849?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - anvddriesch
+        - glitchcrab
+        - pipo02mix
+        - puja108
+        - vxav
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: oncall-platform
+    namespace: default
+    title: oncall-platform
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:oncall-platform'
+spec:
+    type: team
+    profile:
+        displayName: oncall-platform
+        picture: https://avatars.githubusercontent.com/t/4982850?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuantumEnigmaa
+        - QuentinBisson
+        - TheoBrigitte
+        - hervenicol
+        - ljakimczuk
+        - mcharriere
+        - stone-z
+        - ubergesundheit
+        - uvegla
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: product-owners
+    namespace: default
+    title: Product Owners
+    description: All acting POs
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:product-owners'
+spec:
+    type: team
+    profile:
+        displayName: Product Owners
+        picture: https://avatars.githubusercontent.com/t/4330232?s=116&v=4
+    children: []
+    parent: sig-product
+    members:
+        - Rotfuks
+        - T-Kukawka
+        - alex-dabija
+        - gawertm
+        - stone-z
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sa
+    namespace: default
+    title: sa
+    description: Solution Architects
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sa'
+spec:
+    type: team
+    profile:
+        displayName: sa
+        picture: https://avatars.githubusercontent.com/t/4784594?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - T-Kukawka
+        - fhielpos
+        - mproffitt
+        - paurosello
+        - pipo02mix
+        - vxav
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: se-egger
+    namespace: default
+    title: se-egger
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:se-egger'
+spec:
+    type: team
+    profile:
+        displayName: se-egger
+        picture: https://avatars.githubusercontent.com/t/4806162?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - brinker211
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-admin-legal
+    namespace: default
+    title: sig-admin/ legal
+    description: 'Driver: @TheaMarie'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-admin-legal'
+spec:
+    type: team
+    profile:
+        displayName: sig-admin/ legal
+        picture: https://avatars.githubusercontent.com/t/2690143?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - TheaMarie
+        - annaloew
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-architecture
+    namespace: default
+    title: sig-architecture
+    description: Driver @JosephSalisbury
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-architecture'
+spec:
+    type: team
+    profile:
+        displayName: sig-architecture
+        picture: https://avatars.githubusercontent.com/t/3423779?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JosephSalisbury
+        - alex-dabija
+        - anvddriesch
+        - mcharriere
+        - piontec
+        - puja108
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-company
+    namespace: default
+    title: sig-company
+    description: Discussing and deciding on the high-level topics and building a strong and better company. Driver @henninglange
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-company'
+spec:
+    type: team
+    profile:
+        displayName: sig-company
+        picture: https://avatars.githubusercontent.com/t/3322746?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - annaloew
+        - henninglange
+        - othylmann
+        - puja108
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-content
+    namespace: default
+    title: sig-content
+    description: 'Driver: '
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-content'
+spec:
+    type: team
+    profile:
+        displayName: sig-content
+        picture: https://avatars.githubusercontent.com/t/2690145?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - HelloHeatherC
+        - annaloew
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-culture
+    namespace: default
+    title: sig-culture
+    description: Driver @othylmann
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-culture'
+spec:
+    type: team
+    profile:
+        displayName: sig-culture
+        picture: https://avatars.githubusercontent.com/t/3660680?s=116&v=4
+    children: []
+    members:
+        - QuentinBisson
+        - annaloew
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-diversity
+    namespace: default
+    title: sig-diversity
+    description: 'Driver: Oshrat. Drive diversity within Giant Swarm. Remove barriers. Actively support people and recruiting.'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-diversity'
+spec:
+    type: team
+    profile:
+        displayName: sig-diversity
+        picture: https://avatars.githubusercontent.com/t/3215411?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - annaloew
+        - puja108
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-docs
+    namespace: default
+    title: sig-docs
+    description: Not the doctors the documents!
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-docs'
+spec:
+    type: team
+    profile:
+        displayName: sig-docs
+        picture: https://avatars.githubusercontent.com/t/3934507?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - HelloHeatherC
+        - glitchcrab
+        - marians
+        - pipo02mix
+        - stone-z
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-events
+    namespace: default
+    title: sig-events
+    description: Discussing the next upcoming events
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-events'
+spec:
+    type: team
+    profile:
+        displayName: sig-events
+        picture: https://avatars.githubusercontent.com/t/3637490?s=116&v=4
+    children: []
+    members:
+        - Jul85
+        - TheaMarie
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-growth
+    namespace: default
+    title: sig-growth
+    description: 'Growth hacking '
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-growth'
+spec:
+    type: team
+    profile:
+        displayName: sig-growth
+        picture: https://avatars.githubusercontent.com/t/3233609?s=116&v=4
+    children: []
+    members:
+        - henninglange
+        - morotki
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-monitoring
+    namespace: default
+    title: sig-monitoring
+    description: 'Driver: @anvddriesch'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-monitoring'
+spec:
+    type: team
+    profile:
+        displayName: sig-monitoring
+        picture: https://avatars.githubusercontent.com/t/2690129?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JosephSalisbury
+        - glitchcrab
+        - hervenicol
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-of-sigs
+    namespace: default
+    title: sig-of-sigs
+    description: This is the Github team for the SIG of SIGs
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-of-sigs'
+spec:
+    type: team
+    profile:
+        displayName: sig-of-sigs
+        picture: https://avatars.githubusercontent.com/t/4261182?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - HelloHeatherC
+        - QuentinBisson
+        - TheaMarie
+        - annaloew
+        - fiunchinho
+        - henninglange
+        - marians
+        - othylmann
+        - pipo02mix
+        - puja108
+        - stone-z
+        - teemow
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-partner
+    namespace: default
+    title: sig-partner
+    description: Manage Partners - Driver @Oshratn
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-partner'
+spec:
+    type: team
+    profile:
+        displayName: sig-partner
+        picture: https://avatars.githubusercontent.com/t/3315626?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - Jul85
+        - henninglange
+        - othylmann
+        - pipo02mix
+        - puja108
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-people
+    namespace: default
+    title: sig-people
+    description: 'Driver: @annaloew'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-people'
+spec:
+    type: team
+    profile:
+        displayName: sig-people
+        picture: https://avatars.githubusercontent.com/t/2690141?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - annaloew
+        - henninglange
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-product
+    namespace: default
+    title: sig-product
+    description: 'Driver: @puja108'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-product'
+spec:
+    type: team
+    profile:
+        displayName: sig-product
+        picture: https://avatars.githubusercontent.com/t/1866409?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JosephSalisbury
+        - Rotfuks
+        - T-Kukawka
+        - alex-dabija
+        - gawertm
+        - marians
+        - piontec
+        - puja108
+        - stone-z
+        - weatherhog
+        - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-product-marketing
+    namespace: default
+    title: sig-product-marketing
+    description: The intersection between product and marketing
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-product-marketing'
+spec:
+    type: team
+    profile:
+        displayName: sig-product-marketing
+        picture: https://avatars.githubusercontent.com/t/3702612?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - Rotfuks
+        - gawertm
+        - henninglange
+        - puja108
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-profits
+    namespace: default
+    title: sig-profits
+    description: 'Driver: @henninglange'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-profits'
+spec:
+    type: team
+    profile:
+        displayName: sig-profits
+        picture: https://avatars.githubusercontent.com/t/2690139?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - henninglange
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-recruiting
+    namespace: default
+    title: sig-recruiting
+    description: Recruiting @ Giant Swarm
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-recruiting'
+spec:
+    type: team
+    profile:
+        displayName: sig-recruiting
+        picture: https://avatars.githubusercontent.com/t/2995278?s=116&v=4
+    children: []
+    members:
+        - JosephSalisbury
+        - JoshOlsonKerrigan
+        - annaloew
+        - glitchcrab
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-revenue
+    namespace: default
+    title: sig-revenue
+    description: Driver @foschubert
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-revenue'
+spec:
+    type: team
+    profile:
+        displayName: sig-revenue
+        picture: https://avatars.githubusercontent.com/t/3698109?s=116&v=4
+    children: []
+    members:
+        - Jul85
+        - brinker211
+        - henninglange
+        - othylmann
+        - puja108
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-sales
+    namespace: default
+    title: sig-sales
+    description: everyone who is involved with selling
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-sales'
+spec:
+    type: team
+    profile:
+        displayName: sig-sales
+        picture: https://avatars.githubusercontent.com/t/3295645?s=116&v=4
+    children: []
+    members:
+        - henninglange
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-security
+    namespace: default
+    title: sig-security
+    description: "Docs: \r\nhttps://intranet.giantswarm.io/docs/organizational-structure/sigs/security/\r\n\r\nDriver: @stone-z"
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-security'
+spec:
+    type: team
+    profile:
+        displayName: sig-security
+        picture: https://avatars.githubusercontent.com/t/2690134?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - Gacko
+        - JosephSalisbury
+        - QuantumEnigmaa
+        - alex-dabija
+        - brinker211
+        - pipo02mix
+        - puja108
+        - stone-z
+        - ubergesundheit
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-sustainability
+    namespace: default
+    title: sig-sustainability
+    description: Making Giant Swarm more sustainable, in the ecological sense.
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-sustainability'
+spec:
+    type: team
+    profile:
+        displayName: sig-sustainability
+        picture: https://avatars.githubusercontent.com/t/8561507?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuantumEnigmaa
+        - marians
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-talks
+    namespace: default
+    title: sig-talks
+    description: 'Driver: tbd'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-talks'
+spec:
+    type: team
+    profile:
+        displayName: sig-talks
+        picture: https://avatars.githubusercontent.com/t/3281730?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - glitchcrab
+        - hervenicol
+        - othylmann
+        - pipo02mix
+        - puja108
+        - teemow
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: sig-website
+    namespace: default
+    title: sig-website
+    description: This is the place for all website related topics
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:sig-website'
+spec:
+    type: team
+    profile:
+        displayName: sig-website
+        picture: https://avatars.githubusercontent.com/t/4342839?s=116&v=4
+    children: []
+    members:
+        - morotki
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-atlas
+    namespace: default
     title: Team Atlas
     description: Monitoring, observability, logging, prometheus, loki
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-atlas'
 spec:
     type: team
     profile:
         displayName: Team Atlas
         picture: https://avatars.githubusercontent.com/t/3817103?s=116&v=4
     children: []
+    parent: employees
     members:
-        - QuentinBisson
         - Rotfuks
         - TheoBrigitte
         - hervenicol
@@ -24,15 +1305,44 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-bumblebee
+    namespace: default
+    title: Team Bumblebee
+    description: Agentic tooling (tbd)
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-bumblebee'
+spec:
+    type: team
+    profile:
+        displayName: Team Bumblebee
+        picture: https://avatars.githubusercontent.com/t/17002550?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - Rotfuks
+        - fiunchinho
+        - gusevda
+        - marians
+        - paurosello
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-cabbage
+    namespace: default
     title: Team Cabbage
     description: Team Cabbage’s mission is to provide connectivity solutions on top of Kubernetes. ingress, nginx, gateway, kong, linkerd, mesh, loadbalancer, network, cni, external-dns
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-cabbage'
 spec:
     type: team
     profile:
         displayName: Team Cabbage
         picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
     children: []
+    parent: employees
     members:
         - QuantumEnigmaa
         - mcharriere
@@ -43,18 +1353,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-honeybadger
+    namespace: default
     title: Team Honeybadger
-    description: GitOps, flux, helm, app-platform, crossplane, developer experience, ui, ux, happa
+    description: GitOps, flux, helm, app-platform, crossplane, developer experience
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-honeybadger'
 spec:
     type: team
     profile:
         displayName: Team Honeybadger
         picture: https://avatars.githubusercontent.com/t/5176559?s=116&v=4
     children: []
+    parent: employees
     members:
-        - gusevda
         - ljakimczuk
-        - marians
         - mproffitt
         - piontec
         - uvegla
@@ -63,55 +1375,59 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-phoenix
-    title: Team Phoenix
-    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
+    name: team-nifflers
+    namespace: default
+    title: Team Nifflers
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-nifflers'
 spec:
     type: team
     profile:
-        displayName: Team Phoenix
-        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
+        displayName: Team Nifflers
+        picture: https://avatars.githubusercontent.com/t/6398780?s=116&v=4
     children: []
+    parent: employees
     members:
-        - AndiDog
-        - T-Kukawka
-        - fiunchinho
-        - iuriaranda
-        - paurosello
-        - robinkb
+        - Jul85
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-phoenix
+    namespace: default
     title: Team Phoenix
     description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-phoenix'
 spec:
     type: team
     profile:
         displayName: Team Phoenix
         picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
     children: []
+    parent: area-kaas
     members:
         - AndiDog
         - T-Kukawka
-        - fiunchinho
         - iuriaranda
-        - paurosello
         - robinkb
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-planeteers
+    namespace: default
     title: Team Planeteers
     description: Customer Success and Product Management
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-planeteers'
 spec:
     type: team
     profile:
         displayName: Team Planeteers
         picture: https://avatars.githubusercontent.com/t/10893128?s=116&v=4
     children: []
+    parent: employees
     members:
         - JosephSalisbury
         - alex-dabija
@@ -125,15 +1441,40 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-rainmakers
+    namespace: default
+    title: Team Rainmakers
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-rainmakers'
+spec:
+    type: team
+    profile:
+        displayName: Team Rainmakers
+        picture: https://avatars.githubusercontent.com/t/2690121?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - HelloHeatherC
+        - Jul85
+        - morotki
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-rocket
+    namespace: default
     title: Team Rocket
     description: kvm, openstack, vmware, vsphere, cloud-director, capo, capv, capvcd, rook, calico, metrics-server
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-rocket'
 spec:
     type: team
     profile:
         displayName: Team Rocket
         picture: https://avatars.githubusercontent.com/t/4133740?s=116&v=4
     children: []
+    parent: area-kaas
     members:
         - anvddriesch
         - gawertm
@@ -144,49 +1485,83 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-shield
+    namespace: default
     title: Team Shield
     description: kyverno, falco, trivy, starboard, PSA, PSP
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-shield'
 spec:
     type: team
     profile:
         displayName: Team Shield
         picture: https://avatars.githubusercontent.com/t/5904175?s=116&v=4
     children: []
+    parent: employees
     members:
         - fhielpos
         - mirza-src
-        - ssyno
         - stone-z
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-team
+    namespace: default
+    title: Team Team
+    description: People Ops, Admin, etc.
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-team'
+spec:
+    type: team
+    profile:
+        displayName: Team Team
+        picture: https://avatars.githubusercontent.com/t/3439167?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JoshOlsonKerrigan
+        - TheaMarie
+        - annaloew
+        - lyind
+        - othylmann
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-tenet
+    namespace: default
     title: Team Tenet
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-tenet'
 spec:
     type: team
     profile:
         displayName: Team Tenet
         picture: https://avatars.githubusercontent.com/t/10885917?s=116&v=4
     children: []
+    parent: employees
     members:
         - Gacko
         - njuettner
-        - salaxander
+        - or4dx
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-tinkerers
+    namespace: default
     title: Team Tinkerers
     description: 'Our mission is to reduce friction in the development process by providing unified automated RelEng tools and process definitions across KAAS teams. Keywords: Release Engineering, Testing, Pipelines, Tekton, CI/CD'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-tinkerers'
 spec:
     type: team
     profile:
         displayName: Team Tinkerers
         picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
     children: []
+    parent: employees
     members:
         - yulianedyalkova
 ---
@@ -194,14 +1569,127 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-turtles
+    namespace: default
     title: Team Turtles
     description: GitHub Team of the one and only Turtles
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-turtles'
 spec:
     type: team
     profile:
         displayName: Team Turtles
         picture: https://avatars.githubusercontent.com/t/7862272?s=116&v=4
     children: []
+    parent: area-kaas
     members:
         - njuettner
         - yulianedyalkova
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-up
+    namespace: default
+    title: Team Up
+    description: Admin, People Ops, Marketing, Design, Events... all your needs
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-up'
+spec:
+    type: team
+    profile:
+        displayName: Team Up
+        picture: https://avatars.githubusercontent.com/t/11225470?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - HelloHeatherC
+        - JoshOlsonKerrigan
+        - Jul85
+        - TheaMarie
+        - annaloew
+        - lyind
+        - morotki
+        - tommyhobin
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: tinkerers-friends
+    namespace: default
+    title: tinkerers-friends
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:tinkerers-friends'
+spec:
+    type: team
+    profile:
+        displayName: tinkerers-friends
+        picture: https://avatars.githubusercontent.com/t/9493560?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - fiunchinho
+        - mcharriere
+        - njuettner
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: wg-capi-mc
+    namespace: default
+    title: wg-capi-mc
+    description: Work group responsible for Cluster Api Management Clusters
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:wg-capi-mc'
+spec:
+    type: team
+    profile:
+        displayName: wg-capi-mc
+        picture: https://avatars.githubusercontent.com/t/5628506?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - AndiDog
+        - fiunchinho
+        - glitchcrab
+        - pipo02mix
+        - vxav
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: wg-cluster-api
+    namespace: default
+    title: wg-cluster-api
+    description: Cluster API Working Group
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:wg-cluster-api'
+spec:
+    type: team
+    profile:
+        displayName: wg-cluster-api
+        picture: https://avatars.githubusercontent.com/t/3585275?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - T-Kukawka
+        - anvddriesch
+        - puja108
+        - ubergesundheit
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: wg-release-notes
+    namespace: default
+    title: wg-release-notes
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:wg-release-notes'
+spec:
+    type: team
+    profile:
+        displayName: wg-release-notes
+        picture: https://avatars.githubusercontent.com/t/4863438?s=116&v=4
+    children: []
+    parent: employees
