@@ -91,11 +91,10 @@ jobs:
             --output ./catalogs
 
           # Groups (GitHub teams)
-          # Only export the specific teams that own entities in this catalog.
-          # An explicit allowlist (plus the employees parent guard) avoids
-          # exposing unrelated team names.
+          # Export the product teams via an explicit allowlist (plus the
+          # employees parent guard) so unrelated team names are not exposed.
           backstage-catalog-importer groups \
-            --teams team-atlas,team-honeybadger,team-shield \
+            --teams team-atlas,team-bumblebee,team-cabbage,team-honeybadger,team-nifflers,team-planeteers,team-rainmakers,team-shield,team-team,team-tenet,team-tinkerers,team-up \
             --parent employees \
             --output ./catalogs
 
