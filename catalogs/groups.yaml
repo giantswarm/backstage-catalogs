@@ -9,14 +9,16 @@ metadata:
     name: team-atlas
     title: Team Atlas
     description: Monitoring, observability, logging, prometheus, loki
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-atlas'
 spec:
     type: team
     profile:
         displayName: Team Atlas
         picture: https://avatars.githubusercontent.com/t/3817103?s=116&v=4
     children: []
+    parent: employees
     members:
-        - QuentinBisson
         - Rotfuks
         - TheoBrigitte
         - hervenicol
@@ -24,15 +26,42 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+    name: team-bumblebee
+    title: Team Bumblebee
+    description: Agentic tooling (tbd)
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-bumblebee'
+spec:
+    type: team
+    profile:
+        displayName: Team Bumblebee
+        picture: https://avatars.githubusercontent.com/t/17002550?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - QuentinBisson
+        - Rotfuks
+        - fiunchinho
+        - gusevda
+        - marians
+        - paurosello
+        - teemow
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
     name: team-cabbage
     title: Team Cabbage
     description: Team Cabbage’s mission is to provide connectivity solutions on top of Kubernetes. ingress, nginx, gateway, kong, linkerd, mesh, loadbalancer, network, cni, external-dns
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-cabbage'
 spec:
     type: team
     profile:
         displayName: Team Cabbage
         picture: https://avatars.githubusercontent.com/t/5171143?s=116&v=4
     children: []
+    parent: employees
     members:
         - QuantumEnigmaa
         - mcharriere
@@ -44,17 +73,18 @@ kind: Group
 metadata:
     name: team-honeybadger
     title: Team Honeybadger
-    description: GitOps, flux, helm, app-platform, crossplane, developer experience, ui, ux, happa
+    description: GitOps, flux, helm, app-platform, crossplane, developer experience
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-honeybadger'
 spec:
     type: team
     profile:
         displayName: Team Honeybadger
         picture: https://avatars.githubusercontent.com/t/5176559?s=116&v=4
     children: []
+    parent: employees
     members:
-        - gusevda
         - ljakimczuk
-        - marians
         - mproffitt
         - piontec
         - uvegla
@@ -63,42 +93,19 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-phoenix
-    title: Team Phoenix
-    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
+    name: team-nifflers
+    title: Team Nifflers
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-nifflers'
 spec:
     type: team
     profile:
-        displayName: Team Phoenix
-        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
+        displayName: Team Nifflers
+        picture: https://avatars.githubusercontent.com/t/6398780?s=116&v=4
     children: []
+    parent: employees
     members:
-        - AndiDog
-        - T-Kukawka
-        - fiunchinho
-        - iuriaranda
-        - paurosello
-        - robinkb
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-    name: team-phoenix
-    title: Team Phoenix
-    description: Cloud Integration - CAPA, CAPZ, CAPI, AWS, Azure, Vintage, CloudFront, IRSA, CloudFormation
-spec:
-    type: team
-    profile:
-        displayName: Team Phoenix
-        picture: https://avatars.githubusercontent.com/t/5257169?s=116&v=4
-    children: []
-    members:
-        - AndiDog
-        - T-Kukawka
-        - fiunchinho
-        - iuriaranda
-        - paurosello
-        - robinkb
+        - Jul85
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -106,12 +113,15 @@ metadata:
     name: team-planeteers
     title: Team Planeteers
     description: Customer Success and Product Management
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-planeteers'
 spec:
     type: team
     profile:
         displayName: Team Planeteers
         picture: https://avatars.githubusercontent.com/t/10893128?s=116&v=4
     children: []
+    parent: employees
     members:
         - JosephSalisbury
         - alex-dabija
@@ -125,20 +135,22 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-rocket
-    title: Team Rocket
-    description: kvm, openstack, vmware, vsphere, cloud-director, capo, capv, capvcd, rook, calico, metrics-server
+    name: team-rainmakers
+    title: Team Rainmakers
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-rainmakers'
 spec:
     type: team
     profile:
-        displayName: Team Rocket
-        picture: https://avatars.githubusercontent.com/t/4133740?s=116&v=4
+        displayName: Team Rainmakers
+        picture: https://avatars.githubusercontent.com/t/2690121?s=116&v=4
     children: []
+    parent: employees
     members:
-        - anvddriesch
-        - gawertm
-        - glitchcrab
-        - vxav
+        - HelloHeatherC
+        - Jul85
+        - morotki
+        - tommyhobin
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -146,33 +158,60 @@ metadata:
     name: team-shield
     title: Team Shield
     description: kyverno, falco, trivy, starboard, PSA, PSP
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-shield'
 spec:
     type: team
     profile:
         displayName: Team Shield
         picture: https://avatars.githubusercontent.com/t/5904175?s=116&v=4
     children: []
+    parent: employees
     members:
         - fhielpos
         - mirza-src
-        - ssyno
         - stone-z
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: team-team
+    title: Team Team
+    description: People Ops, Admin, etc.
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-team'
+spec:
+    type: team
+    profile:
+        displayName: Team Team
+        picture: https://avatars.githubusercontent.com/t/3439167?s=116&v=4
+    children: []
+    parent: employees
+    members:
+        - JoshOlsonKerrigan
+        - TheaMarie
+        - annaloew
+        - lyind
+        - othylmann
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
     name: team-tenet
     title: Team Tenet
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-tenet'
 spec:
     type: team
     profile:
         displayName: Team Tenet
         picture: https://avatars.githubusercontent.com/t/10885917?s=116&v=4
     children: []
+    parent: employees
     members:
         - Gacko
         - njuettner
-        - salaxander
+        - or4dx
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
@@ -181,27 +220,39 @@ metadata:
     name: team-tinkerers
     title: Team Tinkerers
     description: 'Our mission is to reduce friction in the development process by providing unified automated RelEng tools and process definitions across KAAS teams. Keywords: Release Engineering, Testing, Pipelines, Tekton, CI/CD'
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-tinkerers'
 spec:
     type: team
     profile:
         displayName: Team Tinkerers
         picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
     children: []
+    parent: employees
     members:
         - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: team-turtles
-    title: Team Turtles
-    description: GitHub Team of the one and only Turtles
+    name: team-up
+    title: Team Up
+    description: Admin, People Ops, Marketing, Design, Events... all your needs
+    annotations:
+        grafana/dashboard-selector: tags @> 'owner:team-up'
 spec:
     type: team
     profile:
-        displayName: Team Turtles
-        picture: https://avatars.githubusercontent.com/t/7862272?s=116&v=4
+        displayName: Team Up
+        picture: https://avatars.githubusercontent.com/t/11225470?s=116&v=4
     children: []
+    parent: employees
     members:
-        - njuettner
-        - yulianedyalkova
+        - HelloHeatherC
+        - JoshOlsonKerrigan
+        - Jul85
+        - TheaMarie
+        - annaloew
+        - lyind
+        - morotki
+        - tommyhobin
