@@ -1081,8 +1081,8 @@ metadata:
         backstage.io/kubernetes-id: kagent-app
         backstage.io/source-location: url:https://github.com/giantswarm/kagent-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.22
-        giantswarm.io/helmchart-versions: 0.1.22
+        giantswarm.io/helmchart-app-versions: 0.1.23
+        giantswarm.io/helmchart-versions: 0.1.23
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kagent-app
@@ -1355,8 +1355,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.19.4
-        giantswarm.io/helmchart-versions: 0.19.4
+        giantswarm.io/helmchart-app-versions: 0.20.0
+        giantswarm.io/helmchart-versions: 0.20.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1380,8 +1380,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.19.4
-        giantswarm.io/helmchart-versions: 0.19.4
+        giantswarm.io/helmchart-app-versions: 0.20.0
+        giantswarm.io/helmchart-versions: 0.20.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1405,8 +1405,8 @@ metadata:
         backstage.io/kubernetes-id: observability-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 3.0.1
-        giantswarm.io/helmchart-versions: 3.0.1
+        giantswarm.io/helmchart-app-versions: 3.1.0
+        giantswarm.io/helmchart-versions: 3.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/observability-bundle
