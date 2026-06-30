@@ -1405,8 +1405,8 @@ metadata:
         backstage.io/kubernetes-id: observability-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/observability-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/observability-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 3.1.0
-        giantswarm.io/helmchart-versions: 3.1.0
+        giantswarm.io/helmchart-app-versions: 3.2.0
+        giantswarm.io/helmchart-versions: 3.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/observability-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/observability-bundle
