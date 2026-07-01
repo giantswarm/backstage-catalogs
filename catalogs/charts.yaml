@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.19.0
-        giantswarm.io/helmchart-versions: 1.19.0
+        giantswarm.io/helmchart-app-versions: 1.20.0
+        giantswarm.io/helmchart-versions: 1.20.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -115,8 +115,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.19.0
-        giantswarm.io/helmchart-versions: 1.19.0
+        giantswarm.io/helmchart-app-versions: 1.20.0
+        giantswarm.io/helmchart-versions: 1.20.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -1378,8 +1378,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.21.1
-        giantswarm.io/helmchart-versions: 0.21.1
+        giantswarm.io/helmchart-app-versions: 0.22.0
+        giantswarm.io/helmchart-versions: 0.22.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1403,8 +1403,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.21.1
-        giantswarm.io/helmchart-versions: 0.21.1
+        giantswarm.io/helmchart-app-versions: 0.22.0
+        giantswarm.io/helmchart-versions: 0.22.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
