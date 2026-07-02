@@ -430,6 +430,29 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: cloudwatch-exporter-app
+    title: cloudwatch-exporter-app
+    description: Yet Another CloudWatch Exporter (yace) - a CloudWatch metrics exporter for Prometheus.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: cloudwatch-exporter-app
+        backstage.io/source-location: url:https://github.com/giantswarm/cloudwatch-exporter-app
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudwatch-exporter-app/tree/main
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloudwatch-exporter
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/cloudwatch-exporter-app
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-cabbage
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: cluster-aks
     title: cluster-aks
     description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
@@ -1344,6 +1367,31 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kyverno-policies
+    title: kyverno-policies
+    description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kyverno-policies
+        backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies/tree/main
+        giantswarm.io/helmchart-app-versions: 0.26.0
+        giantswarm.io/helmchart-versions: 0.26.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+        github.com/project-slug: giantswarm/kyverno-policies
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kyverno-policy-operator
     title: kyverno-policy-operator
     description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions based on PolicyExceptionsDraft resources.
@@ -1378,8 +1426,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.22.0
-        giantswarm.io/helmchart-versions: 0.22.0
+        giantswarm.io/helmchart-app-versions: 0.22.1
+        giantswarm.io/helmchart-versions: 0.22.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1403,8 +1451,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 0.22.0
-        giantswarm.io/helmchart-versions: 0.22.0
+        giantswarm.io/helmchart-app-versions: 0.22.1
+        giantswarm.io/helmchart-versions: 0.22.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
