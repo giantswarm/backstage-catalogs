@@ -1699,8 +1699,8 @@ metadata:
         backstage.io/kubernetes-id: trivy-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-operator-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.27.3
-        giantswarm.io/helmchart-versions: 0.12.2
+        giantswarm.io/helmchart-app-versions: 0.13.0
+        giantswarm.io/helmchart-versions: 0.13.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
         github.com/project-slug: giantswarm/trivy-operator-app
