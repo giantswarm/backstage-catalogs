@@ -6,6 +6,29 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: agent
+    title: agent
+    description: Create a kagent agent on the Giant Swarm agentic platform from a small, curated values surface. One chart release renders exactly one Agent custom resource; model configuration, credentials and the muster gateway are platform-admin owned and only referenced by name.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: agent
+        backstage.io/source-location: url:https://github.com/giantswarm/agent
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent/tree/main
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/agent
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: agent-sandbox
     title: agent-sandbox
     description: Giant Swarm packaging of the upstream kubernetes-sigs/agent-sandbox controller, which manages Sandbox resources (isolated, stateful, singleton pods) for AI agent runtimes on Kubernetes.
@@ -464,8 +487,8 @@ metadata:
         backstage.io/kubernetes-id: cluster-aks
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.0
-        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmchart-app-versions: 0.2.0
+        giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/cluster-aks
