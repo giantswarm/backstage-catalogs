@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - CRDs catalog
+- Add `agent-deployment` template, applying a composed agent manifest (OCIRepository + HelmRelease) via `kube:apply`. Used by the Agent Platform create flow (`/agents/new`); tagged `hidden`.
 
 ### Removed
 
