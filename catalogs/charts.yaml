@@ -612,8 +612,8 @@ metadata:
         backstage.io/kubernetes-id: dex-app
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.2.2
-        giantswarm.io/helmchart-versions: 2.2.2
+        giantswarm.io/helmchart-app-versions: 2.2.3
+        giantswarm.io/helmchart-versions: 2.2.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dex-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
         github.com/project-slug: giantswarm/dex-app
@@ -685,8 +685,8 @@ metadata:
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.8.1
-        giantswarm.io/helmchart-versions: 1.7.3
+        giantswarm.io/helmchart-app-versions: 1.8.2
+        giantswarm.io/helmchart-versions: 1.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/envoy-gateway-app
