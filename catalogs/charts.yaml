@@ -15,8 +15,8 @@ metadata:
         backstage.io/kubernetes-id: agent
         backstage.io/source-location: url:https://github.com/giantswarm/agent
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.1
-        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmchart-app-versions: 0.2.2
+        giantswarm.io/helmchart-versions: 0.2.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent
