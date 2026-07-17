@@ -115,8 +115,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.22.1
-        giantswarm.io/helmchart-versions: 1.22.1
+        giantswarm.io/helmchart-app-versions: 2.0.0
+        giantswarm.io/helmchart-versions: 2.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -140,8 +140,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 1.22.1
-        giantswarm.io/helmchart-versions: 1.22.1
+        giantswarm.io/helmchart-app-versions: 2.0.0
+        giantswarm.io/helmchart-versions: 2.0.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -492,6 +492,31 @@ metadata:
         giantswarm.io/helmchart-app-versions: 0.3.0
         giantswarm.io/helmchart-versions: 0.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aks
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
+        github.com/project-slug: giantswarm/cluster-aks
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: cluster-aks
+    title: cluster-aks
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: cluster-aks
+        backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
+        giantswarm.io/helmchart-app-versions: 0.3.0
+        giantswarm.io/helmchart-versions: 0.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/cluster-aks
     tags:
@@ -1154,8 +1179,8 @@ metadata:
         backstage.io/kubernetes-id: kagent-app
         backstage.io/source-location: url:https://github.com/giantswarm/kagent-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.25
-        giantswarm.io/helmchart-versions: 0.1.25
+        giantswarm.io/helmchart-app-versions: 0.1.26
+        giantswarm.io/helmchart-versions: 0.1.26
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kagent-app
@@ -1563,29 +1588,6 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-    name: releases
-    title: releases
-    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
-        backstage.io/kubernetes-id: releases
-        backstage.io/source-location: url:https://github.com/giantswarm/releases
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/releases/tree/main
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
-        github.com/project-slug: giantswarm/releases
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
