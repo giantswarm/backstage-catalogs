@@ -505,31 +505,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: cluster-aks
-    title: cluster-aks
-    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
-    annotations:
-        application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
-        backstage.io/kubernetes-id: cluster-aks
-        backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 0.3.0
-        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
-        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
-        github.com/project-slug: giantswarm/cluster-aks
-    tags:
-        - helmchart
-        - helmchart-deployable
-spec:
-    type: service
-    lifecycle: production
-    owner: group:team-phoenix
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
     name: coredns-app
     title: coredns-app
     description: A Helm chart for CoreDNS
@@ -908,8 +883,8 @@ metadata:
         backstage.io/kubernetes-id: flux-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/flux-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-operator-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.0
-        giantswarm.io/helmchart-versions: 0.3.0
+        giantswarm.io/helmchart-app-versions: 0.4.0
+        giantswarm.io/helmchart-versions: 0.4.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
         github.com/project-slug: giantswarm/flux-operator-app
@@ -1588,6 +1563,31 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: releases
+    title: releases
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure provider (CAPZ) in AKS mode.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: releases
+        backstage.io/source-location: url:https://github.com/giantswarm/releases
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/releases/tree/main
+        giantswarm.io/helmchart-app-versions: 35.0.0
+        giantswarm.io/helmchart-versions: 35.0.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
+        github.com/project-slug: giantswarm/releases
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-phoenix
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
