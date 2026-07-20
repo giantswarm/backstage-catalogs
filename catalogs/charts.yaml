@@ -115,8 +115,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 2.0.0
-        giantswarm.io/helmchart-versions: 2.0.0
+        giantswarm.io/helmchart-app-versions: 2.0.1
+        giantswarm.io/helmchart-versions: 2.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -140,8 +140,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 2.0.0
-        giantswarm.io/helmchart-versions: 2.0.0
+        giantswarm.io/helmchart-app-versions: 2.0.1
+        giantswarm.io/helmchart-versions: 2.0.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -439,8 +439,8 @@ metadata:
         backstage.io/kubernetes-id: cilium-servicemonitors-app
         backstage.io/source-location: url:https://github.com/giantswarm/cilium-servicemonitors-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cilium-servicemonitors-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.0.0
-        giantswarm.io/helmchart-versions: 0.1.4
+        giantswarm.io/helmchart-app-versions: 0.2.0
+        giantswarm.io/helmchart-versions: 0.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cilium-servicemonitors
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/cilium/1/dark.svg
         github.com/project-slug: giantswarm/cilium-servicemonitors-app
@@ -624,6 +624,31 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: dicebear
+    title: dicebear
+    description: Self-hosted DiceBear avatar HTTP API, used to render deterministic agent avatar icons.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: dicebear
+        backstage.io/source-location: url:https://github.com/giantswarm/dicebear
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/dicebear/tree/main
+        giantswarm.io/helmchart-app-versions: 0.3.0
+        giantswarm.io/helmchart-versions: 0.3.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dicebear
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/dicebear
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1154,8 +1179,8 @@ metadata:
         backstage.io/kubernetes-id: kagent-app
         backstage.io/source-location: url:https://github.com/giantswarm/kagent-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.26
-        giantswarm.io/helmchart-versions: 0.1.26
+        giantswarm.io/helmchart-app-versions: 0.1.27
+        giantswarm.io/helmchart-versions: 0.1.27
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kagent-app
@@ -1453,8 +1478,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 1.0.2
-        giantswarm.io/helmchart-versions: 1.0.2
+        giantswarm.io/helmchart-app-versions: 1.0.4
+        giantswarm.io/helmchart-versions: 1.0.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1478,8 +1503,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 1.0.2
-        giantswarm.io/helmchart-versions: 1.0.2
+        giantswarm.io/helmchart-app-versions: 1.0.4
+        giantswarm.io/helmchart-versions: 1.0.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
