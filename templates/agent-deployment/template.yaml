@@ -55,6 +55,8 @@ spec:
         manifest: ${{ parameters.manifest }}
   output:
     links:
+      - title: Go to the agents list
+        url: /agent-platform/agents
       - title: Go to the deployment
         if: ${{ parameters.releaseName and parameters.namespace }}
         url: /deployments/${{ parameters.clusterName }}/helmrelease/${{ parameters.namespace }}/${{ parameters.releaseName }}
