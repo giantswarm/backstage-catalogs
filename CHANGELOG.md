@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Add a "Go to the agents list" link to the `agent-deployment` template's result page, shown before "Go to the deployment".
+
 ## [0.5.0] - 2026-07-14
 
 ### Added
