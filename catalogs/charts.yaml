@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-sandbox
         backstage.io/source-location: url:https://github.com/giantswarm/agent-sandbox
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-sandbox/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.15
-        giantswarm.io/helmchart-versions: 0.2.15
+        giantswarm.io/helmchart-app-versions: 0.2.16
+        giantswarm.io/helmchart-versions: 0.2.16
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-sandbox
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-sandbox
@@ -710,8 +710,8 @@ metadata:
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.8.2
-        giantswarm.io/helmchart-versions: 1.8.0
+        giantswarm.io/helmchart-app-versions: 1.8.3
+        giantswarm.io/helmchart-versions: 1.9.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/envoy-gateway-app
@@ -1179,8 +1179,8 @@ metadata:
         backstage.io/kubernetes-id: kagent-app
         backstage.io/source-location: url:https://github.com/giantswarm/kagent-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.31
-        giantswarm.io/helmchart-versions: 0.1.31
+        giantswarm.io/helmchart-app-versions: 0.1.32
+        giantswarm.io/helmchart-versions: 0.1.32
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kagent-app
@@ -1478,8 +1478,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 1.3.5
-        giantswarm.io/helmchart-versions: 1.3.5
+        giantswarm.io/helmchart-app-versions: 1.3.6
+        giantswarm.io/helmchart-versions: 1.3.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1503,8 +1503,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 1.3.5
-        giantswarm.io/helmchart-versions: 1.3.5
+        giantswarm.io/helmchart-app-versions: 1.3.6
+        giantswarm.io/helmchart-versions: 1.3.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1826,8 +1826,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.10
-        giantswarm.io/helmchart-versions: 0.4.10
+        giantswarm.io/helmchart-app-versions: 0.4.12
+        giantswarm.io/helmchart-versions: 0.4.12
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vllm/1/light.svg
         github.com/project-slug: giantswarm/vllm
