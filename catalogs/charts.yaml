@@ -115,8 +115,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 2.5.2
-        giantswarm.io/helmchart-versions: 2.5.2
+        giantswarm.io/helmchart-app-versions: 2.5.3
+        giantswarm.io/helmchart-versions: 2.5.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -140,8 +140,8 @@ metadata:
         backstage.io/kubernetes-id: agentic-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agentic-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentic-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 2.5.2
-        giantswarm.io/helmchart-versions: 2.5.2
+        giantswarm.io/helmchart-app-versions: 2.5.3
+        giantswarm.io/helmchart-versions: 2.5.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentic-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentic-platform
@@ -637,8 +637,8 @@ metadata:
         backstage.io/kubernetes-id: dicebear
         backstage.io/source-location: url:https://github.com/giantswarm/dicebear
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dicebear/tree/main
-        giantswarm.io/helmchart-app-versions: 0.3.2
-        giantswarm.io/helmchart-versions: 0.3.2
+        giantswarm.io/helmchart-app-versions: 0.3.3
+        giantswarm.io/helmchart-versions: 0.3.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dicebear
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/dicebear
@@ -1033,8 +1033,8 @@ metadata:
         backstage.io/kubernetes-id: hello-world-app
         backstage.io/source-location: url:https://github.com/giantswarm/hello-world-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/hello-world-app/tree/main
-        giantswarm.io/helmchart-app-versions: 3.0.4
-        giantswarm.io/helmchart-versions: 3.0.4
+        giantswarm.io/helmchart-app-versions: 3.1.0
+        giantswarm.io/helmchart-versions: 3.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/hello-world
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
         github.com/project-slug: giantswarm/hello-world-app
@@ -1453,8 +1453,8 @@ metadata:
         backstage.io/kubernetes-id: kyverno-policy-operator
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policy-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policy-operator/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.2
-        giantswarm.io/helmchart-versions: 0.2.2
+        giantswarm.io/helmchart-app-versions: 0.2.3
+        giantswarm.io/helmchart-versions: 0.2.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kyverno-policy-operator
@@ -1776,8 +1776,8 @@ metadata:
         backstage.io/kubernetes-id: trivy-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-operator-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.13.2
-        giantswarm.io/helmchart-versions: 0.13.2
+        giantswarm.io/helmchart-app-versions: 0.13.3
+        giantswarm.io/helmchart-versions: 0.13.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
         github.com/project-slug: giantswarm/trivy-operator-app
