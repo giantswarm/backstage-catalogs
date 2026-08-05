@@ -464,8 +464,8 @@ metadata:
         backstage.io/kubernetes-id: cloudwatch-exporter-app
         backstage.io/source-location: url:https://github.com/giantswarm/cloudwatch-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudwatch-exporter-app/tree/main
-        giantswarm.io/helmchart-app-versions: v0.65.0
-        giantswarm.io/helmchart-versions: 0.0.1
+        giantswarm.io/helmchart-app-versions: 0.0.3
+        giantswarm.io/helmchart-versions: 0.0.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloudwatch-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/cloudwatch-exporter-app
@@ -808,8 +808,8 @@ metadata:
         backstage.io/kubernetes-id: external-secrets
         backstage.io/source-location: url:https://github.com/giantswarm/external-secrets
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/external-secrets/tree/main
-        giantswarm.io/helmchart-app-versions: v2.5.0
-        giantswarm.io/helmchart-versions: 2.5.0
+        giantswarm.io/helmchart-app-versions: v2.8.0
+        giantswarm.io/helmchart-versions: 2.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/external-secrets
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/external-secrets/1/light.svg
         github.com/project-slug: giantswarm/external-secrets
@@ -1751,8 +1751,8 @@ metadata:
         backstage.io/kubernetes-id: trivy-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.16.0
-        giantswarm.io/helmchart-versions: 0.16.0
+        giantswarm.io/helmchart-app-versions: 0.17.0
+        giantswarm.io/helmchart-versions: 0.17.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
         github.com/project-slug: giantswarm/trivy-app
