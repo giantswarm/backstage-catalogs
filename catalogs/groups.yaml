@@ -28,7 +28,7 @@ kind: Group
 metadata:
     name: team-bumblebee
     title: Team Bumblebee
-    description: Agentic tooling (tbd)
+    description: 'Giant Swarm Agent Platform: agent runtimes, MCP gateway, model serving'
     annotations:
         grafana/dashboard-selector: tags @> 'owner:team-bumblebee'
 spec:
