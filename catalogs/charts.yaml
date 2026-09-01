@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform-standalone
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-standalone
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-standalone/tree/main
-        giantswarm.io/helmchart-app-versions: 0.5.0
-        giantswarm.io/helmchart-versions: 0.5.0
+        giantswarm.io/helmchart-app-versions: 0.9.0
+        giantswarm.io/helmchart-versions: 0.9.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-standalone
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-standalone
@@ -713,8 +713,8 @@ metadata:
         backstage.io/kubernetes-id: dex-app
         backstage.io/source-location: url:https://github.com/giantswarm/dex-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/dex-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.2.3
-        giantswarm.io/helmchart-versions: 2.2.3
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/dex-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
         github.com/project-slug: giantswarm/dex-app
@@ -811,8 +811,8 @@ metadata:
         backstage.io/kubernetes-id: envoy-gateway-app
         backstage.io/source-location: url:https://github.com/giantswarm/envoy-gateway-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/envoy-gateway-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.9.0
-        giantswarm.io/helmchart-versions: 1.10.2
+        giantswarm.io/helmchart-app-versions: 1.9.1
+        giantswarm.io/helmchart-versions: 1.10.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/envoy-gateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/envoy-gateway-app
@@ -1011,8 +1011,8 @@ metadata:
         backstage.io/kubernetes-id: flux-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/flux-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-operator-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.6.0
-        giantswarm.io/helmchart-versions: 0.6.0
+        giantswarm.io/helmchart-app-versions: 0.7.0
+        giantswarm.io/helmchart-versions: 0.7.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
         github.com/project-slug: giantswarm/flux-operator-app
@@ -1234,6 +1234,8 @@ metadata:
         backstage.io/kubernetes-id: jiralert-app
         backstage.io/source-location: url:https://github.com/giantswarm/jiralert-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/jiralert-app/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.3
+        giantswarm.io/helmchart-versions: 0.1.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/jiralert
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/jiralert-app
@@ -1273,20 +1275,20 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: kagent-app
-    title: kagent-app
+    name: kagent
+    title: kagent
     description: Giant Swarm packaging of the upstream kagent-dev/kagent controller (Kubernetes-native AI agent runtime). The upstream app chart is vendored as a subchart; the kagent.dev and kmcp CRDs ship in this chart's crds/ directory so the app owns its CRDs (delivered via Flux CreateReplace).
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
-        backstage.io/kubernetes-id: kagent-app
-        backstage.io/source-location: url:https://github.com/giantswarm/kagent-app
-        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.37
-        giantswarm.io/helmchart-versions: 0.1.37
+        backstage.io/kubernetes-id: kagent
+        backstage.io/source-location: url:https://github.com/giantswarm/kagent
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent/tree/main
+        giantswarm.io/helmchart-app-versions: 0.9.12
+        giantswarm.io/helmchart-versions: 0.1.40
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-        github.com/project-slug: giantswarm/kagent-app
+        github.com/project-slug: giantswarm/kagent
     tags:
         - helmchart
         - helmchart-deployable
@@ -1582,8 +1584,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.7.3
-        giantswarm.io/helmchart-versions: 5.7.3
+        giantswarm.io/helmchart-app-versions: 5.7.4
+        giantswarm.io/helmchart-versions: 5.7.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1607,8 +1609,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.7.3
-        giantswarm.io/helmchart-versions: 5.7.3
+        giantswarm.io/helmchart-app-versions: 5.7.4
+        giantswarm.io/helmchart-versions: 5.7.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
