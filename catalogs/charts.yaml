@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform-standalone
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-standalone
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-standalone/tree/main
-        giantswarm.io/helmchart-app-versions: 0.13.0
-        giantswarm.io/helmchart-versions: 0.13.0
+        giantswarm.io/helmchart-app-versions: 0.19.0
+        giantswarm.io/helmchart-versions: 0.19.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-standalone
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-standalone
@@ -1584,8 +1584,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.7.9
-        giantswarm.io/helmchart-versions: 5.7.9
+        giantswarm.io/helmchart-app-versions: 5.7.14
+        giantswarm.io/helmchart-versions: 5.7.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1609,8 +1609,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.7.9
-        giantswarm.io/helmchart-versions: 5.7.9
+        giantswarm.io/helmchart-app-versions: 5.7.14
+        giantswarm.io/helmchart-versions: 5.7.14
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
