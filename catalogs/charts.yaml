@@ -33,15 +33,15 @@ kind: Component
 metadata:
     name: agent-platform
     title: agent-platform
-    description: 'Giant Swarm Agent Platform — MCP gateway deploy unit, packaged as an app-of-apps meta-package. Renders each component (muster, agentgateway, kagent, klaus-gateway, valkey, agent-platform-mcps, agent-sandbox) and the consumer-side connectivity layer as a Flux OCIRepository + HelmRelease (or Argo Application), with each component''s version expressed as a value RANGE rather than a Chart.yaml pin — so a component release rolls forward with no PR to this chart. Each component ships its own CRDs (app-owned CRDs, upgraded via Flux CreateReplace); the Gateway API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
+    description: 'Giant Swarm Agent Platform — MCP gateway deploy unit, packaged as an app-of-apps meta-package. Renders each component (muster, agentgateway, kagent, klaus-gateway, valkey, agent-platform-mcps, agent-sandbox, …) and the consumer-side connectivity layer as a Flux OCIRepository + HelmRelease (Flux is the only render engine), with each component''s version expressed as a value RANGE rather than a Chart.yaml pin — so a component release rolls forward with no PR to this chart. Brings its own Flux engine (the flux-engine subchart: Flux Operator + FluxInstance) where a cluster has none, so `helm install` yields a running platform; a cluster that runs Flux sets components.flux.enabled=false. Each component ships its own CRDs (app-owned CRDs, upgraded via Flux CreateReplace); the Gateway API CRDs and GatewayClass remain cluster-level prerequisites — see README. '
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 3.11.0
-        giantswarm.io/helmchart-versions: 3.11.0
+        giantswarm.io/helmchart-app-versions: 3.20.3
+        giantswarm.io/helmchart-versions: 3.20.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -58,15 +58,15 @@ kind: Component
 metadata:
     name: agent-platform
     title: agent-platform
-    description: 'Giant Swarm Agent Platform — connectivity / integration layer. Renders the consumer-side wiring that turns the platform components into a working whole on a cluster: the public muster route and the agentgateway data-plane Gateway + AgentgatewayParameters + HTTPRoutes + BackendTrafficPolicies, the NetworkPolicies, the kagent and klaus-gateway routes, the kagent declarative-agent wiring, and the CloudNativePG Cluster. Ships NO workloads of its own — those are separate releases rendered by the agent-platform meta-chart. The CRDs these CRs consume are app-owned: each component (agentgateway, kagent, …) ships its own CRDs, so this chart''s HelmRelease dependsOn those CRD-owning component releases. '
+    description: 'Giant Swarm Agent Platform — connectivity / integration layer. Renders the consumer-side wiring that turns the platform components into a working whole on a cluster: the public muster route and the agentgateway data-plane Gateway + AgentgatewayParameters + HTTPRoutes + BackendTrafficPolicies, the NetworkPolicies, the kagent and klaus-gateway routes, the kagent declarative-agent wiring, the CloudNativePG Cluster, and — gated on the component toggles — the Backstage app-config and route, the mcp-kubernetes MCPServer registration with muster and the KServe/vLLM model serving layer (runtime, presets, cache, policies). Ships NO workloads of its own — those are separate releases rendered by the agent-platform meta-chart. The CRDs these CRs consume are app-owned: each component (agentgateway, kagent, muster, …) ships its own CRDs, so this chart''s HelmRelease dependsOn those CRD-owning component releases. '
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 3.11.0
-        giantswarm.io/helmchart-versions: 3.11.0
+        giantswarm.io/helmchart-app-versions: 3.20.3
+        giantswarm.io/helmchart-versions: 3.20.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -83,15 +83,15 @@ kind: Component
 metadata:
     name: agent-platform-standalone
     title: agent-platform-standalone
-    description: 'Giant Swarm Agent Platform as one plain Helm chart: muster (MCP gateway), kagent (agent runtime), agentgateway (data plane), valkey, the platform MCP servers, klaus-gateway, DiceBear avatars, agent-sandbox, Backstage and the CloudNativePG operator as dependencies, plus the wiring (routes, gateway, network policies) that makes them one platform. Installs on any conformant Kubernetes cluster with `helm install`; no GitOps controller required. '
+    description: 'RETIRED: the Agent Platform ships as the giantswarm/agent-platform chart (https://github.com/giantswarm/agent-platform); see the README for the values mapping and the migration notes. This chart was the Giant Swarm Agent Platform as one plain Helm chart: muster (MCP gateway), kagent (agent runtime), agentgateway (data plane), valkey, the platform MCP servers, klaus-gateway, DiceBear avatars, agent-sandbox, Backstage and the CloudNativePG operator as dependencies, plus the wiring (routes, gateway, network policies) that makes them one platform. Installs on any conformant Kubernetes cluster with `helm install`; no GitOps controller required. '
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "false"
         backstage.io/kubernetes-id: agent-platform-standalone
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-standalone
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-standalone/tree/main
-        giantswarm.io/helmchart-app-versions: 0.40.0
-        giantswarm.io/helmchart-versions: 0.40.0
+        giantswarm.io/helmchart-app-versions: 0.42.0
+        giantswarm.io/helmchart-versions: 0.42.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-standalone
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-standalone
@@ -100,7 +100,7 @@ metadata:
         - helmchart-deployable
 spec:
     type: service
-    lifecycle: production
+    lifecycle: deprecated
     owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
@@ -1277,7 +1277,7 @@ kind: Component
 metadata:
     name: kagent
     title: kagent
-    description: Giant Swarm packaging of the upstream kagent-dev/kagent controller (Kubernetes-native AI agent runtime). The upstream app chart is vendored as a subchart; the kagent.dev and kmcp CRDs ship in this chart's crds/ directory so the app owns its CRDs (delivered via Flux CreateReplace).
+    description: Giant Swarm packaging of the upstream kagent-dev/kagent controller (Kubernetes-native AI agent runtime). The upstream chart is flattened onto the chart root, with its bundled subcharts (kmcp, kagent-tools, agents, oauth2-proxy) under charts/; the kagent.dev and kmcp CRDs ship in this chart's crds/ directory so the app owns its CRDs (delivered via Flux CreateReplace).
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "true"
@@ -1285,8 +1285,33 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kagent
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent/tree/main
         giantswarm.io/helmchart-app-versions: 0.10.0
-        giantswarm.io/helmchart-versions: 0.1.48
+        giantswarm.io/helmchart-versions: 0.2.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/kagent
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: kagent
+    title: kagent
+    description: Giant Swarm packaging of the upstream kagent.dev CRDs (Agent, AgentHarness, Memory, ModelConfig, ModelProviderConfig, RemoteMCPServer, SandboxAgent, ToolServer) and the kmcp MCPServer CRD as a Helm-managed chart.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: kagent
+        backstage.io/source-location: url:https://github.com/giantswarm/kagent
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kagent/tree/main
+        giantswarm.io/helmchart-app-versions: 0.10.0
+        giantswarm.io/helmchart-versions: 0.2.1
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kagent-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/kagent
     tags:
@@ -1559,8 +1584,8 @@ metadata:
         backstage.io/kubernetes-id: kyverno-policies
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-policies
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-policies/tree/main
-        giantswarm.io/helmchart-app-versions: 0.27.1
-        giantswarm.io/helmchart-versions: 0.27.1
+        giantswarm.io/helmchart-app-versions: 0.28.0
+        giantswarm.io/helmchart-versions: 0.28.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno-policies
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
         github.com/project-slug: giantswarm/kyverno-policies
@@ -1609,8 +1634,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.13.0
-        giantswarm.io/helmchart-versions: 5.13.0
+        giantswarm.io/helmchart-app-versions: 5.14.2
+        giantswarm.io/helmchart-versions: 5.14.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1634,8 +1659,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.13.0
-        giantswarm.io/helmchart-versions: 5.13.0
+        giantswarm.io/helmchart-app-versions: 5.14.2
+        giantswarm.io/helmchart-versions: 5.14.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1959,8 +1984,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.20
-        giantswarm.io/helmchart-versions: 0.4.20
+        giantswarm.io/helmchart-app-versions: 0.4.21
+        giantswarm.io/helmchart-versions: 0.4.21
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vllm/1/light.svg
         github.com/project-slug: giantswarm/vllm
