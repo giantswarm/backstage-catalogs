@@ -123,6 +123,7 @@ spec:
     parent: employees
     members:
         - JosephSalisbury
+        - Rotfuks
         - alex-dabija
         - brinker211
         - luca-rui
