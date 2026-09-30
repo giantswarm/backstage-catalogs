@@ -43,7 +43,6 @@ spec:
         - Rotfuks
         - fiunchinho
         - marians
-        - paurosello
         - teemow
 ---
 apiVersion: backstage.io/v1alpha1
