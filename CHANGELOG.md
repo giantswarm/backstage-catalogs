@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add the muster `MCPServer` and `Workflow` CRDs to the CRD catalog.
+
 ### Changed
 
 - Update giantswarm/backstage-catalog-importer to v0.37.7 (giantswarm/backstage-catalogs#733)
