@@ -163,6 +163,14 @@ jobs:
           - url: https://github.com/giantswarm/konfigure-operator/blob/main/config/crd/bases/konfigure.giantswarm.io_konfigurationschemas.yaml
             owner: group:default/team-honeybadger
             lifecycle: production
+          - url: https://github.com/giantswarm/muster/blob/main/helm/muster-crds/files/crds/muster.giantswarm.io_mcpservers.yaml
+            owner: group:default/team-bumblebee
+            lifecycle: production
+            system: agent-platform
+          - url: https://github.com/giantswarm/muster/blob/main/helm/muster-crds/files/crds/muster.giantswarm.io_workflows.yaml
+            owner: group:default/team-bumblebee
+            lifecycle: production
+            system: agent-platform
           EOF
 
           ls -la ./catalogs
