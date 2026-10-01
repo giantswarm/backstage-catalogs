@@ -1489,6 +1489,779 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
+    name: mcpservers.muster.giantswarm.io
+    title: MCPServer
+    description: MCPServer is the Schema for the mcpservers API
+    annotations:
+        backstage.io/source-location: url:https://github.com/giantswarm/muster/blob/main/helm/muster-crds/files/crds/muster.giantswarm.io_mcpservers.yaml
+        giantswarm.io/crd-group: muster.giantswarm.io
+    tags:
+        - crd
+        - kubernetes
+spec:
+    type: crd
+    lifecycle: production
+    owner: group:default/team-bumblebee
+    system: agent-platform
+    definition: |
+        ---
+        apiVersion: apiextensions.k8s.io/v1
+        kind: CustomResourceDefinition
+        metadata:
+          annotations:
+            controller-gen.kubebuilder.io/version: v0.21.0
+          name: mcpservers.muster.giantswarm.io
+        spec:
+          group: muster.giantswarm.io
+          names:
+            kind: MCPServer
+            listKind: MCPServerList
+            plural: mcpservers
+            shortNames:
+            - mcps
+            singular: mcpserver
+          scope: Namespaced
+          versions:
+          - additionalPrinterColumns:
+            - jsonPath: .spec.type
+              name: Type
+              type: string
+            - jsonPath: .spec.url
+              name: URL
+              type: string
+            - jsonPath: .spec.autoStart
+              name: AutoStart
+              type: boolean
+            - jsonPath: .status.state
+              name: Status
+              type: string
+            - jsonPath: .metadata.creationTimestamp
+              name: Age
+              type: date
+            name: v1alpha1
+            schema:
+              openAPIV3Schema:
+                description: MCPServer is the Schema for the mcpservers API
+                properties:
+                  apiVersion:
+                    description: |-
+                      APIVersion defines the versioned schema of this representation of an object.
+                      Servers should convert recognized schemas to the latest internal value, and
+                      may reject unrecognized values.
+                      More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+                    type: string
+                  kind:
+                    description: |-
+                      Kind is a string value representing the REST resource this object represents.
+                      Servers may infer this from the endpoint the client submits requests to.
+                      Cannot be updated.
+                      In CamelCase.
+                      More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+                    type: string
+                  metadata:
+                    type: object
+                  spec:
+                    description: MCPServerSpec defines the desired state of MCPServer
+                    properties:
+                      args:
+                        description: |-
+                          Args specifies the command line arguments for stdio type servers.
+                          This field is only available when Type is "stdio".
+                        items:
+                          type: string
+                        type: array
+                      auth:
+                        description: |-
+                          Auth configures authentication behavior for this MCP server.
+                          This is only relevant for remote servers (streamable-http or sse).
+                        properties:
+                          authorizationServer:
+                            description: |-
+                              AuthorizationServer is an opt-out for backends that don't publish RFC 9728
+                              Protected Resource Metadata. When set, muster's per-server OAuth login flow
+                              (core_auth_login) skips PRM probing and uses these values directly. muster
+                              logs each override use at INFO so non-compliance is observable.
+
+                              This override does NOT bypass mcp-go's connect-time PRM probe; backends
+                              without RFC 9728 metadata still reconcile to "Auth Required" on first
+                              connect, then transition to "Connected" after `muster auth login`.
+
+                              Setting AuthorizationServer does NOT change the RFC 8707 `resource`
+                              parameter — that remains driven by the MCP server URL.
+
+                              AuthorizationServer is mutually exclusive with ForwardToken: true and
+                              TokenExchange.Enabled: true. The CRD admission rules above reject any
+                              CR that combines them. Only valid when Type is "oauth". A server that
+                              needs the session's ID token next to the pinned grant sets
+                              ForwardIdentity instead.
+
+                              Use case: Atlassian Remote MCP and similar backends that publish RFC 8414
+                              metadata at their resource origin instead of via RFC 9728.
+                            properties:
+                              authorizationEndpoint:
+                                description: |-
+                                  AuthorizationEndpoint is the authorization server's authorization
+                                  endpoint. Set it together with TokenEndpoint for an authorization server
+                                  that publishes no RFC 8414 / OIDC discovery document (GitHub:
+                                  https://github.com/login/oauth/authorize). muster then performs no
+                                  discovery for this issuer and assumes S256 PKCE support, which the
+                                  operator asserts by pinning the endpoints.
+                                pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
+                                type: string
+                              clientCredentialsSecretRef:
+                                description: |-
+                                  ClientCredentialsSecretRef references a Kubernetes Secret holding a
+                                  client registered with this authorization server out of band (a GitHub
+                                  App or OAuth App). When set, muster identifies itself with these
+                                  credentials instead of its Client ID Metadata Document or a dynamic
+                                  registration -- the only option against an authorization server that
+                                  supports neither. The secret carries `client-id` and `client-secret`
+                                  (key names configurable in the reference).
+                                properties:
+                                  clientIdKey:
+                                    default: client-id
+                                    description: |-
+                                      ClientIDKey is the key in the secret data that contains the client ID.
+                                      Defaults to "client-id" if not specified.
+                                    type: string
+                                  clientSecretKey:
+                                    default: client-secret
+                                    description: |-
+                                      ClientSecretKey is the key in the secret data that contains the client secret.
+                                      Defaults to "client-secret" if not specified.
+                                    type: string
+                                  name:
+                                    description: |-
+                                      Name is the name of the Kubernetes Secret.
+                                      Required.
+                                    type: string
+                                  namespace:
+                                    description: |-
+                                      Namespace is the Kubernetes namespace where the secret is located.
+                                      If not specified, defaults to the MCPServer's namespace.
+                                    type: string
+                                required:
+                                - name
+                                type: object
+                              expectedIssuer:
+                                description: |-
+                                  ExpectedIssuer is the issuer identifier the authorization server itself
+                                  publishes and puts in the RFC 9207 `iss` parameter of its authorization
+                                  responses, when that differs from Issuer. Issuer stays the identity the
+                                  grants are filed under; ExpectedIssuer only decides which value a
+                                  present `iss` on the callback has to equal. Set it when several
+                                  MCPServers pin one authorization server under different identities so
+                                  their grants stay apart -- two GitHub Apps, say: each is pinned under
+                                  its own identity (https://github.com/apps/<slug>) with ExpectedIssuer
+                                  https://github.com/login/oauth, the issuer GitHub sends. Needs
+                                  AuthorizationEndpoint and TokenEndpoint. Default: Issuer.
+                                pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
+                                type: string
+                              grantScope:
+                                description: |-
+                                  GrantScope decides whom a token obtained from this authorization server
+                                  belongs to. `session` (the default) keeps today's behavior: the token is
+                                  bound to the login session that completed the browser flow, so every new
+                                  session signs in again. `subject` files the token under the user's
+                                  identity as well, so any later session of the same person -- another
+                                  client, a re-login, a front-end whose bearer rotates -- reuses the grant
+                                  without a new consent, until the person signs out of this server
+                                  (`core_auth_logout`) or everywhere. Use `subject` for external accounts
+                                  the person owns (GitHub), never for tokens that carry session-specific
+                                  authority.
+                                enum:
+                                - session
+                                - subject
+                                type: string
+                              issuer:
+                                description: |-
+                                  Issuer is the OAuth 2.0 / OIDC issuer URL of the authorization server
+                                  the sign-in runs against, and the identity the session's grants are
+                                  filed under. It takes precedence over the authorization server the
+                                  endpoint's own RFC 9728 metadata names: the browser flow, the token
+                                  store, the connection and core_auth_logout all use this issuer, so an
+                                  endpoint that accepts tokens from an authorization server other than the
+                                  one it advertises is pinned by naming the accepting one here. It may be
+                                  muster's own identity provider; muster keeps the session's login token
+                                  apart from the grant. A change to this field takes effect on the next
+                                  core_auth_login, without a restart.
+                                  muster fetches AS metadata via the existing OAuth client, which performs
+                                  RFC 8414 / OIDC discovery against this issuer -- unless
+                                  AuthorizationEndpoint and TokenEndpoint are set, in which case no
+                                  discovery happens and the issuer is only that identity. When the
+                                  authorization server publishes a different issuer identifier than the
+                                  identity pinned here, set ExpectedIssuer.
+                                pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
+                                type: string
+                              scopes:
+                                description: |-
+                                  Scopes is the OAuth scope parameter value (RFC 6749 §3.3 wire format:
+                                  space-separated scope tokens). Matches existing TokenExchangeConfig.Scopes.
+                                type: string
+                              tokenEndpoint:
+                                description: |-
+                                  TokenEndpoint is the authorization server's token endpoint (GitHub:
+                                  https://github.com/login/oauth/access_token). See AuthorizationEndpoint.
+                                pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
+                                type: string
+                            required:
+                            - issuer
+                            type: object
+                            x-kubernetes-validations:
+                            - message: authorizationEndpoint and tokenEndpoint must be set
+                                together
+                              rule: has(self.authorizationEndpoint) == has(self.tokenEndpoint)
+                            - message: expectedIssuer needs authorizationEndpoint and tokenEndpoint
+                              rule: '!has(self.expectedIssuer) || has(self.authorizationEndpoint)'
+                          forwardIdentity:
+                            default: false
+                            description: |-
+                              ForwardIdentity sends the session's upstream ID token -- the token
+                              ForwardToken would put in Authorization -- in the X-Muster-Id-Token
+                              header on every request to this server, next to the grant of its pinned
+                              authorization server, which Authorization keeps carrying unchanged. It
+                              is for a server that acts for the person on two systems: one through the
+                              pinned grant (a GitHub App user token, say) and one through calls back
+                              with the person's own identity (their Kubernetes access). The token is
+                              read on every request, so a refreshed one is sent once the session holds
+                              it; a session without an upstream ID token sends no header, and a server
+                              without this field never receives it.
+
+                              Only valid with Type "oauth" and AuthorizationServer set. RequiredAudiences
+                              of such a server are requested at login as for a ForwardToken server, so
+                              the forwarded ID token carries them.
+
+                              The forwarded ID token is not audience-scoped to this server, as with
+                              ForwardToken: the same token is accepted by every backend that trusts
+                              its issuer and audiences, so a ForwardIdentity server must be trusted as
+                              much as a ForwardToken backend.
+                            type: boolean
+                          forwardToken:
+                            default: false
+                            description: |-
+                              ForwardToken enables ID token forwarding for SSO.
+                              When true, muster forwards the session's upstream dex ID token (or, for
+                              sessions established by a trusted-issuer bearer, that IdP-issued bearer)
+                              to this server byte-identical, instead of triggering a separate OAuth
+                              flow. Every forwarded token is issued by the IdP (dex); muster is not
+                              an identity provider, never signs tokens, and no backend is ever
+                              configured to trust a muster JWKS. The downstream server must trust the
+                              IdP's issuer/JWKS (e.g. muster's client ID in its TrustedAudiences for
+                              forwarded dex ID tokens).
+
+                              The forwarded token is not audience-scoped to this server: the same
+                              token is accepted by every forwardToken backend, so all forwardToken
+                              backends must be equally trusted. A token's nested act claim (minted
+                              by the IdP, e.g. via exchange at dex) carries the delegation chain for
+                              backend authorization decisions.
+                            type: boolean
+                          requiredAudiences:
+                            description: |-
+                              RequiredAudiences specifies additional audience(s) that the forwarded ID token
+                              should contain. When ForwardToken is true, muster will request these audiences
+                              from the upstream IdP (e.g., Dex) using cross-client scopes.
+
+                              This is used when the downstream server requires tokens with specific audiences,
+                              for example when forwarding tokens to Kubernetes for OIDC authentication:
+                                requiredAudiences:
+                                  - "dex-k8s-authenticator"
+
+                              At user authentication, muster collects all requiredAudiences from MCPServers
+                              with forwardToken: true or forwardIdentity: true and requests them all
+                              from the IdP.
+                            items:
+                              type: string
+                            type: array
+                          sigv4:
+                            description: |-
+                              SigV4 configures AWS Signature Version 4 request signing. Required when
+                              Type is "sigv4", and rejected otherwise.
+
+                              Unlike the OAuth mechanisms above, this is a machine identity: every
+                              request signs as muster itself, not as the calling user, so it never
+                              touches the session-scoped client machinery. Only valid together with
+                              spec.type "streamable-http".
+
+                              ForwardToken and TokenExchange are rejected alongside it by the rule
+                              above. AuthorizationServer needs no rule of its own: it already requires
+                              Type "oauth", which the sigv4 pairing rule excludes.
+                            properties:
+                              region:
+                                description: |-
+                                  Region is the SigV4 signing region. It must match the region in URL,
+                                  because the signature's credential scope is checked against the
+                                  endpoint. This is not the region the backend operates in — that is
+                                  MCPServerSpec.Meta.
+                                type: string
+                              roleArn:
+                                description: |-
+                                  RoleARN, when set, is assumed from the pod's base credentials before
+                                  signing. Leave empty to sign as the pod's own identity.
+                                type: string
+                              service:
+                                description: |-
+                                  Service is the SigV4 signing service name. It defaults to the first
+                                  hostname label of URL, which is how AWS's own clients derive it:
+                                  aws-mcp.eu-central-1.api.aws signs as service "aws-mcp".
+                                type: string
+                            required:
+                            - region
+                            type: object
+                          tokenExchange:
+                            description: |-
+                              TokenExchange enables SSO via RFC 8693 Token Exchange for cross-cluster SSO.
+                              When configured, muster exchanges its local token for a token valid on the
+                              remote cluster's Identity Provider (e.g., Dex).
+
+                              Use TokenExchange when:
+                                - The remote cluster has its own Dex instance
+                                - The remote Dex is configured with an OIDC connector for muster's Dex
+                                - You need a token issued by the remote cluster's IdP (not just forwarded)
+
+                              Token exchange takes precedence over ForwardToken if both are configured.
+                            properties:
+                              clientCredentialsSecretRef:
+                                description: "ClientCredentialsSecretRef references a Kubernetes
+                                  Secret containing\nclient credentials for authenticating
+                                  with the remote Dex's token endpoint.\nThis is required
+                                  when the remote Dex requires client authentication for\ntoken
+                                  exchange (RFC 8693).\n\nThe secret should contain:\n  -
+                                  client-id: The OAuth client ID registered on the remote
+                                  Dex\n  - client-secret: The OAuth client secret for authentication\n\nExample
+                                  secret:\n\n\tapiVersion: v1\n\tkind: Secret\n\tmetadata:\n\t
+                                  \ name: grizzly-token-exchange-credentials\n\t  namespace:
+                                  muster\n\ttype: Opaque\n\tstringData:\n\t  client-id: muster-token-exchange\n\t
+                                  \ client-secret: <secret-value>"
+                                properties:
+                                  clientIdKey:
+                                    default: client-id
+                                    description: |-
+                                      ClientIDKey is the key in the secret data that contains the client ID.
+                                      Defaults to "client-id" if not specified.
+                                    type: string
+                                  clientSecretKey:
+                                    default: client-secret
+                                    description: |-
+                                      ClientSecretKey is the key in the secret data that contains the client secret.
+                                      Defaults to "client-secret" if not specified.
+                                    type: string
+                                  name:
+                                    description: |-
+                                      Name is the name of the Kubernetes Secret.
+                                      Required.
+                                    type: string
+                                  namespace:
+                                    description: |-
+                                      Namespace is the Kubernetes namespace where the secret is located.
+                                      If not specified, defaults to the MCPServer's namespace.
+                                    type: string
+                                required:
+                                - name
+                                type: object
+                              connectorId:
+                                description: |-
+                                  ConnectorID is the ID of the OIDC connector on the remote Dex that
+                                  trusts the local cluster's Dex.
+                                  Required when Enabled is true.
+                                  Example: "cluster-a-dex"
+                                pattern: ^[a-zA-Z][a-zA-Z0-9_-]*$
+                                type: string
+                              dexTokenEndpoint:
+                                description: |-
+                                  DexTokenEndpoint is the URL used to connect to the remote cluster's Dex token endpoint.
+                                  This may differ from the issuer URL when access goes through a proxy.
+                                  Required when Enabled is true.
+                                  Example: https://dex.cluster-b.example.com/token (direct)
+                                  Example: https://dex-cluster.proxy.example.com/token (via proxy)
+                                pattern: ^https://[^\s/$.?#].[^\s]*$
+                                type: string
+                              enabled:
+                                default: false
+                                description: Enabled determines whether token exchange should
+                                  be attempted.
+                                type: boolean
+                              expectedIssuer:
+                                description: |-
+                                  ExpectedIssuer is the expected issuer URL in the exchanged token's "iss" claim.
+                                  This should match the remote Dex's configured issuer URL.
+                                  When access goes through a proxy, this differs from DexTokenEndpoint.
+                                  If not specified, the issuer is derived from DexTokenEndpoint (backward compatible).
+                                  Example: https://dex.cluster-b.example.com
+                                pattern: ^https://[^\s/$.?#].[^\s]*$
+                                type: string
+                              scopes:
+                                default: openid profile email groups
+                                description: Scopes are the scopes to request for the exchanged
+                                  token.
+                                type: string
+                            type: object
+                          type:
+                            default: none
+                            description: |-
+                              Type specifies the authentication type.
+                              Supported values:
+                                - "oauth": OAuth 2.0/OIDC authentication
+                                - "none": No authentication
+                                - "sigv4": AWS Signature Version 4, signed with muster's own machine
+                                  identity. See SigV4.
+                            enum:
+                            - oauth
+                            - none
+                            - sigv4
+                            type: string
+                        type: object
+                        x-kubernetes-validations:
+                        - message: authorizationServer is only valid when type is oauth
+                          rule: '!has(self.authorizationServer) || self.type == ''oauth'''
+                        - message: forwardToken bypasses per-backend OAuth; set one or the
+                            other, not both
+                          rule: '!(has(self.forwardToken) && self.forwardToken == true &&
+                            has(self.authorizationServer))'
+                        - message: tokenExchange has its own issuer/endpoint config; set one
+                            or the other, not both
+                          rule: '!(has(self.tokenExchange) && has(self.tokenExchange.enabled)
+                            && self.tokenExchange.enabled == true && has(self.authorizationServer))'
+                        - message: type 'sigv4' requires the sigv4 block, and the sigv4 block
+                            requires type 'sigv4'
+                          rule: has(self.sigv4) == (self.type == 'sigv4')
+                        - message: sigv4 signs as muster's own machine identity, so forwardToken
+                            and tokenExchange do not apply
+                          rule: '!has(self.sigv4) || (self.forwardToken == false && !has(self.tokenExchange))'
+                        - message: forwardIdentity sends the session's ID token next to a
+                            pinned grant, so it needs type oauth and authorizationServer
+                          rule: '!has(self.forwardIdentity) || !self.forwardIdentity || (self.type
+                            == ''oauth'' && has(self.authorizationServer))'
+                      autoStart:
+                        default: false
+                        description: |-
+                          AutoStart determines whether this MCP server should be automatically started
+                          when the muster system initializes or when dependencies become available.
+                        type: boolean
+                      command:
+                        description: |-
+                          Command specifies the executable path for stdio type servers.
+                          This field is required when Type is "stdio".
+                        type: string
+                      description:
+                        description: Description provides a human-readable description of
+                          this MCP server's purpose.
+                        maxLength: 500
+                        type: string
+                      env:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          Env contains environment variables to set for the MCP server.
+                          For stdio servers, these are passed to the process when it is started.
+                          For remote servers, these can be used for authentication or configuration.
+                        type: object
+                      family:
+                        description: |-
+                          Family declares that this MCP server is an instance of a family of
+                          equivalent servers (for example, multiple kubernetes MCP servers pointed
+                          at different clusters). When set, the aggregator exposes tools from all
+                          servers in the same family under a single name
+                          ({musterPrefix}_{family.name}_{toolName}) with a required parameter
+                          (named by family.instanceArg) that selects which instance handles the
+                          call. The parameter is always required even for single-instance families
+                          so skills written against the family name remain stable as instances are
+                          added or removed. When unset, the legacy per-server prefixing applies
+                          ({musterPrefix}_{toolPrefix-or-name}_{toolName}).
+                        properties:
+                          instanceArg:
+                            description: |-
+                              InstanceArg names the required parameter callers use to select which
+                              family member handles the tool call (for example "management_cluster",
+                              "country", "model"). All servers declaring the same family.name must
+                              agree on InstanceArg; if they diverge, the aggregator falls back to
+                              per-server prefixing for the entire family and logs a warning.
+                            pattern: ^[a-zA-Z][a-zA-Z0-9_]*$
+                            type: string
+                          name:
+                            description: |-
+                              Name is the family identifier. Servers sharing the same Name expose
+                              their tools as {musterPrefix}_{Name}_{toolName}.
+                            pattern: ^[a-zA-Z][a-zA-Z0-9_-]*$
+                            type: string
+                        required:
+                        - instanceArg
+                        - name
+                        type: object
+                      headers:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          Headers contains HTTP headers to send with requests to remote MCP servers.
+                          This field is only relevant when Type is "streamable-http" or "sse".
+                        type: object
+                      meta:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          Meta contains entries merged into the `params._meta` object of every
+                          outbound JSON-RPC request that carries `params`. It carries call-scoped
+                          configuration to a backend that reads it from the MCP metadata field
+                          instead of from tool arguments.
+
+                          An entry already present in a request's `_meta` wins, so a caller can
+                          still override per call. Requests without `params` are left untouched.
+
+                          The injection happens in an HTTP round tripper shared by every remote
+                          client, so it applies to `streamable-http` and `sse` alike, with or
+                          without auth. For a SigV4 server the round tripper sits in front of the
+                          signer, because the body has to be rewritten before it is signed.
+
+                          A stdio server has no HTTP transport, so the CEL rule above rejects the
+                          field there rather than accepting and dropping it.
+
+                          The AWS-hosted MCP server is the motivating case: it takes the region it
+                          operates in from `params._meta.AWS_REGION`, and its tools declare no
+                          region argument, so without this a call fails with NoRegionError. That
+                          operating region is a different value from Auth.SigV4.Region, which is
+                          the signing region — the two default to the same string but resolve
+                          independently, endpoint-first for signing and config-first for operating.
+                        type: object
+                      restartRequestedAt:
+                        description: |-
+                          RestartRequestedAt requests a one-shot restart of this server's service.
+                          Restart is an action, not a steady state, so it cannot be a boolean: the
+                          caller writes a timestamp, which doubles as the audit record of when the
+                          restart was requested. The reconciler restarts the service only when this
+                          differs from status.lastRestartedAt, then mirrors the processed value
+                          into status — repeated reconciles of an already-processed request are
+                          no-ops (issue #1055).
+                        format: date-time
+                        type: string
+                      suspended:
+                        default: false
+                        description: |-
+                          Suspended declares the desired lifecycle state of this server's service.
+                          When true, the reconciler stops the service (and refuses to start it)
+                          until the field is set back to false. This is the CR-driven replacement
+                          for the imperative start/stop tools: writing it is authorized and
+                          audited by the apiserver like any other spec mutation (issue #1055).
+                        type: boolean
+                      timeout:
+                        default: 30
+                        description: Timeout specifies the connection timeout for remote operations
+                          (in seconds)
+                        maximum: 300
+                        minimum: 1
+                        type: integer
+                      toolPrefix:
+                        description: |-
+                          ToolPrefix is an optional prefix that will be prepended to all tool names
+                          provided by this MCP server. This helps avoid naming conflicts when multiple
+                          servers provide tools with similar names.
+                        pattern: ^[a-zA-Z][a-zA-Z0-9_-]*$
+                        type: string
+                      type:
+                        description: |-
+                          Type specifies how this MCP server should be executed.
+                          Supported values: "stdio" for local processes, "streamable-http" for HTTP-based servers, "sse" for Server-Sent Events.
+
+                          "stdio" is CLI-only. A stdio server is started as a subprocess of the muster
+                          process, so a muster running in Kubernetes mode rejects it: the tool handlers
+                          fail the call, and a CR applied directly through the API server is reconciled
+                          to state Failed instead of spawning a process in the muster pod. Run the MCP
+                          server as its own workload and use "streamable-http" or "sse" instead.
+                        enum:
+                        - stdio
+                        - streamable-http
+                        - sse
+                        type: string
+                      url:
+                        description: |-
+                          URL is the endpoint where the remote MCP server can be reached
+                          This field is required when Type is "streamable-http" or "sse".
+                          Examples: http://mcp-server:8080/mcp, https://api.example.com/mcp
+                        pattern: ^https?://[^\s/$.?#].[^\s]*$
+                        type: string
+                    required:
+                    - type
+                    type: object
+                  status:
+                    description: |-
+                      MCPServerStatus defines the observed state of MCPServer.
+
+                      This status reflects server-side observable state including auth requirements.
+                      It captures infrastructure connectivity as well as whether the server demands
+                      authentication (e.g. "Auth Required"). Per-user session state (which specific
+                      user is authenticated, token expiry, etc.) is tracked separately in the
+                      Session Registry (internal/aggregator/session_registry.go).
+
+                      Server-Side State (CRD):
+                        - State: Running/Connected/Starting/Connecting/Stopped/Disconnected/Auth Required/Awaiting Session/Failed
+                        - Conditions: Standard K8s conditions for detailed status
+
+                      Per-User Session State (Session Registry):
+                        - ConnectionStatus: Connected, PendingAuth, Failed (per-user)
+                        - AuthStatus: Authenticated, AuthRequired, TokenExpired (per-user)
+                        - AvailableTools: Tools visible to this specific user
+                    properties:
+                      conditions:
+                        description: |-
+                          Conditions represent the latest available observations of the MCPServer's current state.
+                          Standard condition types:
+                            - Ready: True while the server is reachable (Running, Connected, Auth
+                              Required, Awaiting Session), False otherwise. The reason is the state
+                              in one word (Connected, AwaitingSession, AuthRequired, Connecting,
+                              Disconnected, Suspended, Failed) or, for a server Failed by its token
+                              exchange, the class of the failure (TokenExchangeCredentials,
+                              TokenExchangeEndpoint, TokenExchangeConnector). The message explains
+                              the state: for Awaiting Session the per-session mechanism, the token
+                              endpoint and connector, and when the last exchange succeeded; for
+                              Failed the error.
+                        items:
+                          description: Condition contains details for one aspect of the current
+                            state of this API Resource.
+                          properties:
+                            lastTransitionTime:
+                              description: |-
+                                lastTransitionTime is the last time the condition transitioned from one status to another.
+                                This should be when the underlying condition changed.  If that is not known, then using the time when the API field changed is acceptable.
+                              format: date-time
+                              type: string
+                            message:
+                              description: |-
+                                message is a human readable message indicating details about the transition.
+                                This may be an empty string.
+                              maxLength: 32768
+                              type: string
+                            observedGeneration:
+                              description: |-
+                                observedGeneration represents the .metadata.generation that the condition was set based upon.
+                                For instance, if .metadata.generation is currently 12, but the .status.conditions[x].observedGeneration is 9, the condition is out of date
+                                with respect to the current state of the instance.
+                              format: int64
+                              minimum: 0
+                              type: integer
+                            reason:
+                              description: |-
+                                reason contains a programmatic identifier indicating the reason for the condition's last transition.
+                                Producers of specific condition types may define expected values and meanings for this field,
+                                and whether the values are considered a guaranteed API.
+                                The value should be a CamelCase string.
+                                This field may not be empty.
+                              maxLength: 1024
+                              minLength: 1
+                              pattern: ^[A-Za-z]([A-Za-z0-9_,:]*[A-Za-z0-9_])?$
+                              type: string
+                            status:
+                              description: status of the condition, one of True, False, Unknown.
+                              enum:
+                              - "True"
+                              - "False"
+                              - Unknown
+                              type: string
+                            type:
+                              description: type of condition in CamelCase or in foo.example.com/CamelCase.
+                              maxLength: 316
+                              pattern: ^([a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*/)?(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])$
+                              type: string
+                          required:
+                          - lastTransitionTime
+                          - message
+                          - reason
+                          - status
+                          - type
+                          type: object
+                        type: array
+                      consecutiveFailures:
+                        description: |-
+                          ConsecutiveFailures tracks the number of consecutive connection failures.
+                          This is used for exponential backoff and to identify unreachable servers.
+                          Reset to 0 when a connection succeeds.
+                        type: integer
+                      lastAttempt:
+                        description: |-
+                          LastAttempt indicates when the last connection attempt was made.
+                          Used with ConsecutiveFailures to implement exponential backoff.
+                        format: date-time
+                        type: string
+                      lastConnected:
+                        description: LastConnected indicates when the server was last successfully
+                          connected
+                        format: date-time
+                        type: string
+                      lastError:
+                        description: |-
+                          LastError contains any error message from the most recent server operation.
+                          Note: Per-user authentication errors are tracked in the Session Registry,
+                          not here. This field only contains infrastructure-level errors.
+                        type: string
+                      lastFailureHTTPStatus:
+                        description: |-
+                          LastFailureHTTPStatus is the HTTP status code the endpoint answered the
+                          most recent failed connection attempt with, for example 504 from a
+                          gateway in front of the server or 404 from a backend whose route is
+                          not served yet. Absent when the attempt got no HTTP response at all
+                          (connection refused, DNS failure, timeout) or the last attempt
+                          succeeded. Together with LastError it tells an upstream outage from an
+                          endpoint nothing listens on.
+                        type: integer
+                      lastRestartedAt:
+                        description: |-
+                          LastRestartedAt mirrors the spec.restartRequestedAt value most recently
+                          processed by the reconciler. A restart is performed only when the two
+                          differ (spec-is-desired / status-is-observed idiom, issue #1055).
+                        format: date-time
+                        type: string
+                      nextRetryAfter:
+                        description: |-
+                          NextRetryAfter indicates the earliest time when the next retry should be attempted.
+                          The wait doubles with every consecutive failure, starting at 30 seconds,
+                          and is capped (2 minutes by default) so a recovered upstream is noticed
+                          within the cap plus the retry tick, however long the outage lasted.
+                          Absent while no retry is scheduled.
+                        format: date-time
+                        type: string
+                      restartCount:
+                        description: RestartCount tracks how many times this server has been
+                          restarted (stdio only)
+                        type: integer
+                      state:
+                        description: |-
+                          State represents the high-level infrastructure state of the MCP server.
+                          This is independent of user session state (authentication, connection status).
+
+                          For stdio servers: Running, Starting, Stopped, Failed
+                          For remote servers: Connected, Auth Required, Awaiting Session, Connecting, Disconnected, Failed
+                        enum:
+                        - Running
+                        - Starting
+                        - Stopped
+                        - Connected
+                        - Auth Required
+                        - Awaiting Session
+                        - Connecting
+                        - Disconnected
+                        - Failed
+                        type: string
+                    type: object
+                type: object
+                x-kubernetes-validations:
+                - message: command is required when type is stdio
+                  rule: self.spec.type != 'stdio' || has(self.spec.command)
+                - message: url is required when type is streamable-http or sse
+                  rule: self.spec.type == 'stdio' || has(self.spec.url)
+                - message: args field is only allowed when type is stdio
+                  rule: self.spec.type == 'stdio' || !has(self.spec.args)
+                - message: headers field is only allowed when type is streamable-http or sse
+                  rule: self.spec.type != 'stdio' || !has(self.spec.headers)
+                - message: meta field is only allowed when type is streamable-http or sse
+                  rule: self.spec.type != 'stdio' || !has(self.spec.meta)
+                - message: auth.sigv4 is only allowed when type is streamable-http
+                  rule: '!has(self.spec.auth) || !has(self.spec.auth.sigv4) || self.spec.type
+                    == ''streamable-http'''
+            served: true
+            storage: true
+            subresources:
+              status: {}
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
     name: organizations.security.giantswarm.io
     title: Organization
     description: |-
@@ -3973,3 +4746,739 @@ spec:
             served: true
             storage: true
             subresources: {}
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+    name: workflows.muster.giantswarm.io
+    title: Workflow
+    description: Workflow is the Schema for the workflows API
+    annotations:
+        backstage.io/source-location: url:https://github.com/giantswarm/muster/blob/main/helm/muster-crds/files/crds/muster.giantswarm.io_workflows.yaml
+        giantswarm.io/crd-group: muster.giantswarm.io
+    tags:
+        - crd
+        - kubernetes
+spec:
+    type: crd
+    lifecycle: production
+    owner: group:default/team-bumblebee
+    system: agent-platform
+    definition: |
+        ---
+        apiVersion: apiextensions.k8s.io/v1
+        kind: CustomResourceDefinition
+        metadata:
+          annotations:
+            controller-gen.kubebuilder.io/version: v0.21.0
+          name: workflows.muster.giantswarm.io
+        spec:
+          group: muster.giantswarm.io
+          names:
+            kind: Workflow
+            listKind: WorkflowList
+            plural: workflows
+            shortNames:
+            - wf
+            singular: workflow
+          scope: Namespaced
+          versions:
+          - additionalPrinterColumns:
+            - jsonPath: .status.valid
+              name: Valid
+              type: boolean
+            - jsonPath: .status.stepCount
+              name: Steps
+              type: integer
+            - jsonPath: .metadata.creationTimestamp
+              name: Age
+              type: date
+            name: v1alpha1
+            schema:
+              openAPIV3Schema:
+                description: Workflow is the Schema for the workflows API
+                properties:
+                  apiVersion:
+                    description: |-
+                      APIVersion defines the versioned schema of this representation of an object.
+                      Servers should convert recognized schemas to the latest internal value, and
+                      may reject unrecognized values.
+                      More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
+                    type: string
+                  kind:
+                    description: |-
+                      Kind is a string value representing the REST resource this object represents.
+                      Servers may infer this from the endpoint the client submits requests to.
+                      Cannot be updated.
+                      In CamelCase.
+                      More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
+                    type: string
+                  metadata:
+                    type: object
+                  spec:
+                    description: WorkflowSpec defines the desired state of Workflow
+                    properties:
+                      args:
+                        additionalProperties:
+                          description: |-
+                            ArgDefinition defines validation rules and metadata for a single workflow argument.
+                            It specifies the expected type, whether the argument is required, an optional default,
+                            and a human-readable description.
+                          properties:
+                            default:
+                              description: Default provides a default value when the argument
+                                is omitted.
+                              x-kubernetes-preserve-unknown-fields: true
+                            description:
+                              description: Description provides human-readable documentation.
+                              maxLength: 500
+                              type: string
+                            required:
+                              default: false
+                              description: Required indicates whether this argument must be
+                                provided.
+                              type: boolean
+                            type:
+                              enum:
+                              - string
+                              - integer
+                              - boolean
+                              - number
+                              - object
+                              - array
+                              type: string
+                          required:
+                          - type
+                          type: object
+                        description: Args defines the argument schema for workflow execution
+                          validation.
+                        type: object
+                      description:
+                        description: Description provides a human-readable description of
+                          the workflow's purpose.
+                        maxLength: 1000
+                        type: string
+                      onFailure:
+                        description: |-
+                          OnFailure defines best-effort cleanup/rollback steps that run when the
+                          workflow fails on a step that does not allow failure. The steps execute
+                          sequentially and their own failures are tolerated.
+                        items:
+                          description: |-
+                            WorkflowSubStep is a tool-call step used inside forEach bodies, parallel
+                            groups, and onFailure handlers. Unlike WorkflowStep it cannot itself contain
+                            forEach or parallel, which keeps the CRD schema structural (non-recursive).
+                          properties:
+                            allowFailure:
+                              default: false
+                              description: AllowFailure defines if in case of an error execution
+                                continues.
+                              type: boolean
+                            args:
+                              additionalProperties:
+                                x-kubernetes-preserve-unknown-fields: true
+                              description: Args provides arguments for the tool execution
+                                (supports templating).
+                              type: object
+                            condition:
+                              description: Condition defines an optional condition that determines
+                                whether this sub-step should execute.
+                              properties:
+                                args:
+                                  additionalProperties:
+                                    x-kubernetes-preserve-unknown-fields: true
+                                  description: |-
+                                    Args provides the arguments to pass to the condition tool.
+                                    Values may be any JSON type.
+                                  type: object
+                                expect:
+                                  description: Expect defines positive health check expectations.
+                                  properties:
+                                    jsonPath:
+                                      additionalProperties:
+                                        x-kubernetes-preserve-unknown-fields: true
+                                      description: |-
+                                        JsonPath defines JSON path conditions to check in the result.
+                                        Values may be any JSON type (typically scalars compared to a result field).
+                                      type: object
+                                    success:
+                                      description: Success indicates whether the tool call
+                                        should succeed.
+                                      type: boolean
+                                  type: object
+                                expectNot:
+                                  description: ExpectNot defines negative health check expectations.
+                                  properties:
+                                    jsonPath:
+                                      additionalProperties:
+                                        x-kubernetes-preserve-unknown-fields: true
+                                      description: |-
+                                        JsonPath defines JSON path conditions to check in the result.
+                                        Values may be any JSON type (typically scalars compared to a result field).
+                                      type: object
+                                    success:
+                                      description: Success indicates whether the tool call
+                                        should succeed.
+                                      type: boolean
+                                  type: object
+                                fromStep:
+                                  description: FromStep specifies the step ID to reference
+                                    for condition evaluation.
+                                  type: string
+                                template:
+                                  description: |-
+                                    Template is a boolean Go-template gate. When set, the step executes only
+                                    if the template renders to "true" (e.g. "{{ eq .input.env \"production\" }}").
+                                    Mutually exclusive with Tool/FromStep; when present, Expect/ExpectNot are ignored.
+                                  type: string
+                                tool:
+                                  description: |-
+                                    Tool specifies the name of the tool to execute for condition evaluation.
+                                    Optional when FromStep or Template is used.
+                                  type: string
+                              type: object
+                              x-kubernetes-validations:
+                              - message: exactly one of template, tool, or fromStep must be
+                                  set
+                                rule: '(has(self.template) ? 1 : 0) + (has(self.tool) ? 1
+                                  : 0) + (has(self.fromStep) ? 1 : 0) == 1'
+                              - message: a tool or fromStep condition requires expect or expectNot
+                                rule: has(self.template) || has(self.expect) || has(self.expectNot)
+                            description:
+                              description: Description provides human-readable documentation
+                                for this sub-step's purpose.
+                              maxLength: 500
+                              type: string
+                            id:
+                              description: ID is the unique identifier for this sub-step.
+                              maxLength: 63
+                              pattern: ^[a-zA-Z0-9_-]+$
+                              type: string
+                            output:
+                              description: |-
+                                Output indicates whether this sub-step's result is included in the
+                                workflow's returned document. The result is always referenceable by later
+                                steps regardless of this flag. When unset, the deprecated Store flag is
+                                used as a fallback.
+                              type: boolean
+                            store:
+                              default: false
+                              description: |-
+                                Store is a deprecated alias for Output, kept for backwards compatibility.
+                                Prefer Output.
+                              type: boolean
+                            tool:
+                              description: Tool specifies the name of the tool to execute.
+                              minLength: 1
+                              type: string
+                          required:
+                          - id
+                          - tool
+                          type: object
+                        type: array
+                      output:
+                        additionalProperties:
+                          x-kubernetes-preserve-unknown-fields: true
+                        description: |-
+                          Output is an optional output template that shapes the workflow's
+                          returned document. It is rendered once after all steps complete, against
+                          .input / .results / .vars, and replaces the default
+                          {execution_id, workflow, status, input, steps[], ...} response. Each leaf
+                          is a Go-template/sprig expression; JSON structure is preserved so numbers
+                          stay numbers and arrays stay arrays (e.g. "{{ .results.pods.items }}" or
+                          "{{ len .results.events.items }}"). A leaf's type comes from the value it
+                          evaluates to, not from how its rendered text looks: a single-action leaf
+                          keeps its real type (a number stays a number, "{{ len .x }}" is a number),
+                          and a computed string keeps its exact string form, so values whose form
+                          matters (leading zeros, versions, IDs like "08" or "1.20") are preserved
+                          without any coercion or workaround. Every step result is referenceable
+                          here regardless of its output flag. When omitted, the default response is
+                          returned unchanged.
+                        type: object
+                        x-kubernetes-preserve-unknown-fields: true
+                      steps:
+                        description: Steps defines the sequence of workflow steps defining
+                          the execution flow.
+                        items:
+                          description: |-
+                            WorkflowStep defines a single step in the workflow execution.
+                            A step is exactly one of: a tool call (tool), a sequential loop (forEach),
+                            or a concurrent group (parallel).
+                          properties:
+                            allowFailure:
+                              default: false
+                              description: AllowFailure defines if in case of an error the
+                                next step is executed or not.
+                              type: boolean
+                            args:
+                              additionalProperties:
+                                x-kubernetes-preserve-unknown-fields: true
+                              description: |-
+                                Args provides arguments for the tool execution (supports templating).
+                                Values may be any JSON type (string, integer, boolean, number, object, array)
+                                because the schema uses x-kubernetes-preserve-unknown-fields. Templated
+                                strings such as "{{.input.namespace}}" are resolved server-side at
+                                execution time.
+                              type: object
+                            condition:
+                              description: Condition defines an optional condition that determines
+                                whether this step should execute.
+                              properties:
+                                args:
+                                  additionalProperties:
+                                    x-kubernetes-preserve-unknown-fields: true
+                                  description: |-
+                                    Args provides the arguments to pass to the condition tool.
+                                    Values may be any JSON type.
+                                  type: object
+                                expect:
+                                  description: Expect defines positive health check expectations.
+                                  properties:
+                                    jsonPath:
+                                      additionalProperties:
+                                        x-kubernetes-preserve-unknown-fields: true
+                                      description: |-
+                                        JsonPath defines JSON path conditions to check in the result.
+                                        Values may be any JSON type (typically scalars compared to a result field).
+                                      type: object
+                                    success:
+                                      description: Success indicates whether the tool call
+                                        should succeed.
+                                      type: boolean
+                                  type: object
+                                expectNot:
+                                  description: ExpectNot defines negative health check expectations.
+                                  properties:
+                                    jsonPath:
+                                      additionalProperties:
+                                        x-kubernetes-preserve-unknown-fields: true
+                                      description: |-
+                                        JsonPath defines JSON path conditions to check in the result.
+                                        Values may be any JSON type (typically scalars compared to a result field).
+                                      type: object
+                                    success:
+                                      description: Success indicates whether the tool call
+                                        should succeed.
+                                      type: boolean
+                                  type: object
+                                fromStep:
+                                  description: FromStep specifies the step ID to reference
+                                    for condition evaluation.
+                                  type: string
+                                template:
+                                  description: |-
+                                    Template is a boolean Go-template gate. When set, the step executes only
+                                    if the template renders to "true" (e.g. "{{ eq .input.env \"production\" }}").
+                                    Mutually exclusive with Tool/FromStep; when present, Expect/ExpectNot are ignored.
+                                  type: string
+                                tool:
+                                  description: |-
+                                    Tool specifies the name of the tool to execute for condition evaluation.
+                                    Optional when FromStep or Template is used.
+                                  type: string
+                              type: object
+                              x-kubernetes-validations:
+                              - message: exactly one of template, tool, or fromStep must be
+                                  set
+                                rule: '(has(self.template) ? 1 : 0) + (has(self.tool) ? 1
+                                  : 0) + (has(self.fromStep) ? 1 : 0) == 1'
+                              - message: a tool or fromStep condition requires expect or expectNot
+                                rule: has(self.template) || has(self.expect) || has(self.expectNot)
+                            description:
+                              description: Description provides human-readable documentation
+                                for this step's purpose.
+                              maxLength: 500
+                              type: string
+                            forEach:
+                              description: |-
+                                ForEach executes a body of sub-steps once per item of a list. Mutually
+                                exclusive with tool and parallel.
+                              properties:
+                                as:
+                                  default: item
+                                  description: |-
+                                    As is the loop variable name made available to the body as
+                                    "{{ .vars.<as> }}". Defaults to "item".
+                                  type: string
+                                items:
+                                  description: |-
+                                    Items is a template expression that must resolve to an array, e.g.
+                                    "{{ .input.clusters }}". Each element is bound to the loop variable for
+                                    the duration of one iteration.
+                                  minLength: 1
+                                  type: string
+                                steps:
+                                  description: Steps is the body executed for each item.
+                                  items:
+                                    description: |-
+                                      WorkflowSubStep is a tool-call step used inside forEach bodies, parallel
+                                      groups, and onFailure handlers. Unlike WorkflowStep it cannot itself contain
+                                      forEach or parallel, which keeps the CRD schema structural (non-recursive).
+                                    properties:
+                                      allowFailure:
+                                        default: false
+                                        description: AllowFailure defines if in case of an
+                                          error execution continues.
+                                        type: boolean
+                                      args:
+                                        additionalProperties:
+                                          x-kubernetes-preserve-unknown-fields: true
+                                        description: Args provides arguments for the tool
+                                          execution (supports templating).
+                                        type: object
+                                      condition:
+                                        description: Condition defines an optional condition
+                                          that determines whether this sub-step should execute.
+                                        properties:
+                                          args:
+                                            additionalProperties:
+                                              x-kubernetes-preserve-unknown-fields: true
+                                            description: |-
+                                              Args provides the arguments to pass to the condition tool.
+                                              Values may be any JSON type.
+                                            type: object
+                                          expect:
+                                            description: Expect defines positive health check
+                                              expectations.
+                                            properties:
+                                              jsonPath:
+                                                additionalProperties:
+                                                  x-kubernetes-preserve-unknown-fields: true
+                                                description: |-
+                                                  JsonPath defines JSON path conditions to check in the result.
+                                                  Values may be any JSON type (typically scalars compared to a result field).
+                                                type: object
+                                              success:
+                                                description: Success indicates whether the
+                                                  tool call should succeed.
+                                                type: boolean
+                                            type: object
+                                          expectNot:
+                                            description: ExpectNot defines negative health
+                                              check expectations.
+                                            properties:
+                                              jsonPath:
+                                                additionalProperties:
+                                                  x-kubernetes-preserve-unknown-fields: true
+                                                description: |-
+                                                  JsonPath defines JSON path conditions to check in the result.
+                                                  Values may be any JSON type (typically scalars compared to a result field).
+                                                type: object
+                                              success:
+                                                description: Success indicates whether the
+                                                  tool call should succeed.
+                                                type: boolean
+                                            type: object
+                                          fromStep:
+                                            description: FromStep specifies the step ID to
+                                              reference for condition evaluation.
+                                            type: string
+                                          template:
+                                            description: |-
+                                              Template is a boolean Go-template gate. When set, the step executes only
+                                              if the template renders to "true" (e.g. "{{ eq .input.env \"production\" }}").
+                                              Mutually exclusive with Tool/FromStep; when present, Expect/ExpectNot are ignored.
+                                            type: string
+                                          tool:
+                                            description: |-
+                                              Tool specifies the name of the tool to execute for condition evaluation.
+                                              Optional when FromStep or Template is used.
+                                            type: string
+                                        type: object
+                                        x-kubernetes-validations:
+                                        - message: exactly one of template, tool, or fromStep
+                                            must be set
+                                          rule: '(has(self.template) ? 1 : 0) + (has(self.tool)
+                                            ? 1 : 0) + (has(self.fromStep) ? 1 : 0) == 1'
+                                        - message: a tool or fromStep condition requires expect
+                                            or expectNot
+                                          rule: has(self.template) || has(self.expect) ||
+                                            has(self.expectNot)
+                                      description:
+                                        description: Description provides human-readable documentation
+                                          for this sub-step's purpose.
+                                        maxLength: 500
+                                        type: string
+                                      id:
+                                        description: ID is the unique identifier for this
+                                          sub-step.
+                                        maxLength: 63
+                                        pattern: ^[a-zA-Z0-9_-]+$
+                                        type: string
+                                      output:
+                                        description: |-
+                                          Output indicates whether this sub-step's result is included in the
+                                          workflow's returned document. The result is always referenceable by later
+                                          steps regardless of this flag. When unset, the deprecated Store flag is
+                                          used as a fallback.
+                                        type: boolean
+                                      store:
+                                        default: false
+                                        description: |-
+                                          Store is a deprecated alias for Output, kept for backwards compatibility.
+                                          Prefer Output.
+                                        type: boolean
+                                      tool:
+                                        description: Tool specifies the name of the tool to
+                                          execute.
+                                        minLength: 1
+                                        type: string
+                                    required:
+                                    - id
+                                    - tool
+                                    type: object
+                                  minItems: 1
+                                  type: array
+                              required:
+                              - items
+                              - steps
+                              type: object
+                            id:
+                              description: ID is the unique identifier for this step within
+                                the workflow.
+                              maxLength: 63
+                              pattern: ^[a-zA-Z0-9_-]+$
+                              type: string
+                            output:
+                              description: |-
+                                Output indicates whether this step's result is included in the workflow's
+                                returned document (what the caller receives). Every step result is always
+                                referenceable by later steps via {{ .results.<id>.<field> }} regardless of
+                                this flag; Output only controls visibility in the returned result. When
+                                unset, the deprecated Store flag is used as a fallback.
+                              type: boolean
+                            parallel:
+                              description: |-
+                                Parallel executes a group of sub-steps concurrently. Each sub-step
+                                resolves its arguments from the workflow state as it was before the
+                                group started; siblings cannot reference each other's results. Mutually
+                                exclusive with tool and forEach.
+                              items:
+                                description: |-
+                                  WorkflowSubStep is a tool-call step used inside forEach bodies, parallel
+                                  groups, and onFailure handlers. Unlike WorkflowStep it cannot itself contain
+                                  forEach or parallel, which keeps the CRD schema structural (non-recursive).
+                                properties:
+                                  allowFailure:
+                                    default: false
+                                    description: AllowFailure defines if in case of an error
+                                      execution continues.
+                                    type: boolean
+                                  args:
+                                    additionalProperties:
+                                      x-kubernetes-preserve-unknown-fields: true
+                                    description: Args provides arguments for the tool execution
+                                      (supports templating).
+                                    type: object
+                                  condition:
+                                    description: Condition defines an optional condition that
+                                      determines whether this sub-step should execute.
+                                    properties:
+                                      args:
+                                        additionalProperties:
+                                          x-kubernetes-preserve-unknown-fields: true
+                                        description: |-
+                                          Args provides the arguments to pass to the condition tool.
+                                          Values may be any JSON type.
+                                        type: object
+                                      expect:
+                                        description: Expect defines positive health check
+                                          expectations.
+                                        properties:
+                                          jsonPath:
+                                            additionalProperties:
+                                              x-kubernetes-preserve-unknown-fields: true
+                                            description: |-
+                                              JsonPath defines JSON path conditions to check in the result.
+                                              Values may be any JSON type (typically scalars compared to a result field).
+                                            type: object
+                                          success:
+                                            description: Success indicates whether the tool
+                                              call should succeed.
+                                            type: boolean
+                                        type: object
+                                      expectNot:
+                                        description: ExpectNot defines negative health check
+                                          expectations.
+                                        properties:
+                                          jsonPath:
+                                            additionalProperties:
+                                              x-kubernetes-preserve-unknown-fields: true
+                                            description: |-
+                                              JsonPath defines JSON path conditions to check in the result.
+                                              Values may be any JSON type (typically scalars compared to a result field).
+                                            type: object
+                                          success:
+                                            description: Success indicates whether the tool
+                                              call should succeed.
+                                            type: boolean
+                                        type: object
+                                      fromStep:
+                                        description: FromStep specifies the step ID to reference
+                                          for condition evaluation.
+                                        type: string
+                                      template:
+                                        description: |-
+                                          Template is a boolean Go-template gate. When set, the step executes only
+                                          if the template renders to "true" (e.g. "{{ eq .input.env \"production\" }}").
+                                          Mutually exclusive with Tool/FromStep; when present, Expect/ExpectNot are ignored.
+                                        type: string
+                                      tool:
+                                        description: |-
+                                          Tool specifies the name of the tool to execute for condition evaluation.
+                                          Optional when FromStep or Template is used.
+                                        type: string
+                                    type: object
+                                    x-kubernetes-validations:
+                                    - message: exactly one of template, tool, or fromStep
+                                        must be set
+                                      rule: '(has(self.template) ? 1 : 0) + (has(self.tool)
+                                        ? 1 : 0) + (has(self.fromStep) ? 1 : 0) == 1'
+                                    - message: a tool or fromStep condition requires expect
+                                        or expectNot
+                                      rule: has(self.template) || has(self.expect) || has(self.expectNot)
+                                  description:
+                                    description: Description provides human-readable documentation
+                                      for this sub-step's purpose.
+                                    maxLength: 500
+                                    type: string
+                                  id:
+                                    description: ID is the unique identifier for this sub-step.
+                                    maxLength: 63
+                                    pattern: ^[a-zA-Z0-9_-]+$
+                                    type: string
+                                  output:
+                                    description: |-
+                                      Output indicates whether this sub-step's result is included in the
+                                      workflow's returned document. The result is always referenceable by later
+                                      steps regardless of this flag. When unset, the deprecated Store flag is
+                                      used as a fallback.
+                                    type: boolean
+                                  store:
+                                    default: false
+                                    description: |-
+                                      Store is a deprecated alias for Output, kept for backwards compatibility.
+                                      Prefer Output.
+                                    type: boolean
+                                  tool:
+                                    description: Tool specifies the name of the tool to execute.
+                                    minLength: 1
+                                    type: string
+                                required:
+                                - id
+                                - tool
+                                type: object
+                              minItems: 1
+                              type: array
+                            store:
+                              default: false
+                              description: |-
+                                Store is a deprecated alias for Output. It originally also controlled
+                                whether a step result was referenceable by later steps, but referencing
+                                is now always available; Store now only affects result visibility and is
+                                kept for backwards compatibility. Prefer Output.
+                              type: boolean
+                            tool:
+                              description: |-
+                                Tool specifies the name of the tool to execute for this step.
+                                Mutually exclusive with forEach and parallel.
+                              type: string
+                          required:
+                          - id
+                          type: object
+                          x-kubernetes-validations:
+                          - message: exactly one of tool, forEach, or parallel must be set
+                            rule: '(has(self.tool) ? 1 : 0) + (has(self.forEach) ? 1 : 0)
+                              + (has(self.parallel) ? 1 : 0) == 1'
+                        minItems: 1
+                        type: array
+                    required:
+                    - steps
+                    type: object
+                  status:
+                    description: WorkflowStatus defines the observed state of Workflow
+                    properties:
+                      conditions:
+                        description: Conditions represent the latest available observations
+                          of the workflow's state.
+                        items:
+                          description: Condition contains details for one aspect of the current
+                            state of this API Resource.
+                          properties:
+                            lastTransitionTime:
+                              description: |-
+                                lastTransitionTime is the last time the condition transitioned from one status to another.
+                                This should be when the underlying condition changed.  If that is not known, then using the time when the API field changed is acceptable.
+                              format: date-time
+                              type: string
+                            message:
+                              description: |-
+                                message is a human readable message indicating details about the transition.
+                                This may be an empty string.
+                              maxLength: 32768
+                              type: string
+                            observedGeneration:
+                              description: |-
+                                observedGeneration represents the .metadata.generation that the condition was set based upon.
+                                For instance, if .metadata.generation is currently 12, but the .status.conditions[x].observedGeneration is 9, the condition is out of date
+                                with respect to the current state of the instance.
+                              format: int64
+                              minimum: 0
+                              type: integer
+                            reason:
+                              description: |-
+                                reason contains a programmatic identifier indicating the reason for the condition's last transition.
+                                Producers of specific condition types may define expected values and meanings for this field,
+                                and whether the values are considered a guaranteed API.
+                                The value should be a CamelCase string.
+                                This field may not be empty.
+                              maxLength: 1024
+                              minLength: 1
+                              pattern: ^[A-Za-z]([A-Za-z0-9_,:]*[A-Za-z0-9_])?$
+                              type: string
+                            status:
+                              description: status of the condition, one of True, False, Unknown.
+                              enum:
+                              - "True"
+                              - "False"
+                              - Unknown
+                              type: string
+                            type:
+                              description: type of condition in CamelCase or in foo.example.com/CamelCase.
+                              maxLength: 316
+                              pattern: ^([a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*/)?(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])$
+                              type: string
+                          required:
+                          - lastTransitionTime
+                          - message
+                          - reason
+                          - status
+                          - type
+                          type: object
+                        type: array
+                      referencedTools:
+                        description: |-
+                          ReferencedTools lists all tools mentioned in the Workflow steps.
+                          This is informational only; actual availability depends on the user's session.
+                          See ADR 007 for details on session-scoped tool visibility.
+                        items:
+                          type: string
+                        type: array
+                      stepCount:
+                        description: StepCount is the number of steps in the workflow.
+                        type: integer
+                      valid:
+                        description: Valid indicates whether the Workflow spec passes structural
+                          validation.
+                        type: boolean
+                      validationErrors:
+                        description: ValidationErrors contains any spec validation error messages.
+                        items:
+                          type: string
+                        type: array
+                    type: object
+                type: object
+            served: true
+            storage: true
+            subresources:
+              status: {}
