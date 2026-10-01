@@ -19,6 +19,7 @@ spec:
     children: []
     parent: employees
     members:
+        - QuantumEnigmaa
         - Rotfuks
         - TheoBrigitte
         - hervenicol
@@ -61,7 +62,6 @@ spec:
     children: []
     parent: employees
     members:
-        - QuantumEnigmaa
         - mcharriere
         - ubergesundheit
         - weatherhog
