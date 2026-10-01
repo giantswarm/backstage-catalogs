@@ -63,6 +63,14 @@ spec:
         configurationDocs:
           chartRefField: chartRef
           chartTagField: chartTag
+        configureWithAi:
+          mode: edit
+          chartRefField: chartRef
+          chartTagField: chartTag
+          installationNameField: installation.installationName
+          clusterNameField: cluster.clusterName
+          deploymentNameField: name
+          deploymentNamespaceField: namespace
       properties:
         valueSources:
           title: Value sources
