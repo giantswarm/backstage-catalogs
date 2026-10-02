@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update giantswarm/backstage-catalog-importer to v0.37.7 (giantswarm/backstage-catalogs#733)
+- The `app-deployment` template offers only workload clusters as the target. Deployments into a management cluster are rejected by the `flux-multi-tenancy` policies.
 
 ## [0.6.0] - 2026-08-04
 
