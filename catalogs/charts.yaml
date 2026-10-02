@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.107.0
-        giantswarm.io/helmchart-versions: 4.107.0
+        giantswarm.io/helmchart-app-versions: 4.108.2
+        giantswarm.io/helmchart-versions: 4.108.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.107.0
-        giantswarm.io/helmchart-versions: 4.107.0
+        giantswarm.io/helmchart-app-versions: 4.108.2
+        giantswarm.io/helmchart-versions: 4.108.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -1629,6 +1629,31 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+    name: kuberay
+    title: kuberay
+    description: A Helm chart for deploying the Kuberay operator on Kubernetes.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: kuberay
+        backstage.io/source-location: url:https://github.com/giantswarm/kuberay
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/kuberay/tree/main
+        giantswarm.io/helmchart-app-versions: v1.7.1
+        giantswarm.io/helmchart-versions: 1.2.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kuberay-operator
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+        github.com/project-slug: giantswarm/kuberay
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-planeteers
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
     name: kubescape-app
     title: kubescape-app
     description: This chart contains the kubescape operator chart and custom Giant Swarm resources.
@@ -1663,8 +1688,8 @@ metadata:
         backstage.io/kubernetes-id: kueue-app
         backstage.io/source-location: url:https://github.com/giantswarm/kueue-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kueue-app/tree/main
-        giantswarm.io/helmchart-app-versions: v0.19.4
-        giantswarm.io/helmchart-versions: 0.4.0
+        giantswarm.io/helmchart-app-versions: v0.19.6
+        giantswarm.io/helmchart-versions: 0.5.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kueue
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kueue/1/light.svg
         github.com/project-slug: giantswarm/kueue-app
@@ -1813,8 +1838,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.37.0
-        giantswarm.io/helmchart-versions: 5.37.0
+        giantswarm.io/helmchart-app-versions: 5.37.1
+        giantswarm.io/helmchart-versions: 5.37.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -1838,8 +1863,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.37.0
-        giantswarm.io/helmchart-versions: 5.37.0
+        giantswarm.io/helmchart-app-versions: 5.37.1
+        giantswarm.io/helmchart-versions: 5.37.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2062,8 +2087,8 @@ metadata:
         backstage.io/kubernetes-id: starboard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 1.2.22
-        giantswarm.io/helmchart-versions: 1.2.22
+        giantswarm.io/helmchart-app-versions: 1.2.23
+        giantswarm.io/helmchart-versions: 1.2.23
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/starboard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/starboard-exporter
