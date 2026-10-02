@@ -83,7 +83,7 @@ spec:
             widget: select
         cluster:
           title: Cluster
-          description: Select any management or workload cluster to deploy the app to.
+          description: Select a workload cluster to deploy the app to.
           type: object
           required:
             - clusterName
@@ -96,6 +96,7 @@ spec:
           ui:field: GSClusterPicker
           ui:options:
             installationNameField: installation.installationName
+            excludeManagementClusters: true
     - title: Deployment details
       ui:ObjectFieldTemplate: GSStepLayout
       ui:options:
