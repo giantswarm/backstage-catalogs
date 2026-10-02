@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add the muster `MCPServer` and `Workflow` CRDs to the CRD catalog.
+- Add the Configure with AI button to the configuration step of the `edit-app-deployment` template.
 
 ### Changed
 
