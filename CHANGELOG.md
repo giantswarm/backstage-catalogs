@@ -17,6 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update giantswarm/backstage-catalog-importer to v0.37.7 (giantswarm/backstage-catalogs#733)
 - The `app-deployment` template offers only workload clusters as the target. Deployments into a management cluster are rejected by the `flux-multi-tenancy` policies.
 
+### Removed
+
+- Remove the `agent-deployment` template. The Dev Portal creates agents through agent-manager's MCP tools via muster (giantswarm/backstage#2296). Locations pinned to `v0.6.0` or earlier keep resolving.
+
 ## [0.6.0] - 2026-08-04
 
 ### Changed
