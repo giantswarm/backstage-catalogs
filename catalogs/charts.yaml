@@ -16,7 +16,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agent
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 1.5.2
+        giantswarm.io/helmchart-versions: 1.5.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent
@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.109.1
-        giantswarm.io/helmchart-versions: 4.109.1
+        giantswarm.io/helmchart-app-versions: 4.114.1
+        giantswarm.io/helmchart-versions: 4.114.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.109.1
-        giantswarm.io/helmchart-versions: 4.109.1
+        giantswarm.io/helmchart-app-versions: 4.114.1
+        giantswarm.io/helmchart-versions: 4.114.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -515,8 +515,8 @@ metadata:
         backstage.io/kubernetes-id: beekeeper
         backstage.io/source-location: url:https://github.com/giantswarm/beekeeper
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/beekeeper/tree/main
-        giantswarm.io/helmchart-app-versions: 0.82.0
-        giantswarm.io/helmchart-versions: 0.82.0
+        giantswarm.io/helmchart-app-versions: 0.97.2
+        giantswarm.io/helmchart-versions: 0.97.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/beekeeper
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/beekeeper
@@ -620,6 +620,31 @@ metadata:
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/bumblebee-reposetup-proof-app-20260916
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/bumblebee-reposetup-proof-app-20260916
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: buzz
+    title: buzz
+    description: Buzz, a self-hostable Nostr relay workspace where people and AI agents share channels, repositories and workflows.
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "false"
+        backstage.io/kubernetes-id: buzz
+        backstage.io/source-location: url:https://github.com/giantswarm/buzz
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/buzz/tree/main
+        giantswarm.io/helmchart-app-versions: 0.2.1
+        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/buzz
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/buzz
     tags:
         - helmchart
         - helmchart-deployable
@@ -1289,7 +1314,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gpu-node-pool
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gpu-node-pool/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.7.14
+        giantswarm.io/helmchart-versions: 0.8.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gpu-node-pool
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/gpu-node-pool
@@ -1664,7 +1689,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/kuberay
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kuberay/tree/main
         giantswarm.io/helmchart-app-versions: v1.7.1
-        giantswarm.io/helmchart-versions: 1.2.0
+        giantswarm.io/helmchart-versions: 1.2.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kuberay-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
         github.com/project-slug: giantswarm/kuberay
@@ -2138,7 +2163,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/strimzi-kafka-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/strimzi-kafka-operator/tree/main
         giantswarm.io/helmchart-app-versions: 1.0.0
-        giantswarm.io/helmchart-versions: 0.1.1
+        giantswarm.io/helmchart-versions: 0.1.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/strimzi-kafka-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/strimzi-kafka-operator
@@ -2262,8 +2287,8 @@ metadata:
         backstage.io/kubernetes-id: vllm
         backstage.io/source-location: url:https://github.com/giantswarm/vllm
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/vllm/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.31
-        giantswarm.io/helmchart-versions: 0.4.31
+        giantswarm.io/helmchart-app-versions: 0.5.0
+        giantswarm.io/helmchart-versions: 0.5.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/vllm
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/vllm/1/light.svg
         github.com/project-slug: giantswarm/vllm
