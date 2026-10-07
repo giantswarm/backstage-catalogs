@@ -56,6 +56,11 @@ spec:
             - Automatic minor and patch upgrades
             - Automatic major, minor and patch upgrades
           ui:widget: radio
+        semverFilter:
+          title: Tag filter
+          description: The regular expression Flux applies to the chart's tags before the version range. Kept as is.
+          type: string
+          ui:widget: hidden
     - title: Configuration
       description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
       ui:ObjectFieldTemplate: GSStepLayout
@@ -151,6 +156,7 @@ spec:
           namespace: ${{ parameters.namespace or parameters.cluster.clusterNamespace }}
           chartTag: ${{ parameters.chartTag }}
           automaticUpgrades: ${{ parameters.automaticUpgrades }}
+          semverFilter: ${{ parameters.semverFilter }}
           valueSources: ${{ parameters.valueSources }}
           secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}
           inlineValues: ${{ parameters.values }}

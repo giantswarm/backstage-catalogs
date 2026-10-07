@@ -24,6 +24,9 @@ spec:
     tag: null
     semver: '>=${{ values.chartTag }}'
     {% endif %}
+    {% if values.semverFilter and values.automaticUpgrades !== 'no-upgrades' %}
+    semverFilter: '${{ values.semverFilter | replace("'", "''") }}'
+    {% endif %}
 
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2
