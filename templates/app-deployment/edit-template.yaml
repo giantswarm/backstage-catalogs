@@ -62,7 +62,7 @@ spec:
           type: boolean
         semverFilter:
           title: Tag filter
-          description: A regular expression Flux applies to the chart's tags before the version range, e.g. .*-rc\..* for release candidates only. Empty means no filter.
+          description: A regular expression Flux applies to the chart's tags before the version range, e.g. `.*-rc\..*` for release candidates only. Empty means no filter.
           type: string
     - title: Configuration
       description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
