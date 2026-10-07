@@ -60,11 +60,15 @@ spec:
           ui:widget: radio
         includePrereleases:
           title: Include pre-releases
-          description: Let automatic upgrades pick release candidates and dev builds, not only stable versions. The version range gets a pre-release floor (-0). A custom version range keeps its own floor.
+          description: >-
+            Let automatic upgrades pick release candidates and dev builds, not only stable versions.
+            The version range gets a pre-release floor (-0). A custom version range keeps its own floor.
           type: boolean
         semverFilter:
           title: Tag filter
-          description: A regular expression Flux applies to the chart's tags before the version range, e.g. `.*-rc\..*` for release candidates only. Empty means no filter.
+          description: >-
+            A regular expression Flux applies to the chart's tags before the version range,
+            e.g. `.*-rc\..*` for release candidates only. Empty means no filter.
           type: string
       dependencies:
         automaticUpgrades:
