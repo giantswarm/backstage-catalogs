@@ -11,18 +11,20 @@ spec:
   url: oci://${{ values.chartRef }}
   {% endif %}
   ref:
+    {#- A semverFilter can admit pre-release tags, which a range admits only with a pre-release floor. #}
+    {% set floor = values.chartTag ~ ('-0' if values.semverFilter and '-' not in values.chartTag else '') %}
     {% if values.automaticUpgrades === 'no-upgrades' %}
     tag: ${{ values.chartTag }}
     semver: null
     {% elif values.automaticUpgrades === 'patch-upgrades' %}
     tag: null
-    semver: '~${{ values.chartTag }}'
+    semver: '~${{ floor }}'
     {% elif values.automaticUpgrades === 'minor-upgrades' %}
     tag: null
-    semver: '^${{ values.chartTag }}'
+    semver: '^${{ floor }}'
     {% elif values.automaticUpgrades === 'major-upgrades' %}
     tag: null
-    semver: '>=${{ values.chartTag }}'
+    semver: '>=${{ floor }}'
     {% endif %}
     {% if values.semverFilter and values.automaticUpgrades !== 'no-upgrades' %}
     semverFilter: '${{ values.semverFilter | replace("'", "''") }}'
