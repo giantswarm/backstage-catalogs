@@ -56,6 +56,14 @@ spec:
             - Automatic minor and patch upgrades
             - Automatic major, minor and patch upgrades
           ui:widget: radio
+        includePrereleases:
+          title: Include pre-releases
+          description: Let automatic upgrades pick release candidates and dev builds, not only stable versions. The version range gets a pre-release floor (-0).
+          type: boolean
+        semverFilter:
+          title: Tag filter
+          description: A regular expression Flux applies to the chart's tags before the version range, e.g. `.*-rc\..*` for release candidates only. Empty means no filter.
+          type: string
     - title: Configuration
       description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
       ui:ObjectFieldTemplate: GSStepLayout
@@ -151,6 +159,8 @@ spec:
           namespace: ${{ parameters.namespace or parameters.cluster.clusterNamespace }}
           chartTag: ${{ parameters.chartTag }}
           automaticUpgrades: ${{ parameters.automaticUpgrades }}
+          includePrereleases: ${{ parameters.includePrereleases }}
+          semverFilter: ${{ parameters.semverFilter }}
           valueSources: ${{ parameters.valueSources }}
           secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}
           inlineValues: ${{ parameters.values }}
