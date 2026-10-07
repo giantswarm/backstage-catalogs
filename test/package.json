@@ -1,0 +1,12 @@
+{
+  "name": "backstage-catalogs-template-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "nunjucks": "3.2.4",
+    "yaml": "2.8.1"
+  }
+}

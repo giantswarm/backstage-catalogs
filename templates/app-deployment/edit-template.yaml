@@ -50,20 +50,42 @@ spec:
             - patch-upgrades
             - minor-upgrades
             - major-upgrades
+            - custom-range
           ui:enumNames:
             - No automatic upgrades
             - Automatic patch upgrades
             - Automatic minor and patch upgrades
             - Automatic major, minor and patch upgrades
+            - Custom version range
           ui:widget: radio
         includePrereleases:
           title: Include pre-releases
-          description: Let automatic upgrades pick release candidates and dev builds, not only stable versions. The version range gets a pre-release floor (-0).
+          description: Let automatic upgrades pick release candidates and dev builds, not only stable versions. The version range gets a pre-release floor (-0). A custom version range keeps its own floor.
           type: boolean
         semverFilter:
           title: Tag filter
           description: A regular expression Flux applies to the chart's tags before the version range, e.g. `.*-rc\..*` for release candidates only. Empty means no filter.
           type: string
+      dependencies:
+        automaticUpgrades:
+          allOf:
+            - if:
+                properties:
+                  automaticUpgrades:
+                    const: custom-range
+                required:
+                  - automaticUpgrades
+              then:
+                required:
+                  - semverRange
+                properties:
+                  semverRange:
+                    title: Version range
+                    description: >-
+                      A semver constraint Flux resolves the chart version from, written as given,
+                      e.g. `>=1.0.0 <3.0.0`, or `>=0.0.0-0` to include pre-releases. The version above does not apply.
+                    type: string
+                    pattern: \S
     - title: Configuration
       description: Here you can provide the chart values. You can combine any number of ConfigMaps and Secrets with inline values.
       ui:ObjectFieldTemplate: GSStepLayout
@@ -160,6 +182,7 @@ spec:
           chartTag: ${{ parameters.chartTag }}
           automaticUpgrades: ${{ parameters.automaticUpgrades }}
           includePrereleases: ${{ parameters.includePrereleases }}
+          semverRange: ${{ parameters.semverRange }}
           semverFilter: ${{ parameters.semverFilter }}
           valueSources: ${{ parameters.valueSources }}
           secretValuesMap: ${{ secrets.SECRET_VALUES_MAP }}

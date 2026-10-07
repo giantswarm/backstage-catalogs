@@ -25,6 +25,10 @@ spec:
     {% elif values.automaticUpgrades === 'major-upgrades' %}
     tag: null
     semver: '>=${{ floor }}'
+    {% elif values.automaticUpgrades === 'custom-range' %}
+    {#- Written verbatim: pre-release floors and upper bounds included. #}
+    tag: null
+    semver: '${{ values.semverRange | trim | replace("'", "''") }}'
     {% endif %}
     {% if values.semverFilter %}
     semverFilter: '${{ values.semverFilter | replace("'", "''") }}'
