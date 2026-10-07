@@ -7,6 +7,6 @@
   },
   "devDependencies": {
     "nunjucks": "3.2.4",
-    "yaml": "2.8.1"
+    "yaml": "2.9.1"
   }
 }
