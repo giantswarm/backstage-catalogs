@@ -26,12 +26,6 @@ File: [groups.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/c
 
 The groups catalog provides information on some Giant Swarm product engineering teams, in the form of `Group` entities. Components in the components catalog are usually associated with one of these teams to indicate the team responsible for the component. In some cases, the owner team named on the component no longer exists as a team at Giant Swarm. In this case you will not find a corresponding group entity in the groups catalog.
 
-### Users
-
-File: [users.yaml](https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/users.yaml)
-
-This catalog includes the team members of the Giant Swarm teams included in the groups catalog, as well as other Giant Swarm employees.
-
 ### Templates
 
 Folder: [templates](https://github.com/giantswarm/backstage-catalogs/tree/main/templates)
@@ -60,9 +54,4 @@ catalog:
       rules:
         allow:
           - Group
-    - type: url
-      target: https://github.com/giantswarm/backstage-catalogs/blob/main/catalogs/users.yaml
-      rules:
-        allow:
-          - User
 ```
