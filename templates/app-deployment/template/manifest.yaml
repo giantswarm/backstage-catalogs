@@ -21,7 +21,12 @@ spec:
     semver: '~${{ floor }}'
     {% elif values.automaticUpgrades === 'minor-upgrades' %}
     tag: null
+    {#- For a 0.x version `^` admits patches only, so the range names its next major. #}
+    {% if values.chartTag.split('.')[0] in ['0', 'v0'] %}
+    semver: '>=${{ floor }} <1.0.0'
+    {% else %}
     semver: '^${{ floor }}'
+    {% endif %}
     {% elif values.automaticUpgrades === 'major-upgrades' %}
     tag: null
     semver: '>=${{ floor }}'

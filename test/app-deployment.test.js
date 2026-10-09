@@ -69,4 +69,19 @@ describe('app-deployment edit', () => {
       '>=1.2.3-0',
     );
   });
+
+  it('writes minor upgrades of a 0.x version up to the next major', () => {
+    assert.equal(
+      edit({ automaticUpgrades: 'minor-upgrades', chartTag: '0.7.1' }).semver,
+      '>=0.7.1 <1.0.0',
+    );
+    assert.equal(
+      edit({
+        automaticUpgrades: 'minor-upgrades',
+        chartTag: '0.7.1',
+        includePrereleases: true,
+      }).semver,
+      '>=0.7.1-0 <1.0.0',
+    );
+  });
 });
