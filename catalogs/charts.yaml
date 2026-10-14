@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.130.0
-        giantswarm.io/helmchart-versions: 4.130.0
+        giantswarm.io/helmchart-app-versions: 4.130.1
+        giantswarm.io/helmchart-versions: 4.130.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.130.0
-        giantswarm.io/helmchart-versions: 4.130.0
+        giantswarm.io/helmchart-app-versions: 4.130.1
+        giantswarm.io/helmchart-versions: 4.130.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -515,8 +515,8 @@ metadata:
         backstage.io/kubernetes-id: beekeeper
         backstage.io/source-location: url:https://github.com/giantswarm/beekeeper
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/beekeeper/tree/main
-        giantswarm.io/helmchart-app-versions: 0.138.2
-        giantswarm.io/helmchart-versions: 0.138.2
+        giantswarm.io/helmchart-app-versions: 0.138.10
+        giantswarm.io/helmchart-versions: 0.138.10
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/beekeeper
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/beekeeper
@@ -815,8 +815,8 @@ metadata:
         backstage.io/kubernetes-id: cluster-aks
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
-        giantswarm.io/helmchart-app-versions: 0.8.0
-        giantswarm.io/helmchart-versions: 0.8.0
+        giantswarm.io/helmchart-app-versions: 0.8.1
+        giantswarm.io/helmchart-versions: 0.8.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/cluster-aks
