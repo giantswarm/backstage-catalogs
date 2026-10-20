@@ -1383,6 +1383,11 @@ spec:
                           The last revision that was attempted for reconciliation.
                           Equals the Revision of the last attempted artifact from the referenced source.
                         type: string
+                      lastHandledReconcileAt:
+                        description: |-
+                          LastHandledReconcileAt is the value of the reconcile.giantswarm.io/requestedAt
+                          annotation that was last handled by the controller.
+                        type: string
                       lastReconciledAt:
                         description: The last time the Konfiguration attempted reconciliation.
                         type: string
@@ -1695,6 +1700,19 @@ spec:
                                   identity pinned here, set ExpectedIssuer.
                                 pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
                                 type: string
+                              revocationEndpoint:
+                                description: |-
+                                  RevocationEndpoint is the authorization server's RFC 7009 token
+                                  revocation endpoint. When the person disconnects a subject-scoped grant
+                                  (core_auth_logout), muster revokes its refresh and access tokens there
+                                  before dropping its copy, so the provider stops honouring them and the
+                                  next sign-in asks for consent again. Default: the revocation_endpoint
+                                  of the authorization server's metadata; set it for one whose metadata
+                                  names none or is pinned through AuthorizationEndpoint and TokenEndpoint
+                                  (GitLab: https://gitlab.example.com/oauth/revoke). Without either, the
+                                  grant stays valid at the provider until it expires.
+                                pattern: ^https://[^/?#]+(/[^?#]*[^/?#])?$
+                                type: string
                               scopes:
                                 description: |-
                                   Scopes is the OAuth scope parameter value (RFC 6749 §3.3 wire format:
@@ -1757,6 +1775,23 @@ spec:
                               by the IdP, e.g. via exchange at dex) carries the delegation chain for
                               backend authorization decisions.
                             type: boolean
+                          providerApps:
+                            description: |-
+                              ProviderApps names the provider Apps (muster's aggregator.providerApps)
+                              whose grants this server receives. On every request muster attaches the
+                              access token of each named App the person granted, in the header
+                              X-Muster-Grant-<app>, refreshed ahead of its expiry; an App the person
+                              did not grant sends no header. A tool result that names missing Apps
+                              ({"status": "grant_required", "apps": [...]} in structuredContent) is
+                              answered auth_required with each App's sign-in link. The person's
+                              connection is made as the person, so this needs ForwardToken or
+                              ForwardIdentity.
+                            items:
+                              pattern: ^[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?$
+                              type: string
+                            maxItems: 32
+                            type: array
+                            x-kubernetes-list-type: set
                           requiredAudiences:
                             description: |-
                               RequiredAudiences specifies additional audience(s) that the forwarded ID token
@@ -1935,6 +1970,11 @@ spec:
                             pinned grant, so it needs type oauth and authorizationServer
                           rule: '!has(self.forwardIdentity) || !self.forwardIdentity || (self.type
                             == ''oauth'' && has(self.authorizationServer))'
+                        - message: providerApps attaches the person's App tokens to a connection
+                            made as the person, so it needs forwardToken or forwardIdentity
+                          rule: '!has(self.providerApps) || size(self.providerApps) == 0 ||
+                            (has(self.forwardToken) && self.forwardToken) || (has(self.forwardIdentity)
+                            && self.forwardIdentity)'
                       autoStart:
                         default: false
                         description: |-
