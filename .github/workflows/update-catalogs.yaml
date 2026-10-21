@@ -21,9 +21,10 @@ jobs:
     runs-on: ubuntu-26.04
     steps:
 
+      # This repository is public, so the clone needs no token.
       - name: Clone github repository
         run: |
-          git clone https://oauth2:${{ secrets.TAYLORBOT_GITHUB_ACTION }}@github.com/giantswarm/backstage-catalogs.git clonedir
+          git clone https://github.com/giantswarm/backstage-catalogs.git clonedir
 
       # This step requires the cloned repo, so it has to come second.
       - name: Download state if available
@@ -77,11 +78,28 @@ jobs:
           download_url: https://github.com/giantswarm/${binary}/releases/download/v${version}/${binary}-linux-amd64
           smoke_test: ${binary} --help
 
+      # Read token for the importer. The two tokens are kept apart for least
+      # privilege: this one can only read org teams (members: read, an
+      # organization permission, so owner is set) and is limited to this
+      # repository. charts reads gsoci and the CRD source repos are public,
+      # so no contents permission is needed; the token only lifts the API
+      # rate limit for the CRD fetches.
+      - name: Generate giantswarm-release read token
+        id: read-token
+        if: env.workflow_due == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          client-id: ${{ secrets.RELEASE_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          owner: giantswarm
+          repositories: backstage-catalogs
+          permission-members: read
+
       - name: Execute backstage-catalog-importer
         if: env.workflow_due == 'true'
         working-directory: clonedir
         env:
-          GITHUB_TOKEN: ${{ secrets.TAYLORBOT_GITHUB_ACTION }}
+          GITHUB_TOKEN: ${{ steps.read-token.outputs.token }}
           PERSONIO_CLIENT_ID: ${{ secrets.PERSONIO_CLIENT_ID }}
           PERSONIO_CLIENT_SECRET: ${{ secrets.PERSONIO_CLIENT_SECRET }}
         run: |
@@ -192,17 +210,35 @@ jobs:
         run: |
           curl -X GET https://cronitor.link/p/${CRONITOR_HEARTBEAT_ID}
 
+      # Write token, separate from the read token for least privilege: it can
+      # only push to and open PRs in this repository, and the importer never
+      # sees it.
+      - name: Generate giantswarm-release write token
+        id: write-token
+        if: env.changes_exist == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          client-id: ${{ secrets.RELEASE_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
       - name: Create and merge pull request in github
         if: env.changes_exist == 'true'
+        env:
+          GH_TOKEN: ${{ steps.write-token.outputs.token }}
+          ARCHITECT_GITHUB_REPO_SYNC_TOKEN: ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}
         run: |
-          # Configure identity and log in
-          git config --global user.email "action@github.com"
-          git config --global user.name "github-actions"
-          echo ${{ secrets.TAYLORBOT_GITHUB_ACTION }} > ./token
-          gh auth login --with-token < ./token
+          # Configure identity; gh uses GH_TOKEN (the giantswarm-release App)
+          git config --global user.email "342014845+giantswarm-release[bot]@users.noreply.github.com"
+          git config --global user.name "giantswarm-release[bot]"
 
           cd clonedir
-          
+
+          # The clone is anonymous. Let git push with GH_TOKEN through gh's
+          # credential helper, so the token never lands in .git/config.
+          gh auth setup-git
+
           git add -A
           git commit -a -m "chore: update catalog data"
           git push -f origin update-catalogs
@@ -234,12 +270,10 @@ jobs:
             --delete-branch
 
           # Approve as different user
-          if [ -z "${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }}" ]; then
+          if [ -z "${ARCHITECT_GITHUB_REPO_SYNC_TOKEN}" ]; then
             echo "No ARCHITECT_GITHUB_REPO_SYNC_TOKEN found. Skipping PR approval."
           else
-            echo ${{ secrets.ARCHITECT_GITHUB_REPO_SYNC_TOKEN }} > ./token
-            gh auth login --with-token < ./token
-            gh pr review --approve
+            GH_TOKEN="${ARCHITECT_GITHUB_REPO_SYNC_TOKEN}" gh pr review --approve
           fi
 
       - name : Create state file
