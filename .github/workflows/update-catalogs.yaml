@@ -21,26 +21,10 @@ jobs:
     runs-on: ubuntu-26.04
     steps:
 
-      # Org-wide read token for the importer (and the initial clone). It must
-      # list teams and team members (members: read) and read contents of many
-      # org repos. It never writes. Installation tokens expire after one hour,
-      # so the write token is minted separately, right before it is needed.
-      - name: Generate giantswarm-release read token
-        id: read-token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
-        with:
-          client-id: ${{ secrets.RELEASE_BOT_CLIENT_ID }}
-          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
-          owner: giantswarm # zizmor: ignore[github-app] org-wide read is required: importer reads many repos and org teams
-          permission-contents: read
-          permission-members: read
-          permission-metadata: read
-
+      # This repository is public, so the clone needs no token.
       - name: Clone github repository
-        env:
-          GH_APP_TOKEN: ${{ steps.read-token.outputs.token }}
         run: |
-          git clone "https://x-access-token:${GH_APP_TOKEN}@github.com/giantswarm/backstage-catalogs.git" clonedir
+          git clone https://github.com/giantswarm/backstage-catalogs.git clonedir
 
       # This step requires the cloned repo, so it has to come second.
       - name: Download state if available
@@ -93,6 +77,23 @@ jobs:
           # file extension, so install-binary-action skips unarchiving and installs it directly.
           download_url: https://github.com/giantswarm/${binary}/releases/download/v${version}/${binary}-linux-amd64
           smoke_test: ${binary} --help
+
+      # Read token for the importer. The two tokens are kept apart for least
+      # privilege: this one can only read org teams (members: read, an
+      # organization permission, so owner is set) and is limited to this
+      # repository. charts reads gsoci and the CRD source repos are public,
+      # so no contents permission is needed; the token only lifts the API
+      # rate limit for the CRD fetches.
+      - name: Generate giantswarm-release read token
+        id: read-token
+        if: env.workflow_due == 'true'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          client-id: ${{ secrets.RELEASE_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          owner: giantswarm
+          repositories: backstage-catalogs
+          permission-members: read
 
       - name: Execute backstage-catalog-importer
         if: env.workflow_due == 'true'
@@ -209,8 +210,9 @@ jobs:
         run: |
           curl -X GET https://cronitor.link/p/${CRONITOR_HEARTBEAT_ID}
 
-      # Minted late (after the importer ran) because installation tokens expire
-      # after one hour. Scoped to this repository only.
+      # Write token, separate from the read token for least privilege: it can
+      # only push to and open PRs in this repository, and the importer never
+      # sees it.
       - name: Generate giantswarm-release write token
         id: write-token
         if: env.changes_exist == 'true'
@@ -220,7 +222,6 @@ jobs:
           private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
           permission-contents: write
           permission-pull-requests: write
-          permission-issues: write
 
       - name: Create and merge pull request in github
         if: env.changes_exist == 'true'
@@ -234,9 +235,10 @@ jobs:
 
           cd clonedir
 
-          # The clone used the read-only token, so push with the write token.
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/giantswarm/backstage-catalogs.git"
-          
+          # The clone is anonymous. Let git push with GH_TOKEN through gh's
+          # credential helper, so the token never lands in .git/config.
+          gh auth setup-git
+
           git add -A
           git commit -a -m "chore: update catalog data"
           git push -f origin update-catalogs
