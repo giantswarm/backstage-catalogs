@@ -861,8 +861,8 @@ metadata:
         backstage.io/kubernetes-id: cluster-aks
         backstage.io/source-location: url:https://github.com/giantswarm/cluster-aks
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cluster-aks/tree/main
-        giantswarm.io/helmchart-app-versions: 0.11.1
-        giantswarm.io/helmchart-versions: 0.11.1
+        giantswarm.io/helmchart-app-versions: 0.12.0
+        giantswarm.io/helmchart-versions: 0.12.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cluster-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/cluster-aks
@@ -1385,7 +1385,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gpu-node-pool
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gpu-node-pool/tree/main
         giantswarm.io/helmchart-app-versions: 0.0.1
-        giantswarm.io/helmchart-versions: 0.8.18
+        giantswarm.io/helmchart-versions: 0.8.19
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gpu-node-pool
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/gpu-node-pool
@@ -1984,8 +1984,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.56.3
-        giantswarm.io/helmchart-versions: 5.56.3
+        giantswarm.io/helmchart-app-versions: 5.57.1
+        giantswarm.io/helmchart-versions: 5.57.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2009,8 +2009,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.56.3
-        giantswarm.io/helmchart-versions: 5.56.3
+        giantswarm.io/helmchart-app-versions: 5.57.1
+        giantswarm.io/helmchart-versions: 5.57.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2127,7 +2127,7 @@ kind: Component
 metadata:
     name: pod-shutdown-operator
     title: pod-shutdown-operator
-    description: Please add description
+    description: A Kubernetes operator that stops applications in dependency order before a cluster shutdown, and restores them at power-on.
     annotations:
         application.giantswarm.io/audience: all
         application.giantswarm.io/managed: "false"
@@ -2400,8 +2400,8 @@ metadata:
         backstage.io/kubernetes-id: teleport-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.24
-        giantswarm.io/helmchart-versions: 0.1.24
+        giantswarm.io/helmchart-app-versions: 0.1.28
+        giantswarm.io/helmchart-versions: 0.1.28
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/teleport-exporter
@@ -2425,8 +2425,8 @@ metadata:
         backstage.io/kubernetes-id: toolchain-manager
         backstage.io/source-location: url:https://github.com/giantswarm/toolchain-manager
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/toolchain-manager/tree/main
-        giantswarm.io/helmchart-app-versions: 0.5.20
-        giantswarm.io/helmchart-versions: 0.5.20
+        giantswarm.io/helmchart-app-versions: 0.5.22
+        giantswarm.io/helmchart-versions: 0.5.22
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/toolchain-manager
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/toolchain-manager
