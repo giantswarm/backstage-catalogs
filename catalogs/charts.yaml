@@ -90,6 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform-operator
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-operator/tree/main
+        giantswarm.io/helmchart-app-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.1.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-operator
@@ -139,7 +141,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agent-sandbox
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-sandbox/tree/main
         giantswarm.io/helmchart-app-versions: 0.4.6
-        giantswarm.io/helmchart-versions: 0.2.56
+        giantswarm.io/helmchart-versions: 0.2.57
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-sandbox
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-sandbox
@@ -189,7 +191,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agentgateway
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentgateway/tree/main
         giantswarm.io/helmchart-app-versions: v1.6.0
-        giantswarm.io/helmchart-versions: 2.8.19
+        giantswarm.io/helmchart-versions: 2.8.20
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentgateway
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentgateway
@@ -214,7 +216,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/agentgateway
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agentgateway/tree/main
         giantswarm.io/helmchart-app-versions: v1.6.0
-        giantswarm.io/helmchart-versions: 2.8.19
+        giantswarm.io/helmchart-versions: 2.8.20
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agentgateway-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agentgateway
@@ -712,7 +714,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/buzz
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/buzz/tree/main
         giantswarm.io/helmchart-app-versions: 0.2.1
-        giantswarm.io/helmchart-versions: 0.3.56
+        giantswarm.io/helmchart-versions: 0.3.57
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/buzz
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/buzz
@@ -837,7 +839,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/cloudwatch-exporter-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/cloudwatch-exporter-app/tree/main
         giantswarm.io/helmchart-app-versions: v0.68.0
-        giantswarm.io/helmchart-versions: 0.1.0
+        giantswarm.io/helmchart-versions: 0.1.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/cloudwatch-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/cloudwatch-exporter-app
@@ -1984,8 +1986,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.57.1
-        giantswarm.io/helmchart-versions: 5.57.1
+        giantswarm.io/helmchart-app-versions: 5.57.4
+        giantswarm.io/helmchart-versions: 5.57.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2009,8 +2011,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.57.1
-        giantswarm.io/helmchart-versions: 5.57.1
+        giantswarm.io/helmchart-app-versions: 5.57.4
+        giantswarm.io/helmchart-versions: 5.57.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2109,8 +2111,8 @@ metadata:
         backstage.io/kubernetes-id: openssf-scorecard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/openssf-scorecard-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.18
-        giantswarm.io/helmchart-versions: 0.1.18
+        giantswarm.io/helmchart-app-versions: 0.1.19
+        giantswarm.io/helmchart-versions: 0.1.19
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
@@ -2181,8 +2183,8 @@ metadata:
         backstage.io/kubernetes-id: release-test-app
         backstage.io/source-location: url:https://github.com/giantswarm/release-test-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/release-test-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.2.1
-        giantswarm.io/helmchart-versions: 2.2.1
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-test-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/hello-world-app-light.png
         github.com/project-slug: giantswarm/release-test-app
@@ -2268,6 +2270,29 @@ spec:
     type: service
     lifecycle: production
     owner: group:team-shield
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: skill-manager
+    title: skill-manager
+    description: Owns the Agent Platform's skill sources, lists their skills and pins skills and plugins to commits, as one MCP server behind muster and a REST API
+    annotations:
+        application.giantswarm.io/audience: all
+        application.giantswarm.io/managed: "true"
+        backstage.io/kubernetes-id: skill-manager
+        backstage.io/source-location: url:https://github.com/giantswarm/skill-manager
+        backstage.io/techdocs-ref: url:https://github.com/giantswarm/skill-manager/tree/main
+        giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/skill-manager
+        giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+        github.com/project-slug: giantswarm/skill-manager
+    tags:
+        - helmchart
+        - helmchart-deployable
+spec:
+    type: service
+    lifecycle: production
+    owner: group:team-bumblebee
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -2501,7 +2526,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/valkey-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/valkey-app/tree/main
         giantswarm.io/helmchart-app-versions: 9.1.3
-        giantswarm.io/helmchart-versions: 0.4.17
+        giantswarm.io/helmchart-versions: 0.4.18
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/valkey
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/valkey/1/light.svg
         github.com/project-slug: giantswarm/valkey-app
