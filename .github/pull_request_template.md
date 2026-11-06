@@ -14,7 +14,3 @@ Also note that in this repository we are not creating releases. Customers are en
 
 - [ ] README.md has been updated
 - [ ] /docs has been updated
-
-### Should this change be mentioned in the release notes?
-
-- [ ] CHANGELOG.md has been updated
