@@ -1,6 +1,11 @@
 import { strict as assert } from 'node:assert';
 import { describe, it } from 'node:test';
+import { readFileSync } from 'node:fs';
 import { render } from './render.js';
+
+const writtenRanges = JSON.parse(
+  readFileSync(new URL('./fixtures/app-deployment-written-ranges.json', import.meta.url), 'utf8'),
+);
 
 const manifest = new URL(
   '../templates/app-deployment/template/manifest.yaml',
@@ -56,32 +61,16 @@ describe('app-deployment edit', () => {
     });
   });
 
-  it('keeps writing the fixed modes from the version', () => {
-    assert.deepEqual(edit({ automaticUpgrades: 'no-upgrades' }), {
-      tag: '1.2.3',
-      semver: null,
-      semverFilter: null,
+  // The ranges the deployment page's Edit button expects; giantswarm/backstage
+  // checks its side against a copy of the same fixture.
+  for (const { mode, chartVersion, includePrereleases, semver } of writtenRanges.cases) {
+    it(`writes ${semver ?? 'a pinned tag'} for ${mode} of ${chartVersion}${includePrereleases ? ' with pre-releases' : ''}`, () => {
+      assert.deepEqual(
+        edit({ automaticUpgrades: mode, chartTag: chartVersion, includePrereleases }),
+        semver === null
+          ? { tag: chartVersion, semver: null, semverFilter: null }
+          : { tag: null, semver, semverFilter: null },
+      );
     });
-    assert.equal(edit({ automaticUpgrades: 'patch-upgrades' }).semver, '~1.2.3');
-    assert.equal(edit({ automaticUpgrades: 'minor-upgrades' }).semver, '^1.2.3');
-    assert.equal(
-      edit({ automaticUpgrades: 'major-upgrades', includePrereleases: true }).semver,
-      '>=1.2.3-0',
-    );
-  });
-
-  it('writes minor upgrades of a 0.x version up to the next major', () => {
-    assert.equal(
-      edit({ automaticUpgrades: 'minor-upgrades', chartTag: '0.7.1' }).semver,
-      '>=0.7.1 <1.0.0',
-    );
-    assert.equal(
-      edit({
-        automaticUpgrades: 'minor-upgrades',
-        chartTag: '0.7.1',
-        includePrereleases: true,
-      }).semver,
-      '>=0.7.1-0 <1.0.0',
-    );
-  });
+  }
 });
