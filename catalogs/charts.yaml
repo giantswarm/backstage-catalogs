@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.178.0
-        giantswarm.io/helmchart-versions: 4.178.0
+        giantswarm.io/helmchart-app-versions: 4.179.2
+        giantswarm.io/helmchart-versions: 4.179.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.178.0
-        giantswarm.io/helmchart-versions: 4.178.0
+        giantswarm.io/helmchart-app-versions: 4.179.2
+        giantswarm.io/helmchart-versions: 4.179.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -365,8 +365,8 @@ metadata:
         backstage.io/kubernetes-id: aws-cloud-controller-manager-app
         backstage.io/source-location: url:https://github.com/giantswarm/aws-cloud-controller-manager-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/aws-cloud-controller-manager-app/tree/main
-        giantswarm.io/helmchart-app-versions: 2.2.0
-        giantswarm.io/helmchart-versions: 2.2.0
+        giantswarm.io/helmchart-app-versions: 2.3.0
+        giantswarm.io/helmchart-versions: 2.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/aws-cloud-controller-manager-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/aws/2/dark.svg
         github.com/project-slug: giantswarm/aws-cloud-controller-manager-app
@@ -1986,8 +1986,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.62.8
-        giantswarm.io/helmchart-versions: 5.62.8
+        giantswarm.io/helmchart-app-versions: 5.63.3
+        giantswarm.io/helmchart-versions: 5.63.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2011,8 +2011,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.62.8
-        giantswarm.io/helmchart-versions: 5.62.8
+        giantswarm.io/helmchart-app-versions: 5.63.3
+        giantswarm.io/helmchart-versions: 5.63.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2452,8 +2452,8 @@ metadata:
         backstage.io/kubernetes-id: teleport-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.31
-        giantswarm.io/helmchart-versions: 0.1.31
+        giantswarm.io/helmchart-app-versions: 0.1.32
+        giantswarm.io/helmchart-versions: 0.1.32
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/teleport-exporter
@@ -2602,8 +2602,8 @@ metadata:
         backstage.io/kubernetes-id: workspace-manager
         backstage.io/source-location: url:https://github.com/giantswarm/workspace-manager
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/workspace-manager/tree/main
-        giantswarm.io/helmchart-app-versions: 0.15.5
-        giantswarm.io/helmchart-versions: 0.15.5
+        giantswarm.io/helmchart-app-versions: 0.15.6
+        giantswarm.io/helmchart-versions: 0.15.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/workspace-manager
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/workspace-manager
