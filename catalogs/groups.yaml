@@ -122,7 +122,6 @@ spec:
     children: []
     parent: employees
     members:
-        - JosephSalisbury
         - Rotfuks
         - alex-dabija
         - brinker211
