@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.184.0
-        giantswarm.io/helmchart-versions: 4.184.0
+        giantswarm.io/helmchart-app-versions: 4.185.1
+        giantswarm.io/helmchart-versions: 4.185.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.184.0
-        giantswarm.io/helmchart-versions: 4.184.0
+        giantswarm.io/helmchart-app-versions: 4.185.1
+        giantswarm.io/helmchart-versions: 4.185.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -1259,8 +1259,8 @@ metadata:
         backstage.io/kubernetes-id: falco-app
         backstage.io/source-location: url:https://github.com/giantswarm/falco-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/falco-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.14.1
-        giantswarm.io/helmchart-versions: 0.14.1
+        giantswarm.io/helmchart-app-versions: 0.15.0
+        giantswarm.io/helmchart-versions: 0.15.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/falco
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
         github.com/project-slug: giantswarm/falco-app
@@ -1305,12 +1305,12 @@ metadata:
     description: 'Flux is a collection of tools for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. '
     annotations:
         application.giantswarm.io/audience: all
-        application.giantswarm.io/managed: "false"
+        application.giantswarm.io/managed: "true"
         backstage.io/kubernetes-id: flux-app
         backstage.io/source-location: url:https://github.com/giantswarm/flux-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/flux-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.12.2
-        giantswarm.io/helmchart-versions: 1.12.2
+        giantswarm.io/helmchart-app-versions: 1.13.0
+        giantswarm.io/helmchart-versions: 1.13.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/flux-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/flux/2/icon_light.svg
         github.com/project-slug: giantswarm/flux-app
@@ -1359,8 +1359,8 @@ metadata:
         backstage.io/kubernetes-id: gateway-api-bundle
         backstage.io/source-location: url:https://github.com/giantswarm/gateway-api-bundle
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gateway-api-bundle/tree/main
-        giantswarm.io/helmchart-app-versions: 2.1.1
-        giantswarm.io/helmchart-versions: 2.1.1
+        giantswarm.io/helmchart-app-versions: 2.2.0
+        giantswarm.io/helmchart-versions: 2.2.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gateway-api-bundle
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
         github.com/project-slug: giantswarm/gateway-api-bundle
@@ -2034,8 +2034,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.66.1
-        giantswarm.io/helmchart-versions: 5.66.1
+        giantswarm.io/helmchart-app-versions: 5.66.2
+        giantswarm.io/helmchart-versions: 5.66.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2059,8 +2059,8 @@ metadata:
         backstage.io/kubernetes-id: muster
         backstage.io/source-location: url:https://github.com/giantswarm/muster
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/muster/tree/main
-        giantswarm.io/helmchart-app-versions: 5.66.1
-        giantswarm.io/helmchart-versions: 5.66.1
+        giantswarm.io/helmchart-app-versions: 5.66.2
+        giantswarm.io/helmchart-versions: 5.66.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/muster-crds
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/muster/1/light.svg
         github.com/project-slug: giantswarm/muster
@@ -2356,8 +2356,8 @@ metadata:
         backstage.io/kubernetes-id: skill-manager
         backstage.io/source-location: url:https://github.com/giantswarm/skill-manager
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/skill-manager/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.4
-        giantswarm.io/helmchart-versions: 0.4.4
+        giantswarm.io/helmchart-app-versions: 0.4.5
+        giantswarm.io/helmchart-versions: 0.4.5
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/skill-manager
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/skill-manager
@@ -2575,8 +2575,8 @@ metadata:
         backstage.io/kubernetes-id: trivy-operator-app
         backstage.io/source-location: url:https://github.com/giantswarm/trivy-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/trivy-operator-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.15.0
-        giantswarm.io/helmchart-versions: 0.15.0
+        giantswarm.io/helmchart-app-versions: 0.36.1
+        giantswarm.io/helmchart-versions: 0.16.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/trivy-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/trivy/1/light.svg
         github.com/project-slug: giantswarm/trivy-operator-app
