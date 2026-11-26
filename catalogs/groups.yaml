@@ -22,7 +22,6 @@ spec:
         - QuantumEnigmaa
         - Rotfuks
         - TheoBrigitte
-        - hervenicol
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -83,10 +82,8 @@ spec:
     children: []
     parent: employees
     members:
-        - ljakimczuk
         - mproffitt
         - piontec
-        - uvegla
         - weatherhog
 ---
 apiVersion: backstage.io/v1alpha1
@@ -103,8 +100,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/6398780?s=116&v=4
     children: []
     parent: employees
-    members:
-        - Jul85
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -146,8 +141,6 @@ spec:
     children: []
     parent: employees
     members:
-        - HelloHeatherC
-        - Jul85
         - morotki
         - tommyhobin
 ---
@@ -210,10 +203,7 @@ spec:
     children: []
     parent: employees
     members:
-        - Gacko
         - njuettner
-        - or4dx
-        - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -230,8 +220,6 @@ spec:
         picture: https://avatars.githubusercontent.com/t/7258682?s=116&v=4
     children: []
     parent: employees
-    members:
-        - yulianedyalkova
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -249,9 +237,7 @@ spec:
     children: []
     parent: employees
     members:
-        - HelloHeatherC
         - JoshOlsonKerrigan
-        - Jul85
         - TheaMarie
         - annaloew
         - lyind

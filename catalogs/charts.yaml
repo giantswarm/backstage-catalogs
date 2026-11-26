@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform-operator
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-operator/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.6
-        giantswarm.io/helmchart-versions: 0.4.6
+        giantswarm.io/helmchart-app-versions: 0.4.7
+        giantswarm.io/helmchart-versions: 0.4.7
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-operator
@@ -2084,8 +2084,8 @@ metadata:
         backstage.io/kubernetes-id: net-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/net-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/net-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 1.25.1
-        giantswarm.io/helmchart-versions: 1.25.1
+        giantswarm.io/helmchart-app-versions: 1.26.0
+        giantswarm.io/helmchart-versions: 1.26.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/net-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/net-exporter
@@ -2257,7 +2257,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/releases
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/releases/tree/main
         giantswarm.io/helmchart-app-versions: 0.11.1
-        giantswarm.io/helmchart-versions: 36.2.0
+        giantswarm.io/helmchart-versions: 36.2.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/release-aks
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/azure/1/light.svg
         github.com/project-slug: giantswarm/releases
