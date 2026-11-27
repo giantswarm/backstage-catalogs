@@ -40,8 +40,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.185.1
-        giantswarm.io/helmchart-versions: 4.185.1
+        giantswarm.io/helmchart-app-versions: 4.185.2
+        giantswarm.io/helmchart-versions: 4.185.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -65,8 +65,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform/tree/main
-        giantswarm.io/helmchart-app-versions: 4.185.1
-        giantswarm.io/helmchart-versions: 4.185.1
+        giantswarm.io/helmchart-app-versions: 4.185.2
+        giantswarm.io/helmchart-versions: 4.185.2
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-connectivity
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform
@@ -90,8 +90,8 @@ metadata:
         backstage.io/kubernetes-id: agent-platform-operator
         backstage.io/source-location: url:https://github.com/giantswarm/agent-platform-operator
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/agent-platform-operator/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.7
-        giantswarm.io/helmchart-versions: 0.4.7
+        giantswarm.io/helmchart-app-versions: 0.4.8
+        giantswarm.io/helmchart-versions: 0.4.8
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/agent-platform-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/agent-platform-operator
@@ -913,8 +913,8 @@ metadata:
         backstage.io/kubernetes-id: coredns-app
         backstage.io/source-location: url:https://github.com/giantswarm/coredns-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/coredns-app/tree/main
-        giantswarm.io/helmchart-app-versions: 1.35.0
-        giantswarm.io/helmchart-versions: 1.35.0
+        giantswarm.io/helmchart-app-versions: 1.15.0
+        giantswarm.io/helmchart-versions: 1.36.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/coredns-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/coredns/1/light.svg
         github.com/project-slug: giantswarm/coredns-app
@@ -1284,8 +1284,8 @@ metadata:
         backstage.io/kubernetes-id: fluent-logshipping-app
         backstage.io/source-location: url:https://github.com/giantswarm/fluent-logshipping-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/fluent-logshipping-app/tree/main
-        giantswarm.io/helmchart-app-versions: 3.1.9
-        giantswarm.io/helmchart-versions: 5.6.0
+        giantswarm.io/helmchart-app-versions: 5.6.1
+        giantswarm.io/helmchart-versions: 5.6.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/fluent-logshipping-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
         github.com/project-slug: giantswarm/fluent-logshipping-app
@@ -1460,7 +1460,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/gpu-operator-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/gpu-operator-app/tree/main
         giantswarm.io/helmchart-app-versions: 26.7.0
-        giantswarm.io/helmchart-versions: 1.4.2
+        giantswarm.io/helmchart-versions: 1.4.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/gpu-operator
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
         github.com/project-slug: giantswarm/gpu-operator-app
@@ -1585,7 +1585,7 @@ metadata:
         backstage.io/source-location: url:https://github.com/giantswarm/k8s-dns-node-cache-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/k8s-dns-node-cache-app/tree/main
         giantswarm.io/helmchart-app-versions: 1.26.7
-        giantswarm.io/helmchart-versions: 2.11.3
+        giantswarm.io/helmchart-versions: 2.12.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/k8s-dns-node-cache-app
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
         github.com/project-slug: giantswarm/k8s-dns-node-cache-app
@@ -1834,8 +1834,8 @@ metadata:
         backstage.io/kubernetes-id: kubescape-app
         backstage.io/source-location: url:https://github.com/giantswarm/kubescape-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kubescape-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.1
-        giantswarm.io/helmchart-versions: 0.2.1
+        giantswarm.io/helmchart-app-versions: 0.3.0
+        giantswarm.io/helmchart-versions: 0.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kubescape
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kubescape/1/color.svg
         github.com/project-slug: giantswarm/kubescape-app
@@ -1884,8 +1884,8 @@ metadata:
         backstage.io/kubernetes-id: kyverno-app
         backstage.io/source-location: url:https://github.com/giantswarm/kyverno-app
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/kyverno-app/tree/main
-        giantswarm.io/helmchart-app-versions: 0.26.2
-        giantswarm.io/helmchart-versions: 0.26.2
+        giantswarm.io/helmchart-app-versions: 0.26.3
+        giantswarm.io/helmchart-versions: 0.26.3
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/kyverno
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
         github.com/project-slug: giantswarm/kyverno-app
@@ -2084,8 +2084,8 @@ metadata:
         backstage.io/kubernetes-id: net-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/net-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/net-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 1.26.0
-        giantswarm.io/helmchart-versions: 1.26.0
+        giantswarm.io/helmchart-app-versions: 1.26.1
+        giantswarm.io/helmchart-versions: 1.26.1
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/net-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/net-exporter
@@ -2159,8 +2159,8 @@ metadata:
         backstage.io/kubernetes-id: openssf-scorecard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/openssf-scorecard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/openssf-scorecard-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 0.1.24
-        giantswarm.io/helmchart-versions: 0.1.24
+        giantswarm.io/helmchart-app-versions: 0.1.25
+        giantswarm.io/helmchart-versions: 0.1.25
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/openssf-scorecard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/openssf/2/light.png
         github.com/project-slug: giantswarm/openssf-scorecard-exporter
@@ -2356,8 +2356,8 @@ metadata:
         backstage.io/kubernetes-id: skill-manager
         backstage.io/source-location: url:https://github.com/giantswarm/skill-manager
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/skill-manager/tree/main
-        giantswarm.io/helmchart-app-versions: 0.4.5
-        giantswarm.io/helmchart-versions: 0.4.5
+        giantswarm.io/helmchart-app-versions: 0.4.6
+        giantswarm.io/helmchart-versions: 0.4.6
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/skill-manager
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
         github.com/project-slug: giantswarm/skill-manager
@@ -2381,8 +2381,8 @@ metadata:
         backstage.io/kubernetes-id: starboard-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/starboard-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/starboard-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 1.3.3
-        giantswarm.io/helmchart-versions: 1.3.3
+        giantswarm.io/helmchart-app-versions: 1.3.4
+        giantswarm.io/helmchart-versions: 1.3.4
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/starboard-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/starboard-exporter
@@ -2500,8 +2500,8 @@ metadata:
         backstage.io/kubernetes-id: teleport-exporter
         backstage.io/source-location: url:https://github.com/giantswarm/teleport-exporter
         backstage.io/techdocs-ref: url:https://github.com/giantswarm/teleport-exporter/tree/main
-        giantswarm.io/helmchart-app-versions: 0.2.2
-        giantswarm.io/helmchart-versions: 0.2.2
+        giantswarm.io/helmchart-app-versions: 0.3.0
+        giantswarm.io/helmchart-versions: 0.3.0
         giantswarm.io/helmcharts: gsoci.azurecr.io/charts/giantswarm/teleport-exporter
         giantswarm.io/icon-url: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
         github.com/project-slug: giantswarm/teleport-exporter
